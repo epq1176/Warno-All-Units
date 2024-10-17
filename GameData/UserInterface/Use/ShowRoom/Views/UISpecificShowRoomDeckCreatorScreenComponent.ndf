@@ -698,7 +698,7 @@ ListeDesUnitesDuDeck is BUCKListDescriptor
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [0.0, ~/UnitListHeight]
-        MagnifiableOffset = [0.0, 8.0]
+        MagnifiableOffset = [50.0, 8.0]
         AlignementToAnchor = [0.0, 0.5]
         AlignementToFather = [0.0, 0.5]
     )
@@ -708,7 +708,6 @@ ListeDesUnitesDuDeck is BUCKListDescriptor
     FirstMargin = TRTTILength(Magnifiable = 2 * MargePanneaux)
 
     MagnifierMultiplication = 1
-    IsDroppable = true
 
     // => FreeCaseDescriptor()
 
@@ -728,6 +727,14 @@ ListeDesUnitesDuDeck is BUCKListDescriptor
                 AlignementToFather = [0.0, 0.5]
             )
         ),
+        BUCKDroppableContainerDescriptor
+        (
+            ElementName = "UnitDeckListDroppable"
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                RelativeWidthHeight = [1.0, 1.0]
+            )
+        )
     ]
 
     BackgroundComponents =

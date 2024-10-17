@@ -11,6 +11,8 @@ Descriptor_Deck_Division_WAPT_All_WAPT_Force_multi is TDeckDivisionDescriptor
     DescriptionHintTitleToken = 'ALWAPTUNIT'
     PackList = MAP
     [
+        (~/Descriptor_Deck_Pack_Scout_Spetsnaz_VDV_SOV, 5),
+        
         (~/Descriptor_Deck_Pack_2K11_KRUG_DDR, 5),
 
         (~/Descriptor_Deck_Pack_2K12_KUB_DDR, 5),
@@ -1044,6 +1046,14 @@ Descriptor_Deck_Division_WAPT_All_Force_multi is TDeckDivisionDescriptor
     DescriptionHintTitleToken = 'ALLUNITS'
     PackList = MAP
     [
+        (~/Descriptor_Deck_Pack_F16E_TER_HE_US, 5),
+
+        (~/Descriptor_Deck_Pack_Reserviste_FAMAS_FR, 5),
+
+        (~/Descriptor_Deck_Pack_LandRover_WOMBAT_Gurkhas_UK, 5),
+
+        (~/Descriptor_Deck_Pack_Scout_Spetsnaz_VDV_SOV, 5),
+        
         (~/Descriptor_Deck_Pack_81mm_mortar_Aero_US, 5),
 
         (~/Descriptor_Deck_Pack_81mm_mortar_NG_US, 5),
@@ -4517,6 +4527,12 @@ Descriptor_Deck_Division_NATO_All_NATO_Force_multi is TDeckDivisionDescriptor
     DescriptionHintTitleToken = 'ALNATOUNIT'
     PackList = MAP
     [
+        (~/Descriptor_Deck_Pack_F16E_TER_HE_US, 5),
+
+        (~/Descriptor_Deck_Pack_Reserviste_FAMAS_FR, 5),
+
+        (~/Descriptor_Deck_Pack_LandRover_WOMBAT_Gurkhas_UK, 5),
+
         (~/Descriptor_Deck_Pack_81mm_mortar_Aero_US, 5),
 
         (~/Descriptor_Deck_Pack_81mm_mortar_NG_US, 5),
@@ -5962,6 +5978,15 @@ Descriptor_Deck_Division_NATO_All_Force_multi is TDeckDivisionDescriptor
     DescriptionHintTitleToken = 'ALLUNITS'
     PackList = MAP
     [
+        (~/Descriptor_Deck_Pack_Scout_Spetsnaz_VDV_SOV, 5),
+
+        (~/Descriptor_Deck_Pack_F16E_TER_HE_US, 5),
+
+        (~/Descriptor_Deck_Pack_Reserviste_FAMAS_FR, 5),
+
+        (~/Descriptor_Deck_Pack_LandRover_WOMBAT_Gurkhas_UK, 5),
+
+
         (~/Descriptor_Deck_Pack_81mm_mortar_Aero_US, 5),
 
         (~/Descriptor_Deck_Pack_81mm_mortar_NG_US, 5),
@@ -10975,7 +11000,7 @@ Descriptor_Deck_Division_UK_2nd_Infantry_multi is TDeckDivisionDescriptor
     DescriptionHintTitleToken = 'RSIUYDSXND'
     PackList = MAP
     [
-        (~/Descriptor_Deck_Pack_81mm_mortar_UK, 3),
+        (~/Descriptor_Deck_Pack_81mm_mortar_UK, 2),
         (~/Descriptor_Deck_Pack_AT_Group_TA_UK, 2),
         (~/Descriptor_Deck_Pack_ATteam_Milan_1_UK, 1),
         (~/Descriptor_Deck_Pack_ATteam_Milan_2_UK, 3),
@@ -11155,9 +11180,10 @@ Descriptor_Deck_Division_US_11ACR_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_F16C_LGB_US, 2),
         (~/Descriptor_Deck_Pack_F16E_AA2_US, 1),
         (~/Descriptor_Deck_Pack_F16E_AA_US, 1),
-        (~/Descriptor_Deck_Pack_F16E_AGM_US, 2),
-        (~/Descriptor_Deck_Pack_F16E_CBU_US, 2),
+        (~/Descriptor_Deck_Pack_F16E_AGM_US, 1),
+        (~/Descriptor_Deck_Pack_F16E_CBU_US, 1),
         (~/Descriptor_Deck_Pack_F16E_SEAD_US, 1),
+        (~/Descriptor_Deck_Pack_F16E_TER_HE_US, 1),
         (~/Descriptor_Deck_Pack_FOB_US, 1),
         (~/Descriptor_Deck_Pack_HMGteam_M2HB_US, 1),
         (~/Descriptor_Deck_Pack_HeimatschutzJager_RFA, 1),
@@ -11673,7 +11699,6 @@ Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi is TDeckDivisionDescriptor
         (~/Descriptor_Deck_Pack_Scout_KdA_DDR, 1),
         (~/Descriptor_Deck_Pack_Scout_Wach_DDR, 1),
         (~/Descriptor_Deck_Pack_Su_22_AT_DDR, 1),
-        (~/Descriptor_Deck_Pack_Su_22_RKT_DDR, 1),
         (~/Descriptor_Deck_Pack_Su_22_UPK_DDR, 1),
         (~/Descriptor_Deck_Pack_Su_22_clu_DDR, 1),
         (~/Descriptor_Deck_Pack_Su_22_nplm_DDR, 1),
@@ -12247,7 +12272,7 @@ Descriptor_Deck_Division_RFA_TK_Nord_solo is TDeckDivisionDescriptor
     DivisionNationalite = ENationalite/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
-    StrategicLabelColor     = "division_RFA_1"
+    StrategicLabelColor     = "division_RFA_kassel_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
@@ -12259,7 +12284,7 @@ Descriptor_Deck_Division_RFA_TK_Nord_solo_30 is TDeckDivisionDescriptor
     DivisionNationalite = ENationalite/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_RFA_TerrKdo_Sud"
-    StrategicLabelColor     = "division_RFA_1"
+    StrategicLabelColor     = "division_RFA_kassel_1"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
@@ -12715,7 +12740,7 @@ Descriptor_Deck_Division_UK_2ATAF_solo is TDeckDivisionDescriptor
     DivisionNationalite = ENationalite/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_UK_RAF"
-    StrategicLabelColor     = "BlancEquipe"
+    StrategicLabelColor     = "division_UK_corps"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
@@ -12727,7 +12752,7 @@ Descriptor_Deck_Division_UK_NORTHAG_solo is TDeckDivisionDescriptor
     DivisionNationalite = ENationalite/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_UK_BAOR"
-    StrategicLabelColor     = "BlancEquipe"
+    StrategicLabelColor     = "division_UK_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )
@@ -12739,7 +12764,7 @@ Descriptor_Deck_Division_UK_RAFG_solo is TDeckDivisionDescriptor
     DivisionNationalite = ENationalite/Allied
     DivisionTags = ['STRAT', 'Allied']
     EmblemTexture     = "Texture_Division_Emblem_UK_RAF"
-    StrategicLabelColor     = "BlancEquipe"
+    StrategicLabelColor     = "division_UK_air"
     PortraitTexture   = "Texture_Division_Portrait_default"
     TypeTexture       = ""
 )

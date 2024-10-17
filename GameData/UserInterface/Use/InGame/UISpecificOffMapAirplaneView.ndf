@@ -1,7 +1,7 @@
 
 // -------------------------------------------------------------------------------------------------
 
-OffMapAirplaneComponentDimension is [66.6, 43.2]
+OffMapAirplaneComponentDimension is [111.0, 72.0]
 OffMapAirplaneRadioButton is TBUCKRadioButtonManager()
 
 BUCKSpecificOffMapAirplaneMainComponentDescriptor is BUCKSpecificOffMapButton
@@ -22,7 +22,7 @@ BUCKSpecificOffMapAirplaneMainComponentDescriptor is BUCKSpecificOffMapButton
             ButtonMagnifiableWidthHeight = ~/OffMapAirplaneComponentDimension
             ButtonAlignementToFather = [0.0, 0.5]
             ButtonAlignementToAnchor = [0.0, 0.5]
- 
+
             BorderLineColorToken = "BoutonTemps"
             BigBorderBackgroundColorToken = "BoutonTemps"
             BackgroundBlockColorToken  = "BoutonTemps"
