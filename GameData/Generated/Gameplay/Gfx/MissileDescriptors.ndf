@@ -17,7 +17,7 @@ export Descriptor_Missile_AA_AIM120A_AMRAAM is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AIM_120_Amraam
             Depiction     = Template_DescriptorMissileBase
@@ -86,6 +86,16 @@ export Descriptor_Missile_AA_AIM120A_AMRAAM is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -106,7 +116,7 @@ export Descriptor_Missile_AA_AIM132_ASRAAM is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AIM132_ASRAAM
             Depiction     = Template_DescriptorMissileBase
@@ -175,6 +185,16 @@ export Descriptor_Missile_AA_AIM132_ASRAAM is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -195,7 +215,7 @@ export Descriptor_Missile_AA_AIM7F_Sparrow is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AIM7
             Depiction     = Template_DescriptorMissileBase
@@ -258,6 +278,16 @@ export Descriptor_Missile_AA_AIM7F_Sparrow is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -278,7 +308,7 @@ export Descriptor_Missile_AA_AIM7M_Sparrow is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AIM7
             Depiction     = Template_DescriptorMissileBase
@@ -341,6 +371,16 @@ export Descriptor_Missile_AA_AIM7M_Sparrow is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -361,7 +401,7 @@ export Descriptor_Missile_AA_AIM9J_Sidewinder is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AIM_9J_SideWinder
             Depiction     = Template_DescriptorMissileBase
@@ -430,6 +470,16 @@ export Descriptor_Missile_AA_AIM9J_Sidewinder is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -450,7 +500,7 @@ export Descriptor_Missile_AA_AIM9L_Sidewinder is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_SideWinder
             Depiction     = Template_DescriptorMissileBase
@@ -519,6 +569,16 @@ export Descriptor_Missile_AA_AIM9L_Sidewinder is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -539,7 +599,7 @@ export Descriptor_Missile_AA_AIM9M_Sidewinder is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_SideWinder
             Depiction     = Template_DescriptorMissileBase
@@ -608,6 +668,16 @@ export Descriptor_Missile_AA_AIM9M_Sidewinder is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -628,7 +698,7 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AIM_9J_SideWinder
             Depiction     = Template_DescriptorMissileBase
@@ -697,6 +767,16 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -717,7 +797,7 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AIM_9J_SideWinder
             Depiction     = Template_DescriptorMissileBase
@@ -786,6 +866,16 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -806,7 +896,7 @@ export Descriptor_Missile_AA_Matra_R530 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Matra_R530
             Depiction     = Template_DescriptorMissileBase
@@ -869,6 +959,16 @@ export Descriptor_Missile_AA_Matra_R530 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -889,7 +989,7 @@ export Descriptor_Missile_AA_Matra_Super_530D is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Matra_Super_530D
             Depiction     = Template_DescriptorMissileBase
@@ -952,6 +1052,16 @@ export Descriptor_Missile_AA_Matra_Super_530D is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -972,7 +1082,7 @@ export Descriptor_Missile_AA_Matra_Super_530F is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Matra_Super_530D
             Depiction     = Template_DescriptorMissileBase
@@ -1035,6 +1145,16 @@ export Descriptor_Missile_AA_Matra_Super_530F is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1055,7 +1175,7 @@ export Descriptor_Missile_AA_R13M is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R13M
             Depiction     = Template_DescriptorMissileBase
@@ -1124,6 +1244,16 @@ export Descriptor_Missile_AA_R13M is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1144,7 +1274,7 @@ export Descriptor_Missile_AA_R23R_Vympel is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R23R
             Depiction     = Template_DescriptorMissileBase
@@ -1207,6 +1337,16 @@ export Descriptor_Missile_AA_R23R_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1227,7 +1367,7 @@ export Descriptor_Missile_AA_R24MR_Vympel is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R23R
             Depiction     = Template_DescriptorMissileBase
@@ -1290,6 +1430,16 @@ export Descriptor_Missile_AA_R24MR_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1310,7 +1460,7 @@ export Descriptor_Missile_AA_R24R_Vympel is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R24R
             Depiction     = Template_DescriptorMissileBase
@@ -1373,6 +1523,16 @@ export Descriptor_Missile_AA_R24R_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1393,7 +1553,7 @@ export Descriptor_Missile_AA_R27ER_Vympel is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R27ER
             Depiction     = Template_DescriptorMissileBase
@@ -1456,6 +1616,16 @@ export Descriptor_Missile_AA_R27ER_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1476,7 +1646,7 @@ export Descriptor_Missile_AA_R27R_Vympel is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R27ER
             Depiction     = Template_DescriptorMissileBase
@@ -1539,6 +1709,16 @@ export Descriptor_Missile_AA_R27R_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1559,7 +1739,7 @@ export Descriptor_Missile_AA_R27T_Vympel is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R27T
             Depiction     = Template_DescriptorMissileBase
@@ -1622,6 +1802,16 @@ export Descriptor_Missile_AA_R27T_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1642,7 +1832,7 @@ export Descriptor_Missile_AA_R33_Vympel is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R33
             Depiction     = Template_DescriptorMissileBase
@@ -1705,6 +1895,16 @@ export Descriptor_Missile_AA_R33_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1725,7 +1925,7 @@ export Descriptor_Missile_AA_R37_Vympel is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R33
             Depiction     = Template_DescriptorMissileBase
@@ -1788,6 +1988,16 @@ export Descriptor_Missile_AA_R37_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1808,7 +2018,7 @@ export Descriptor_Missile_AA_R3R is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R3R
             Depiction     = Template_DescriptorMissileBase
@@ -1877,6 +2087,16 @@ export Descriptor_Missile_AA_R3R is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1897,7 +2117,7 @@ export Descriptor_Missile_AA_R40RD1 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AIM7
             Depiction     = Template_DescriptorMissileBase
@@ -1960,6 +2180,16 @@ export Descriptor_Missile_AA_R40RD1 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -1980,7 +2210,7 @@ export Descriptor_Missile_AA_R40TD1 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AIM7
             Depiction     = Template_DescriptorMissileBase
@@ -2043,6 +2273,16 @@ export Descriptor_Missile_AA_R40TD1 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2063,7 +2303,7 @@ export Descriptor_Missile_AA_R550_Magic is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Matra_R550_Magic
             Depiction     = Template_DescriptorMissileBase
@@ -2132,6 +2372,16 @@ export Descriptor_Missile_AA_R550_Magic is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2152,7 +2402,7 @@ export Descriptor_Missile_AA_R550_Magic_II is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Matra_R550_Magic_II
             Depiction     = Template_DescriptorMissileBase
@@ -2221,6 +2471,16 @@ export Descriptor_Missile_AA_R550_Magic_II is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2241,7 +2501,7 @@ export Descriptor_Missile_AA_R60_Vympel is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R60
             Depiction     = Template_DescriptorMissileBase
@@ -2310,6 +2570,16 @@ export Descriptor_Missile_AA_R60_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2330,7 +2600,7 @@ export Descriptor_Missile_AA_R60_Vympel_helo is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R60
             Depiction     = Template_DescriptorMissileBase
@@ -2399,6 +2669,16 @@ export Descriptor_Missile_AA_R60_Vympel_helo is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2419,7 +2699,7 @@ export Descriptor_Missile_AA_R60M_Vympel is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R60
             Depiction     = Template_DescriptorMissileBase
@@ -2488,6 +2768,16 @@ export Descriptor_Missile_AA_R60M_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2508,7 +2798,7 @@ export Descriptor_Missile_AA_R60M_Vympel_helo is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R60
             Depiction     = Template_DescriptorMissileBase
@@ -2577,6 +2867,16 @@ export Descriptor_Missile_AA_R60M_Vympel_helo is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2597,7 +2897,7 @@ export Descriptor_Missile_AA_R73_Vympel is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R73
             Depiction     = Template_DescriptorMissileBase
@@ -2666,6 +2966,16 @@ export Descriptor_Missile_AA_R73_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2686,7 +2996,7 @@ export Descriptor_Missile_AA_R77_Vympel is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R77
             Depiction     = Template_DescriptorMissileBase
@@ -2755,6 +3065,208 @@ export Descriptor_Missile_AA_R77_Vympel is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
+        ~/PackSignauxModuleDescriptor,
+        ~/TargetDataModuleDescriptor,
+    ]
+)
+export Descriptor_Missile_AA_R98MR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{97c6237b-467e-43de-85c2-181985ca173e}
+    ClassNameForDebug  = 'Missile_AA_R98MR'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_AA_R98MR",
+            ]
+        ),
+        ~/MissileFlagsModuleDescriptor,
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R77
+            Depiction     = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Vympel_R77
+                Actions = MAP[
+                    ( ["fx_propulsion_on"], TRandomHappening(
+                            Alternatives = [
+                                template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AMRAAM_1 ),
+                                template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AMRAAM_2 ),
+                                template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AMRAAM_3 ),
+                            ]
+                        )),
+                    ( ["fx_propulsion_off"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_arret_missile_AA_gros )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 4946
+                MaxAccelerationGRU = 2826
+                AutoGyr            = 1.9198621771937625
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 4946
+                MaxAccelerationGRU = 2826
+                AutoGyr            = 1.3962634015954636
+            )
+            AscendantPhaseConfig = nil
+            TerminalPhaseConfig = nil
+            CruiseAltitudeGRU = 0.0
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 2
+            TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
+            TimeBetweenChaosUpdates = 0.1
+            RangeChaos = 6000
+            AngleMaxForRandomMouvUncontrollable = 6.0
+            RotationSpeedWhenUncontrollable = 30
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 2
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
+        ~/PackSignauxModuleDescriptor,
+        ~/TargetDataModuleDescriptor,
+    ]
+)
+export Descriptor_Missile_AA_R98MT is TEntityDescriptor
+(
+    DescriptorId       = GUID:{1bc1ecd9-befe-4ef4-89a7-20c5a637016f}
+    ClassNameForDebug  = 'Missile_AA_R98MT'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_AA_R98MT",
+            ]
+        ),
+        ~/MissileFlagsModuleDescriptor,
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Vympel_R27T
+            Depiction     = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Vympel_R27T
+                Actions = MAP[
+                    ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_gros )),
+                    ( ["fx_propulsion_off"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_arret_missile_AA_gros )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 4240
+                MaxAccelerationGRU = 2120
+                AutoGyr            = 1.5707963267948966
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 4240
+                MaxAccelerationGRU = 2120
+                AutoGyr            = 1.3962634015954636
+            )
+            AscendantPhaseConfig = nil
+            TerminalPhaseConfig = nil
+            CruiseAltitudeGRU = 0.0
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 2
+            TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
+            TimeBetweenChaosUpdates = 0.1
+            RangeChaos = 8000
+            AngleMaxForRandomMouvUncontrollable = 6.0
+            RotationSpeedWhenUncontrollable = 30
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 2
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2775,7 +3287,7 @@ export Descriptor_Missile_AA_Skyflash is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Skyflash
             Depiction     = Template_DescriptorMissileBase
@@ -2838,6 +3350,16 @@ export Descriptor_Missile_AA_Skyflash is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2858,7 +3380,7 @@ export Descriptor_Missile_AA_Skyflash_SuperTEMP is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Skyflash
             Depiction     = Template_DescriptorMissileBase
@@ -2921,6 +3443,16 @@ export Descriptor_Missile_AA_Skyflash_SuperTEMP is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -2941,7 +3473,7 @@ export Descriptor_Missile_AGM_9K121_Vikhr is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Shturm
             Depiction     = Template_DescriptorMissileBase
@@ -3023,7 +3555,7 @@ export Descriptor_Missile_AGM_9K121_Vikhr_x12 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Shturm
             Depiction     = Template_DescriptorMissileBase
@@ -3105,7 +3637,7 @@ export Descriptor_Missile_AGM_9K121_Vikhr_x16 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Shturm
             Depiction     = Template_DescriptorMissileBase
@@ -3187,7 +3719,7 @@ export Descriptor_Missile_AGM_9K121_Vikhr_x16_avion is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Shturm
             Depiction     = Template_DescriptorMissileBase
@@ -3269,7 +3801,7 @@ export Descriptor_Missile_AGM_9M114M_Ataka_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
             Depiction     = Template_DescriptorMissileBase
@@ -3351,7 +3883,7 @@ export Descriptor_Missile_AGM_9M114M_Ataka_x8 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
             Depiction     = Template_DescriptorMissileBase
@@ -3433,7 +3965,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
             Depiction     = Template_DescriptorMissileBase
@@ -3515,7 +4047,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x16 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
             Depiction     = Template_DescriptorMissileBase
@@ -3597,7 +4129,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
             Depiction     = Template_DescriptorMissileBase
@@ -3679,7 +4211,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
             Depiction     = Template_DescriptorMissileBase
@@ -3761,7 +4293,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x6 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
             Depiction     = Template_DescriptorMissileBase
@@ -3843,7 +4375,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x8 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
             Depiction     = Template_DescriptorMissileBase
@@ -3925,7 +4457,7 @@ export Descriptor_Missile_AGM_9M14_MalyutkaP_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Malyutka
             Depiction     = Template_DescriptorMissileBase
@@ -4007,7 +4539,7 @@ export Descriptor_Missile_AGM_9M14_MalyutkaP_x6 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Malyutka
             Depiction     = Template_DescriptorMissileBase
@@ -4089,7 +4621,7 @@ export Descriptor_Missile_AGM_9M17P_FalangaP is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Falanga
             Depiction     = Template_DescriptorMissileBase
@@ -4171,7 +4703,7 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Falanga
             Depiction     = Template_DescriptorMissileBase
@@ -4253,7 +4785,7 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x6 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Falanga
             Depiction     = Template_DescriptorMissileBase
@@ -4335,7 +4867,7 @@ export Descriptor_Missile_AGM_AGM114A is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Hellfire
             Depiction     = Template_DescriptorMissileBase
@@ -4429,7 +4961,7 @@ export Descriptor_Missile_AGM_AGM114A_x16 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Hellfire
             Depiction     = Template_DescriptorMissileBase
@@ -4523,7 +5055,7 @@ export Descriptor_Missile_AGM_AGM114A_x2_salve is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Hellfire
             Depiction     = Template_DescriptorMissileBase
@@ -4617,7 +5149,7 @@ export Descriptor_Missile_AGM_AGM114A_x2_sol is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Hellfire
             Depiction     = Template_DescriptorMissileBase
@@ -4711,7 +5243,7 @@ export Descriptor_Missile_AGM_AGM114A_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Hellfire
             Depiction     = Template_DescriptorMissileBase
@@ -4805,7 +5337,7 @@ export Descriptor_Missile_AGM_AGM114A_x8 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Hellfire
             Depiction     = Template_DescriptorMissileBase
@@ -4899,7 +5431,7 @@ export Descriptor_Missile_AGM_AGM45_Shrike is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AGM_45_Shrike
             Depiction     = Template_DescriptorMissileBase
@@ -4981,7 +5513,7 @@ export Descriptor_Missile_AGM_AGM65B_Maverick is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Maverick
             Depiction     = Template_DescriptorMissileBase
@@ -5063,7 +5595,7 @@ export Descriptor_Missile_AGM_AGM65D_Maverick is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Maverick_AGM65D
             Depiction     = Template_DescriptorMissileBase
@@ -5145,7 +5677,7 @@ export Descriptor_Missile_AGM_AGM65E_Maverick is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Maverick
             Depiction     = Template_DescriptorMissileBase
@@ -5227,7 +5759,7 @@ export Descriptor_Missile_AGM_AGM88_HARM is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AGM88_Harm
             Depiction     = Template_DescriptorMissileBase
@@ -5309,7 +5841,7 @@ export Descriptor_Missile_AGM_AJ_168_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AJ168_TV_Martel
             Depiction     = Template_DescriptorMissileBase
@@ -5391,7 +5923,7 @@ export Descriptor_Missile_AGM_ALARM is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AGM_Alarm
             Depiction     = Template_DescriptorMissileBase
@@ -5473,7 +6005,7 @@ export Descriptor_Missile_AGM_ARMAT is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AS37_Martel
             Depiction     = Template_DescriptorMissileBase
@@ -5539,6 +6071,170 @@ export Descriptor_Missile_AGM_ARMAT is TEntityDescriptor
         ~/TargetDataModuleDescriptor,
     ]
 )
+export Descriptor_Missile_AGM_AS11_x2 is TEntityDescriptor
+(
+    DescriptorId       = GUID:{a975291f-97ca-463d-949d-4c5ae3beb0b0}
+    ClassNameForDebug  = 'Missile_AGM_AS11_x2'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_AGM_AS11_x2",
+            ]
+        ),
+        ~/MissileFlagsModuleDescriptor,
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_SS_11
+            Depiction     = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SS_11
+                Actions = MAP[
+                    ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_generation1 )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 1413
+                MaxAccelerationGRU = 353
+                AutoGyr            = 0.5235987755982988
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 1413
+                MaxAccelerationGRU = 353
+                AutoGyr            = 0.08726646259971647
+            )
+            AscendantPhaseConfig = nil
+            TerminalPhaseConfig = nil
+            CruiseAltitudeGRU = 0.0
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 1
+            TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
+            TimeBetweenChaosUpdates = 0.1
+            RangeChaos = 3000
+            AngleMaxForRandomMouvUncontrollable = 3.0
+            RotationSpeedWhenUncontrollable = 3
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 2
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        ~/PackSignauxModuleDescriptor,
+        ~/TargetDataModuleDescriptor,
+    ]
+)
+export Descriptor_Missile_AGM_AS11_x4 is TEntityDescriptor
+(
+    DescriptorId       = GUID:{ba7eb691-d5f8-4763-aa08-6f4bf8c0c60a}
+    ClassNameForDebug  = 'Missile_AGM_AS11_x4'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_AGM_AS11_x4",
+            ]
+        ),
+        ~/MissileFlagsModuleDescriptor,
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_SS_11
+            Depiction     = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SS_11
+                Actions = MAP[
+                    ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_generation1 )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 1413
+                MaxAccelerationGRU = 353
+                AutoGyr            = 0.5235987755982988
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 1413
+                MaxAccelerationGRU = 353
+                AutoGyr            = 0.08726646259971647
+            )
+            AscendantPhaseConfig = nil
+            TerminalPhaseConfig = nil
+            CruiseAltitudeGRU = 0.0
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 1
+            TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
+            TimeBetweenChaosUpdates = 0.1
+            RangeChaos = 3000
+            AngleMaxForRandomMouvUncontrollable = 3.0
+            RotationSpeedWhenUncontrollable = 3
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 2
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        ~/PackSignauxModuleDescriptor,
+        ~/TargetDataModuleDescriptor,
+    ]
+)
 export Descriptor_Missile_AGM_AS30 is TEntityDescriptor
 (
     DescriptorId       = GUID:{c9a8e880-e7cd-4a4d-88d0-102d6315f6e1}
@@ -5555,7 +6251,7 @@ export Descriptor_Missile_AGM_AS30 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AS_30
             Depiction     = Template_DescriptorMissileBase
@@ -5637,7 +6333,7 @@ export Descriptor_Missile_AGM_AS30L is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AS_30L
             Depiction     = Template_DescriptorMissileBase
@@ -5719,7 +6415,7 @@ export Descriptor_Missile_AGM_AS37_Martel is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AS37_Martel
             Depiction     = Template_DescriptorMissileBase
@@ -5801,7 +6497,7 @@ export Descriptor_Missile_AGM_AS37_Martel_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_AS37_Martel
             Depiction     = Template_DescriptorMissileBase
@@ -5883,7 +6579,7 @@ export Descriptor_Missile_AGM_BGM71_TOW_x8 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
             Depiction     = Template_DescriptorMissileBase
@@ -5965,7 +6661,7 @@ export Descriptor_Missile_AGM_BGM71C_FITOW_x8 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
             Depiction     = Template_DescriptorMissileBase
@@ -6047,7 +6743,7 @@ export Descriptor_Missile_AGM_BGM71C_ITOW_x8 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
             Depiction     = Template_DescriptorMissileBase
@@ -6129,7 +6825,7 @@ export Descriptor_Missile_AGM_BGM71D_TOW_2_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
             Depiction     = Template_DescriptorMissileBase
@@ -6211,7 +6907,7 @@ export Descriptor_Missile_AGM_BGM71D_TOW_2_x8 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
             Depiction     = Template_DescriptorMissileBase
@@ -6293,7 +6989,7 @@ export Descriptor_Missile_AGM_HOT1 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
             Depiction     = Template_DescriptorMissileBase
@@ -6375,7 +7071,7 @@ export Descriptor_Missile_AGM_HOT1_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
             Depiction     = Template_DescriptorMissileBase
@@ -6457,7 +7153,7 @@ export Descriptor_Missile_AGM_HOT1_x6 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
             Depiction     = Template_DescriptorMissileBase
@@ -6539,7 +7235,7 @@ export Descriptor_Missile_AGM_HOT2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
             Depiction     = Template_DescriptorMissileBase
@@ -6621,7 +7317,7 @@ export Descriptor_Missile_AGM_HOT2_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
             Depiction     = Template_DescriptorMissileBase
@@ -6703,7 +7399,7 @@ export Descriptor_Missile_AGM_HOT2_x6 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
             Depiction     = Template_DescriptorMissileBase
@@ -6785,7 +7481,7 @@ export Descriptor_Missile_AGM_Kh23M is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kh_23
             Depiction     = Template_DescriptorMissileBase
@@ -6867,7 +7563,7 @@ export Descriptor_Missile_AGM_Kh23M_helo is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kh_23
             Depiction     = Template_DescriptorMissileBase
@@ -6949,7 +7645,7 @@ export Descriptor_Missile_AGM_Kh25ML is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kh_25
             Depiction     = Template_DescriptorMissileBase
@@ -7031,7 +7727,7 @@ export Descriptor_Missile_AGM_Kh25MP is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kh_25MP
             Depiction     = Template_DescriptorMissileBase
@@ -7113,7 +7809,7 @@ export Descriptor_Missile_AGM_Kh25MPU is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kh_25MP
             Depiction     = Template_DescriptorMissileBase
@@ -7195,7 +7891,7 @@ export Descriptor_Missile_AGM_Kh28_X28 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kh_28
             Depiction     = Template_DescriptorMissileBase
@@ -7277,7 +7973,7 @@ export Descriptor_Missile_AGM_Kh29D is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kh_29
             Depiction     = Template_DescriptorMissileBase
@@ -7359,7 +8055,7 @@ export Descriptor_Missile_AGM_Kh29L is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kh_29L
             Depiction     = Template_DescriptorMissileBase
@@ -7441,7 +8137,7 @@ export Descriptor_Missile_AGM_Kh29T is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kh_29
             Depiction     = Template_DescriptorMissileBase
@@ -7523,7 +8219,7 @@ export Descriptor_Missile_AGM_Kh31P is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kh_31
             Depiction     = Template_DescriptorMissileBase
@@ -7605,7 +8301,7 @@ export Descriptor_Missile_AGM_Kh58U is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kh_58
             Depiction     = Template_DescriptorMissileBase
@@ -7671,23 +8367,23 @@ export Descriptor_Missile_AGM_Kh58U is TEntityDescriptor
         ~/TargetDataModuleDescriptor,
     ]
 )
-export Descriptor_Missile_AGM_SS11_x2 is TEntityDescriptor
+export Descriptor_Missile_AGM_SS11_TCA_x4 is TEntityDescriptor
 (
-    DescriptorId       = GUID:{ca155e27-3954-487c-a6db-aa8e44bb41ac}
-    ClassNameForDebug  = 'Missile_AGM_SS11_x2'
+    DescriptorId       = GUID:{9dca95d2-6b9a-4c30-aa28-257b9ba2d801}
+    ClassNameForDebug  = 'Missile_AGM_SS11_TCA_x4'
     ModulesDescriptors = [
         ~/SimpleTypeUnitModuleDescriptor,
         TTagsModuleDescriptor
         (
             TagSet = [
                 "MISSILE",
-                "MISSILE_AGM_SS11_x2",
+                "MISSILE_AGM_SS11_TCA_x4",
             ]
         ),
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_SS_11
             Depiction     = Template_DescriptorMissileBase
@@ -7705,25 +8401,25 @@ export Descriptor_Missile_AGM_SS11_x2 is TEntityDescriptor
         (
             DefaultConfig = TGuidedMissileMovementConfigDescriptor
             (
-                MaxSpeedGRU        = 1413
-                MaxAccelerationGRU = 353
-                AutoGyr            = 0.5235987755982988
+                MaxSpeedGRU        = 427
+                MaxAccelerationGRU = 265
+                AutoGyr            = 1.3962634015954636
             )
             UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
             (
-                MaxSpeedGRU        = 1413
-                MaxAccelerationGRU = 353
-                AutoGyr            = 0.08726646259971647
+                MaxSpeedGRU        = 427
+                MaxAccelerationGRU = 265
+                AutoGyr            = 0.17453292519943295
             )
             AscendantPhaseConfig = nil
             TerminalPhaseConfig = nil
             CruiseAltitudeGRU = 0.0
             TimeMaxBetweenRandomMoveWhenUncontrollable = 1
-            TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
+            TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
             TimeBetweenChaosUpdates = 0.1
-            RangeChaos = 3000
-            AngleMaxForRandomMouvUncontrollable = 3.0
-            RotationSpeedWhenUncontrollable = 3
+            RangeChaos = 1250
+            AngleMaxForRandomMouvUncontrollable = 0.01
+            RotationSpeedWhenUncontrollable = 1
         ),
         TBaseDamageModuleDescriptor
         (
@@ -7769,7 +8465,7 @@ export Descriptor_Missile_AGM_SS11_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_SS_11
             Depiction     = Template_DescriptorMissileBase
@@ -7787,25 +8483,25 @@ export Descriptor_Missile_AGM_SS11_x4 is TEntityDescriptor
         (
             DefaultConfig = TGuidedMissileMovementConfigDescriptor
             (
-                MaxSpeedGRU        = 1413
-                MaxAccelerationGRU = 353
-                AutoGyr            = 0.5235987755982988
+                MaxSpeedGRU        = 427
+                MaxAccelerationGRU = 265
+                AutoGyr            = 1.3962634015954636
             )
             UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
             (
-                MaxSpeedGRU        = 1413
-                MaxAccelerationGRU = 353
-                AutoGyr            = 0.08726646259971647
+                MaxSpeedGRU        = 427
+                MaxAccelerationGRU = 265
+                AutoGyr            = 0.17453292519943295
             )
             AscendantPhaseConfig = nil
             TerminalPhaseConfig = nil
             CruiseAltitudeGRU = 0.0
             TimeMaxBetweenRandomMoveWhenUncontrollable = 1
-            TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
+            TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
             TimeBetweenChaosUpdates = 0.1
-            RangeChaos = 3000
-            AngleMaxForRandomMouvUncontrollable = 3.0
-            RotationSpeedWhenUncontrollable = 3
+            RangeChaos = 1250
+            AngleMaxForRandomMouvUncontrollable = 0.01
+            RotationSpeedWhenUncontrollable = 1
         ),
         TBaseDamageModuleDescriptor
         (
@@ -7851,7 +8547,7 @@ export Descriptor_Missile_ATGM_9K111_Fagot is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
             Depiction     = Template_DescriptorMissileBase
@@ -7933,7 +8629,7 @@ export Descriptor_Missile_ATGM_9K111M_Fagot_M is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
             Depiction     = Template_DescriptorMissileBase
@@ -8015,7 +8711,7 @@ export Descriptor_Missile_ATGM_9K121_Vikhr is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Shturm
             Depiction     = Template_DescriptorMissileBase
@@ -8097,7 +8793,7 @@ export Descriptor_Missile_ATGM_9M112_1_Kobra is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Drakon
             Depiction     = Template_DescriptorMissileBase
@@ -8179,7 +8875,7 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_BMP2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
             Depiction     = Template_DescriptorMissileBase
@@ -8261,7 +8957,7 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_x5 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
             Depiction     = Template_DescriptorMissileBase
@@ -8343,7 +9039,7 @@ export Descriptor_Missile_ATGM_9M113_KonkursM is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
             Depiction     = Template_DescriptorMissileBase
@@ -8425,7 +9121,7 @@ export Descriptor_Missile_ATGM_9M113_KonkursM_late is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
             Depiction     = Template_DescriptorMissileBase
@@ -8507,7 +9203,7 @@ export Descriptor_Missile_ATGM_9M113_KonkursM_late_x5 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
             Depiction     = Template_DescriptorMissileBase
@@ -8589,7 +9285,7 @@ export Descriptor_Missile_ATGM_9M114_Shturm_MTLB is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Shturm
             Depiction     = Template_DescriptorMissileBase
@@ -8671,7 +9367,7 @@ export Descriptor_Missile_ATGM_9M114M_Ataka is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
             Depiction     = Template_DescriptorMissileBase
@@ -8753,7 +9449,7 @@ export Descriptor_Missile_ATGM_9M114M_KokonM is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
             Depiction     = Template_DescriptorMissileBase
@@ -8835,7 +9531,7 @@ export Descriptor_Missile_ATGM_9M117_Bastion is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Bastion
             Depiction     = Template_DescriptorMissileBase
@@ -8917,7 +9613,7 @@ export Descriptor_Missile_ATGM_9M117M_Arkan is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Bastion
             Depiction     = Template_DescriptorMissileBase
@@ -8999,7 +9695,7 @@ export Descriptor_Missile_ATGM_9M119M_Refleks is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Bastion
             Depiction     = Template_DescriptorMissileBase
@@ -9081,7 +9777,7 @@ export Descriptor_Missile_ATGM_9M119M_Svir is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Bastion
             Depiction     = Template_DescriptorMissileBase
@@ -9163,7 +9859,7 @@ export Descriptor_Missile_ATGM_9M128_Agona is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Drakon
             Depiction     = Template_DescriptorMissileBase
@@ -9245,7 +9941,7 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Malyutka
             Depiction     = Template_DescriptorMissileBase
@@ -9327,7 +10023,7 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Malyutka
             Depiction     = Template_DescriptorMissileBase
@@ -9409,7 +10105,7 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x6 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Malyutka
             Depiction     = Template_DescriptorMissileBase
@@ -9491,7 +10187,7 @@ export Descriptor_Missile_ATGM_9k111M_Faktoriya is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Konkurs
             Depiction     = Template_DescriptorMissileBase
@@ -9557,6 +10253,170 @@ export Descriptor_Missile_ATGM_9k111M_Faktoriya is TEntityDescriptor
         ~/TargetDataModuleDescriptor,
     ]
 )
+export Descriptor_Missile_ATGM_ADATS is TEntityDescriptor
+(
+    DescriptorId       = GUID:{dc5a84c2-0469-41d4-8c47-8d9635ea83e4}
+    ClassNameForDebug  = 'Missile_ATGM_ADATS'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_ATGM_ADATS",
+            ]
+        ),
+        ~/MissileFlagsModuleDescriptor,
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
+            Depiction     = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tow
+                Actions = MAP[
+                    ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_generation2 )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 1000
+                MaxAccelerationGRU = 500
+                AutoGyr            = 0.8726646259971648
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 1000
+                MaxAccelerationGRU = 500
+                AutoGyr            = 0.08726646259971647
+            )
+            AscendantPhaseConfig = nil
+            TerminalPhaseConfig = nil
+            CruiseAltitudeGRU = 0.0
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 1
+            TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
+            TimeBetweenChaosUpdates = 0.1
+            RangeChaos = 750
+            AngleMaxForRandomMouvUncontrollable = 0.0
+            RotationSpeedWhenUncontrollable = 0
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 2
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        ~/PackSignauxModuleDescriptor,
+        ~/TargetDataModuleDescriptor,
+    ]
+)
+export Descriptor_Missile_ATGM_AS11_x4 is TEntityDescriptor
+(
+    DescriptorId       = GUID:{d48ced46-11e9-43f7-83b0-a77a9a490a2e}
+    ClassNameForDebug  = 'Missile_ATGM_AS11_x4'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_ATGM_AS11_x4",
+            ]
+        ),
+        ~/MissileFlagsModuleDescriptor,
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_SS_11
+            Depiction     = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SS_11
+                Actions = MAP[
+                    ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_generation1 )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 310
+                MaxAccelerationGRU = 176
+                AutoGyr            = 1.7453292519943295
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 310
+                MaxAccelerationGRU = 176
+                AutoGyr            = 0.2617993877991494
+            )
+            AscendantPhaseConfig = nil
+            TerminalPhaseConfig = nil
+            CruiseAltitudeGRU = 0.0
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 1
+            TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
+            TimeBetweenChaosUpdates = 0.1
+            RangeChaos = 2000
+            AngleMaxForRandomMouvUncontrollable = 0.02
+            RotationSpeedWhenUncontrollable = 1
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 2
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        ~/PackSignauxModuleDescriptor,
+        ~/TargetDataModuleDescriptor,
+    ]
+)
 export Descriptor_Missile_ATGM_BGM71_TOW is TEntityDescriptor
 (
     DescriptorId       = GUID:{6ea8b9aa-665d-46ad-b360-693285c8330b}
@@ -9573,7 +10433,7 @@ export Descriptor_Missile_ATGM_BGM71_TOW is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
             Depiction     = Template_DescriptorMissileBase
@@ -9655,7 +10515,7 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
             Depiction     = Template_DescriptorMissileBase
@@ -9737,7 +10597,7 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
             Depiction     = Template_DescriptorMissileBase
@@ -9819,7 +10679,7 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x8 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
             Depiction     = Template_DescriptorMissileBase
@@ -9901,7 +10761,7 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
             Depiction     = Template_DescriptorMissileBase
@@ -9983,7 +10843,7 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
             Depiction     = Template_DescriptorMissileBase
@@ -10065,7 +10925,7 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
             Depiction     = Template_DescriptorMissileBase
@@ -10147,7 +11007,7 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x8 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
             Depiction     = Template_DescriptorMissileBase
@@ -10229,7 +11089,7 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
             Depiction     = Template_DescriptorMissileBase
@@ -10311,7 +11171,7 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
             Depiction     = Template_DescriptorMissileBase
@@ -10393,7 +11253,7 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
             Depiction     = Template_DescriptorMissileBase
@@ -10475,7 +11335,89 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x8 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
+        (
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
+            Depiction     = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tow
+                Actions = MAP[
+                    ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_generation2 )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 427
+                MaxAccelerationGRU = 265
+                AutoGyr            = 1.3962634015954636
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 427
+                MaxAccelerationGRU = 265
+                AutoGyr            = 0.17453292519943295
+            )
+            AscendantPhaseConfig = nil
+            TerminalPhaseConfig = nil
+            CruiseAltitudeGRU = 0.0
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 1
+            TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
+            TimeBetweenChaosUpdates = 0.1
+            RangeChaos = 1250
+            AngleMaxForRandomMouvUncontrollable = 0.01
+            RotationSpeedWhenUncontrollable = 1
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 2
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        ~/PackSignauxModuleDescriptor,
+        ~/TargetDataModuleDescriptor,
+    ]
+)
+export Descriptor_Missile_ATGM_BGM71D_TOW_2A is TEntityDescriptor
+(
+    DescriptorId       = GUID:{ab24fe76-83c0-4d25-ba06-512f12d2e6a3}
+    ClassNameForDebug  = 'Missile_ATGM_BGM71D_TOW_2A'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_ATGM_BGM71D_TOW_2A",
+            ]
+        ),
+        ~/MissileFlagsModuleDescriptor,
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
             Depiction     = Template_DescriptorMissileBase
@@ -10557,7 +11499,7 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2A_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tow
             Depiction     = Template_DescriptorMissileBase
@@ -10639,7 +11581,7 @@ export Descriptor_Missile_ATGM_HOT1 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
             Depiction     = Template_DescriptorMissileBase
@@ -10721,7 +11663,7 @@ export Descriptor_Missile_ATGM_HOT1_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
             Depiction     = Template_DescriptorMissileBase
@@ -10803,7 +11745,7 @@ export Descriptor_Missile_ATGM_HOT1_x6 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
             Depiction     = Template_DescriptorMissileBase
@@ -10885,7 +11827,7 @@ export Descriptor_Missile_ATGM_HOT2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
             Depiction     = Template_DescriptorMissileBase
@@ -10967,7 +11909,7 @@ export Descriptor_Missile_ATGM_HOT2_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
             Depiction     = Template_DescriptorMissileBase
@@ -11049,7 +11991,7 @@ export Descriptor_Missile_ATGM_HOT2_x3 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
             Depiction     = Template_DescriptorMissileBase
@@ -11131,7 +12073,7 @@ export Descriptor_Missile_ATGM_HOT2_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
             Depiction     = Template_DescriptorMissileBase
@@ -11213,7 +12155,7 @@ export Descriptor_Missile_ATGM_HOT2_x6 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_HOT
             Depiction     = Template_DescriptorMissileBase
@@ -11295,7 +12237,7 @@ export Descriptor_Missile_ATGM_MGM551C_Shillelagh is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Shillelagh
             Depiction     = Template_DescriptorMissileBase
@@ -11377,7 +12319,7 @@ export Descriptor_Missile_ATGM_MILAN is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Milan
             Depiction     = Template_DescriptorMissileBase
@@ -11459,7 +12401,7 @@ export Descriptor_Missile_ATGM_MILAN_2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Milan
             Depiction     = Template_DescriptorMissileBase
@@ -11541,7 +12483,7 @@ export Descriptor_Missile_ATGM_MILAN_2_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Milan
             Depiction     = Template_DescriptorMissileBase
@@ -11607,88 +12549,6 @@ export Descriptor_Missile_ATGM_MILAN_2_x2 is TEntityDescriptor
         ~/TargetDataModuleDescriptor,
     ]
 )
-export Descriptor_Missile_ATGM_SS11_x4 is TEntityDescriptor
-(
-    DescriptorId       = GUID:{61c432a8-1443-412d-9335-818eeb8359a6}
-    ClassNameForDebug  = 'Missile_ATGM_SS11_x4'
-    ModulesDescriptors = [
-        ~/SimpleTypeUnitModuleDescriptor,
-        TTagsModuleDescriptor
-        (
-            TagSet = [
-                "MISSILE",
-                "MISSILE_ATGM_SS11_x4",
-            ]
-        ),
-        ~/MissileFlagsModuleDescriptor,
-        ~/MissilePositionModuleDescriptor,
-        ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
-        (
-            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_SS_11
-            Depiction     = Template_DescriptorMissileBase
-            (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SS_11
-                Actions = MAP[
-                    ( ["fx_propulsion_on"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_generation1 )),
-                ]
-            )
-        ),
-        TGuidedMissileModuleDescriptor
-        (
-        ),
-        TGuidedMissileMovementModuleDescriptor
-        (
-            DefaultConfig = TGuidedMissileMovementConfigDescriptor
-            (
-                MaxSpeedGRU        = 310
-                MaxAccelerationGRU = 176
-                AutoGyr            = 1.7453292519943295
-            )
-            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
-            (
-                MaxSpeedGRU        = 310
-                MaxAccelerationGRU = 176
-                AutoGyr            = 0.2617993877991494
-            )
-            AscendantPhaseConfig = nil
-            TerminalPhaseConfig = nil
-            CruiseAltitudeGRU = 0.0
-            TimeMaxBetweenRandomMoveWhenUncontrollable = 1
-            TimeMinBetweenRandomMoveWhenUncontrollable = 0.5
-            TimeBetweenChaosUpdates = 0.1
-            RangeChaos = 2000
-            AngleMaxForRandomMouvUncontrollable = 0.02
-            RotationSpeedWhenUncontrollable = 1
-        ),
-        TBaseDamageModuleDescriptor
-        (
-            MaxPhysicalDamages = 2
-            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
-            MaxStunDamages = ~/Missile_MaxStunDamages
-        ),
-        TDamageModuleDescriptor
-        (
-            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
-            StunDamagesRegen = ~/Missile_StunDamagesRegen
-            BlindageProperties = TBlindageProperties
-            (
-                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
-                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
-                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
-                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
-                ExplosiveReactiveArmor = False
-            )
-            KillWhenDamagesReachMax = True
-            HitRollECM = 0.0
-            AutoOrientation = False
-            UseTopArmorAgainstFire = False
-        ),
-        TDangerousnessModuleDescriptor(Dangerousness  = 200),
-        ~/PackSignauxModuleDescriptor,
-        ~/TargetDataModuleDescriptor,
-    ]
-)
 export Descriptor_Missile_ATGM_Swingfire is TEntityDescriptor
 (
     DescriptorId       = GUID:{4787d461-5d54-41f5-9c79-5b38fc99f0f9}
@@ -11705,7 +12565,7 @@ export Descriptor_Missile_ATGM_Swingfire is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Swingfire
             Depiction     = Template_DescriptorMissileBase
@@ -11787,7 +12647,7 @@ export Descriptor_Missile_ATGM_Swingfire_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Swingfire
             Depiction     = Template_DescriptorMissileBase
@@ -11869,7 +12729,7 @@ export Descriptor_Missile_ATGM_Swingfire_x5 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Swingfire
             Depiction     = Template_DescriptorMissileBase
@@ -11951,7 +12811,7 @@ export Descriptor_Missile_ATGM_9K115_Metis_M is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Metis
             Depiction     = Template_DescriptorMissileBase
@@ -12033,7 +12893,7 @@ export Descriptor_Missile_ATGM_Eryx is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Metis
             Depiction     = Template_DescriptorMissileBase
@@ -12115,7 +12975,7 @@ export Descriptor_Missile_Bomb_BGL_400_x1 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_GBU10
             Depiction     = Template_DescriptorMissileBase
@@ -12198,7 +13058,7 @@ export Descriptor_Missile_Bomb_BGL_400_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_GBU10
             Depiction     = Template_DescriptorMissileBase
@@ -12281,7 +13141,7 @@ export Descriptor_Missile_Bomb_CPU_123_x1 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_CPU123
             Depiction     = Template_DescriptorMissileBase
@@ -12364,7 +13224,7 @@ export Descriptor_Missile_Bomb_CPU_123_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_CPU123
             Depiction     = Template_DescriptorMissileBase
@@ -12447,7 +13307,7 @@ export Descriptor_Missile_Bomb_GBU_10_x1 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_GBU10
             Depiction     = Template_DescriptorMissileBase
@@ -12530,7 +13390,7 @@ export Descriptor_Missile_Bomb_GBU_10_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_GBU10
             Depiction     = Template_DescriptorMissileBase
@@ -12613,7 +13473,7 @@ export Descriptor_Missile_Bomb_GBU_12_x1 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_GBU12
             Depiction     = Template_DescriptorMissileBase
@@ -12696,7 +13556,7 @@ export Descriptor_Missile_Bomb_GBU_12_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_GBU12
             Depiction     = Template_DescriptorMissileBase
@@ -12779,7 +13639,7 @@ export Descriptor_Missile_Bomb_GBU_27_x1 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_GBU24
             Depiction     = Template_DescriptorMissileBase
@@ -12862,7 +13722,7 @@ export Descriptor_Missile_Bomb_GBU_27_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_GBU24
             Depiction     = Template_DescriptorMissileBase
@@ -12945,7 +13805,7 @@ export Descriptor_Missile_Bomb_KAB_1500Kr_x1 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_KAB_1500Kr
             Depiction     = Template_DescriptorMissileBase
@@ -13028,7 +13888,7 @@ export Descriptor_Missile_Bomb_KAB_1500Kr_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_KAB_1500Kr
             Depiction     = Template_DescriptorMissileBase
@@ -13111,7 +13971,7 @@ export Descriptor_Missile_Bomb_KAB_1500L_x1 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_KAB_1500Kr
             Depiction     = Template_DescriptorMissileBase
@@ -13194,7 +14054,7 @@ export Descriptor_Missile_Bomb_KAB_1500L_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_KAB_1500Kr
             Depiction     = Template_DescriptorMissileBase
@@ -13277,7 +14137,7 @@ export Descriptor_Missile_Bomb_KAB_1500L_x3 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_KAB_1500Kr
             Depiction     = Template_DescriptorMissileBase
@@ -13360,7 +14220,7 @@ export Descriptor_Missile_Bomb_KAB_500Kr_x1 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_KAB_500Kr
             Depiction     = Template_DescriptorMissileBase
@@ -13443,7 +14303,7 @@ export Descriptor_Missile_Bomb_KAB_500Kr_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_KAB_500Kr
             Depiction     = Template_DescriptorMissileBase
@@ -13526,7 +14386,7 @@ export Descriptor_Missile_Bomb_KAB_500L_x1 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_KAB_500Kr
             Depiction     = Template_DescriptorMissileBase
@@ -13609,7 +14469,7 @@ export Descriptor_Missile_Bomb_KAB_500L_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_KAB_500Kr
             Depiction     = Template_DescriptorMissileBase
@@ -13692,7 +14552,7 @@ export Descriptor_Missile_Bomb_KAB_500L_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_KAB_500Kr
             Depiction     = Template_DescriptorMissileBase
@@ -13775,7 +14635,7 @@ export Descriptor_Missile_FakeRoquette_S_24 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_S_24_240mm
             Depiction     = Template_DescriptorMissileBase
@@ -13863,7 +14723,7 @@ export Descriptor_Missile_FakeRoquette_S_24_helo is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_S_24_240mm
             Depiction     = Template_DescriptorMissileBase
@@ -13951,7 +14811,7 @@ export Descriptor_Missile_Javelin is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
             Depiction     = Template_DescriptorMissileBase
@@ -14021,6 +14881,16 @@ export Descriptor_Missile_Javelin is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -14041,7 +14911,7 @@ export Descriptor_Missile_Javelin_LML is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
             Depiction     = Template_DescriptorMissileBase
@@ -14111,6 +14981,16 @@ export Descriptor_Missile_Javelin_LML is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -14131,7 +15011,7 @@ export Descriptor_Missile_M47_DRAGON is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_M47dragon
             Depiction     = Template_DescriptorMissileBase
@@ -14213,7 +15093,7 @@ export Descriptor_Missile_M47_DRAGON_Bipied is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_M47dragon
             Depiction     = Template_DescriptorMissileBase
@@ -14295,7 +15175,7 @@ export Descriptor_Missile_M47_DRAGON_II is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_M47dragon
             Depiction     = Template_DescriptorMissileBase
@@ -14377,7 +15257,7 @@ export Descriptor_Missile_MANPAD_Blowpipe is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
             Depiction     = Template_DescriptorMissileBase
@@ -14447,6 +15327,16 @@ export Descriptor_Missile_MANPAD_Blowpipe is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -14467,7 +15357,7 @@ export Descriptor_Missile_MANPAD_FIM43 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
             Depiction     = Template_DescriptorMissileBase
@@ -14537,6 +15427,16 @@ export Descriptor_Missile_MANPAD_FIM43 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -14557,7 +15457,7 @@ export Descriptor_Missile_MANPAD_FIM92 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
             Depiction     = Template_DescriptorMissileBase
@@ -14627,6 +15527,16 @@ export Descriptor_Missile_MANPAD_FIM92 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -14647,7 +15557,7 @@ export Descriptor_Missile_MANPAD_FIM92_A is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
             Depiction     = Template_DescriptorMissileBase
@@ -14717,6 +15627,16 @@ export Descriptor_Missile_MANPAD_FIM92_A is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -14737,7 +15657,7 @@ export Descriptor_Missile_MANPAD_Javelin is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
             Depiction     = Template_DescriptorMissileBase
@@ -14807,6 +15727,16 @@ export Descriptor_Missile_MANPAD_Javelin is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -14827,7 +15757,7 @@ export Descriptor_Missile_MANPAD_Strela2M is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
             Depiction     = Template_DescriptorMissileBase
@@ -14897,6 +15827,116 @@ export Descriptor_Missile_MANPAD_Strela2M is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
+        ~/PackSignauxModuleDescriptor,
+        ~/TargetDataModuleDescriptor,
+    ]
+)
+export Descriptor_Missile_MANPAD_Strela3 is TEntityDescriptor
+(
+    DescriptorId       = GUID:{1c71716b-33d1-42b3-a25c-d39e6f935759}
+    ClassNameForDebug  = 'Missile_MANPAD_Strela3'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_MANPAD_Strela3",
+            ]
+        ),
+        ~/MissileFlagsModuleDescriptor,
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+            Depiction     = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Blowpipe
+                Actions = MAP[
+                    ( ["fx_propulsion_on"], TRandomHappening(
+                            Alternatives = [
+                                template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_petit_1 ),
+                                template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_petit_2 ),
+                                template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_petit_3 ),
+                                template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_petit_4 ),
+                            ]
+                        )),
+                    ( ["fx_propulsion_off"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_arret_missile_AA_moyen )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 5300
+                MaxAccelerationGRU = 2826
+                AutoGyr            = 1.7453292519943295
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 5300
+                MaxAccelerationGRU = 2826
+                AutoGyr            = 0.17453292519943295
+            )
+            AscendantPhaseConfig = nil
+            TerminalPhaseConfig = nil
+            CruiseAltitudeGRU = 0.0
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 2
+            TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
+            TimeBetweenChaosUpdates = 0.1
+            RangeChaos = 1000
+            AngleMaxForRandomMouvUncontrollable = 2.0
+            RotationSpeedWhenUncontrollable = 5
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 2
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -14917,7 +15957,7 @@ export Descriptor_Missile_MANPAD_igla is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
             Depiction     = Template_DescriptorMissileBase
@@ -14987,6 +16027,16 @@ export Descriptor_Missile_MANPAD_igla is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15007,7 +16057,7 @@ export Descriptor_Missile_Mistral is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
             Depiction     = Template_DescriptorMissileBase
@@ -15077,6 +16127,16 @@ export Descriptor_Missile_Mistral is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15097,7 +16157,7 @@ export Descriptor_Missile_Mistral_Celtic_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
             Depiction     = Template_DescriptorMissileBase
@@ -15167,6 +16227,16 @@ export Descriptor_Missile_Mistral_Celtic_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15187,7 +16257,7 @@ export Descriptor_Missile_SAM_9M311_Tunguska_x8 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tunguska
             Depiction     = Template_DescriptorMissileBase
@@ -15256,6 +16326,16 @@ export Descriptor_Missile_SAM_9M311_Tunguska_x8 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15276,7 +16356,7 @@ export Descriptor_Missile_SAM_9M33 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tunguska
             Depiction     = Template_DescriptorMissileBase
@@ -15345,6 +16425,16 @@ export Descriptor_Missile_SAM_9M33 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15365,7 +16455,7 @@ export Descriptor_Missile_SAM_9M330_Tor_x8 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tunguska
             Depiction     = Template_DescriptorMissileBase
@@ -15428,6 +16518,16 @@ export Descriptor_Missile_SAM_9M330_Tor_x8 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15448,7 +16548,7 @@ export Descriptor_Missile_SAM_9M336_x3 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kub
             Depiction     = Template_DescriptorMissileBase
@@ -15517,6 +16617,16 @@ export Descriptor_Missile_SAM_9M336_x3 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15537,7 +16647,7 @@ export Descriptor_Missile_SAM_9M33M2_x6 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tunguska
             Depiction     = Template_DescriptorMissileBase
@@ -15606,6 +16716,16 @@ export Descriptor_Missile_SAM_9M33M2_x6 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15626,7 +16746,7 @@ export Descriptor_Missile_SAM_9M38M1_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Kub
             Depiction     = Template_DescriptorMissileBase
@@ -15695,6 +16815,16 @@ export Descriptor_Missile_SAM_9M38M1_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15715,7 +16845,7 @@ export Descriptor_Missile_SAM_9M8M3_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_3M8M
             Depiction     = Template_DescriptorMissileBase
@@ -15778,6 +16908,115 @@ export Descriptor_Missile_SAM_9M8M3_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
+        ~/PackSignauxModuleDescriptor,
+        ~/TargetDataModuleDescriptor,
+    ]
+)
+export Descriptor_Missile_SAM_ADATS is TEntityDescriptor
+(
+    DescriptorId       = GUID:{7086df19-4e78-4e37-b51e-f2d7a5a2d10e}
+    ClassNameForDebug  = 'Missile_SAM_ADATS'
+    ModulesDescriptors = [
+        ~/SimpleTypeUnitModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "MISSILE",
+                "MISSILE_SAM_ADATS",
+            ]
+        ),
+        ~/MissileFlagsModuleDescriptor,
+        ~/MissilePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TApparenceModuleDescriptor
+        (
+            ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Tunguska
+            Depiction     = Template_DescriptorMissileBase
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Tunguska
+                Actions = MAP[
+                    ( ["fx_propulsion_on"], TRandomHappening(
+                            Alternatives = [
+                                template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_moyen_1 ),
+                                template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_moyen_2 ),
+                                template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_propulsion_missile_AA_moyen_3 ),
+                            ]
+                        )),
+                    ( ["fx_propulsion_off"], template_PropulsionActionHappening( Action = $/GFX/GameFx/fx_arret_missile_AA_moyen )),
+                ]
+            )
+        ),
+        TGuidedMissileModuleDescriptor
+        (
+        ),
+        TGuidedMissileMovementModuleDescriptor
+        (
+            DefaultConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 5000
+                MaxAccelerationGRU = 1000
+                AutoGyr            = 1.7453292519943295
+            )
+            UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
+            (
+                MaxSpeedGRU        = 5000
+                MaxAccelerationGRU = 1000
+                AutoGyr            = 0.17453292519943295
+            )
+            AscendantPhaseConfig = nil
+            TerminalPhaseConfig = nil
+            CruiseAltitudeGRU = 0.0
+            TimeMaxBetweenRandomMoveWhenUncontrollable = 2
+            TimeMinBetweenRandomMoveWhenUncontrollable = 1.0
+            TimeBetweenChaosUpdates = 0.1
+            RangeChaos = 1000
+            AngleMaxForRandomMouvUncontrollable = 2.0
+            RotationSpeedWhenUncontrollable = 5
+        ),
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 2
+            MaxSuppressionDamages = ~/Missile_MaxSuppressionDamages
+            MaxStunDamages = ~/Missile_MaxStunDamages
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Missile_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Missile_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_vehicule Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            AutoOrientation = False
+            UseTopArmorAgainstFire = False
+        ),
+        TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15798,7 +17037,7 @@ export Descriptor_Missile_SAM_Aspide_1A_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Aspide_1A
             Depiction     = Template_DescriptorMissileBase
@@ -15867,6 +17106,16 @@ export Descriptor_Missile_SAM_Aspide_1A_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15887,7 +17136,7 @@ export Descriptor_Missile_SAM_FASTA_Strela2M_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
             Depiction     = Template_DescriptorMissileBase
@@ -15957,6 +17206,16 @@ export Descriptor_Missile_SAM_FASTA_Strela2M_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -15977,7 +17236,7 @@ export Descriptor_Missile_SAM_FASTA_Strela2M_x4_TOWED is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
             Depiction     = Template_DescriptorMissileBase
@@ -16047,6 +17306,16 @@ export Descriptor_Missile_SAM_FASTA_Strela2M_x4_TOWED is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16067,7 +17336,7 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
             Depiction     = Template_DescriptorMissileBase
@@ -16137,6 +17406,16 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16157,7 +17436,7 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
             Depiction     = Template_DescriptorMissileBase
@@ -16227,6 +17506,16 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16247,7 +17536,7 @@ export Descriptor_Missile_SAM_FIM92_Stinger_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
             Depiction     = Template_DescriptorMissileBase
@@ -16317,6 +17606,16 @@ export Descriptor_Missile_SAM_FIM92_Stinger_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16337,7 +17636,7 @@ export Descriptor_Missile_SAM_FIM92_Stinger_x8 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
             Depiction     = Template_DescriptorMissileBase
@@ -16407,6 +17706,16 @@ export Descriptor_Missile_SAM_FIM92_Stinger_x8 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16427,7 +17736,7 @@ export Descriptor_Missile_SAM_FIM92C is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
             Depiction     = Template_DescriptorMissileBase
@@ -16497,6 +17806,16 @@ export Descriptor_Missile_SAM_FIM92C is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16517,7 +17836,7 @@ export Descriptor_Missile_SAM_I_Hawk is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_MIM_72F
             Depiction     = Template_DescriptorMissileBase
@@ -16586,6 +17905,16 @@ export Descriptor_Missile_SAM_I_Hawk is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16606,7 +17935,7 @@ export Descriptor_Missile_SAM_I_Hawk_x3 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_MIM23_I_Hawk
             Depiction     = Template_DescriptorMissileBase
@@ -16675,6 +18004,16 @@ export Descriptor_Missile_SAM_I_Hawk_x3 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16695,7 +18034,7 @@ export Descriptor_Missile_SAM_Igla is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
             Depiction     = Template_DescriptorMissileBase
@@ -16765,6 +18104,16 @@ export Descriptor_Missile_SAM_Igla is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16785,7 +18134,7 @@ export Descriptor_Missile_SAM_IglaN is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
             Depiction     = Template_DescriptorMissileBase
@@ -16855,6 +18204,16 @@ export Descriptor_Missile_SAM_IglaN is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16875,7 +18234,7 @@ export Descriptor_Missile_SAM_IglaN_1M is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
             Depiction     = Template_DescriptorMissileBase
@@ -16945,6 +18304,16 @@ export Descriptor_Missile_SAM_IglaN_1M is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -16965,7 +18334,7 @@ export Descriptor_Missile_SAM_IglaV is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
             Depiction     = Template_DescriptorMissileBase
@@ -17035,6 +18404,16 @@ export Descriptor_Missile_SAM_IglaV is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17055,7 +18434,7 @@ export Descriptor_Missile_SAM_IglaV_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
             Depiction     = Template_DescriptorMissileBase
@@ -17125,6 +18504,16 @@ export Descriptor_Missile_SAM_IglaV_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17145,7 +18534,7 @@ export Descriptor_Missile_SAM_MIM72A is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_MIM_72F
             Depiction     = Template_DescriptorMissileBase
@@ -17214,6 +18603,16 @@ export Descriptor_Missile_SAM_MIM72A is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17234,7 +18633,7 @@ export Descriptor_Missile_SAM_MIM72F is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_MIM_72F
             Depiction     = Template_DescriptorMissileBase
@@ -17303,6 +18702,16 @@ export Descriptor_Missile_SAM_MIM72F is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17323,7 +18732,7 @@ export Descriptor_Missile_SAM_MIM72G is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_MIM_72F
             Depiction     = Template_DescriptorMissileBase
@@ -17392,6 +18801,16 @@ export Descriptor_Missile_SAM_MIM72G is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17412,7 +18831,7 @@ export Descriptor_Missile_SAM_Mistral is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
             Depiction     = Template_DescriptorMissileBase
@@ -17482,6 +18901,16 @@ export Descriptor_Missile_SAM_Mistral is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17502,7 +18931,7 @@ export Descriptor_Missile_SAM_R440_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_R440
             Depiction     = Template_DescriptorMissileBase
@@ -17571,6 +19000,16 @@ export Descriptor_Missile_SAM_R440_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_high,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17591,7 +19030,7 @@ export Descriptor_Missile_SAM_RAPIER is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Rapier
             Depiction     = Template_DescriptorMissileBase
@@ -17660,6 +19099,16 @@ export Descriptor_Missile_SAM_RAPIER is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17680,7 +19129,7 @@ export Descriptor_Missile_SAM_RAPIER_DARKFIRE_x6 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Rapier
             Depiction     = Template_DescriptorMissileBase
@@ -17749,6 +19198,16 @@ export Descriptor_Missile_SAM_RAPIER_DARKFIRE_x6 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17769,7 +19228,7 @@ export Descriptor_Missile_SAM_RAPIER_FSA_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Rapier
             Depiction     = Template_DescriptorMissileBase
@@ -17838,6 +19297,16 @@ export Descriptor_Missile_SAM_RAPIER_FSA_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17858,7 +19327,7 @@ export Descriptor_Missile_SAM_RAPIER_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Rapier
             Depiction     = Template_DescriptorMissileBase
@@ -17927,6 +19396,16 @@ export Descriptor_Missile_SAM_RAPIER_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -17947,7 +19426,7 @@ export Descriptor_Missile_SAM_RAPIER_x8 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Rapier
             Depiction     = Template_DescriptorMissileBase
@@ -18016,6 +19495,16 @@ export Descriptor_Missile_SAM_RAPIER_x8 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18036,7 +19525,7 @@ export Descriptor_Missile_SAM_ROLAND is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_ROLAND
             Depiction     = Template_DescriptorMissileBase
@@ -18105,6 +19594,16 @@ export Descriptor_Missile_SAM_ROLAND is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18125,7 +19624,7 @@ export Descriptor_Missile_SAM_ROLAND_1 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_ROLAND
             Depiction     = Template_DescriptorMissileBase
@@ -18194,6 +19693,16 @@ export Descriptor_Missile_SAM_ROLAND_1 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18214,7 +19723,7 @@ export Descriptor_Missile_SAM_ROLAND_1_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_ROLAND
             Depiction     = Template_DescriptorMissileBase
@@ -18283,6 +19792,16 @@ export Descriptor_Missile_SAM_ROLAND_1_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18303,7 +19822,7 @@ export Descriptor_Missile_SAM_ROLAND_2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_ROLAND
             Depiction     = Template_DescriptorMissileBase
@@ -18372,6 +19891,16 @@ export Descriptor_Missile_SAM_ROLAND_2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18392,7 +19921,7 @@ export Descriptor_Missile_SAM_ROLAND_2_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_ROLAND
             Depiction     = Template_DescriptorMissileBase
@@ -18461,6 +19990,16 @@ export Descriptor_Missile_SAM_ROLAND_2_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18481,7 +20020,7 @@ export Descriptor_Missile_SAM_ROLAND_3 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_ROLAND
             Depiction     = Template_DescriptorMissileBase
@@ -18550,6 +20089,16 @@ export Descriptor_Missile_SAM_ROLAND_3 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18570,7 +20119,7 @@ export Descriptor_Missile_SAM_ROLAND_3_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_ROLAND
             Depiction     = Template_DescriptorMissileBase
@@ -18639,6 +20188,16 @@ export Descriptor_Missile_SAM_ROLAND_3_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18659,7 +20218,7 @@ export Descriptor_Missile_SAM_Strela1_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
             Depiction     = Template_DescriptorMissileBase
@@ -18729,6 +20288,16 @@ export Descriptor_Missile_SAM_Strela1_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18749,7 +20318,7 @@ export Descriptor_Missile_SAM_Strela10_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
             Depiction     = Template_DescriptorMissileBase
@@ -18819,6 +20388,16 @@ export Descriptor_Missile_SAM_Strela10_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18839,7 +20418,7 @@ export Descriptor_Missile_SAM_Strela10M3_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
             Depiction     = Template_DescriptorMissileBase
@@ -18909,6 +20488,16 @@ export Descriptor_Missile_SAM_Strela10M3_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_mid,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -18929,7 +20518,7 @@ export Descriptor_Missile_SAM_Strela2_x12 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
             Depiction     = Template_DescriptorMissileBase
@@ -18999,6 +20588,16 @@ export Descriptor_Missile_SAM_Strela2_x12 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -19019,7 +20618,7 @@ export Descriptor_Missile_SAM_Strela2_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
             Depiction     = Template_DescriptorMissileBase
@@ -19089,6 +20688,16 @@ export Descriptor_Missile_SAM_Strela2_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -19109,7 +20718,7 @@ export Descriptor_Missile_SAM_Strela2_x4 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Igla
             Depiction     = Template_DescriptorMissileBase
@@ -19179,6 +20788,16 @@ export Descriptor_Missile_SAM_Strela2_x4 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]
@@ -19199,7 +20818,7 @@ export Descriptor_Missile_SAM_Strela2M_x2 is TEntityDescriptor
         ~/MissileFlagsModuleDescriptor,
         ~/MissilePositionModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             ReferenceMesh = $/GFX/DepictionResources/Modele_Missile_Blowpipe
             Depiction     = Template_DescriptorMissileBase
@@ -19269,6 +20888,16 @@ export Descriptor_Missile_SAM_Strela2M_x2 is TEntityDescriptor
             UseTopArmorAgainstFire = False
         ),
         TDangerousnessModuleDescriptor(Dangerousness  = 200),
+        TModuleSelector
+        (
+            Default        = TCapaciteModuleDescriptor
+            (
+                DefaultSkillList = [
+                    $/GFX/EffectCapacity/Capacite_StressOnMiss_low,
+                ]
+            )
+            Condition      = ~/IfNotCadavreCondition
+        ),
         ~/PackSignauxModuleDescriptor,
         ~/TargetDataModuleDescriptor,
     ]

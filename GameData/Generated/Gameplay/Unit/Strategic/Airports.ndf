@@ -8,7 +8,7 @@ export Descriptor_Unit_TestAirport is TEntityDescriptor
     ModulesDescriptors = [
         TTypeUnitModuleDescriptor
         (
-            Nationalite          = ENationalite/Allied
+            Coalition            = ECoalition/Allied
             MotherCountry        = 'HON'
             AcknowUnitType       = ~/TAcknowUnitType_Tank
             TypeUnitFormation    = 'Building'
@@ -56,15 +56,6 @@ export Descriptor_Unit_TestAirport is TEntityDescriptor
                 IdentifyBaseProbability     = 1.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         ~/StrategicBuildingModuleDescriptor,
@@ -84,7 +75,7 @@ export Descriptor_Unit_TestDepotRavitaillement is TEntityDescriptor
     ModulesDescriptors = [
         TTypeUnitModuleDescriptor
         (
-            Nationalite          = ENationalite/Allied
+            Coalition            = ECoalition/Allied
             MotherCountry        = 'HON'
             AcknowUnitType       = ~/TAcknowUnitType_Tank
             TypeUnitFormation    = 'Building'
@@ -132,15 +123,6 @@ export Descriptor_Unit_TestDepotRavitaillement is TEntityDescriptor
                 IdentifyBaseProbability     = 1.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         ~/StrategicBuildingModuleDescriptor,

@@ -62,7 +62,6 @@ Ammo_AA_AIM120A_AMRAAM is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_aim120_amraam"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -135,7 +134,6 @@ Ammo_AA_AIM132_ASRAAM is TAmmunitionDescriptor
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -208,7 +206,6 @@ Ammo_AA_AIM7F_Sparrow is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_sparrow"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -281,7 +278,6 @@ Ammo_AA_AIM7M_Sparrow is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_sparrow"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -355,7 +351,6 @@ Ammo_AA_AIM9J_Sidewinder is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_aim9_sidewinder"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -429,7 +424,6 @@ Ammo_AA_AIM9L_Sidewinder is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_aim9_sidewinder"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -503,7 +497,6 @@ Ammo_AA_AIM9M_Sidewinder is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_aim9_sidewinder"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -577,7 +570,6 @@ Ammo_AA_AIM9P_Sidewinder is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_aim9_sidewinder"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -651,7 +643,6 @@ Ammo_AA_AIM9P_Sidewinder_x2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_aim9_sidewinder"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -724,7 +715,6 @@ Ammo_AA_Matra_R530 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Super_530D"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -797,7 +787,6 @@ Ammo_AA_Matra_Super_530D is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Super_530D"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -870,7 +859,6 @@ Ammo_AA_Matra_Super_530F is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Super_530D"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -944,7 +932,6 @@ Ammo_AA_R13M is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_R60_Vympel"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -1017,7 +1004,6 @@ Ammo_AA_R23R_Vympel is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_R27_Vympel"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -1090,7 +1076,6 @@ Ammo_AA_R24MR_Vympel is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_R27_Vympel"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -1163,7 +1148,6 @@ Ammo_AA_R24R_Vympel is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_R27_Vympel"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -1236,7 +1220,6 @@ Ammo_AA_R27ER_Vympel is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_R27_Vympel"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -1309,7 +1292,6 @@ Ammo_AA_R27R_Vympel is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_R27_Vympel"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -1382,7 +1364,6 @@ Ammo_AA_R27T_Vympel is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_R27T_Vympel"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -1455,7 +1436,6 @@ Ammo_AA_R33_Vympel is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_R37_Vympel"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -1528,7 +1508,6 @@ Ammo_AA_R37_Vympel is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_R37_Vympel"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -1601,7 +1580,6 @@ Ammo_AA_R3R is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_aim9_sidewinder"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -1674,7 +1652,6 @@ Ammo_AA_R40RD1 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_sparrow"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -1747,7 +1724,6 @@ Ammo_AA_R40TD1 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_sparrow"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -1821,7 +1797,6 @@ Ammo_AA_R550_Magic is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_R550_Magic"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -1895,7 +1870,6 @@ Ammo_AA_R550_Magic_II is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_R550_Magic_II"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -1969,7 +1943,6 @@ Ammo_AA_R60_Vympel is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_R60_Vympel"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -2043,7 +2016,6 @@ Ammo_AA_R60_Vympel_helo is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_R60_Vympel"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -2117,7 +2089,6 @@ Ammo_AA_R60M_Vympel is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_R60_Vympel"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -2191,7 +2162,6 @@ Ammo_AA_R60M_Vympel_helo is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_R60_Vympel"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -2265,7 +2235,6 @@ Ammo_AA_R73_Vympel is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_R73_Vympel"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -2338,7 +2307,6 @@ Ammo_AA_R77_Vympel is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Kh_58"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -2349,6 +2317,148 @@ Ammo_AA_R77_Vympel is TAmmunitionDescriptor
     DamageTypeEvolutionOverRangeDescriptor  = nil
     MissileTimeBetweenCorrections = 1.0
     MissileDescriptor             = ~/Descriptor_Missile_AA_R77_Vympel
+)
+Ammo_AA_R98MR is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{868a98b4-088c-475d-be13-dadb9b8be35e}
+    Name                              = 'MPAKNTFQTP'
+    TypeCategoryName                  = 'UYJALNLOYI'
+    Caliber                           = 'EVYIVPZVOJ'
+    WeaponDescriptionToken            = 'UYIYEYCCSG'
+    TraitsToken                       = [ 'MOTION', 'F&F', ]
+    WeaponCursorType                  = Weapon_Cursor_AirMissile
+    MinMaxCategory                    = MinMax_AAM
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_missile_he Index=1)
+    ProjectileType                    = EProjectileType/GuidedMissile
+    ImpactHappening                   = [ 'MIssileAAAMRAAM' ]
+    FxPower                           = EFXPower/UltraLourd
+    TempsEntreDeuxTirs                = 2.0
+    TempsEntreDeuxFx                  = 2.0
+    PorteeMaximaleHAGRU               = 7775
+    AngleDispersion                   = 0.0020001473227855013
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamagesGRU    = 93
+    PhysicalDamages                   = 6.0
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamagesGRU    = 152
+    SuppressDamages                   = 636.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = True
+    MaximalSpeedGRU                   = 4946
+    MaxAccelerationGRU                = 2826
+    ShotWithoutPhysics                = True
+    FluidFriction                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    IsFireAndForget                   = True
+    TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+        DescriptorId          = GUID:{295fb03c-562f-48c3-bd2b-492cf5055230}
+        BaseCriticModifier = 25
+        BaseHitValueModifiers =
+        [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 55),
+            (EBaseHitValueModifier/Moving, 55),
+            (EBaseHitValueModifier/Targeted, 0.0),
+        ]
+    )
+    TempsDeVisee                      = 0.0
+    TempsEntreDeuxSalves              = 2.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 1
+    SupplyCost                        = 30
+    CanShootOnPosition                = False
+    CanShootWhileMoving               = True
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 1
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = nil
+    TargetUnitCenter                  = False
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    TandemCharge                      = False
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+    MissileTimeBetweenCorrections = 1.0
+    MissileDescriptor             = ~/Descriptor_Missile_AA_R98MR
+)
+Ammo_AA_R98MT is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{fd710fa4-3010-450d-8a9d-afac631d7a37}
+    Name                              = 'UUZTNDTOUK'
+    TypeCategoryName                  = 'UYJALNLOYI'
+    Caliber                           = 'AFUPSCGVHW'
+    WeaponDescriptionToken            = 'UYIYEYCCSG'
+    TraitsToken                       = [ 'MOTION', 'F&F', ]
+    WeaponCursorType                  = Weapon_Cursor_AirMissile
+    MinMaxCategory                    = MinMax_AAM
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_missile_he Index=1)
+    ProjectileType                    = EProjectileType/GuidedMissile
+    ImpactHappening                   = [ 'MIssileAASPARROW' ]
+    FxPower                           = EFXPower/UltraLourd
+    TempsEntreDeuxTirs                = 0.2
+    TempsEntreDeuxFx                  = 0.2
+    PorteeMaximaleHAGRU               = 6350
+    AngleDispersion                   = 0.0020001473227855013
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamagesGRU    = 93
+    PhysicalDamages                   = 6.0
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamagesGRU    = 152
+    SuppressDamages                   = 636.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = True
+    MaximalSpeedGRU                   = 4240
+    MaxAccelerationGRU                = 2120
+    ShotWithoutPhysics                = True
+    FluidFriction                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    IsFireAndForget                   = True
+    TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+        DescriptorId          = GUID:{d412af2a-c9ee-4e4c-8ce3-7ff1a126c6d2}
+        BaseCriticModifier = 25
+        BaseHitValueModifiers =
+        [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 50),
+            (EBaseHitValueModifier/Moving, 50),
+            (EBaseHitValueModifier/Targeted, 0.0),
+        ]
+    )
+    TempsDeVisee                      = 0.0
+    TempsEntreDeuxSalves              = 2.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 1
+    SupplyCost                        = 30
+    CanShootOnPosition                = False
+    CanShootWhileMoving               = True
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 1
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = nil
+    TargetUnitCenter                  = False
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    TandemCharge                      = False
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+    MissileTimeBetweenCorrections = 1.0
+    MissileDescriptor             = ~/Descriptor_Missile_AA_R98MT
 )
 Ammo_AA_Skyflash is TAmmunitionDescriptor
 (
@@ -2411,7 +2521,6 @@ Ammo_AA_Skyflash is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_skyflash"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -2484,7 +2593,6 @@ Ammo_AA_Skyflash_SuperTEMP is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_skyflash"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -2560,7 +2668,6 @@ Ammo_AGM_9K121_Vikhr is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_kokon"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -2636,7 +2743,6 @@ Ammo_AGM_9K121_Vikhr_x12 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 12
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_kokon"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -2712,7 +2818,6 @@ Ammo_AGM_9K121_Vikhr_x16 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 2
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_kokon"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -2777,8 +2882,8 @@ Ammo_AGM_9K121_Vikhr_x16_avion is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
-    TempsDeVisee                      = 1.0
-    TempsEntreDeuxSalves              = 5.0
+    TempsDeVisee                      = 0.0
+    TempsEntreDeuxSalves              = 1.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
@@ -2788,7 +2893,6 @@ Ammo_AGM_9K121_Vikhr_x16_avion is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 2
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_kokon"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -2804,12 +2908,12 @@ Ammo_AGM_9M114M_Ataka_x4 is TAmmunitionDescriptor
 (
     DescriptorId                      = GUID:{823ef237-e282-45ac-9ec5-493db4599ebb}
     Name                              = 'AWBIYRISUB'
-    TypeCategoryName                  = 'AGM_air'
+    TypeCategoryName                  = 'JTOYRAARTS'
     Caliber                           = 'PELGTHCREA'
-    WeaponDescriptionToken            = 'ULXGADAURW'
-    TraitsToken                       = [ 'MOTION', 'semiAuto', 'TANDEM', ]
+    WeaponDescriptionToken            = 'CRYXRQVTBJ'
+    TraitsToken                       = [ 'STAT', 'manual', 'HEAT', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
-    MinMaxCategory                    = MinMax_AGM
+    MinMaxCategory                    = MinMax_ATGM
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_ap_missile Index=25)
     ProjectileType                    = EProjectileType/GuidedMissile
     ImpactHappening                   = [ 'MissileAGMGen2' ]
@@ -2818,9 +2922,9 @@ Ammo_AGM_9M114M_Ataka_x4 is TAmmunitionDescriptor
     TempsEntreDeuxFx                  = 1.0
     PorteeMaximaleGRU                 = 2800
     PorteeMinimaleGRU                 = 353
-    AngleDispersion                   = 0.020001473227855015
-    DispersionAtMaxRangeGRU              = 177
-    DispersionAtMinRangeGRU              = 177
+    AngleDispersion                   = 0.0020001473227855013
+    DispersionAtMaxRangeGRU              = 18
+    DispersionAtMinRangeGRU              = 16
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamagesGRU    = 2
@@ -2853,6 +2957,7 @@ Ammo_AGM_9M114M_Ataka_x4 is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
+    MaxSuccessiveHitCount             = 3
     TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
@@ -2860,11 +2965,10 @@ Ammo_AGM_9M114M_Ataka_x4 is TAmmunitionDescriptor
     NbTirParSalves                    = 4
     SupplyCost                        = 120
     CanShootOnPosition                = False
-    CanShootWhileMoving               = True
+    CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_kokon"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -2880,12 +2984,12 @@ Ammo_AGM_9M114M_Ataka_x8 is TAmmunitionDescriptor
 (
     DescriptorId                      = GUID:{979ec5fd-49e1-470b-98b2-65774bb2119e}
     Name                              = 'AWBIYRISUB'
-    TypeCategoryName                  = 'AGM_air'
+    TypeCategoryName                  = 'JTOYRAARTS'
     Caliber                           = 'PELGTHCREA'
-    WeaponDescriptionToken            = 'ULXGADAURW'
-    TraitsToken                       = [ 'MOTION', 'semiAuto', 'TANDEM', ]
+    WeaponDescriptionToken            = 'CRYXRQVTBJ'
+    TraitsToken                       = [ 'STAT', 'manual', 'HEAT', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
-    MinMaxCategory                    = MinMax_AGM
+    MinMaxCategory                    = MinMax_ATGM
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_ap_missile Index=25)
     ProjectileType                    = EProjectileType/GuidedMissile
     ImpactHappening                   = [ 'MissileAGMGen2' ]
@@ -2894,9 +2998,9 @@ Ammo_AGM_9M114M_Ataka_x8 is TAmmunitionDescriptor
     TempsEntreDeuxFx                  = 1.0
     PorteeMaximaleGRU                 = 2800
     PorteeMinimaleGRU                 = 353
-    AngleDispersion                   = 0.020001473227855015
-    DispersionAtMaxRangeGRU              = 177
-    DispersionAtMinRangeGRU              = 177
+    AngleDispersion                   = 0.0020001473227855013
+    DispersionAtMaxRangeGRU              = 18
+    DispersionAtMinRangeGRU              = 16
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamagesGRU    = 2
@@ -2929,6 +3033,7 @@ Ammo_AGM_9M114M_Ataka_x8 is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
+    MaxSuccessiveHitCount             = 3
     TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
@@ -2936,11 +3041,10 @@ Ammo_AGM_9M114M_Ataka_x8 is TAmmunitionDescriptor
     NbTirParSalves                    = 8
     SupplyCost                        = 240
     CanShootOnPosition                = False
-    CanShootWhileMoving               = True
+    CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 8
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_kokon"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -3017,7 +3121,6 @@ Ammo_AGM_9M114M_KokonM is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_kokon"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -3094,7 +3197,6 @@ Ammo_AGM_9M114M_KokonM_x16 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 16
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_kokon"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -3171,7 +3273,6 @@ Ammo_AGM_9M114M_KokonM_x2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_kokon"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -3248,7 +3349,6 @@ Ammo_AGM_9M114M_KokonM_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_kokon"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -3325,7 +3425,6 @@ Ammo_AGM_9M114M_KokonM_x6 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 6
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_kokon"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -3341,12 +3440,12 @@ Ammo_AGM_9M114M_KokonM_x8 is TAmmunitionDescriptor
 (
     DescriptorId                      = GUID:{f9b1559f-17ee-445c-880a-8cfe47f476aa}
     Name                              = 'PEUTIUKFAY'
-    TypeCategoryName                  = 'AGM_air'
+    TypeCategoryName                  = 'JTOYRAARTS'
     Caliber                           = 'PELGTHCREA'
-    WeaponDescriptionToken            = 'ULXGADAURW'
-    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HEAT', ]
+    WeaponDescriptionToken            = 'CRYXRQVTBJ'
+    TraitsToken                       = [ 'STAT', 'manual', 'HEAT', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
-    MinMaxCategory                    = MinMax_AGM
+    MinMaxCategory                    = MinMax_ATGM
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_ap_missile Index=20)
     ProjectileType                    = EProjectileType/GuidedMissile
     ImpactHappening                   = [ 'MissileAGMGen2' ]
@@ -3355,9 +3454,9 @@ Ammo_AGM_9M114M_KokonM_x8 is TAmmunitionDescriptor
     TempsEntreDeuxFx                  = 1.0
     PorteeMaximaleGRU                 = 2800
     PorteeMinimaleGRU                 = 353
-    AngleDispersion                   = 0.020001473227855015
-    DispersionAtMaxRangeGRU              = 177
-    DispersionAtMinRangeGRU              = 177
+    AngleDispersion                   = 0.0020001473227855013
+    DispersionAtMaxRangeGRU              = 18
+    DispersionAtMinRangeGRU              = 16
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
     RadiusSplashPhysicalDamagesGRU    = 2
@@ -3390,6 +3489,7 @@ Ammo_AGM_9M114M_KokonM_x8 is TAmmunitionDescriptor
         ]
         DistanceToTarget = True
     )
+    MaxSuccessiveHitCount             = 3
     TempsDeVisee                      = 1.0
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
@@ -3397,11 +3497,10 @@ Ammo_AGM_9M114M_KokonM_x8 is TAmmunitionDescriptor
     NbTirParSalves                    = 8
     SupplyCost                        = 240
     CanShootOnPosition                = False
-    CanShootWhileMoving               = True
+    CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 8
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_kokon"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -3478,7 +3577,6 @@ Ammo_AGM_9M14_MalyutkaP_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Malyutka"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -3555,7 +3653,6 @@ Ammo_AGM_9M14_MalyutkaP_x6 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 6
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Malyutka"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -3631,7 +3728,6 @@ Ammo_AGM_9M17P_FalangaP is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Konkurs"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -3708,7 +3804,6 @@ Ammo_AGM_9M17P_FalangaP_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Konkurs"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -3785,7 +3880,6 @@ Ammo_AGM_9M17P_FalangaP_x6 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 6
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Konkurs"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -3861,7 +3955,6 @@ Ammo_AGM_AGM114A is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_agm114"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -3937,7 +4030,6 @@ Ammo_AGM_AGM114A_x16 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 16
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_agm114"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -4013,7 +4105,6 @@ Ammo_AGM_AGM114A_x2_salve is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_agm114"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -4090,7 +4181,6 @@ Ammo_AGM_AGM114A_x2_sol is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_agm114"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -4166,7 +4256,6 @@ Ammo_AGM_AGM114A_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_agm114"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -4242,7 +4331,6 @@ Ammo_AGM_AGM114A_x8 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 8
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_agm114"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -4319,7 +4407,6 @@ Ammo_AGM_AGM45_Shrike is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_agm45_shrike"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -4396,7 +4483,6 @@ Ammo_AGM_AGM65B_Maverick is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 2
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_agm65_maverick"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -4473,7 +4559,6 @@ Ammo_AGM_AGM65D_Maverick is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 2
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_agm65_maverick"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -4550,7 +4635,6 @@ Ammo_AGM_AGM65E_Maverick is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 2
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_agm65_maverick"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -4627,7 +4711,6 @@ Ammo_AGM_AGM88_HARM is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_agm88_harm"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -4703,7 +4786,6 @@ Ammo_AGM_AJ_168_x2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_AS37_Martel"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -4780,7 +4862,6 @@ Ammo_AGM_ALARM is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_agm_alarm"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -4857,7 +4938,6 @@ Ammo_AGM_ARMAT is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_ARMAT"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -4868,6 +4948,156 @@ Ammo_AGM_ARMAT is TAmmunitionDescriptor
     DamageTypeEvolutionOverRangeDescriptor  = nil
     MissileTimeBetweenCorrections = 1.0
     MissileDescriptor             = ~/Descriptor_Missile_AGM_ARMAT
+)
+Ammo_AGM_AS11_x2 is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{87d88693-6080-41bb-bf88-7996a55f744a}
+    Name                              = 'AHDJQGBNVN'
+    TypeCategoryName                  = 'AGM_air'
+    Caliber                           = 'BRECOXZJBB'
+    WeaponDescriptionToken            = 'ULXGADAURW'
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HEAT', ]
+    WeaponCursorType                  = Weapon_Cursor_GroundMissile
+    MinMaxCategory                    = MinMax_AGM
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_ap_missile Index=19)
+    ProjectileType                    = EProjectileType/GuidedMissile
+    ImpactHappening                   = [ 'MissileAGMGen1' ]
+    FxPower                           = EFXPower/UltraLourd
+    TempsEntreDeuxTirs                = 1.0
+    TempsEntreDeuxFx                  = 1.0
+    PorteeMaximaleGRU                 = 2625
+    PorteeMinimaleGRU                 = 353
+    AngleDispersion                   = 0.020001473227855015
+    DispersionAtMaxRangeGRU              = 247
+    DispersionAtMinRangeGRU              = 247
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamagesGRU    = 2
+    PhysicalDamages                   = 1.0
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamagesGRU    = 38
+    SuppressDamages                   = 225.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = True
+    MaximalSpeedGRU                   = 1413
+    MaxAccelerationGRU                = 353
+    ShotWithoutPhysics                = True
+    FluidFriction                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+        DescriptorId          = GUID:{e2b377eb-46ed-4a78-973b-f7b38cbadeb0}
+        BaseCriticModifier = 0
+        BaseHitValueModifiers =
+        [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 40),
+            (EBaseHitValueModifier/Moving, 40),
+            (EBaseHitValueModifier/Targeted, 0.0),
+        ]
+        DistanceToTarget = True
+    )
+    TempsDeVisee                      = 2.2
+    TempsEntreDeuxSalves              = 6.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 2
+    SupplyCost                        = 60
+    CanShootOnPosition                = False
+    CanShootWhileMoving               = True
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 2
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_AGM_SS11_x2"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = nil
+    TargetUnitCenter                  = False
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = True
+    TandemCharge                      = False
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+    MissileTimeBetweenCorrections = 1.0
+    MissileDescriptor             = ~/Descriptor_Missile_AGM_AS11_x2
+)
+Ammo_AGM_AS11_x4 is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{bf369d61-fb8c-4265-8dfe-4e1038beb7c3}
+    Name                              = 'AHDJQGBNVN'
+    TypeCategoryName                  = 'AGM_air'
+    Caliber                           = 'BRECOXZJBB'
+    WeaponDescriptionToken            = 'ULXGADAURW'
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HEAT', ]
+    WeaponCursorType                  = Weapon_Cursor_GroundMissile
+    MinMaxCategory                    = MinMax_AGM
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_ap_missile Index=19)
+    ProjectileType                    = EProjectileType/GuidedMissile
+    ImpactHappening                   = [ 'MissileAGMGen1' ]
+    FxPower                           = EFXPower/UltraLourd
+    TempsEntreDeuxTirs                = 1.0
+    TempsEntreDeuxFx                  = 1.0
+    PorteeMaximaleGRU                 = 2625
+    PorteeMinimaleGRU                 = 353
+    AngleDispersion                   = 0.020001473227855015
+    DispersionAtMaxRangeGRU              = 247
+    DispersionAtMinRangeGRU              = 247
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamagesGRU    = 2
+    PhysicalDamages                   = 1.0
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamagesGRU    = 38
+    SuppressDamages                   = 225.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = True
+    MaximalSpeedGRU                   = 1413
+    MaxAccelerationGRU                = 353
+    ShotWithoutPhysics                = True
+    FluidFriction                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+        DescriptorId          = GUID:{931f09c7-ca59-436d-8a99-404e5a0ac409}
+        BaseCriticModifier = 0
+        BaseHitValueModifiers =
+        [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 40),
+            (EBaseHitValueModifier/Moving, 40),
+            (EBaseHitValueModifier/Targeted, 0.0),
+        ]
+        DistanceToTarget = True
+    )
+    TempsDeVisee                      = 2.2
+    TempsEntreDeuxSalves              = 6.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 2
+    SupplyCost                        = 60
+    CanShootOnPosition                = False
+    CanShootWhileMoving               = True
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 2
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_AGM_SS11_x2"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = nil
+    TargetUnitCenter                  = False
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = True
+    TandemCharge                      = False
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+    MissileTimeBetweenCorrections = 1.0
+    MissileDescriptor             = ~/Descriptor_Missile_AGM_AS11_x4
 )
 Ammo_AGM_AS30 is TAmmunitionDescriptor
 (
@@ -4933,7 +5163,6 @@ Ammo_AGM_AS30 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_as30"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -5009,7 +5238,6 @@ Ammo_AGM_AS30L is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_as30"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -5086,7 +5314,6 @@ Ammo_AGM_AS37_Martel is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_AS37_Martel"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -5163,7 +5390,6 @@ Ammo_AGM_AS37_Martel_x2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_AS37_Martel"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -5240,7 +5466,6 @@ Ammo_AGM_BGM71_TOW_x8 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 8
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_TOW"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -5318,7 +5543,6 @@ Ammo_AGM_BGM71C_FITOW_x8 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 8
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_ITOW"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -5395,7 +5619,6 @@ Ammo_AGM_BGM71C_ITOW_x8 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 8
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_ITOW"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -5472,7 +5695,6 @@ Ammo_AGM_BGM71D_TOW_2_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_TOW2"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -5549,7 +5771,6 @@ Ammo_AGM_BGM71D_TOW_2_x8 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 8
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_TOW2"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -5626,7 +5847,6 @@ Ammo_AGM_HOT1 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_hot"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -5703,7 +5923,6 @@ Ammo_AGM_HOT1_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_hot"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -5780,7 +5999,6 @@ Ammo_AGM_HOT1_x6 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 6
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_hot"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -5857,7 +6075,6 @@ Ammo_AGM_HOT2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_hot"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -5934,7 +6151,6 @@ Ammo_AGM_HOT2_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_hot"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -6011,7 +6227,6 @@ Ammo_AGM_HOT2_x6 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 6
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_hot"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -6087,7 +6302,6 @@ Ammo_AGM_Kh23M is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Kh_23M"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -6163,7 +6377,6 @@ Ammo_AGM_Kh23M_helo is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Kh_23M"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -6239,7 +6452,6 @@ Ammo_AGM_Kh25ML is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Kh_25ML"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -6315,7 +6527,7 @@ Ammo_AGM_Kh25MP is TAmmunitionDescriptor
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
-    WeaponForceNote                   = 2
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_AGM_Kh25MP"
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -6391,7 +6603,6 @@ Ammo_AGM_Kh25MPU is TAmmunitionDescriptor
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -6468,7 +6679,6 @@ Ammo_AGM_Kh28_X28 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Kh_28"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -6544,7 +6754,6 @@ Ammo_AGM_Kh29D is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Kh_29"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -6620,7 +6829,6 @@ Ammo_AGM_Kh29L is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_AGM_Kh29L"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -6697,7 +6905,6 @@ Ammo_AGM_Kh29T is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 2
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Kh_29"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -6773,7 +6980,6 @@ Ammo_AGM_Kh31P is TAmmunitionDescriptor
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -6850,7 +7056,6 @@ Ammo_AGM_Kh58U is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_R33_Vympel"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -6862,10 +7067,10 @@ Ammo_AGM_Kh58U is TAmmunitionDescriptor
     MissileTimeBetweenCorrections = 1.0
     MissileDescriptor             = ~/Descriptor_Missile_AGM_Kh58U
 )
-Ammo_AGM_SS11_x2 is TAmmunitionDescriptor
+Ammo_AGM_SS11_TCA_x4 is TAmmunitionDescriptor
 (
-    DescriptorId                      = GUID:{3c12c94a-c0a6-498c-a448-ec75330f586f}
-    Name                              = 'AHDJQGBNVN'
+    DescriptorId                      = GUID:{b1b3810e-d39c-4539-a85c-c67f258adbc2}
+    Name                              = 'SZPNANMQNB'
     TypeCategoryName                  = 'AGM_air'
     Caliber                           = 'BRECOXZJBB'
     WeaponDescriptionToken            = 'ULXGADAURW'
@@ -6895,8 +7100,8 @@ Ammo_AGM_SS11_x2 is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = True
-    MaximalSpeedGRU                   = 1413
-    MaxAccelerationGRU                = 353
+    MaximalSpeedGRU                   = 427
+    MaxAccelerationGRU                = 265
     ShotWithoutPhysics                = True
     FluidFriction                     = 0.0
     NoiseDissimulationMalus           = 2.0
@@ -6904,7 +7109,7 @@ Ammo_AGM_SS11_x2 is TAmmunitionDescriptor
     TargetOnlyOneUnitInDistrict       = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
-        DescriptorId          = GUID:{0bb78469-e448-43e1-ba24-8ac5f3478c8e}
+        DescriptorId          = GUID:{00fb4b2b-cbee-4ad7-a6df-359f584bde8d}
         BaseCriticModifier = 0
         BaseHitValueModifiers =
         [
@@ -6925,7 +7130,7 @@ Ammo_AGM_SS11_x2 is TAmmunitionDescriptor
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
-    WeaponForceNote                   = 2
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_AGM_SS11_x2"
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -6935,12 +7140,12 @@ Ammo_AGM_SS11_x2 is TAmmunitionDescriptor
     TandemCharge                      = False
     DamageTypeEvolutionOverRangeDescriptor  = nil
     MissileTimeBetweenCorrections = 1.0
-    MissileDescriptor             = ~/Descriptor_Missile_AGM_SS11_x2
+    MissileDescriptor             = ~/Descriptor_Missile_AGM_SS11_TCA_x4
 )
 Ammo_AGM_SS11_x4 is TAmmunitionDescriptor
 (
-    DescriptorId                      = GUID:{bf369d61-fb8c-4265-8dfe-4e1038beb7c3}
-    Name                              = 'AHDJQGBNVN'
+    DescriptorId                      = GUID:{3175ef92-9088-4d83-9f87-498c2ef6b9a4}
+    Name                              = 'FGKLRTQMSA'
     TypeCategoryName                  = 'AGM_air'
     Caliber                           = 'BRECOXZJBB'
     WeaponDescriptionToken            = 'ULXGADAURW'
@@ -6970,8 +7175,8 @@ Ammo_AGM_SS11_x4 is TAmmunitionDescriptor
     TirIndirect                       = False
     TirReflexe                        = True
     InterdireTirReflexe               = True
-    MaximalSpeedGRU                   = 1413
-    MaxAccelerationGRU                = 353
+    MaximalSpeedGRU                   = 427
+    MaxAccelerationGRU                = 265
     ShotWithoutPhysics                = True
     FluidFriction                     = 0.0
     NoiseDissimulationMalus           = 2.0
@@ -6984,8 +7189,8 @@ Ammo_AGM_SS11_x4 is TAmmunitionDescriptor
         BaseHitValueModifiers =
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 40),
-            (EBaseHitValueModifier/Moving, 40),
+            (EBaseHitValueModifier/Idling, 50),
+            (EBaseHitValueModifier/Moving, 50),
             (EBaseHitValueModifier/Targeted, 0.0),
         ]
         DistanceToTarget = True
@@ -7000,7 +7205,7 @@ Ammo_AGM_SS11_x4 is TAmmunitionDescriptor
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
-    WeaponForceNote                   = 2
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_AGM_SS11_x2"
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -7038,7 +7243,7 @@ Ammo_ATGM_9K111_Fagot is TAmmunitionDescriptor
     RadiusSplashPhysicalDamagesGRU    = 2
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamagesGRU    = 36
+    RadiusSplashSuppressDamagesGRU    = 30
     SuppressDamages                   = 215.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
@@ -7077,7 +7282,6 @@ Ammo_ATGM_9K111_Fagot is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_9k111"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -7115,7 +7319,7 @@ Ammo_ATGM_9K111M_Fagot_M is TAmmunitionDescriptor
     RadiusSplashPhysicalDamagesGRU    = 2
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamagesGRU    = 36
+    RadiusSplashSuppressDamagesGRU    = 30
     SuppressDamages                   = 215.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
@@ -7154,7 +7358,6 @@ Ammo_ATGM_9K111M_Fagot_M is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_9k111"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -7230,7 +7433,6 @@ Ammo_ATGM_9K121_Vikhr is TAmmunitionDescriptor
     CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -7307,7 +7509,6 @@ Ammo_ATGM_9M112_1_Kobra is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Kobra"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -7384,7 +7585,6 @@ Ammo_ATGM_9M113_Konkurs_BMP2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Konkurs"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -7461,7 +7661,6 @@ Ammo_ATGM_9M113_Konkurs_x5 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 5
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Konkurs"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -7538,7 +7737,6 @@ Ammo_ATGM_9M113_KonkursM is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Konkurs"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -7615,7 +7813,6 @@ Ammo_ATGM_9M113_KonkursM_late is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_KonkursM_late"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -7692,7 +7889,6 @@ Ammo_ATGM_9M113_KonkursM_late_x5 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 5
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_KonkursM_late"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -7769,7 +7965,6 @@ Ammo_ATGM_9M114_Shturm_MTLB is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_sturm"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -7846,7 +8041,6 @@ Ammo_ATGM_9M114M_Ataka is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_kokon"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -7923,7 +8117,6 @@ Ammo_ATGM_9M114M_KokonM is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_kokon"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -8000,7 +8193,6 @@ Ammo_ATGM_9M117_Bastion is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Arkan"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -8077,7 +8269,6 @@ Ammo_ATGM_9M117M_Arkan is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Arkan"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -8154,7 +8345,6 @@ Ammo_ATGM_9M119M_Refleks is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_refleks"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -8231,7 +8421,6 @@ Ammo_ATGM_9M119M_Svir is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_refleks"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -8308,7 +8497,6 @@ Ammo_ATGM_9M128_Agona is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Kobra"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -8385,7 +8573,6 @@ Ammo_ATGM_9M14_MalyutkaP is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Malyutka"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -8462,7 +8649,6 @@ Ammo_ATGM_9M14_MalyutkaP_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Malyutka"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -8539,7 +8725,6 @@ Ammo_ATGM_9M14_MalyutkaP_x6 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 6
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Malyutka"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -8616,7 +8801,6 @@ Ammo_ATGM_9k111M_Faktoriya is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_9k111"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -8627,6 +8811,158 @@ Ammo_ATGM_9k111M_Faktoriya is TAmmunitionDescriptor
     DamageTypeEvolutionOverRangeDescriptor  = nil
     MissileTimeBetweenCorrections = 1.0
     MissileDescriptor             = ~/Descriptor_Missile_ATGM_9k111M_Faktoriya
+)
+Ammo_ATGM_ADATS is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{8830aa16-6a39-432b-81fc-2ba5635fdea7}
+    Name                              = 'SDWMIYSGUN'
+    TypeCategoryName                  = 'JTOYRAARTS'
+    Caliber                           = 'AFPUXFVNKD'
+    WeaponDescriptionToken            = 'CRYXRQVTBJ'
+    TraitsToken                       = [ 'STAT', 'manual', 'HEAT', ]
+    WeaponCursorType                  = Weapon_Cursor_GroundMissile
+    MinMaxCategory                    = MinMax_ATGM
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_ap_missile Index=25)
+    ProjectileType                    = EProjectileType/GuidedMissile
+    ImpactHappening                   = [ 'MissileATGMGen2' ]
+    FxPower                           = EFXPower/UltraLourd
+    TempsEntreDeuxTirs                = 1.0
+    TempsEntreDeuxFx                  = 1.0
+    PorteeMaximaleGRU                 = 2625
+    PorteeMinimaleGRU                 = 353
+    AngleDispersion                   = 0.0020001473227855013
+    DispersionAtMaxRangeGRU              = 18
+    DispersionAtMinRangeGRU              = 16
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamagesGRU    = 2
+    PhysicalDamages                   = 1.0
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamagesGRU    = 46
+    SuppressDamages                   = 275.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = True
+    MaximalSpeedGRU                   = 1000
+    MaxAccelerationGRU                = 500
+    ShotWithoutPhysics                = True
+    FluidFriction                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+        DescriptorId          = GUID:{8572bd0b-b612-4c35-af47-0e06998985a5}
+        BaseCriticModifier = 0
+        BaseHitValueModifiers =
+        [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 60),
+            (EBaseHitValueModifier/Moving, 0),
+            (EBaseHitValueModifier/Targeted, 0.0),
+        ]
+        DistanceToTarget = True
+    )
+    MaxSuccessiveHitCount             = 3
+    TempsDeVisee                      = 2.5
+    TempsEntreDeuxSalves              = 10.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 8
+    SupplyCost                        = 240
+    CanShootOnPosition                = False
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 8
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_TOW2"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = nil
+    TargetUnitCenter                  = False
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = True
+    TandemCharge                      = False
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+    MissileTimeBetweenCorrections = 1.0
+    MissileDescriptor             = ~/Descriptor_Missile_ATGM_ADATS
+)
+Ammo_ATGM_AS11_x4 is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{e4caa445-00b0-4682-a176-04d57f5130ca}
+    Name                              = 'AHDJQGBNVN'
+    TypeCategoryName                  = 'JTOYRAARTS'
+    Caliber                           = 'BRECOXZJBB'
+    WeaponDescriptionToken            = 'CRYXRQVTBJ'
+    TraitsToken                       = [ 'STAT', 'manual', 'HEAT', ]
+    WeaponCursorType                  = Weapon_Cursor_GroundMissile
+    MinMaxCategory                    = MinMax_ATGM
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_ap_missile Index=19)
+    ProjectileType                    = EProjectileType/GuidedMissile
+    ImpactHappening                   = [ 'MissileATGMGen1' ]
+    FxPower                           = EFXPower/UltraLourd
+    TempsEntreDeuxTirs                = 1.0
+    TempsEntreDeuxFx                  = 1.0
+    PorteeMaximaleGRU                 = 2625
+    PorteeMinimaleGRU                 = 353
+    AngleDispersion                   = 0.0020001473227855013
+    DispersionAtMaxRangeGRU              = 18
+    DispersionAtMinRangeGRU              = 16
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamagesGRU    = 2
+    PhysicalDamages                   = 1.0
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamagesGRU    = 38
+    SuppressDamages                   = 225.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = True
+    MaximalSpeedGRU                   = 310
+    MaxAccelerationGRU                = 176
+    ShotWithoutPhysics                = True
+    FluidFriction                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+        DescriptorId          = GUID:{3b7210fd-ce22-4ff9-ae20-d8bf406aad68}
+        BaseCriticModifier = 0
+        BaseHitValueModifiers =
+        [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 40),
+            (EBaseHitValueModifier/Moving, 0),
+            (EBaseHitValueModifier/Targeted, 0.0),
+        ]
+        DistanceToTarget = True
+    )
+    MaxSuccessiveHitCount             = 3
+    TempsDeVisee                      = 2.2
+    TempsEntreDeuxSalves              = 6.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 4
+    SupplyCost                        = 120
+    CanShootOnPosition                = False
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 4
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_AGM_SS11_x2"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = nil
+    TargetUnitCenter                  = False
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = True
+    TandemCharge                      = False
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+    MissileTimeBetweenCorrections = 2.0
+    MissileDescriptor             = ~/Descriptor_Missile_ATGM_AS11_x4
 )
 Ammo_ATGM_BGM71_TOW is TAmmunitionDescriptor
 (
@@ -8693,7 +9029,6 @@ Ammo_ATGM_BGM71_TOW is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_TOW"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -8770,7 +9105,6 @@ Ammo_ATGM_BGM71_TOW_x2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_TOW"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -8847,7 +9181,6 @@ Ammo_ATGM_BGM71_TOW_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_TOW"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -8924,7 +9257,6 @@ Ammo_ATGM_BGM71_TOW_x8 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 8
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_TOW"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -9001,7 +9333,6 @@ Ammo_ATGM_BGM71C_ITOW is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_ITOW"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -9078,7 +9409,6 @@ Ammo_ATGM_BGM71C_ITOW_x2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_ITOW"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -9155,7 +9485,6 @@ Ammo_ATGM_BGM71C_ITOW_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_ITOW"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -9232,7 +9561,6 @@ Ammo_ATGM_BGM71C_ITOW_x8 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 8
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_ITOW"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -9309,7 +9637,6 @@ Ammo_ATGM_BGM71D_TOW_2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_TOW2"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -9386,7 +9713,6 @@ Ammo_ATGM_BGM71D_TOW_2_x2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_TOW2"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -9463,7 +9789,6 @@ Ammo_ATGM_BGM71D_TOW_2_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_TOW2"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -9540,7 +9865,6 @@ Ammo_ATGM_BGM71D_TOW_2_x8 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 8
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_TOW2"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -9551,6 +9875,82 @@ Ammo_ATGM_BGM71D_TOW_2_x8 is TAmmunitionDescriptor
     DamageTypeEvolutionOverRangeDescriptor  = nil
     MissileTimeBetweenCorrections = 1.0
     MissileDescriptor             = ~/Descriptor_Missile_ATGM_BGM71D_TOW_2_x8
+)
+Ammo_ATGM_BGM71D_TOW_2A is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{7f9d61d0-5ecc-46dc-a0e0-5e82a410775d}
+    Name                              = 'YGIRMVNBSW'
+    TypeCategoryName                  = 'JTOYRAARTS'
+    Caliber                           = 'AFPUXFVNKD'
+    WeaponDescriptionToken            = 'CRYXRQVTBJ'
+    TraitsToken                       = [ 'STAT', 'manual', 'TANDEM', ]
+    WeaponCursorType                  = Weapon_Cursor_GroundMissile
+    MinMaxCategory                    = MinMax_ATGM
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_ap_missile Index=25)
+    ProjectileType                    = EProjectileType/GuidedMissile
+    ImpactHappening                   = [ 'MissileATGMGen2' ]
+    FxPower                           = EFXPower/UltraLourd
+    TempsEntreDeuxTirs                = 1.0
+    TempsEntreDeuxFx                  = 1.0
+    PorteeMaximaleGRU                 = 2625
+    PorteeMinimaleGRU                 = 353
+    AngleDispersion                   = 0.0020001473227855013
+    DispersionAtMaxRangeGRU              = 18
+    DispersionAtMinRangeGRU              = 16
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamagesGRU    = 2
+    PhysicalDamages                   = 1.0
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamagesGRU    = 46
+    SuppressDamages                   = 275.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = True
+    MaximalSpeedGRU                   = 427
+    MaxAccelerationGRU                = 265
+    ShotWithoutPhysics                = True
+    FluidFriction                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+        DescriptorId          = GUID:{aa1a5fcb-cce3-4d25-b8df-defc08023c83}
+        BaseCriticModifier = 0
+        BaseHitValueModifiers =
+        [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 65),
+            (EBaseHitValueModifier/Moving, 0),
+            (EBaseHitValueModifier/Targeted, 0.0),
+        ]
+        DistanceToTarget = True
+    )
+    MaxSuccessiveHitCount             = 3
+    TempsDeVisee                      = 2.2
+    TempsEntreDeuxSalves              = 8.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 1
+    SupplyCost                        = 30
+    CanShootOnPosition                = False
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 1
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_TOW2"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = nil
+    TargetUnitCenter                  = False
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = True
+    TandemCharge                      = True
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+    MissileTimeBetweenCorrections = 1.0
+    MissileDescriptor             = ~/Descriptor_Missile_ATGM_BGM71D_TOW_2A
 )
 Ammo_ATGM_BGM71D_TOW_2A_x2 is TAmmunitionDescriptor
 (
@@ -9617,7 +10017,6 @@ Ammo_ATGM_BGM71D_TOW_2A_x2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_TOW2"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -9694,7 +10093,6 @@ Ammo_ATGM_HOT1 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_hot"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -9771,7 +10169,6 @@ Ammo_ATGM_HOT1_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_hot"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -9848,7 +10245,6 @@ Ammo_ATGM_HOT1_x6 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 6
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_hot"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -9925,7 +10321,6 @@ Ammo_ATGM_HOT2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_hot"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -10002,7 +10397,6 @@ Ammo_ATGM_HOT2_x2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_hot"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -10079,7 +10473,6 @@ Ammo_ATGM_HOT2_x3 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 3
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_hot"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -10156,7 +10549,6 @@ Ammo_ATGM_HOT2_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_hot"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -10233,7 +10625,6 @@ Ammo_ATGM_HOT2_x6 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 6
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_hot"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -10310,7 +10701,6 @@ Ammo_ATGM_MGM551C_Shillelagh is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_shilelagh"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -10348,7 +10738,7 @@ Ammo_ATGM_MILAN is TAmmunitionDescriptor
     RadiusSplashPhysicalDamagesGRU    = 1
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamagesGRU    = 31
+    RadiusSplashSuppressDamagesGRU    = 25
     SuppressDamages                   = 185.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
@@ -10387,7 +10777,6 @@ Ammo_ATGM_MILAN is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Milan"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -10425,7 +10814,7 @@ Ammo_ATGM_MILAN_2 is TAmmunitionDescriptor
     RadiusSplashPhysicalDamagesGRU    = 2
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamagesGRU    = 35
+    RadiusSplashSuppressDamagesGRU    = 28
     SuppressDamages                   = 205.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
@@ -10464,7 +10853,6 @@ Ammo_ATGM_MILAN_2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Milan"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -10502,7 +10890,7 @@ Ammo_ATGM_MILAN_2_x2 is TAmmunitionDescriptor
     RadiusSplashPhysicalDamagesGRU    = 2
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamagesGRU    = 35
+    RadiusSplashSuppressDamagesGRU    = 28
     SuppressDamages                   = 205.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
@@ -10541,7 +10929,6 @@ Ammo_ATGM_MILAN_2_x2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Milan"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -10552,82 +10939,6 @@ Ammo_ATGM_MILAN_2_x2 is TAmmunitionDescriptor
     DamageTypeEvolutionOverRangeDescriptor  = nil
     MissileTimeBetweenCorrections = 1.0
     MissileDescriptor             = ~/Descriptor_Missile_ATGM_MILAN_2_x2
-)
-Ammo_ATGM_SS11_x4 is TAmmunitionDescriptor
-(
-    DescriptorId                      = GUID:{e4caa445-00b0-4682-a176-04d57f5130ca}
-    Name                              = 'AHDJQGBNVN'
-    TypeCategoryName                  = 'JTOYRAARTS'
-    Caliber                           = 'BRECOXZJBB'
-    WeaponDescriptionToken            = 'CRYXRQVTBJ'
-    TraitsToken                       = [ 'STAT', 'manual', 'HEAT', ]
-    WeaponCursorType                  = Weapon_Cursor_GroundMissile
-    MinMaxCategory                    = MinMax_ATGM
-    Arme                              = TDamageTypeRTTI(Family=DamageFamily_ap_missile Index=19)
-    ProjectileType                    = EProjectileType/GuidedMissile
-    ImpactHappening                   = [ 'MissileATGMGen1' ]
-    FxPower                           = EFXPower/UltraLourd
-    TempsEntreDeuxTirs                = 1.0
-    TempsEntreDeuxFx                  = 1.0
-    PorteeMaximaleGRU                 = 2625
-    PorteeMinimaleGRU                 = 353
-    AngleDispersion                   = 0.0020001473227855013
-    DispersionAtMaxRangeGRU              = 18
-    DispersionAtMinRangeGRU              = 16
-    DispersionWithoutSorting          = False
-    CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamagesGRU    = 2
-    PhysicalDamages                   = 1.0
-    ShowDamageInUI                    = True
-    RadiusSplashSuppressDamagesGRU    = 38
-    SuppressDamages                   = 225.0
-    AllowSuppressDamageWhenNoImpact                = True
-    DisplaySalveAccuracy              = False
-    TirIndirect                       = False
-    TirReflexe                        = True
-    InterdireTirReflexe               = True
-    MaximalSpeedGRU                   = 310
-    MaxAccelerationGRU                = 176
-    ShotWithoutPhysics                = True
-    FluidFriction                     = 0.0
-    NoiseDissimulationMalus           = 2.0
-    ShotsBeforeMaxNoise               = 2
-    TargetOnlyOneUnitInDistrict       = False
-    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
-    (
-        DescriptorId          = GUID:{800960a4-5b15-4e1b-8d58-aed79c06152e}
-        BaseCriticModifier = 0
-        BaseHitValueModifiers =
-        [
-            (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 40),
-            (EBaseHitValueModifier/Moving, 0),
-            (EBaseHitValueModifier/Targeted, 0.0),
-        ]
-        DistanceToTarget = True
-    )
-    MaxSuccessiveHitCount             = 3
-    TempsDeVisee                      = 2.2
-    TempsEntreDeuxSalves              = 6.0
-    TempsEntreDeuxSalves_Min           = -1.0
-    TempsEntreDeuxSalves_Max           = -1.0
-    NbTirParSalves                    = 4
-    SupplyCost                        = 120
-    CanShootOnPosition                = False
-    CanShootWhileMoving               = False
-    NbrProjectilesSimultanes          = 1
-    AffichageMunitionParSalve         = 4
-    WeaponForceNote                   = 2
-    SmokeDescriptor                   = nil
-    FireDescriptor                    = nil
-    TargetUnitCenter                  = False
-    CanHarmAirplanes                  = True
-    IsHarmlessForAllies               = False
-    PiercingWeapon                    = True
-    TandemCharge                      = False
-    DamageTypeEvolutionOverRangeDescriptor  = nil
-    MissileTimeBetweenCorrections = 2.0
-    MissileDescriptor             = ~/Descriptor_Missile_ATGM_SS11_x4
 )
 Ammo_ATGM_Swingfire is TAmmunitionDescriptor
 (
@@ -10694,7 +11005,6 @@ Ammo_ATGM_Swingfire is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_swingfire"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -10771,7 +11081,6 @@ Ammo_ATGM_Swingfire_x2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_swingfire"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -10848,7 +11157,6 @@ Ammo_ATGM_Swingfire_x5 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 5
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_swingfire"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -10886,7 +11194,7 @@ Ammo_ATGM_9K115_Metis_M is TAmmunitionDescriptor
     RadiusSplashPhysicalDamagesGRU    = 1
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamagesGRU    = 29
+    RadiusSplashSuppressDamagesGRU    = 25
     SuppressDamages                   = 170.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
@@ -10925,7 +11233,6 @@ Ammo_ATGM_9K115_Metis_M is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Metis"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -11000,7 +11307,6 @@ Ammo_ATGM_Eryx is TAmmunitionDescriptor
     CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -11019,7 +11325,7 @@ Ammo_Bomb_BGL_400_x1 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'QQPLEPBINP'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11066,18 +11372,17 @@ Ammo_Bomb_BGL_400_x1 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
-    SupplyCost                        = 35
+    SupplyCost                        = 60
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_BGL_400"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -11096,7 +11401,7 @@ Ammo_Bomb_BGL_400_x2 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'QQPLEPBINP'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11143,18 +11448,17 @@ Ammo_Bomb_BGL_400_x2 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
-    SupplyCost                        = 70
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 2
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_BGL_400"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -11173,7 +11477,7 @@ Ammo_Bomb_CPU_123_x1 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'QQPLEPBINP'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11220,18 +11524,17 @@ Ammo_Bomb_CPU_123_x1 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
-    SupplyCost                        = 35
+    SupplyCost                        = 60
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_CPU123"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -11250,7 +11553,7 @@ Ammo_Bomb_CPU_123_x2 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'QQPLEPBINP'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11297,18 +11600,17 @@ Ammo_Bomb_CPU_123_x2 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
-    SupplyCost                        = 70
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 2
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_CPU123"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -11327,7 +11629,7 @@ Ammo_Bomb_GBU_10_x1 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'QQPLEPBINP'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11374,18 +11676,17 @@ Ammo_Bomb_GBU_10_x1 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
-    SupplyCost                        = 35
+    SupplyCost                        = 60
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_GBU_10"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -11404,7 +11705,7 @@ Ammo_Bomb_GBU_10_x2 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'QQPLEPBINP'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11451,18 +11752,17 @@ Ammo_Bomb_GBU_10_x2 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
-    SupplyCost                        = 70
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 2
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_GBU_10"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -11481,7 +11781,7 @@ Ammo_Bomb_GBU_12_x1 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'QQPLEPBINP'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11528,18 +11828,17 @@ Ammo_Bomb_GBU_12_x1 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
-    SupplyCost                        = 35
+    SupplyCost                        = 60
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_GBU_10"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -11558,7 +11857,7 @@ Ammo_Bomb_GBU_12_x2 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'QQPLEPBINP'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11605,18 +11904,17 @@ Ammo_Bomb_GBU_12_x2 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
-    SupplyCost                        = 70
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 2
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_GBU_10"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -11635,7 +11933,7 @@ Ammo_Bomb_GBU_27_x1 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'QQPLEPBINP'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11682,18 +11980,17 @@ Ammo_Bomb_GBU_27_x1 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
-    SupplyCost                        = 35
+    SupplyCost                        = 60
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_GBU_27"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -11712,7 +12009,7 @@ Ammo_Bomb_GBU_27_x2 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'QQPLEPBINP'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11759,18 +12056,17 @@ Ammo_Bomb_GBU_27_x2 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
-    SupplyCost                        = 70
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 2
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_GBU_27"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -11789,7 +12085,7 @@ Ammo_Bomb_KAB_1500Kr_x1 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'HOLZWQKVRK'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11836,18 +12132,17 @@ Ammo_Bomb_KAB_1500Kr_x1 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
-    SupplyCost                        = 35
+    SupplyCost                        = 60
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_KAB_1500Kr"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -11866,7 +12161,7 @@ Ammo_Bomb_KAB_1500Kr_x2 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'HOLZWQKVRK'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11913,18 +12208,17 @@ Ammo_Bomb_KAB_1500Kr_x2 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
-    SupplyCost                        = 70
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 2
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_KAB_1500Kr"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -11943,7 +12237,7 @@ Ammo_Bomb_KAB_1500L_x1 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'HOLZWQKVRK'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -11990,18 +12284,17 @@ Ammo_Bomb_KAB_1500L_x1 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
-    SupplyCost                        = 35
+    SupplyCost                        = 60
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_KAB_1500Kr"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -12020,7 +12313,7 @@ Ammo_Bomb_KAB_1500L_x2 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'HOLZWQKVRK'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -12067,18 +12360,17 @@ Ammo_Bomb_KAB_1500L_x2 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
-    SupplyCost                        = 70
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_KAB_1500Kr"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -12097,7 +12389,7 @@ Ammo_Bomb_KAB_1500L_x3 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'HOLZWQKVRK'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -12144,18 +12436,17 @@ Ammo_Bomb_KAB_1500L_x3 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 3
-    SupplyCost                        = 105
+    SupplyCost                        = 180
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 3
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_KAB_1500Kr"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -12174,7 +12465,7 @@ Ammo_Bomb_KAB_500Kr_x1 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'HOLZWQKVRK'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -12221,18 +12512,17 @@ Ammo_Bomb_KAB_500Kr_x1 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
-    SupplyCost                        = 35
+    SupplyCost                        = 60
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_KAB_500Kr"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -12251,7 +12541,7 @@ Ammo_Bomb_KAB_500Kr_x2 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'HOLZWQKVRK'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -12298,18 +12588,17 @@ Ammo_Bomb_KAB_500Kr_x2 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
-    SupplyCost                        = 70
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 2
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_KAB_500Kr"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -12328,7 +12617,7 @@ Ammo_Bomb_KAB_500L_x1 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'HOLZWQKVRK'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -12375,18 +12664,17 @@ Ammo_Bomb_KAB_500L_x1 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 1
-    SupplyCost                        = 35
+    SupplyCost                        = 60
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_KAB_500Kr"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -12405,7 +12693,7 @@ Ammo_Bomb_KAB_500L_x2 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'HOLZWQKVRK'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -12452,18 +12740,17 @@ Ammo_Bomb_KAB_500L_x2 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 2
-    SupplyCost                        = 70
+    SupplyCost                        = 120
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
-    NbrProjectilesSimultanes          = 1
+    NbrProjectilesSimultanes          = 2
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_KAB_500Kr"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -12482,7 +12769,7 @@ Ammo_Bomb_KAB_500L_x4 is TAmmunitionDescriptor
     TypeCategoryName                  = 'EBKQBGCEHE'
     Caliber                           = 'HOLZWQKVRK'
     WeaponDescriptionToken            = 'VIFCZPOOHH'
-    TraitsToken                       = [ 'MOTION', 'F&F', 'HE', ]
+    TraitsToken                       = [ 'MOTION', 'semiAuto', 'HE', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
     MinMaxCategory                    = MinMax_Bombe
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
@@ -12529,18 +12816,17 @@ Ammo_Bomb_KAB_500L_x4 is TAmmunitionDescriptor
     )
     MaxSuccessiveHitCount             = 1
     TempsDeVisee                      = 0.0
-    TempsEntreDeuxSalves              = 1.0
+    TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
     NbTirParSalves                    = 4
-    SupplyCost                        = 140
+    SupplyCost                        = 240
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_KAB_500Kr"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -12617,7 +12903,6 @@ Ammo_FakeRoquette_S_24 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 2
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_s_24"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -12694,7 +12979,6 @@ Ammo_FakeRoquette_S_24_helo is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 2
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_s_24"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -12769,7 +13053,6 @@ Ammo_Javelin is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Javelin"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -12844,7 +13127,6 @@ Ammo_Javelin_LML is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 3
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Javelin"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -12861,7 +13143,7 @@ Ammo_M47_DRAGON is TAmmunitionDescriptor
     DescriptorId                      = GUID:{0efbf94f-618b-4096-af91-90ceb2843b53}
     Name                              = 'M47Dragon'
     TypeCategoryName                  = 'JTOYRAARTS'
-    Caliber                           = 'DYWANQFOQP'
+    Caliber                           = 'CZMBGCUTSD'
     WeaponDescriptionToken            = 'CRYXRQVTBJ'
     TraitsToken                       = [ 'STAT', 'manual', 'HEAT', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
@@ -12879,11 +13161,11 @@ Ammo_M47_DRAGON is TAmmunitionDescriptor
     DispersionAtMinRangeGRU              = 16
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamagesGRU    = 2
+    RadiusSplashPhysicalDamagesGRU    = 1
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamagesGRU    = 38
-    SuppressDamages                   = 230.0
+    RadiusSplashSuppressDamagesGRU    = 25
+    SuppressDamages                   = 185.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -12921,7 +13203,6 @@ Ammo_M47_DRAGON is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_M47_dragon"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -12938,7 +13219,7 @@ Ammo_M47_DRAGON_Bipied is TAmmunitionDescriptor
     DescriptorId                      = GUID:{27476593-8bff-44b9-a194-531ad21df91b}
     Name                              = 'M47Dragon'
     TypeCategoryName                  = 'JTOYRAARTS'
-    Caliber                           = 'DYWANQFOQP'
+    Caliber                           = 'CZMBGCUTSD'
     WeaponDescriptionToken            = 'CRYXRQVTBJ'
     TraitsToken                       = [ 'STAT', 'manual', 'HEAT', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
@@ -12956,11 +13237,11 @@ Ammo_M47_DRAGON_Bipied is TAmmunitionDescriptor
     DispersionAtMinRangeGRU              = 16
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
-    RadiusSplashPhysicalDamagesGRU    = 2
+    RadiusSplashPhysicalDamagesGRU    = 1
     PhysicalDamages                   = 1.0
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamagesGRU    = 38
-    SuppressDamages                   = 230.0
+    RadiusSplashSuppressDamagesGRU    = 25
+    SuppressDamages                   = 185.0
     AllowSuppressDamageWhenNoImpact                = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -12980,7 +13261,7 @@ Ammo_M47_DRAGON_Bipied is TAmmunitionDescriptor
         BaseHitValueModifiers =
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 55),
+            (EBaseHitValueModifier/Idling, 60),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0),
         ]
@@ -12998,7 +13279,6 @@ Ammo_M47_DRAGON_Bipied is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_M47_dragon"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -13015,7 +13295,7 @@ Ammo_M47_DRAGON_II is TAmmunitionDescriptor
     DescriptorId                      = GUID:{6f970602-5a78-4fb3-92f7-79dbb3ade93d}
     Name                              = 'LVQOSNYLLT'
     TypeCategoryName                  = 'JTOYRAARTS'
-    Caliber                           = 'DYWANQFOQP'
+    Caliber                           = 'CZMBGCUTSD'
     WeaponDescriptionToken            = 'CRYXRQVTBJ'
     TraitsToken                       = [ 'STAT', 'manual', 'HEAT', ]
     WeaponCursorType                  = Weapon_Cursor_GroundMissile
@@ -13075,7 +13355,6 @@ Ammo_M47_DRAGON_II is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_M47_dragon"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -13132,7 +13411,7 @@ Ammo_MANPAD_Blowpipe is TAmmunitionDescriptor
         BaseHitValueModifiers =
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 25),
+            (EBaseHitValueModifier/Idling, 30),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0),
         ]
@@ -13150,7 +13429,6 @@ Ammo_MANPAD_Blowpipe is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Javelin"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -13226,7 +13504,6 @@ Ammo_MANPAD_FIM43 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_fim92"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -13302,7 +13579,6 @@ Ammo_MANPAD_FIM92 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_fim92"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -13378,7 +13654,6 @@ Ammo_MANPAD_FIM92_A is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_fim92"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -13453,7 +13728,6 @@ Ammo_MANPAD_Javelin is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Javelin"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -13529,7 +13803,6 @@ Ammo_MANPAD_Strela2M is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_grail"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -13540,6 +13813,81 @@ Ammo_MANPAD_Strela2M is TAmmunitionDescriptor
     DamageTypeEvolutionOverRangeDescriptor  = nil
     MissileTimeBetweenCorrections = 1.0
     MissileDescriptor             = ~/Descriptor_Missile_MANPAD_Strela2M
+)
+Ammo_MANPAD_Strela3 is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{ad941e61-26c3-466b-8d84-bc300c7623a5}
+    Name                              = 'UYMLKZXCRJ'
+    TypeCategoryName                  = 'RGUHEGFUDW'
+    Caliber                           = 'AFUPSCGVHW'
+    WeaponDescriptionToken            = 'WIPELYEGTV'
+    TraitsToken                       = [ 'STAT', 'F&F', ]
+    WeaponCursorType                  = Weapon_Cursor_AirMissile
+    MinMaxCategory                    = MinMax_SAM
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_missile_he Index=1)
+    ProjectileType                    = EProjectileType/GuidedMissile
+    ImpactHappening                   = [ 'MissileAA9K38Igla' ]
+    FxPower                           = EFXPower/UltraLourd
+    TempsEntreDeuxTirs                = 3.0
+    TempsEntreDeuxFx                  = 3.0
+    PorteeMaximaleTBAGRU              = 2475
+    PorteeMaximaleHAGRU               = 2125
+    AngleDispersion                   = 0.0020001473227855013
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamagesGRU    = 30
+    PhysicalDamages                   = 4.0
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamagesGRU    = 36
+    SuppressDamages                   = 152.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = True
+    MaximalSpeedGRU                   = 5300
+    MaxAccelerationGRU                = 2826
+    ShotWithoutPhysics                = True
+    FluidFriction                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    IsFireAndForget                   = True
+    TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+        DescriptorId          = GUID:{0d6114f2-38db-4adc-b9c6-6955b039364d}
+        BaseCriticModifier = 25
+        BaseHitValueModifiers =
+        [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 40),
+            (EBaseHitValueModifier/Moving, 0),
+            (EBaseHitValueModifier/Targeted, 0.0),
+        ]
+        DistanceToTarget = True
+    )
+    MaxSuccessiveHitCount             = 3
+    TempsDeVisee                      = 2.8
+    TempsEntreDeuxSalves              = 12.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 1
+    SupplyCost                        = 25
+    CanShootOnPosition                = False
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 1
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_grail"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = nil
+    TargetUnitCenter                  = False
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    TandemCharge                      = False
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+    MissileTimeBetweenCorrections = 1.0
+    MissileDescriptor             = ~/Descriptor_Missile_MANPAD_Strela3
 )
 Ammo_MANPAD_igla is TAmmunitionDescriptor
 (
@@ -13605,7 +13953,6 @@ Ammo_MANPAD_igla is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_grail"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -13681,7 +14028,6 @@ Ammo_Mistral is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Mistral"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -13756,7 +14102,6 @@ Ammo_Mistral_Celtic_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Mistral"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -13813,7 +14158,7 @@ Ammo_SAM_9M311_Tunguska_x8 is TAmmunitionDescriptor
         BaseHitValueModifiers =
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 50),
+            (EBaseHitValueModifier/Idling, 55),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0),
         ]
@@ -13831,7 +14176,6 @@ Ammo_SAM_9M311_Tunguska_x8 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 8
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_9M311_Tunguska"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -13905,7 +14249,6 @@ Ammo_SAM_9M33 is TAmmunitionDescriptor
     CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -13935,7 +14278,7 @@ Ammo_SAM_9M330_Tor_x8 is TAmmunitionDescriptor
     TempsEntreDeuxFx                  = 3.5
     PorteeMinimaleTBAGRU              = 1000
     PorteeMaximaleTBAGRU              = 3000
-    PorteeMaximaleHAGRU               = 3525
+    PorteeMaximaleHAGRU               = 3875
     AngleDispersion                   = 0.0020001473227855013
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -13982,7 +14325,6 @@ Ammo_SAM_9M330_Tor_x8 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 8
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_9M33_Osa"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -14058,7 +14400,6 @@ Ammo_SAM_9M336_x3 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 3
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_9M38M1_Kub"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -14086,8 +14427,8 @@ Ammo_SAM_9M33M2_x6 is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 3.5
     TempsEntreDeuxFx                  = 3.5
-    PorteeMaximaleTBAGRU              = 2825
-    PorteeMaximaleHAGRU               = 3525
+    PorteeMaximaleTBAGRU              = 3175
+    PorteeMaximaleHAGRU               = 3875
     AngleDispersion                   = 0.0020001473227855013
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -14134,7 +14475,6 @@ Ammo_SAM_9M33M2_x6 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 6
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_9M33_Osa"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -14210,7 +14550,6 @@ Ammo_SAM_9M38M1_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_9M38M1_Kub"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -14285,7 +14624,6 @@ Ammo_SAM_9M8M3_x2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_SAM_9M8M3_x2"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -14296,6 +14634,79 @@ Ammo_SAM_9M8M3_x2 is TAmmunitionDescriptor
     DamageTypeEvolutionOverRangeDescriptor  = nil
     MissileTimeBetweenCorrections = 1.0
     MissileDescriptor             = ~/Descriptor_Missile_SAM_9M8M3_x2
+)
+Ammo_SAM_ADATS is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{fe684da1-c7da-4bc4-8dda-6a70e838a26e}
+    Name                              = 'GSTTAMYEQN'
+    TypeCategoryName                  = 'RGUHEGFUDW'
+    Caliber                           = 'EVYIVPZVOJ'
+    WeaponDescriptionToken            = 'WIPELYEGTV'
+    TraitsToken                       = [ 'STAT', 'manual', ]
+    WeaponCursorType                  = Weapon_Cursor_AirMissile
+    MinMaxCategory                    = MinMax_SAM
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_missile_he Index=1)
+    ProjectileType                    = EProjectileType/GuidedMissile
+    ImpactHappening                   = [ 'MIssileAAMIM72C' ]
+    FxPower                           = EFXPower/UltraLourd
+    TempsEntreDeuxTirs                = 2.0
+    TempsEntreDeuxFx                  = 2.0
+    PorteeMaximaleTBAGRU              = 3175
+    PorteeMaximaleHAGRU               = 4075
+    AngleDispersion                   = 0.0020001473227855013
+    DispersionWithoutSorting          = False
+    CorrectedShotAimtimeMultiplier    = 1.0
+    RadiusSplashPhysicalDamagesGRU    = 84
+    PhysicalDamages                   = 6.0
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamagesGRU    = 103
+    SuppressDamages                   = 432.0
+    AllowSuppressDamageWhenNoImpact                = True
+    DisplaySalveAccuracy              = False
+    TirIndirect                       = False
+    TirReflexe                        = True
+    InterdireTirReflexe               = True
+    MaximalSpeedGRU                   = 5000
+    MaxAccelerationGRU                = 1000
+    ShotWithoutPhysics                = True
+    FluidFriction                     = 0.0
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+        DescriptorId          = GUID:{4a8af56a-483c-466a-82eb-9ad231bc0ec1}
+        BaseCriticModifier = 25
+        BaseHitValueModifiers =
+        [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 60),
+            (EBaseHitValueModifier/Moving, 0),
+            (EBaseHitValueModifier/Targeted, 0.0),
+        ]
+        DistanceToTarget = True
+    )
+    MaxSuccessiveHitCount             = 3
+    TempsDeVisee                      = 2.5
+    TempsEntreDeuxSalves              = 10.0
+    TempsEntreDeuxSalves_Min           = -1.0
+    TempsEntreDeuxSalves_Max           = -1.0
+    NbTirParSalves                    = 8
+    SupplyCost                        = 400
+    CanShootOnPosition                = False
+    CanShootWhileMoving               = False
+    NbrProjectilesSimultanes          = 1
+    AffichageMunitionParSalve         = 8
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = nil
+    TargetUnitCenter                  = False
+    CanHarmAirplanes                  = True
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    TandemCharge                      = False
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+    MissileTimeBetweenCorrections = 1.0
+    MissileDescriptor             = ~/Descriptor_Missile_SAM_ADATS
 )
 Ammo_SAM_Aspide_1A_x4 is TAmmunitionDescriptor
 (
@@ -14313,8 +14724,8 @@ Ammo_SAM_Aspide_1A_x4 is TAmmunitionDescriptor
     FxPower                           = EFXPower/UltraLourd
     TempsEntreDeuxTirs                = 3.5
     TempsEntreDeuxFx                  = 3.5
-    PorteeMaximaleTBAGRU              = 2825
-    PorteeMaximaleHAGRU               = 3525
+    PorteeMaximaleTBAGRU              = 3175
+    PorteeMaximaleHAGRU               = 3875
     AngleDispersion                   = 0.0020001473227855013
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -14361,7 +14772,6 @@ Ammo_SAM_Aspide_1A_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_9M33_Osa"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -14419,8 +14829,8 @@ Ammo_SAM_FASTA_Strela2M_x4 is TAmmunitionDescriptor
         BaseHitValueModifiers =
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 35),
-            (EBaseHitValueModifier/Moving, 35),
+            (EBaseHitValueModifier/Idling, 40),
+            (EBaseHitValueModifier/Moving, 40),
             (EBaseHitValueModifier/Targeted, 0.0),
         ]
         DistanceToTarget = True
@@ -14437,7 +14847,6 @@ Ammo_SAM_FASTA_Strela2M_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_SAM_FASTA_Strela2M_x4"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -14513,7 +14922,6 @@ Ammo_SAM_FASTA_Strela2M_x4_TOWED is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_SAM_FASTA_Strela2M_x4"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -14588,7 +14996,6 @@ Ammo_SAM_FIM92_Stinger_CS is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_aim92"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -14663,7 +15070,6 @@ Ammo_SAM_FIM92_Stinger_CS_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_aim92"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -14738,7 +15144,6 @@ Ammo_SAM_FIM92_Stinger_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_aim92"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -14802,7 +15207,7 @@ Ammo_SAM_FIM92_Stinger_x8 is TAmmunitionDescriptor
         ]
     )
     MaxSuccessiveHitCount             = 3
-    TempsDeVisee                      = 2.0
+    TempsDeVisee                      = 2.5
     TempsEntreDeuxSalves              = 5.0
     TempsEntreDeuxSalves_Min           = -1.0
     TempsEntreDeuxSalves_Max           = -1.0
@@ -14813,7 +15218,6 @@ Ammo_SAM_FIM92_Stinger_x8 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 8
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_aim92"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -14888,7 +15292,6 @@ Ammo_SAM_FIM92C is TAmmunitionDescriptor
     CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -14963,7 +15366,6 @@ Ammo_SAM_I_Hawk is TAmmunitionDescriptor
     CanShootWhileMoving               = False
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -15039,7 +15441,6 @@ Ammo_SAM_I_Hawk_x3 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 3
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_hawk"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -15115,7 +15516,6 @@ Ammo_SAM_Igla is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_grail"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -15191,7 +15591,6 @@ Ammo_SAM_IglaN is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Igla"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -15267,7 +15666,6 @@ Ammo_SAM_IglaN_1M is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Igla"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -15342,7 +15740,6 @@ Ammo_SAM_IglaV is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Igla"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -15417,7 +15814,6 @@ Ammo_SAM_IglaV_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Igla"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -15493,7 +15889,6 @@ Ammo_SAM_MIM72A is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_mim72"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -15522,7 +15917,7 @@ Ammo_SAM_MIM72F is TAmmunitionDescriptor
     TempsEntreDeuxTirs                = 4.0
     TempsEntreDeuxFx                  = 4.0
     PorteeMaximaleTBAGRU              = 3000
-    PorteeMaximaleHAGRU               = 2825
+    PorteeMaximaleHAGRU               = 3000
     AngleDispersion                   = 0.0020001473227855013
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -15569,7 +15964,6 @@ Ammo_SAM_MIM72F is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_mim72"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -15645,7 +16039,6 @@ Ammo_SAM_MIM72G is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_mim72"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -15721,7 +16114,6 @@ Ammo_SAM_Mistral is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Mistral"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -15797,7 +16189,6 @@ Ammo_SAM_R440_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_R440"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -15872,7 +16263,6 @@ Ammo_SAM_RAPIER is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Rapier"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -15948,7 +16338,6 @@ Ammo_SAM_RAPIER_DARKFIRE_x6 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 6
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Rapier"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -16024,7 +16413,6 @@ Ammo_SAM_RAPIER_FSA_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Rapier"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -16099,7 +16487,6 @@ Ammo_SAM_RAPIER_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Rapier"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -16174,7 +16561,6 @@ Ammo_SAM_RAPIER_x8 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 8
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Rapier"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -16193,7 +16579,7 @@ Ammo_SAM_ROLAND is TAmmunitionDescriptor
     TypeCategoryName                  = 'RGUHEGFUDW'
     Caliber                           = 'AFUPSCGVHW'
     WeaponDescriptionToken            = 'WIPELYEGTV'
-    TraitsToken                       = [ 'STAT', 'F&F', ]
+    TraitsToken                       = [ 'STAT', 'manual', ]
     WeaponCursorType                  = Weapon_Cursor_AirMissile
     MinMaxCategory                    = MinMax_SAM
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_missile_he Index=1)
@@ -16203,7 +16589,7 @@ Ammo_SAM_ROLAND is TAmmunitionDescriptor
     TempsEntreDeuxTirs                = 4.0
     TempsEntreDeuxFx                  = 4.0
     PorteeMaximaleTBAGRU              = 2825
-    PorteeMaximaleHAGRU               = 2650
+    PorteeMaximaleHAGRU               = 3525
     AngleDispersion                   = 0.0020001473227855013
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -16223,7 +16609,6 @@ Ammo_SAM_ROLAND is TAmmunitionDescriptor
     FluidFriction                     = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-    IsFireAndForget                   = True
     TargetOnlyOneUnitInDistrict       = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -16232,7 +16617,7 @@ Ammo_SAM_ROLAND is TAmmunitionDescriptor
         BaseHitValueModifiers =
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 50),
+            (EBaseHitValueModifier/Idling, 45),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0),
         ]
@@ -16250,7 +16635,6 @@ Ammo_SAM_ROLAND is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_roland"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -16269,7 +16653,7 @@ Ammo_SAM_ROLAND_1 is TAmmunitionDescriptor
     TypeCategoryName                  = 'RGUHEGFUDW'
     Caliber                           = 'AFUPSCGVHW'
     WeaponDescriptionToken            = 'WIPELYEGTV'
-    TraitsToken                       = [ 'STAT', 'F&F', ]
+    TraitsToken                       = [ 'STAT', 'manual', ]
     WeaponCursorType                  = Weapon_Cursor_AirMissile
     MinMaxCategory                    = MinMax_SAM
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_missile_he Index=1)
@@ -16279,7 +16663,7 @@ Ammo_SAM_ROLAND_1 is TAmmunitionDescriptor
     TempsEntreDeuxTirs                = 4.0
     TempsEntreDeuxFx                  = 4.0
     PorteeMaximaleTBAGRU              = 2825
-    PorteeMaximaleHAGRU               = 2650
+    PorteeMaximaleHAGRU               = 3525
     AngleDispersion                   = 0.0020001473227855013
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -16299,7 +16683,6 @@ Ammo_SAM_ROLAND_1 is TAmmunitionDescriptor
     FluidFriction                     = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-    IsFireAndForget                   = True
     TargetOnlyOneUnitInDistrict       = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -16308,7 +16691,7 @@ Ammo_SAM_ROLAND_1 is TAmmunitionDescriptor
         BaseHitValueModifiers =
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 50),
+            (EBaseHitValueModifier/Idling, 45),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0),
         ]
@@ -16326,7 +16709,6 @@ Ammo_SAM_ROLAND_1 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_roland"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -16345,7 +16727,7 @@ Ammo_SAM_ROLAND_1_x2 is TAmmunitionDescriptor
     TypeCategoryName                  = 'RGUHEGFUDW'
     Caliber                           = 'AFUPSCGVHW'
     WeaponDescriptionToken            = 'WIPELYEGTV'
-    TraitsToken                       = [ 'STAT', 'F&F', ]
+    TraitsToken                       = [ 'STAT', 'manual', ]
     WeaponCursorType                  = Weapon_Cursor_AirMissile
     MinMaxCategory                    = MinMax_SAM
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_missile_he Index=1)
@@ -16355,7 +16737,7 @@ Ammo_SAM_ROLAND_1_x2 is TAmmunitionDescriptor
     TempsEntreDeuxTirs                = 4.0
     TempsEntreDeuxFx                  = 4.0
     PorteeMaximaleTBAGRU              = 2825
-    PorteeMaximaleHAGRU               = 2650
+    PorteeMaximaleHAGRU               = 3525
     AngleDispersion                   = 0.0020001473227855013
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -16375,7 +16757,6 @@ Ammo_SAM_ROLAND_1_x2 is TAmmunitionDescriptor
     FluidFriction                     = 0.0
     NoiseDissimulationMalus           = 2.0
     ShotsBeforeMaxNoise               = 2
-    IsFireAndForget                   = True
     TargetOnlyOneUnitInDistrict       = False
     HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
     (
@@ -16384,7 +16765,7 @@ Ammo_SAM_ROLAND_1_x2 is TAmmunitionDescriptor
         BaseHitValueModifiers =
         [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 50),
+            (EBaseHitValueModifier/Idling, 45),
             (EBaseHitValueModifier/Moving, 0),
             (EBaseHitValueModifier/Targeted, 0.0),
         ]
@@ -16402,7 +16783,6 @@ Ammo_SAM_ROLAND_1_x2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_roland"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -16477,7 +16857,6 @@ Ammo_SAM_ROLAND_2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_roland"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -16552,7 +16931,6 @@ Ammo_SAM_ROLAND_2_x2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_roland"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -16628,7 +17006,6 @@ Ammo_SAM_ROLAND_3 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 1
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_roland"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -16704,7 +17081,6 @@ Ammo_SAM_ROLAND_3_x2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_roland"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -16780,7 +17156,6 @@ Ammo_SAM_Strela1_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_9K31_Strela"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -16856,7 +17231,6 @@ Ammo_SAM_Strela10_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Strela_10"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -16885,7 +17259,7 @@ Ammo_SAM_Strela10M3_x4 is TAmmunitionDescriptor
     TempsEntreDeuxTirs                = 4.0
     TempsEntreDeuxFx                  = 4.0
     PorteeMaximaleTBAGRU              = 3000
-    PorteeMaximaleHAGRU               = 2825
+    PorteeMaximaleHAGRU               = 3000
     AngleDispersion                   = 0.0020001473227855013
     DispersionWithoutSorting          = False
     CorrectedShotAimtimeMultiplier    = 1.0
@@ -16932,7 +17306,6 @@ Ammo_SAM_Strela10M3_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Strela_10"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -17007,7 +17380,6 @@ Ammo_SAM_Strela2_x12 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Igla"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -17082,7 +17454,6 @@ Ammo_SAM_Strela2_x2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Igla"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -17157,7 +17528,6 @@ Ammo_SAM_Strela2_x4 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 4
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_Igla"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False
@@ -17233,7 +17603,6 @@ Ammo_SAM_Strela2M_x2 is TAmmunitionDescriptor
     NbrProjectilesSimultanes          = 1
     AffichageMunitionParSalve         = 2
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_SAM_FASTA_Strela2M_x4"
-    WeaponForceNote                   = 2
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     TargetUnitCenter                  = False

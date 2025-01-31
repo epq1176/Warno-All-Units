@@ -70,14 +70,14 @@ MinimapPanelDescriptor is TUISpecificBUCKMinimapDescriptor
 InGameMinimap is TUISpecificInGameMinimapResources
 (
     WorldFloorProxy                     = $/M3D/Scene/WorldFloorForIAProxy
-    CameraMoverTargetClient             = $/Camera/CameraMoverTargetClient
+    CameraManipulator             = $/Camera/CameraManipulator
     CameraMoverHelperProxy              = $/M3D/Scene/IngameCameraMoverHelperProxy
 
     CameraAngleTexture                  = ~/Texture_Minimap_CameraAngle
 
     UniformAntiAliasedDrawer            = $/UserInterface/UIUniformAntiAliasedDrawer
 
-    BackgroundDrawer = "ColorMultiply"
+    TextureDrawer = "ColorMultiply"
 
     TextureForPingType = MAP[
         ( MinimapPing_Beep, ~/Texture_Minimap_Alert ),
@@ -116,7 +116,7 @@ InGameMinimap is TUISpecificInGameMinimapResources
     SortOrderInsideLayer                = [3,1,2,0]
 
     EventDuration                       = 0.80
-    Camera                              = $/M3D/Camera/CameraPrincipale
+    Camera                              = $/M3D/Misc/CameraPrincipale
 
     SeuilRotateCameraInDegree           = 20
 

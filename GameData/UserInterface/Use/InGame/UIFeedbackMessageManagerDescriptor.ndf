@@ -389,7 +389,6 @@ OnTargetUnitDestroyed is TUIFeedbackDispatchedMessageDescriptor // une unité du
     IsActiveForPlayer = true
     IsActiveForAllies = false
     IsActiveForEnemies = false
-    IsActiveOnlyOnSelectedUnits = false
     UnitAcknow = TAcknowUnitAction_TargetDestroyed
     TimeBeforeRepeat = 5
 )
@@ -400,7 +399,7 @@ OnTargetUnitDestroyed_ShowScoreOnDeadUnit is TUIFeedbackDispatchedMessageDescrip
 
     LabelDescriptor = TFeedback2DLabelDescriptor(
         UILayer = $/UserInterface/UILayer_Labels
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
 
         ComponentDescriptor = BUCKTextDescriptor
         (
@@ -443,7 +442,6 @@ OnTargetDistrictDestroyed is TUIFeedbackDispatchedMessageDescriptor
     IsActiveForPlayer = true
     IsActiveForAllies = false
     IsActiveForEnemies = false
-    IsActiveOnlyOnSelectedUnits = false
     //UnitAcknow = TAcknowUnitAction_TargetDestroyed
     TimeBeforeRepeat = 5
 )
@@ -453,7 +451,6 @@ OnTargetBuildingDestroyed is TUIFeedbackDispatchedMessageDescriptor
     IsActiveForPlayer = true
     IsActiveForAllies = false
     IsActiveForEnemies = false
-    IsActiveOnlyOnSelectedUnits = false
     //UnitAcknow = TAcknowUnitAction_TargetDestroyed
     TimeBeforeRepeat = 5
 )
@@ -652,7 +649,7 @@ OnAutomaticBehavior is TUIFeedbackDispatchedMessageDescriptor
 
     LabelDescriptor = TFeedback2DLabelDescriptor(
         UILayer = $/UserInterface/UILayer_Labels
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
 
         ComponentDescriptor = BUCKTextDescriptor
         (
@@ -697,7 +694,7 @@ OnUnitSold is TUIFeedbackDispatchedMessageDescriptor
 
     LabelDescriptor = TFeedback2DLabelDescriptor(
         UILayer = $/UserInterface/UILayer_Labels
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
 
         ComponentDescriptor = BUCKTextDescriptor
         (
@@ -742,7 +739,7 @@ OnGainXpLevel is TUIFeedbackDispatchedMessageDescriptor
 
     LabelDescriptor = TFeedback2DLabelDescriptor(
         UILayer = $/UserInterface/UILayer_Labels
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
 
         ComponentDescriptor = BUCKTextDescriptor
         (
@@ -786,7 +783,7 @@ OnIFV is TUIFeedbackDispatchedMessageDescriptor
 
     LabelDescriptor = TFeedback2DLabelDescriptor(
         UILayer = $/UserInterface/UILayer_Labels
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
 
         ComponentDescriptor = BUCKTextDescriptor
         (
