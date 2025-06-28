@@ -28,12 +28,7 @@ template DistrictDescriptor
             BuildingCadavreModuleDescriptor
             (
                 CadavreDuration = $/GFX/Unit/CadavreDurationApresFeu_Batiment
-                ModuleDescriptorsToSteal =
-                [
-                    ~/DistrictApparenceModuleDescriptor,
-                ]
             ),
-            ~/DistrictApparenceModuleDescriptor,
         ]
     )
 

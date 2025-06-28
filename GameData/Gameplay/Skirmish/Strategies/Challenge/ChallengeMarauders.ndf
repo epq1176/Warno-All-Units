@@ -6,7 +6,6 @@ export ChallengeMarauders is TIAGeneralStrategy
 (
     StrategyName = "MaraudAI"
     FirstGenerator = ChalMarauders_Choose_Strategy
-    AllowToByPassNbMacroActionAllowedToProduceSimultaneous = true
     TransitionList =
     [
         ChalMarauders_Transition_StartToPhaseCommand,
@@ -56,20 +55,16 @@ export ChalMarauders_Transition_DeployToCommandPhase is TIAGeneralStrategyTransi
 export ChalMarauders_Choose_Strategy is TSequenceGeneratorDescriptor
 (
     // Fake phase qui permet juste d'orienter la strategie dans la direction voulue
-    NbMacroActionAllowedToProduceSimultaneous = 9001
     GeneratorList =
     [
-        ~/Support_Transports,
         ~/Supply_Skirmish,
     ]
 )
 //-------------------------------------------------------------------------
 export ChalMarauders_Phase_Deploiement is TSequenceGeneratorDescriptor
 (
-    NbMacroActionAllowedToProduceSimultaneous = 4
     GeneratorList =
     [
-        ~/Support_Transports,
         ~/Supply_Skirmish,
 
         ~/CaptureOneObjectif,
@@ -88,10 +83,8 @@ export ChalMarauders_Phase_Deploiement is TSequenceGeneratorDescriptor
 //-------------------------------------------------------------------------
 export ChalMarauders_Phase_Command is TSequenceGeneratorDescriptor
 (
-    NbMacroActionAllowedToProduceSimultaneous = 3
     GeneratorList =
     [
-        ~/Support_Transports,
         ~/Supply_Skirmish,
 
         ~/CaptureOneObjectif,
@@ -111,10 +104,8 @@ export ChalMarauders_Phase_Command is TSequenceGeneratorDescriptor
 //-------------------------------------------------------------------------
 export ChalMarauders_Phase_2 is TSequenceGeneratorDescriptor
 (
-    NbMacroActionAllowedToProduceSimultaneous = 3
     GeneratorList =
     [
-        ~/Support_Transports,
         ~/Supply_Skirmish,
 
         ~/CaptureOneObjectif,

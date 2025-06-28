@@ -886,7 +886,6 @@ PackEffetCritique_VehiculeSansTourelle is
     CriticalEffect_ArmourCracked (Roll = (8,8)),
     CriticalEffect_Spalling (Roll = (9,9)),
     CriticalEffect_TracksBroken(Roll = (10,10)),
-    // CriticalEffect_TurretStuck(Roll = (11,11)),
 ]
 
 PackEffetCritique_VehiculeStandard is
@@ -914,16 +913,6 @@ PackEffetCritique_VehiculeNonArme is
     CriticalEffect_Spalling (Roll = (6,6)),
 ]
 
-PackEffetChenille is
-[
-    CriticalEffect_TracksBroken(Roll = (8,8)),
-]
-
-PackEffetCritiqueTourelle is
-[
-    CriticalEffect_TurretStuck(Roll = (9,9)),
-]
-
 PackEffetCritique_HelicoArme is
 [
     HelicoCriticalEffect_HUD(Roll = (1,1)),
@@ -937,6 +926,7 @@ PackEffetCritique_HelicoArme is
     HelicoCriticalEffect_Hydraulic_Fluid_Fire(Roll = (9,9)),
     HelicoCriticalEffect_TailRotorDamaged(Roll = (10,10)),
 ]
+
 PackEffetCritique_HelicoNonArme is
 [
     HelicoCriticalEffect_HUD(Roll = (1,1)),

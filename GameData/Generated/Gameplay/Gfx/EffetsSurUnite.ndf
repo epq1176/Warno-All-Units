@@ -967,7 +967,7 @@ export UnitEffect_Critic_Bailed_Out is TEffectsPackDescriptor
         TUnitEffectIncreaseSpecializedDetectionDescriptor
         (
             ModifierType       = ~/ModifierType_Remplacement
-            VisionType         = ~/EVisionUnitType/HighAltitude
+            VisionType         = ~/EVisionRange/HighAltitude
             BonusValueGRU      = 0
         ),
         TUnitEffectIncreaseInfluenceValueDescriptor
@@ -2840,6 +2840,22 @@ export UnitEffect_Steelman_supprimer_PA is TEffectsPackDescriptor
         ),
     ]
 )
+export UnitEffect_Stop_Mouvement is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{8a6afebe-4c8b-414c-b7a8-de93f7ed5a3f}
+    NameForDebug       = 'Stop_Mouvement'
+    EffectsDescriptors = [
+        TUnitEffectIncreaseSpeedDescriptor
+        (
+            ModifierType             = ~/ModifierType_Multiplicatif
+            BonusSpeedBaseInPercent  = 0
+        ),
+        TUnitEffectShowLabelIconDescriptor
+        (
+            TextureToken         = "icone_effet_stressOnMiss"
+        ),
+    ]
+)
 export UnitEffect_Supprime_Zone_Dinfluence is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{e79a1715-5f11-4eed-af1a-a40eec133f27}
@@ -3166,7 +3182,7 @@ export UnitEffect_fireDirection is TEffectsPackDescriptor
         TBonusWeaponAimtimeEffectDescriptor
         (
             ModifierType  = ~/ModifierType_Multiplicatif
-            ModifierValue = 0.50
+            ModifierValue = 0.9
         ),
         TUnitEffectShowLabelIconDescriptor
         (
@@ -3230,6 +3246,30 @@ export UnitEffect_military_police_feedback is TEffectsPackDescriptor
         ),
     ]
 )
+export UnitEffect_militia is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{4eec97b7-467a-48fe-973d-b29f45fac270}
+    NameForDebug       = 'militia'
+    EffectsDescriptors = [
+        TBonusWeaponAimtimeEffectDescriptor
+        (
+            ModifierType  = ~/ModifierType_Multiplicatif
+            ModifierValue = 1.20
+        ),
+        TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
+        (
+            ModifierType  = ~/ModifierType_Multiplicatif
+            ModifierValue = 1.20
+        ),
+    ]
+)
+export UnitEffect_mountaineer is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{a21561c6-f883-4329-8cd3-8b469d00d147}
+    NameForDebug       = 'mountaineer'
+    EffectsDescriptors = [
+    ]
+)
 export UnitEffect_reserviste is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{1dff7959-88b2-406a-97e2-5ea999886bf8}
@@ -3241,11 +3281,6 @@ export UnitEffect_reserviste is TEffectsPackDescriptor
             BonusDamage         = 1.5
             DamageType          = EDamageType/Suppress
         ),
-        TBonusWeaponAimtimeEffectDescriptor
-        (
-            ModifierType  = ~/ModifierType_Multiplicatif
-            ModifierValue = 1.20
-        ),
         TUnitEffectIncreaseWeaponPrecisionArretDescriptor
         (
             ModifierType  = ~/ModifierType_Additionnel
@@ -3255,11 +3290,6 @@ export UnitEffect_reserviste is TEffectsPackDescriptor
         (
             ModifierType  = ~/ModifierType_Additionnel
             ModifierValue = -5
-        ),
-        TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
-        (
-            ModifierType  = ~/ModifierType_Multiplicatif
-            ModifierValue = 1.15
         ),
         TUnitEffectShowLabelIconDescriptor
         (

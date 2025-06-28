@@ -8998,12 +8998,6 @@ Descriptor_StrategicPack_UAZ_469_SOV_Atteam_Fagot_VDV_SOV_2 is DeckPackDescripto
     Unit = $/GFX/Unit/Descriptor_Unit_Atteam_Fagot_VDV_SOV
 )
 
-Descriptor_StrategicPack_Mortier_2S12_120mm_VDV_SOV_2 is DeckPackDescriptor
-(
-    Xp = 2
-    Unit = $/GFX/Unit/Descriptor_Unit_Mortier_2S12_120mm_VDV_SOV
-)
-
 Descriptor_StrategicPack_UAZ_469_Reco_SOV_Scout_VDV_SOV_2 is DeckPackDescriptor
 (
     Xp = 2

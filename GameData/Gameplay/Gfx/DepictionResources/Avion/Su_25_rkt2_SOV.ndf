@@ -10,7 +10,7 @@ export Modele_Su_25_rkt2_SOV_MID is TResourceMesh
 
 export Modele_Su_25_rkt2_SOV_LOW is TResourceMesh
 (
-    Mesh="GameData:/Assets/3D/Units/URSS/Avion/Su_25_LOW/Su_25_rkt_LOW.fbx"
+    Mesh="GameData:/Assets/3D/Units/URSS/Avion/Su_25_LOW/Su_25_rkt2_LOW.fbx"
 )
 
 export Modele_Su_25_rkt2_SOV_train is TResourceMesh

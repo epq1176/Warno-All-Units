@@ -10,7 +10,6 @@ export AttackCorridorTouchdown_TestAuto_Strategy is TIAGeneralStrategy
 //-------------------------------------------------------------------------
 export TestAuto_AttackCorridorTouchdown is TSequenceGeneratorDescriptor
 (
-    NbMacroActionAllowedToProduceSimultaneous = 9001
     GeneratorList =
     [
         ~/Attack_Corridor_MiddleCommandZone_OnlyTestAuto,

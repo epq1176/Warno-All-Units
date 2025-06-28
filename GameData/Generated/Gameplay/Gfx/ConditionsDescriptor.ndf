@@ -1,114 +1,101 @@
 // Ne pas éditer, ce fichier est généré par ConditionFileWriter
 
-ConditionTagRaisedInUnit_GSR_ok_1 is TConditionTagRaisedInUnit
+ConditionTagRaisedInUnit_GSR_ok is TConditionTagRaisedInUnit
 (
-    DescriptorId    = GUID:{2d545288-878c-43ce-8c67-a61bccc9a4ad}
+    DescriptorId    = GUID:{3af63777-3d2a-4830-9917-a4e0374080c6}
     Tag             = "GSR_ok"
-    Amount          = 1
 )
-ConditionTagRaisedInUnit_GroundUnit_Engaged_1 is TConditionTagRaisedInUnit
+ConditionTagRaisedInUnit_GroundUnit_Engaged is TConditionTagRaisedInUnit
 (
-    DescriptorId    = GUID:{b98c3452-5d42-4a45-be78-c51ffda30814}
+    DescriptorId    = GUID:{1f8d4697-c6c5-460d-b52c-b15b1e293a12}
     Tag             = "GroundUnit_Engaged"
-    Amount          = 1
 )
-ConditionTagRaisedInUnit_Hors_Transport_1 is TConditionTagRaisedInUnit
+ConditionTagRaisedInUnit_Hors_Transport is TConditionTagRaisedInUnit
 (
-    DescriptorId    = GUID:{474bba8f-c47c-4e16-858c-dd51a5c88ea7}
+    DescriptorId    = GUID:{c6e3cfac-eb93-487d-94b5-b774ecbe593b}
     Tag             = "Hors_Transport"
-    Amount          = 1
 )
-ConditionTagRaisedInUnit_Infanterie_Cowering_1 is TConditionTagRaisedInUnit
+ConditionTagRaisedInUnit_Infanterie_Cowering is TConditionTagRaisedInUnit
 (
-    DescriptorId    = GUID:{49db382d-6947-4e47-a952-364c1e06a4bb}
+    DescriptorId    = GUID:{0d362677-254a-49c1-8e83-d6e0d55aa8e8}
     Tag             = "Infanterie_Cowering"
-    Amount          = 1
 )
-ConditionTagRaisedInUnit_Trepied_ok_1 is TConditionTagRaisedInUnit
+ConditionTagRaisedInUnit_Trepied_ok is TConditionTagRaisedInUnit
 (
-    DescriptorId    = GUID:{1a609372-0079-4372-899c-b5254976f242}
+    DescriptorId    = GUID:{e9f62471-5f85-49f2-808c-36d3564481a0}
     Tag             = "Trepied_ok"
-    Amount          = 1
 )
-ConditionTagRaisedInUnit_snipe_ok_1 is TConditionTagRaisedInUnit
+ConditionTagRaisedInUnit_snipe_ok is TConditionTagRaisedInUnit
 (
-    DescriptorId    = GUID:{3e134a50-58f9-4c92-8aea-10a407fc1e2e}
+    DescriptorId    = GUID:{065c476d-9428-43e1-9380-51b5086cb621}
     Tag             = "snipe_ok"
-    Amount          = 1
 )
-ConditionTagRaisedInUnit_xp_elite_1 is TConditionTagRaisedInUnit
+ConditionTagRaisedInUnit_xp_elite is TConditionTagRaisedInUnit
 (
-    DescriptorId    = GUID:{e91f6584-4df2-4e31-93e9-60f4b36c4d83}
+    DescriptorId    = GUID:{b85903dc-cdd5-4a24-a356-b439a648bdb6}
     Tag             = "xp_elite"
-    Amount          = 1
 )
-ConditionTagRaisedInUnit_xp_regular_1 is TConditionTagRaisedInUnit
+ConditionTagRaisedInUnit_xp_regular is TConditionTagRaisedInUnit
 (
-    DescriptorId    = GUID:{fe9972a2-f54e-4ac0-ac7b-e1f90a12b8b6}
+    DescriptorId    = GUID:{768e71b9-21ed-4035-a1d5-b86be6163d73}
     Tag             = "xp_regular"
-    Amount          = 1
 )
-ConditionTagRaisedInUnit_xp_veteran_1 is TConditionTagRaisedInUnit
+ConditionTagRaisedInUnit_xp_veteran is TConditionTagRaisedInUnit
 (
-    DescriptorId    = GUID:{f6e3a7b7-473a-40e2-8e67-a99e8c68d0a8}
+    DescriptorId    = GUID:{09dee24e-c706-41b7-8eff-86763134303c}
     Tag             = "xp_veteran"
-    Amount          = 1
 )
-ConditionTagNotRaisedInUnit_IFV_ok_1 is TConditionTagNotRaisedInUnit
+ConditionTagNotRaisedInUnit_IFV_ok is TConditionTagNotRaisedInUnit
 (
-    DescriptorId    = GUID:{d02fd01f-e8cd-45fd-9af7-bc29611b5c6d}
+    DescriptorId    = GUID:{dc33e94e-f4ad-45f5-93fe-7684050b128c}
     Tag             = "IFV_ok"
-    Amount          = 1
 )
-ConditionTagNotRaisedInUnit_Panique_1 is TConditionTagNotRaisedInUnit
+ConditionTagNotRaisedInUnit_Panique is TConditionTagNotRaisedInUnit
 (
-    DescriptorId    = GUID:{98a1f046-aa7e-40dd-a112-7bcb5ebfebc2}
+    DescriptorId    = GUID:{c16322b0-8108-4724-80f8-5386379ba448}
     Tag             = "Panique"
-    Amount          = 1
 )
-ConditionTagNotRaisedInUnit_RadioJammed_1 is TConditionTagNotRaisedInUnit
+ConditionTagNotRaisedInUnit_RadioJammed is TConditionTagNotRaisedInUnit
 (
-    DescriptorId    = GUID:{002b4d16-9040-49ff-95af-d7ac89bdf0a7}
+    DescriptorId    = GUID:{8707e750-7176-4a05-a893-52af1e430125}
     Tag             = "RadioJammed"
-    Amount          = 1
 )
-ConditionTagNotRaisedInUnit_Retraite_1 is TConditionTagNotRaisedInUnit
+ConditionTagNotRaisedInUnit_Retraite is TConditionTagNotRaisedInUnit
 (
-    DescriptorId    = GUID:{da8fa7cf-7727-48e9-925e-ffb74e0c94c0}
+    DescriptorId    = GUID:{192f436e-70fd-413b-ac5f-af3a17019fb4}
     Tag             = "Retraite"
-    Amount          = 1
 )
-ConditionTagNotRaisedInUnit_choc_ok_1 is TConditionTagNotRaisedInUnit
+ConditionTagNotRaisedInUnit_choc_ok is TConditionTagNotRaisedInUnit
 (
-    DescriptorId    = GUID:{c03f56e5-2fb9-4eaa-a88f-e8a04020a0d7}
+    DescriptorId    = GUID:{0575a67e-b094-44c9-b5ca-2498fbe51df0}
     Tag             = "choc_ok"
-    Amount          = 1
 )
-ConditionTagNotRaisedInUnit_reserviste_immune_1 is TConditionTagNotRaisedInUnit
+ConditionTagNotRaisedInUnit_reserviste_immune is TConditionTagNotRaisedInUnit
 (
-    DescriptorId    = GUID:{c15662e0-5e4a-4f97-8970-76c84c739398}
+    DescriptorId    = GUID:{a8ac3a17-7212-42cd-b0b8-63f00f86e613}
     Tag             = "reserviste_immune"
-    Amount          = 1
 )
-ConditionTagNotRaisedInUnit_sigint_close_1 is TConditionTagNotRaisedInUnit
+ConditionTagNotRaisedInUnit_sigint_close is TConditionTagNotRaisedInUnit
 (
-    DescriptorId    = GUID:{197d6af0-7b04-4960-aa5f-351ce53a8157}
+    DescriptorId    = GUID:{5322bcfd-e2dd-449c-870e-e0b6afb0cd67}
     Tag             = "sigint_close"
-    Amount          = 1
 )
-ConditionTagNotRaisedInUnit_sigint_ok_1 is TConditionTagNotRaisedInUnit
+ConditionTagNotRaisedInUnit_sigint_ok is TConditionTagNotRaisedInUnit
 (
-    DescriptorId    = GUID:{4ffb1486-4921-4e1d-b1a8-8af5fb2777f6}
+    DescriptorId    = GUID:{39a4debe-2b96-49ab-a5e2-dae5552035d7}
     Tag             = "sigint_ok"
-    Amount          = 1
 )
-ConditionTagNotRaisedInUnit_snipe_ok_1 is TConditionTagNotRaisedInUnit
+ConditionTagNotRaisedInUnit_snipe_ok is TConditionTagNotRaisedInUnit
 (
-    DescriptorId    = GUID:{815f3c8e-89c1-4537-888b-0df4a15f7956}
+    DescriptorId    = GUID:{38566e49-7df6-44ff-a7a7-956e516dde12}
     Tag             = "snipe_ok"
-    Amount          = 1
 )
 ConditionNotInMovement is TConditionNotInMovement
 (
     DescriptorId    = GUID:{959966e6-de27-4d31-b6de-4bd51244d355}
+)
+ConditionTimeAfterShot_30000 is TConditionTimeAfterShot
+(
+    DescriptorId    = GUID:{2ad1563b-3eb6-41cb-b14f-b7161490ba5c}
+    Duration        = 30.00
 )

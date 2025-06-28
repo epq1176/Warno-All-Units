@@ -6,7 +6,6 @@ export ChallengeHydra_NorthWest_Strategy is TIAGeneralStrategy
 (
     StrategyName = "HydraAInw"
     FirstGenerator = ChalHydra_NW_Choose_Strategy
-    AllowToByPassNbMacroActionAllowedToProduceSimultaneous = true
     AuthorizedCorridorList = [1]
     TransitionList =
     [
@@ -57,20 +56,16 @@ export ChalHydra_NW_Transition_DeployToCommandPhase is TIAGeneralStrategyTransit
 export ChalHydra_NW_Choose_Strategy is TSequenceGeneratorDescriptor
 (
     // Fake phase qui permet juste d'orienter la strategie dans la direction voulue
-    NbMacroActionAllowedToProduceSimultaneous = 9001
     GeneratorList =
     [
-        ~/Support_Transports,
         ~/Supply_Skirmish,
     ]
 )
 //-------------------------------------------------------------------------
 export ChalHydra_NW_Phase_Deploiement is TSequenceGeneratorDescriptor
 (
-    NbMacroActionAllowedToProduceSimultaneous = 4
     GeneratorList =
     [
-        ~/Support_Transports,
         ~/Supply_Skirmish,
 
         ~/CaptureOneObjectif,
@@ -87,10 +82,8 @@ export ChalHydra_NW_Phase_Deploiement is TSequenceGeneratorDescriptor
 //-------------------------------------------------------------------------
 export ChalHydra_NW_Phase_Command is TSequenceGeneratorDescriptor
 (
-    NbMacroActionAllowedToProduceSimultaneous = 3
     GeneratorList =
     [
-        ~/Support_Transports,
         ~/Supply_Skirmish,
 
         ~/CaptureOneObjectif,

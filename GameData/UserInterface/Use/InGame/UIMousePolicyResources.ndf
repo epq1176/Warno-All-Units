@@ -873,8 +873,7 @@ private template TextComponentWeapon
 
 template Template_SoftwareMouseWidgetResource_Targeting
 [
-    SoftwareCursorTextureName       = "",
-    HardwareMouseCursorAnimation    = ~/MouseCursorAnimationPointerSelectionRed,
+    SoftwareCursorTextureName,
 ]
 is TUIMouseWidgetResource
 (
@@ -884,7 +883,7 @@ is TUIMouseWidgetResource
             "CursorSetter",
             TUIMouseWidgetSimpleCursorSetterModuleResource
             (
-                HardwareMouseCursorAnimation = <HardwareMouseCursorAnimation>
+                HardwareMouseCursorAnimation = ~/MouseCursorAnimationPointerSelectionRed
             )
         ),
         (
@@ -905,13 +904,7 @@ is TUIMouseWidgetResource
     ]
 )
 
-template Template_SoftwareMouseWidgetResource_Targeting_WithTerrainFeedback
-[
-    RelativeTargetPointerPlacement  = [0.5, 0.5],
-    SoftwareCursorTextureName       = "",
-    // HardwareMouseCursorAnimation    = ~/MouseCursorAnimationPointerSelectionRed,
-]
-is TUIMouseWidgetResource
+MouseWidget_None is TUIMouseWidgetResource
 (
     ModuleResourceList = MAP
     [
@@ -949,7 +942,7 @@ is TUIMouseWidgetResource
 
     ViewDescriptors = MAP
     [
-        ("AttackCursorView", UISpecificMouseWidgetAttackViewDescriptor(SoftwareCursorTextureName = <SoftwareCursorTextureName>)),
+        ("AttackCursorView", UISpecificMouseWidgetAttackViewDescriptor(SoftwareCursorTextureName = "" )),
     ]
 )
 
@@ -1000,13 +993,6 @@ MouseWidget_GroundMissile is Template_SoftwareMouseWidgetResource_Targeting
 MouseWidget_MachineGun is Template_SoftwareMouseWidgetResource_Targeting
 (
     SoftwareCursorTextureName       = "Texture_Tactical_Cursor_MG"
-)
-
-//--------------------------------------------------------
-
-MouseWidget_None is Template_SoftwareMouseWidgetResource_Targeting_WithTerrainFeedback
-(
-    //TextDescriptor = nil
 )
 
 //--------------------------------------------------------
@@ -1078,6 +1064,7 @@ InGameMousePolicyManagerResources is TUISpecificMousePolicyManagerResources
     Camera                  = $/M3D/Misc/CameraPrincipale
     World3D                 = $/M3D/Scene/DefaultWorld
     Scene3D                 = $/M3D/Scene/Scene_2D_Interface
+    WorldFloorProxy = $/M3D/Scene/WorldFloorUIMouseProxy
 
     MouseWidgetSelectorForGhost = "MouseWidgetSelector_Ghost"
     DefaultMouseWidgetSelector = "MouseWidgetSelectorDefault"

@@ -14,12 +14,12 @@ export Descriptor_Fire_Incendie is TEntityDescriptor
         TApparenceModuleDescriptor
         (
             ReferenceMesh  = $/GFX/DepictionResources/Rien
-            Depiction  = Template_DescriptorFire_Depiction
+            Depiction  = TTimelyDepictionReceiverFactory( DepictionDescriptor = Template_DescriptorFire_Depiction
             (
                 Radius               = 27 * 26 * 2.83
                 FX                   = $/GFX/GameFx/fx_binder_fire
                 Density              = 1
-            )
+            ))
             DefaultVisibility  = True
         ),
         TFireModuleDescriptor
@@ -51,12 +51,12 @@ export Descriptor_Fire_Napalm is TEntityDescriptor
         TApparenceModuleDescriptor
         (
             ReferenceMesh  = $/GFX/DepictionResources/Rien
-            Depiction  = Template_DescriptorFire_Depiction
+            Depiction  = TTimelyDepictionReceiverFactory( DepictionDescriptor = Template_DescriptorFire_Depiction
             (
                 Radius               = 177 * 26 * 2.83
                 FX                   = $/GFX/GameFx/fx_binder_fire
                 Density              = 1
-            )
+            ))
             DefaultVisibility  = True
         ),
         TFireModuleDescriptor
@@ -88,12 +88,12 @@ export Descriptor_Fire_NapalmLeger is TEntityDescriptor
         TApparenceModuleDescriptor
         (
             ReferenceMesh  = $/GFX/DepictionResources/Rien
-            Depiction  = Template_DescriptorFire_Depiction
+            Depiction  = TTimelyDepictionReceiverFactory( DepictionDescriptor = Template_DescriptorFire_Depiction
             (
                 Radius               = 53 * 26 * 2.83
                 FX                   = $/GFX/GameFx/fx_binder_fire_Napalm_Leger
                 Density              = 1
-            )
+            ))
             DefaultVisibility  = True
         ),
         TFireModuleDescriptor
@@ -125,12 +125,12 @@ export Descriptor_Fire_NapalmLourd is TEntityDescriptor
         TApparenceModuleDescriptor
         (
             ReferenceMesh  = $/GFX/DepictionResources/Rien
-            Depiction  = Template_DescriptorFire_Depiction
+            Depiction  = TTimelyDepictionReceiverFactory( DepictionDescriptor = Template_DescriptorFire_Depiction
             (
                 Radius               = 177 * 26 * 2.83
                 FX                   = $/GFX/GameFx/fx_binder_fire_Napalm_Lourd
                 Density              = 1
-            )
+            ))
             DefaultVisibility  = True
         ),
         TFireModuleDescriptor
@@ -162,12 +162,12 @@ export Descriptor_Fire_NapalmMoyen is TEntityDescriptor
         TApparenceModuleDescriptor
         (
             ReferenceMesh  = $/GFX/DepictionResources/Rien
-            Depiction  = Template_DescriptorFire_Depiction
+            Depiction  = TTimelyDepictionReceiverFactory( DepictionDescriptor = Template_DescriptorFire_Depiction
             (
                 Radius               = 106 * 26 * 2.83
                 FX                   = $/GFX/GameFx/fx_binder_fire_Napalm_Moyen
                 Density              = 1
-            )
+            ))
             DefaultVisibility  = True
         ),
         TFireModuleDescriptor

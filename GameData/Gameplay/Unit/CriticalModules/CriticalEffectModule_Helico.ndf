@@ -4,8 +4,6 @@ export CriticalEffectModule_Helico is TCriticalEffectModuleDescriptor
     Bounds = (1,100)
     TerrainCriticalEffectTimer = 5.0
 
-    EffectsFromTerrain = []
-
     EffectsOnFront =
     [
 
@@ -56,16 +54,4 @@ export CriticalEffectModule_Helico is TCriticalEffectModuleDescriptor
 
 
     ]
-
-    EffectsOnTop = []
-
-    PierceEffectsOnFront = []
-    PierceEffectsOnSides = []
-    PierceEffectsOnRear = []
-    PierceEffectsOnTop = []
-
-    RicochetEffectsOnFront = []
-    RicochetEffectsOnSides = []
-    RicochetEffectsOnRear = []
-    RicochetEffectsOnTop = []
 )

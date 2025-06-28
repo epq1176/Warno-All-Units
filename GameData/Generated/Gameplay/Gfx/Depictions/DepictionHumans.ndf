@@ -2314,29 +2314,29 @@ HumanSubDepictions_DCA_FK20_2_20mm_RFA is
 [
     SubDepiction_ServantWalkOnlyLeft
     (
-        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FJ_RFA
-        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FJ_RFA_LOW
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_RFA
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_RFA_LOW
     ),
     SubDepiction_GunnerIdleOnlyLeft
     (
-        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FJ_RFA
-        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FJ_RFA_LOW
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_RFA
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_RFA_LOW
     ),
     SubDepiction_ServantRight
     (
-        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FJ_RFA
-        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FJ_RFA_LOW
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_RFA
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_RFA_LOW
     ),
 ]
 HumanSubDepictionsShowroom_DCA_FK20_2_20mm_RFA is 
 [
     ShowroomSubDepiction_GunnerLeft
     (
-        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FJ_RFA
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_RFA
     ),
     ShowroomSubDepiction_ServantRight
     (
-        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FJ_RFA
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_RFA
     ),
 ]
 HumanSubDepictions_DCA_FK20_2_20mm_Zwillinge_RFA is 
@@ -2751,7 +2751,12 @@ HumanSubDepictionsShowroom_DCA_M167_Vulcan_para_20mm_BEL is
 ]
 HumanSubDepictions_DCA_M55_NL is 
 [
-    SubDepiction_ServantLeft
+    SubDepiction_ServantWalkOnlyLeft
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_NL
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_NL_LOW
+    ),
+    SubDepiction_GunnerIdleOnlyLeft
     (
         MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_NL
         MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_NL_LOW
@@ -2764,7 +2769,7 @@ HumanSubDepictions_DCA_M55_NL is
 ]
 HumanSubDepictionsShowroom_DCA_M55_NL is 
 [
-    ShowroomSubDepiction_ServantLeft
+    ShowroomSubDepiction_GunnerLeft
     (
         MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_NL
     ),
@@ -3232,15 +3237,6 @@ HumanSubDepictionsShowroom_DCA_ZU_23_2_nonPara_SOV is
         MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_SOV
     ),
 ]
-HumanSubDepictions_Dragoon_300_US is 
-[
-    SubDepiction_Driver
-    (
-        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_US
-        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_US_LOW
-    ),
-]
-HumanSubDepictionsShowroom_Dragoon_300_US is []
 HumanSubDepictions_FAV_AGL_US is 
 [
     SubDepiction_DriverLSV
@@ -7465,24 +7461,24 @@ HumanSubDepictions_Mortier_MORT61_120mm_para_FR is
 [
     SubDepiction_ATGMServantLeft
     (
-        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR
-        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR_LOW
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_Para_Sep_G_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_Para_Sep_G_FR_LOW
     ),
     SubDepiction_ATGMServantRight
     (
-        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR
-        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR_LOW
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_Para_NCO_D_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_Para_NCO_D_FR_LOW
     ),
 ]
 HumanSubDepictionsShowroom_Mortier_MORT61_120mm_para_FR is 
 [
     ShowroomSubDepiction_ATGMServantLeft
     (
-        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Para_Sep_G_FR
     ),
     ShowroomSubDepiction_ATGMServantRight
     (
-        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Para_NCO_D_FR
     ),
 ]
 HumanSubDepictions_Mortier_Nona_K_120mm_SOV is 
@@ -9745,8 +9741,8 @@ unnamed TTransportedInfantryCatalogEntries
             Identifier = "DCA_FK20_2_20mm_RFA"
             Meshes = 
             [
-                $/GFX/DepictionResources/MeshDescriptor_Servant_G_FJ_RFA,
-                $/GFX/DepictionResources/MeshDescriptor_Servant_D_FJ_RFA,
+                $/GFX/DepictionResources/MeshDescriptor_Servant_G_RFA,
+                $/GFX/DepictionResources/MeshDescriptor_Servant_D_RFA,
             ]
             UniqueCount = 2
         ),
@@ -10100,16 +10096,6 @@ unnamed TTransportedInfantryCatalogEntries
                 $/GFX/DepictionResources/MeshDescriptor_Servant_D_SOV,
             ]
             UniqueCount = 2
-        ),
-        TTransportedInfantryEntry
-        (
-            Count = 1
-            Identifier = "Dragoon_300_US"
-            Meshes = 
-            [
-                $/GFX/DepictionResources/MeshDescriptor_Driver_US,
-            ]
-            UniqueCount = 1
         ),
         TTransportedInfantryEntry
         (
@@ -12736,8 +12722,8 @@ unnamed TTransportedInfantryCatalogEntries
             Identifier = "Mortier_MORT61_120mm_para_FR"
             Meshes = 
             [
-                $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR,
-                $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR,
+                $/GFX/DepictionResources/MeshDescriptor_Servant_Para_Sep_G_FR,
+                $/GFX/DepictionResources/MeshDescriptor_Servant_Para_NCO_D_FR,
             ]
             UniqueCount = 2
         ),

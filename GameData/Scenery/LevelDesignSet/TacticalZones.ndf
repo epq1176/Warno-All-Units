@@ -45,11 +45,10 @@ template SceneryDescriptor_TexturedSurface
         HasNoBetterResolution = true
         SupportSubCase = false
 
+        MeshMaterialName = <RegistrationName>
         MeshMaterial = TMeshMaterial
         (
             MaterialPasses = TGetMaterialPassesSinglePass( ShaderDescriptor = $/M3D/Shader/ShaderTexturedArea )
-            MaterialName = <RegistrationName>
-            Tags = []
 
             ParameterDico = MAP
             [

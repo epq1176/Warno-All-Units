@@ -6603,22 +6603,6 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
-    RegistrationName      = 'M48A5E_CMD_ESP'
-    ClassName             = '$/GFX/Unit/Descriptor_Unit_M48A5E_CMD_ESP'
-    AutoNameBase          = 'M48A5E_CMD_ESP'
-    ModelResource         = $/GFX/DepictionResources/Modele_M48A2GA2_CMD_RFA
-    ThumbstackScale       = 20
-)
-unnamed Template_SceneryDescriptorSpawn
-(
-    RegistrationName      = 'M48A5E_ESP'
-    ClassName             = '$/GFX/Unit/Descriptor_Unit_M48A5E_ESP'
-    AutoNameBase          = 'M48A5E_ESP'
-    ModelResource         = $/GFX/DepictionResources/Modele_M48A2GA2_RFA
-    ThumbstackScale       = 20
-)
-unnamed Template_SceneryDescriptorSpawn
-(
     RegistrationName      = 'M48A5_reco_NG_US'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_M48A5_reco_NG_US'
     AutoNameBase          = 'M48A5_reco_NG_US'
@@ -8467,6 +8451,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'ParaCmdo_reserve_BEL'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_ParaCmdo_reserve_BEL'
+    AutoNameBase          = 'ParaCmdo_reserve_BEL'
+    ModelResource         = $/GFX/DepictionResources/Modele_ParaCmdo_AT_BEL
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'Para_CMD_FR'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Para_CMD_FR'
     AutoNameBase          = 'Para_CMD_FR'
@@ -8959,6 +8951,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Rifles_DMR_FR'
     AutoNameBase          = 'Rifles_DMR_FR'
     ModelResource         = $/GFX/DepictionResources/Modele_Rifles_DMR_FR
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Rifles_Dragon_NL'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Rifles_Dragon_NL'
+    AutoNameBase          = 'Rifles_Dragon_NL'
+    ModelResource         = $/GFX/DepictionResources/Modele_Rifles_Dragon_NL
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -11504,6 +11504,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Bo_105_PAH_1_RFA'
     AutoNameBase          = 'Bo_105_PAH_1_RFA'
     ModelResource         = $/GFX/DepictionResources/Modele_Bo_105_PAH_1_RFA
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Bo_105_reco_ESP'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Bo_105_reco_ESP'
+    AutoNameBase          = 'Bo_105_reco_ESP'
+    ModelResource         = $/GFX/DepictionResources/Modele_Bo_105_reco_ESP
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn

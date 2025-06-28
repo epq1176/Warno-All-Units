@@ -2,7 +2,6 @@
 
 
 
-
 unnamed TMimeticGhostRegistration
 (
     GfxProperties = ~/GfxProperties
@@ -296,6 +295,7 @@ unnamed TMimeticGhostRegistration
         ( 'Bo_105_CMD_RFA', GhostDepiction_Bo_105_CMD_RFA ),
         ( 'Bo_105_PAH_1A1_RFA', GhostDepiction_Bo_105_PAH_1A1_RFA ),
         ( 'Bo_105_PAH_1_RFA', GhostDepiction_Bo_105_PAH_1_RFA ),
+        ( 'Bo_105_reco_ESP', GhostDepiction_Bo_105_reco_ESP ),
         ( 'Bo_105_reco_RFA', GhostDepiction_Bo_105_reco_RFA ),
         ( 'Bo_105_trans_RFA', GhostDepiction_Bo_105_trans_RFA ),
         ( 'Bofors_40mm_RFA', GhostDepiction_Bofors_40mm_RFA ),
@@ -376,6 +376,7 @@ unnamed TMimeticGhostRegistration
         ( 'DCA_ZU_23_2_SOV', GhostDepiction_DCA_ZU_23_2_SOV ),
         ( 'DCA_ZU_23_2_TTsko_SOV', GhostDepiction_DCA_ZU_23_2_TTsko_SOV ),
         ( 'DCA_ZU_23_2_nonPara_SOV', GhostDepiction_DCA_ZU_23_2_nonPara_SOV ),
+        ( 'DEP_M109A2', GhostDepiction_DEP_M109A2 ),
         ( 'Dragoon_300_US', GhostDepiction_Dragoon_300_US ),
         ( 'EA6B_Prowler_US', GhostDepiction_EA6B_Prowler_US ),
         ( 'EBR_90mm_FR', GhostDepiction_EBR_90mm_FR ),
@@ -629,7 +630,6 @@ unnamed TMimeticGhostRegistration
         ( 'IS2M_SOV', GhostDepiction_IS2M_SOV ),
         ( 'Iltis_CMD_BEL', GhostDepiction_Iltis_CMD_BEL ),
         ( 'Iltis_HMG_BEL', GhostDepiction_Iltis_HMG_BEL ),
-        ( 'Iltis_MILAN_2_RFA', GhostDepiction_Iltis_MILAN_RFA ),
         ( 'Iltis_MILAN_BEL', GhostDepiction_Iltis_MILAN_BEL ),
         ( 'Iltis_MILAN_RFA', GhostDepiction_Iltis_MILAN_RFA ),
         ( 'Iltis_RFA', GhostDepiction_Iltis_RFA ),
@@ -742,7 +742,6 @@ unnamed TMimeticGhostRegistration
         ( 'M106A2_Mortar_NL', GhostDepiction_M106A2_Mortar_NL ),
         ( 'M107A2_175mm_UK', GhostDepiction_M107A2_175mm_UK ),
         ( 'M109A2_BEL', GhostDepiction_M109A2_BEL ),
-        ( 'M109A2_HOWZ_US', GhostDepiction_DEP_M109A2 ),
         ( 'M109A2_NG_US', GhostDepiction_M109A2_NG_US ),
         ( 'M109A2_NL', GhostDepiction_M109A2_NL ),
         ( 'M109A2_UK', GhostDepiction_M109A2_UK ),
@@ -830,8 +829,6 @@ unnamed TMimeticGhostRegistration
         ( 'M48A2C_RFA', GhostDepiction_M48A2C_RFA ),
         ( 'M48A2GA2_CMD_RFA', GhostDepiction_M48A2GA2_CMD_RFA ),
         ( 'M48A2GA2_RFA', GhostDepiction_M48A2GA2_RFA ),
-        ( 'M48A5E_CMD_ESP', GhostDepiction_M48A2GA2_CMD_RFA ),
-        ( 'M48A5E_ESP', GhostDepiction_M48A2GA2_RFA ),
         ( 'M48A5_reco_NG_US', GhostDepiction_M48A5_reco_NG_US ),
         ( 'M48_Chaparral_MIM72F_US', GhostDepiction_M48_Chaparral_MIM72F_US ),
         ( 'M548A2_supply_US', GhostDepiction_M548A2_supply_US ),
@@ -892,8 +889,6 @@ unnamed TMimeticGhostRegistration
         ( 'MTLB_trans_DDR', GhostDepiction_MTLB_trans_DDR ),
         ( 'MTLB_trans_POL', GhostDepiction_MTLB_trans_POL ),
         ( 'MTLB_transp_SOV', GhostDepiction_MTLB_transp_SOV ),
-        ( 'Marder_1A1_MILAN_RFA', GhostDepiction_Marder_1A2_MILAN_RFA ),
-        ( 'Marder_1A1_RFA', GhostDepiction_Marder_1A2_RFA ),
         ( 'Marder_1A2_MILAN_RFA', GhostDepiction_Marder_1A2_MILAN_RFA ),
         ( 'Marder_1A2_RFA', GhostDepiction_Marder_1A2_RFA ),
         ( 'Marder_1A3_MILAN_RFA', GhostDepiction_Marder_1A3_MILAN_RFA ),
@@ -1304,7 +1299,6 @@ unnamed TMimeticGhostRegistration
         ( 'UH1D_NL', GhostDepiction_UH1D_NL ),
         ( 'UH1D_RFA', GhostDepiction_UH1D_RFA ),
         ( 'UH1D_Supply_RFA', GhostDepiction_UH1D_Supply_RFA ),
-        ( 'UH1H_CMD_ESP', GhostDepiction_UH1A_US ),
         ( 'UH1H_Huey_US', GhostDepiction_UH1H_Huey_US ),
         ( 'UH1H_supply_US', GhostDepiction_UH1H_supply_US ),
         ( 'UH1M_gunship_US', GhostDepiction_UH1M_gunship_US ),

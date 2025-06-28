@@ -2,7 +2,6 @@ export Scaling_TestAuto_Strategy is TIAGeneralStrategy
 (
     StrategyName = "SupTAIA"
     FirstGenerator = TestAuto_Scaling_Choose_Strategy
-    AllowToByPassNbMacroActionAllowedToProduceSimultaneous = true
     TransitionList =
     [
         TestAuto_Scaling_Transition_StartToPhaseCommand,
@@ -52,10 +51,8 @@ export TestAuto_Scaling_Transition_DeployToCommandPhase is TIAGeneralStrategyTra
 export TestAuto_Scaling_Choose_Strategy is TSequenceGeneratorDescriptor
 (
     // Fake phase qui permet juste d'orienter la strategie dans la direction voulue
-    NbMacroActionAllowedToProduceSimultaneous = 9001
     GeneratorList =
     [
-        ~/Support_Transports,
     ]
 )
 
@@ -64,7 +61,6 @@ export TestAuto_Scaling_Choose_Strategy is TSequenceGeneratorDescriptor
 //-------------------------------------------------------------------------
 export TestAuto_Scaling_Phase_Deploiement is TSequenceGeneratorDescriptor
 (
-    NbMacroActionAllowedToProduceSimultaneous = 9001
     GeneratorList =
     [
         ~/Attack_Objectives_OnlyTestAuto,
@@ -76,7 +72,6 @@ export TestAuto_Scaling_Phase_Deploiement is TSequenceGeneratorDescriptor
 //-------------------------------------------------------------------------
 export TestAuto_Scaling_Phase_Command is TSequenceGeneratorDescriptor
 (
-    NbMacroActionAllowedToProduceSimultaneous = 9001
     GeneratorList =
     [
         ~/Attack_Objectives_OnlyTestAuto,
