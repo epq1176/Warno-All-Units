@@ -4,21 +4,14 @@ EmptyTagsModuleDescriptor is TTagsModuleDescriptor()
 InfluenceDataModuleDescriptor is TInfluenceDataModuleDescriptor()
 InfluencePositionModuleDescriptor is TInfluencePositionModuleDescriptor()
 LinkTeamModuleDescriptor is TLinkTeamModuleDescriptor()
-PackSignauxModuleDescriptor  is TPackSignauxModuleDescriptor()
 SimpleTypeUnitModuleDescriptor is TTypeUnitModuleDescriptor()
 TargetDataModuleDescriptor is TTargetDataModuleDescriptor()
+TerrainSpeedModifierModuleDescriptor is TTerrainSpeedModifierModuleDescriptor()
 
 BuildingPositionModuleDescriptor is TPositionModuleDescriptor
 (
     InGeoDb                    = True
     ClampInWorld               = True
-    ClampOutMap                = False
-)
-
-ShowroomPositionModuleDescriptor is TPositionModuleDescriptor
-(
-    InGeoDb                    = False
-    ClampInWorld               = False
     ClampOutMap                = False
 )
 

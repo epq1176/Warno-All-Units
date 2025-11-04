@@ -12,3 +12,8 @@ export Modele_T80U_CMD_SOV_LOW is TResourceMesh
 (
     Mesh="GameData:/Assets/3D/Units/URSS/Char/T80U_CMD_LOW/T80U_CMD_LOW.fbx"
 )
+
+export Modele_T80U_CMD_SOV_Tourelle_02 is TResourceMesh
+(
+    Mesh=ModelFile_NSVT_no_ammo
+)

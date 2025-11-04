@@ -12,3 +12,8 @@ export Modele_TO_55_DDR_LOW is TResourceMesh
 (
     Mesh="GameData:/Assets/3D/Units/DDR/Char/TO55_LOW/TO55_LOW.fbx"
 )
+
+export Modele_TO_55_DDR_Tourelle_02 is TResourceMesh
+(
+    Mesh=ModelFile_DShK_127mm_no_ammo
+)

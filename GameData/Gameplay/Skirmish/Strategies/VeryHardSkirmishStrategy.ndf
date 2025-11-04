@@ -3,7 +3,7 @@
 //-------------------------------------------------------------------------
 export VeryHardStrategy is TIAGeneralStrategy
 (
-    StrategyName = "GenericAI"
+    StrategyName = "VHardAI"
     FirstGenerator = VHard_Choose_Strategy
     TransitionList =
     [

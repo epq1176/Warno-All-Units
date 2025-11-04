@@ -359,9 +359,8 @@ TransportsListContent is BUCKListDescriptor
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [0.0, 100.0]
-
-        AlignementToAnchor = [0.0, 0.0]
-        AlignementToFather = [0.0, 0.0]
+        AlignementToAnchor = [0.5, 0.0]
+        AlignementToFather = [0.5, 0.0]
     )
 
     Axis = ~/ListAxis/Horizontal
@@ -451,7 +450,7 @@ DivisionGrid is BUCKSpecificScrollingContainerDescriptor
 
     VerticalScrollbarComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [0.0, 7.0]
+        MagnifiableWidthHeight = [8.0, 0.0]
     )
 
     Components =
@@ -749,7 +748,7 @@ ListeDesUnitesDuDeck is BUCKListDescriptor
                 RelativeWidthHeight = [1.0, 1.0]
             )
         ),
-        BUCKSensibleAreaDescriptor
+        BUCKSensitiveAreaDescriptor
         (
             ElementName = "UnitDeckListArea"
             HidePointerEvents = true
@@ -1438,9 +1437,10 @@ DeckCreatorScreenMainComponent is BUCKContainerDescriptor
         ~/DivisionGridContainer,
         // barre supérieure
         DeckEditorTopBar(SelectedTab = ~/DeckEditorTab),
+        // Transports
+        ~/TransportSelectionContainer,
         // affichage des Panelinfos
         AnimationPanelUnitInfos(),
-        ~/TransportSelectionContainer,
         // bouton "close" en bas à gauche
         ~/DeckEditorCloseButton,
     ]

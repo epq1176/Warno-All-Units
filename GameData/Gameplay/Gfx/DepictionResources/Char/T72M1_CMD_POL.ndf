@@ -12,3 +12,8 @@ export Modele_T72M1_CMD_POL_LOW is TResourceMesh
 (
     Mesh="GameData:/Assets/3D/Units/POL/Char/T72M1_CMD_LOW/T72M1_CMD_LOW.fbx"
 )
+
+export Modele_T72M1_CMD_POL_Tourelle_02 is TResourceMesh
+(
+    Mesh=ModelFile_NSVT_no_ammo
+)

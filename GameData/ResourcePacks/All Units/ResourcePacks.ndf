@@ -1,0 +1,17 @@
+
+unnamed TResourcePackLoader
+(
+    Packs =
+    [
+        TResourceDescriptorMeshPack
+        (
+            PackName = "Base"
+            PackFileName = "Pack/All Units/Mesh_All.spk"
+        ),
+        TResourceDescriptorProxyPack
+        (
+            PackName = "Base"
+            PackFileName = "Pack/All Units/Mesh_All.ndfbin"
+        ),
+    ]
+)

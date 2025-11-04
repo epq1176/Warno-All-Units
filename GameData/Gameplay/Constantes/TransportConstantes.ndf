@@ -1,7 +1,7 @@
 
 // CONSTANTES POUR LE GAME DESIGN
 
-export TransportConstantes is TTransportConstantesDescriptor
+unnamed TTransportConstantesDescriptor
 (
     // Vitesse maximale autorisée pour décharger les unités du transport
     // 0.0 = le transport doit être arrêté pour décharger

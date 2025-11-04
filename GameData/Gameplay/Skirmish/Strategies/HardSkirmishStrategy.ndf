@@ -3,7 +3,7 @@
 //-------------------------------------------------------------------------
 export HardStrategy is TIAGeneralStrategy
 (
-    StrategyName = "GenericAI"
+    StrategyName = "HardAI"
     FirstGenerator = Hard_Choose_Strategy
     TransitionList =
     [

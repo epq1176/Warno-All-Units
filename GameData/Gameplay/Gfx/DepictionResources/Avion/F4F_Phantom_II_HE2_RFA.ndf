@@ -1,19 +1,19 @@
 export Modele_F4F_Phantom_II_HE2_RFA is TResourceMesh
 (
-    Mesh="GameData:/Assets/3D/Units/RFA/Avion/F4E_Phantom_II/F4E_Phantom_II_AA.fbx"
+    Mesh=ModelFile_F4F_Phantom_II_AA_RFA
 )
 
 export Modele_F4F_Phantom_II_HE2_RFA_MID is TResourceMesh
 (
-    Mesh="GameData:/Assets/3D/Units/RFA/Avion/F4E_Phantom_II_MID/F4E_Phantom_II_AA_MID.fbx"
+    Mesh=ModelFile_F4F_Phantom_II_AA_RFA_MID
 )
 
 export Modele_F4F_Phantom_II_HE2_RFA_LOW is TResourceMesh
 (
-    Mesh="GameData:/Assets/3D/Units/RFA/Avion/F4E_Phantom_II_LOW/F4E_Phantom_II_AA_LOW.fbx"
+    Mesh=ModelFile_F4F_Phantom_II_AA_RFA_LOW
 )
 
 export Modele_F4F_Phantom_II_HE2_RFA_train is TResourceMesh
 (
-    Mesh="GameData:/Assets/3D/Units/RFA/Avion/F4E_Phantom_II/F4E_Phantom_II_train.fbx"
+    Mesh=ModelFile_F4F_Phantom_II_AA_RFA_train
 )

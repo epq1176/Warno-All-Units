@@ -45,9 +45,9 @@ template SceneryDescriptor_TexturedSurface
         HasNoBetterResolution = true
         SupportSubCase = false
 
-        MeshMaterialName = <RegistrationName>
         MeshMaterial = TMeshMaterial
         (
+            MaterialNameOnlyForReporting = <RegistrationName>
             MaterialPasses = TGetMaterialPassesSinglePass( ShaderDescriptor = $/M3D/Shader/ShaderTexturedArea )
 
             ParameterDico = MAP
@@ -55,9 +55,9 @@ template SceneryDescriptor_TexturedSurface
                 ('TextureTilingLBU', 1.0 div <TilingLBU>),
             ]
 
-            Textures = MAP
+            TextureDico = MAP
             [
-                ('Texture', (<Texture>, 0)),
+                ('Texture', <Texture>),
             ]
         )
 
@@ -153,6 +153,7 @@ unnamed TSceneryDescriptorTagGD
         ModeMask                    = SDMode_Zone
         RenderLayerSelector         = $/M3D/Scene/OpaqueMobileRenderPlace
         ContentTypeIfIndividualMesh = ContentType_Editor
+        MaterialTextureDico         = $/M3D/Misc/MaterialTextureDico
         Resource = $/Editor/Resource/plot03
     )
 )

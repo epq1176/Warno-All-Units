@@ -12,3 +12,8 @@ export Modele_T72MUV2_DDR_LOW is TResourceMesh
 (
     Mesh="GameData:/Assets/3D/Units/DDR/Char/T72MUV2_LOW/T72MUV2_LOW.fbx"
 )
+
+export Modele_T72MUV2_DDR_Tourelle_02 is TResourceMesh
+(
+    Mesh=ModelFile_NSVT_no_ammo
+)

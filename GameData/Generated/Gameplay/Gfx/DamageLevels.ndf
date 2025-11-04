@@ -11,7 +11,6 @@ export DamageLevelsPackDescriptor_Airplanes_packSupp is TDamageLevelsPackDescrip
             Value = 0
             LocalizationToken = "mrl_4"
             MoralModifier = 20
-            HitRollModifier = 0
             AnimationType = ESoldierSuppressStatus/Operational
             EffectsPacks = [
             ]
@@ -22,7 +21,6 @@ export DamageLevelsPackDescriptor_Airplanes_packSupp is TDamageLevelsPackDescrip
             Value = 0.2
             LocalizationToken = "mrl_4"
             MoralModifier = 20
-            HitRollModifier = 0
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
             ]
@@ -33,7 +31,6 @@ export DamageLevelsPackDescriptor_Airplanes_packSupp is TDamageLevelsPackDescrip
             Value = 0.35
             LocalizationToken = "mrl_3"
             MoralModifier = 20
-            HitRollModifier = -25
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_AirUnit_Cohesion_Normal,
@@ -45,7 +42,6 @@ export DamageLevelsPackDescriptor_Airplanes_packSupp is TDamageLevelsPackDescrip
             Value = 0.5
             LocalizationToken = "mrl_2"
             MoralModifier = 20
-            HitRollModifier = -45
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_AirUnit_Cohesion_Mediocre,
@@ -57,7 +53,6 @@ export DamageLevelsPackDescriptor_Airplanes_packSupp is TDamageLevelsPackDescrip
             Value = 0.65
             LocalizationToken = "mrl_1"
             MoralModifier = 20
-            HitRollModifier = -70
             AnimationType = ESoldierSuppressStatus/Pinned
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_AirUnit_Cohesion_Low,
@@ -69,7 +64,6 @@ export DamageLevelsPackDescriptor_Airplanes_packSupp is TDamageLevelsPackDescrip
             Value = 0.8
             LocalizationToken = "mrl_1"
             MoralModifier = 0
-            HitRollModifier = 0
             AnimationType = ESoldierSuppressStatus/Cowering
             FeedbackOnSelf = "OnUnitPanicking"
             EffectsPacks = [
@@ -90,7 +84,6 @@ export DamageLevelsPackDescriptor_ArtillerieInf_packSupp is TDamageLevelsPackDes
             Value = 0
             LocalizationToken = "CALM"
             MoralModifier = 99
-            HitRollModifier = 0
             AnimationType = ESoldierSuppressStatus/Operational
             EffectsPacks = [
             ]
@@ -101,7 +94,6 @@ export DamageLevelsPackDescriptor_ArtillerieInf_packSupp is TDamageLevelsPackDes
             Value = 0.2
             LocalizationToken = "ENGAGED"
             MoralModifier = 99
-            HitRollModifier = -10
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_ArtInf_Engaged,
@@ -113,7 +105,6 @@ export DamageLevelsPackDescriptor_ArtillerieInf_packSupp is TDamageLevelsPackDes
             Value = 0.35
             LocalizationToken = "WORRIED"
             MoralModifier = 99
-            HitRollModifier = -25
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_ArtInf_Stressed,
@@ -125,7 +116,6 @@ export DamageLevelsPackDescriptor_ArtillerieInf_packSupp is TDamageLevelsPackDes
             Value = 0.5
             LocalizationToken = "STRESSED"
             MoralModifier = 99
-            HitRollModifier = -45
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_ArtInf_Suppressed,
@@ -137,7 +127,6 @@ export DamageLevelsPackDescriptor_ArtillerieInf_packSupp is TDamageLevelsPackDes
             Value = 0.65
             LocalizationToken = "SHAKEN"
             MoralModifier = 99
-            HitRollModifier = -70
             AnimationType = ESoldierSuppressStatus/Pinned
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_ArtInf_Pinned,
@@ -149,7 +138,6 @@ export DamageLevelsPackDescriptor_ArtillerieInf_packSupp is TDamageLevelsPackDes
             Value = 0.8
             LocalizationToken = "PINNED"
             MoralModifier = 99
-            HitRollModifier = 0
             AnimationType = ESoldierSuppressStatus/Cowering
             FeedbackOnSelf = "OnUnitPanicking"
             EffectsPacks = [
@@ -169,7 +157,6 @@ export DamageLevelsPackDescriptor_Artillerie_packSupp is TDamageLevelsPackDescri
             Value = 0
             LocalizationToken = "CALM"
             MoralModifier = 99
-            HitRollModifier = 0
             AnimationType = ESoldierSuppressStatus/Operational
             EffectsPacks = [
             ]
@@ -180,7 +167,6 @@ export DamageLevelsPackDescriptor_Artillerie_packSupp is TDamageLevelsPackDescri
             Value = 0.2
             LocalizationToken = "ENGAGED"
             MoralModifier = 99
-            HitRollModifier = -10
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_Artillerie_Engaged,
@@ -192,7 +178,6 @@ export DamageLevelsPackDescriptor_Artillerie_packSupp is TDamageLevelsPackDescri
             Value = 0.35
             LocalizationToken = "WORRIED"
             MoralModifier = 99
-            HitRollModifier = -25
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_Artillerie_Stressed,
@@ -204,7 +189,6 @@ export DamageLevelsPackDescriptor_Artillerie_packSupp is TDamageLevelsPackDescri
             Value = 0.5
             LocalizationToken = "STRESSED"
             MoralModifier = 99
-            HitRollModifier = -45
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_Artillerie_Suppressed,
@@ -216,7 +200,6 @@ export DamageLevelsPackDescriptor_Artillerie_packSupp is TDamageLevelsPackDescri
             Value = 0.65
             LocalizationToken = "SHAKEN"
             MoralModifier = 99
-            HitRollModifier = -70
             AnimationType = ESoldierSuppressStatus/Pinned
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_Artillerie_Pinned,
@@ -228,7 +211,6 @@ export DamageLevelsPackDescriptor_Artillerie_packSupp is TDamageLevelsPackDescri
             Value = 0.8
             LocalizationToken = "PANICKED"
             MoralModifier = 0
-            HitRollModifier = 0
             AnimationType = ESoldierSuppressStatus/Cowering
             FeedbackOnSelf = "OnUnitPanicking"
             EffectsPacks = [
@@ -248,7 +230,6 @@ export DamageLevelsPackDescriptor_ArtyUnits_packSupp is TDamageLevelsPackDescrip
             Value = 0
             LocalizationToken = "mrl_4"
             MoralModifier = 99
-            HitRollModifier = 0
             AnimationType = ESoldierSuppressStatus/Operational
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_ArtyUnit_Cohesion_High,
@@ -260,7 +241,6 @@ export DamageLevelsPackDescriptor_ArtyUnits_packSupp is TDamageLevelsPackDescrip
             Value = 0.1
             LocalizationToken = "mrl_4"
             MoralModifier = 99
-            HitRollModifier = 0
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_ArtyUnit_Cohesion_High,
@@ -272,7 +252,6 @@ export DamageLevelsPackDescriptor_ArtyUnits_packSupp is TDamageLevelsPackDescrip
             Value = 0.25
             LocalizationToken = "mrl_3"
             MoralModifier = 99
-            HitRollModifier = -25
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_ArtyUnit_Cohesion_Normal,
@@ -284,7 +263,6 @@ export DamageLevelsPackDescriptor_ArtyUnits_packSupp is TDamageLevelsPackDescrip
             Value = 0.5
             LocalizationToken = "mrl_2"
             MoralModifier = 99
-            HitRollModifier = -45
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_ArtyUnit_Cohesion_Mediocre,
@@ -296,7 +274,6 @@ export DamageLevelsPackDescriptor_ArtyUnits_packSupp is TDamageLevelsPackDescrip
             Value = 0.75
             LocalizationToken = "mrl_1"
             MoralModifier = 99
-            HitRollModifier = -70
             AnimationType = ESoldierSuppressStatus/Pinned
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_ArtyUnit_Cohesion_Low,
@@ -307,242 +284,11 @@ export DamageLevelsPackDescriptor_ArtyUnits_packSupp is TDamageLevelsPackDescrip
             DescriptorId = GUID:{4e606f80-a55e-4222-9f36-401edbae3252}
             Value = 0.8
             LocalizationToken = "mrl_1"
-            HitRollModifier = -70
             AnimationType = ESoldierSuppressStatus/Cowering
             FeedbackOnSelf = "OnUnitPanicking"
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_ArtyUnit_Cohesion_Low,
                 $/GFX/EffectCapacity/UnitEffect_Baisse_Dangerosite,
-            ]
-        ),
-    ]
-)
-export DamageLevelsPackDescriptor_Bombardier_Cluster_packSupp is TDamageLevelsPackDescriptor
-(
-    DescriptorId = GUID:{95770a77-5cb1-4e64-9495-cfa50be74330}
-    DamageLevelsDescriptors = [
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{6c01209c-a68a-44e4-aa66-23b5e3a7530a}
-            Value = 0
-            LocalizationToken = "CALM"
-            MoralModifier = 20
-            HitRollModifier = 0
-            AnimationType = ESoldierSuppressStatus/Operational
-            EffectsPacks = [
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{c5e78ca4-35a2-45d5-a4f2-28015b1e015d}
-            Value = 0.2
-            LocalizationToken = "ENGAGED"
-            MoralModifier = 20
-            HitRollModifier = -10
-            AnimationType = ESoldierSuppressStatus/Suppressed
-            EffectsPacks = [
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{3ee4af78-d9e1-4171-bf4e-8b7404e25e2c}
-            Value = 0.35
-            LocalizationToken = "WORRIED"
-            MoralModifier = 20
-            HitRollModifier = -25
-            AnimationType = ESoldierSuppressStatus/Suppressed
-            EffectsPacks = [
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{1e5b0614-aaaa-4025-b732-2c3a395d4950}
-            Value = 0.5
-            LocalizationToken = "STRESSED"
-            MoralModifier = 20
-            HitRollModifier = -45
-            AnimationType = ESoldierSuppressStatus/Suppressed
-            EffectsPacks = [
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{64aca58e-676c-4402-90a6-6d400ca41e50}
-            Value = 0.65
-            LocalizationToken = "SHAKEN"
-            MoralModifier = 20
-            HitRollModifier = -70
-            AnimationType = ESoldierSuppressStatus/Pinned
-            EffectsPacks = [
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{65a7a41e-0f8a-4dbd-9aa6-9d36c42aaab7}
-            Value = 0.8
-            LocalizationToken = "PANICKED"
-            MoralModifier = -60
-            HitRollModifier = 0
-            AnimationType = ESoldierSuppressStatus/Cowering
-            FeedbackOnSelf = "OnUnitPanicking"
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Baisse_Dangerosite_et_Transport_0_Effet,
-            ]
-        ),
-    ]
-)
-export DamageLevelsPackDescriptor_Bombardier_Leger_packSupp is TDamageLevelsPackDescriptor
-(
-    DescriptorId = GUID:{5a211ddb-634e-4681-85d1-9a0c6cbc8935}
-    DamageLevelsDescriptors = [
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{5398c1fe-c16a-44bf-aa25-3dfc0d1264fc}
-            Value = 0
-            LocalizationToken = "CALM"
-            MoralModifier = 20
-            HitRollModifier = 0
-            AnimationType = ESoldierSuppressStatus/Operational
-            EffectsPacks = [
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{289deb94-8c2e-40dd-a461-f20a2b2a90dd}
-            Value = 0.2
-            LocalizationToken = "ENGAGED"
-            MoralModifier = 20
-            HitRollModifier = -10
-            AnimationType = ESoldierSuppressStatus/Suppressed
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Dispersion_Bombes_plus25,
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{6838d916-4c72-4ec9-a0cf-9463c0537215}
-            Value = 0.35
-            LocalizationToken = "WORRIED"
-            MoralModifier = 20
-            HitRollModifier = -25
-            AnimationType = ESoldierSuppressStatus/Suppressed
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Dispersion_Bombes_plus50,
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{e0a59fc8-f870-4a67-a16d-207708aa32f2}
-            Value = 0.5
-            LocalizationToken = "STRESSED"
-            MoralModifier = 20
-            HitRollModifier = -45
-            AnimationType = ESoldierSuppressStatus/Suppressed
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Dispersion_Bombes_plus100,
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{a987f075-26e8-4a8a-8359-c42bdb32fd1f}
-            Value = 0.65
-            LocalizationToken = "SHAKEN"
-            MoralModifier = 20
-            HitRollModifier = -70
-            AnimationType = ESoldierSuppressStatus/Pinned
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Dispersion_Bombes_plus150,
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{79f7f82a-ab6e-4b83-8584-eb39eec9f9ad}
-            Value = 0.8
-            LocalizationToken = "PANICKED"
-            MoralModifier = -60
-            HitRollModifier = 0
-            AnimationType = ESoldierSuppressStatus/Cowering
-            FeedbackOnSelf = "OnUnitPanicking"
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Baisse_Dangerosite_et_Transport_0_Effet,
-            ]
-        ),
-    ]
-)
-export DamageLevelsPackDescriptor_Bombardier_Lourd_packSupp is TDamageLevelsPackDescriptor
-(
-    DescriptorId = GUID:{55681cc9-af7f-4ace-a516-35e4b1995ced}
-    DamageLevelsDescriptors = [
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{144c5052-1f1b-4375-8166-01994b6af739}
-            Value = 0
-            LocalizationToken = "CALM"
-            MoralModifier = 20
-            HitRollModifier = 0
-            AnimationType = ESoldierSuppressStatus/Operational
-            EffectsPacks = [
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{be0adb4c-034b-4fac-b6d8-e7bb2fe98ed8}
-            Value = 0.2
-            LocalizationToken = "ENGAGED"
-            MoralModifier = 20
-            HitRollModifier = -10
-            AnimationType = ESoldierSuppressStatus/Suppressed
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Dispersion_Bombes_plus100,
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{b936cd95-f9fd-4543-8da6-fd8e9a5ca46e}
-            Value = 0.35
-            LocalizationToken = "WORRIED"
-            MoralModifier = 20
-            HitRollModifier = -25
-            AnimationType = ESoldierSuppressStatus/Suppressed
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Dispersion_Bombes_plus150,
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{dda61fce-236d-4e77-8e9d-bdfa88f2cbd1}
-            Value = 0.5
-            LocalizationToken = "STRESSED"
-            MoralModifier = 20
-            HitRollModifier = -45
-            AnimationType = ESoldierSuppressStatus/Suppressed
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Dispersion_Bombes_plus200,
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{e47af697-97f7-46f7-9643-d99eb9d3abc7}
-            Value = 0.65
-            LocalizationToken = "SHAKEN"
-            MoralModifier = 20
-            HitRollModifier = -70
-            AnimationType = ESoldierSuppressStatus/Pinned
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Dispersion_Bombes_plus300,
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{da0f38c2-7fd4-4234-8614-7e940a902840}
-            Value = 0.8
-            LocalizationToken = "PANICKED"
-            MoralModifier = -60
-            HitRollModifier = 0
-            AnimationType = ESoldierSuppressStatus/Cowering
-            FeedbackOnSelf = "OnUnitPanicking"
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Baisse_Dangerosite_et_Transport_0_Effet,
             ]
         ),
     ]
@@ -557,7 +303,6 @@ export DamageLevelsPackDescriptor_CanonAT_packSupp is TDamageLevelsPackDescripto
             Value = 0
             LocalizationToken = "CALM"
             MoralModifier = 99
-            HitRollModifier = 0
             AnimationType = ESoldierSuppressStatus/Operational
             EffectsPacks = [
             ]
@@ -568,7 +313,6 @@ export DamageLevelsPackDescriptor_CanonAT_packSupp is TDamageLevelsPackDescripto
             Value = 0.2
             LocalizationToken = "ENGAGED"
             MoralModifier = 99
-            HitRollModifier = -10
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_CanonAT_Engaged,
@@ -580,7 +324,6 @@ export DamageLevelsPackDescriptor_CanonAT_packSupp is TDamageLevelsPackDescripto
             Value = 0.35
             LocalizationToken = "WORRIED"
             MoralModifier = 99
-            HitRollModifier = -25
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_CanonAT_Stressed,
@@ -592,7 +335,6 @@ export DamageLevelsPackDescriptor_CanonAT_packSupp is TDamageLevelsPackDescripto
             Value = 0.5
             LocalizationToken = "STRESSED"
             MoralModifier = 99
-            HitRollModifier = -45
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_CanonAT_Suppressed,
@@ -604,7 +346,6 @@ export DamageLevelsPackDescriptor_CanonAT_packSupp is TDamageLevelsPackDescripto
             Value = 0.65
             LocalizationToken = "SHAKEN"
             MoralModifier = 99
-            HitRollModifier = -70
             AnimationType = ESoldierSuppressStatus/Pinned
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_CanonAT_Pinned,
@@ -616,7 +357,6 @@ export DamageLevelsPackDescriptor_CanonAT_packSupp is TDamageLevelsPackDescripto
             Value = 0.8
             LocalizationToken = "PINNED"
             MoralModifier = 99
-            HitRollModifier = 0
             AnimationType = ESoldierSuppressStatus/Cowering
             FeedbackOnSelf = "OnUnitPanicking"
             EffectsPacks = [
@@ -636,7 +376,6 @@ export DamageLevelsPackDescriptor_Default_pack_paliers_suppression is TDamageLev
             Value = 0
             LocalizationToken = "CALM"
             MoralModifier = 99
-            HitRollModifier = 0
             AnimationType = ESoldierSuppressStatus/Operational
             EffectsPacks = [
             ]
@@ -647,10 +386,10 @@ export DamageLevelsPackDescriptor_Default_pack_paliers_suppression is TDamageLev
             Value = 0.2
             LocalizationToken = "ENGAGED"
             MoralModifier = 99
-            HitRollModifier = -10
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_Nb_Places_Transport_0,
+                $/GFX/EffectCapacity/UnitEffect_Precision_moins_10,
             ]
         ),
         TDamageLevelDescriptor
@@ -659,10 +398,10 @@ export DamageLevelsPackDescriptor_Default_pack_paliers_suppression is TDamageLev
             Value = 0.35
             LocalizationToken = "WORRIED"
             MoralModifier = 99
-            HitRollModifier = -25
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_Nb_Places_Transport_0,
+                $/GFX/EffectCapacity/UnitEffect_Precision_moins_25,
             ]
         ),
         TDamageLevelDescriptor
@@ -671,9 +410,9 @@ export DamageLevelsPackDescriptor_Default_pack_paliers_suppression is TDamageLev
             Value = 0.5
             LocalizationToken = "STRESSED"
             MoralModifier = 99
-            HitRollModifier = -45
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
+                $/GFX/EffectCapacity/UnitEffect_Precision_moins_45,
             ]
         ),
         TDamageLevelDescriptor
@@ -682,9 +421,9 @@ export DamageLevelsPackDescriptor_Default_pack_paliers_suppression is TDamageLev
             Value = 0.65
             LocalizationToken = "SHAKEN"
             MoralModifier = 99
-            HitRollModifier = -70
             AnimationType = ESoldierSuppressStatus/Pinned
             EffectsPacks = [
+                $/GFX/EffectCapacity/UnitEffect_Precision_moins_70,
             ]
         ),
         TDamageLevelDescriptor
@@ -693,7 +432,6 @@ export DamageLevelsPackDescriptor_Default_pack_paliers_suppression is TDamageLev
             Value = 0.8
             LocalizationToken = "PANICKED"
             MoralModifier = 0
-            HitRollModifier = 0
             AnimationType = ESoldierSuppressStatus/Cowering
             EffectsPacks = [
             ]
@@ -710,7 +448,6 @@ export DamageLevelsPackDescriptor_GroundUnits_packSupp is TDamageLevelsPackDescr
             Value = 0
             LocalizationToken = "mrl_4"
             MoralModifier = 99
-            HitRollModifier = 0
             AnimationType = ESoldierSuppressStatus/Operational
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_GroundUnit_Cohesion_High,
@@ -722,7 +459,6 @@ export DamageLevelsPackDescriptor_GroundUnits_packSupp is TDamageLevelsPackDescr
             Value = 0.1
             LocalizationToken = "mrl_4"
             MoralModifier = 99
-            HitRollModifier = 0
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_GroundUnit_Cohesion_High,
@@ -734,7 +470,6 @@ export DamageLevelsPackDescriptor_GroundUnits_packSupp is TDamageLevelsPackDescr
             Value = 0.25
             LocalizationToken = "mrl_3"
             MoralModifier = 99
-            HitRollModifier = -25
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_GroundUnit_Cohesion_Normal,
@@ -746,7 +481,6 @@ export DamageLevelsPackDescriptor_GroundUnits_packSupp is TDamageLevelsPackDescr
             Value = 0.5
             LocalizationToken = "mrl_2"
             MoralModifier = 99
-            HitRollModifier = -45
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_GroundUnit_Cohesion_Mediocre,
@@ -758,7 +492,6 @@ export DamageLevelsPackDescriptor_GroundUnits_packSupp is TDamageLevelsPackDescr
             Value = 0.75
             LocalizationToken = "mrl_1"
             MoralModifier = 99
-            HitRollModifier = -70
             AnimationType = ESoldierSuppressStatus/Pinned
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_GroundUnit_Cohesion_Low,
@@ -769,7 +502,6 @@ export DamageLevelsPackDescriptor_GroundUnits_packSupp is TDamageLevelsPackDescr
             DescriptorId = GUID:{17ba57bd-fe1a-4600-8a7a-64b8378bc125}
             Value = 0.8
             LocalizationToken = "mrl_1"
-            HitRollModifier = -70
             AnimationType = ESoldierSuppressStatus/Cowering
             FeedbackOnSelf = "OnUnitPanicking"
             EffectsPacks = [
@@ -789,7 +521,6 @@ export DamageLevelsPackDescriptor_Infanterie_packSupp is TDamageLevelsPackDescri
             Value = 0
             LocalizationToken = "CALM"
             MoralModifier = 99
-            HitRollModifier = 0
             AnimationType = ESoldierSuppressStatus/Operational
             EffectsPacks = [
             ]
@@ -800,7 +531,6 @@ export DamageLevelsPackDescriptor_Infanterie_packSupp is TDamageLevelsPackDescri
             Value = 0.2
             LocalizationToken = "ENGAGED"
             MoralModifier = 99
-            HitRollModifier = -10
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_Infanterie_Engaged,
@@ -812,7 +542,6 @@ export DamageLevelsPackDescriptor_Infanterie_packSupp is TDamageLevelsPackDescri
             Value = 0.35
             LocalizationToken = "WORRIED"
             MoralModifier = 99
-            HitRollModifier = -25
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_Infanterie_Stressed,
@@ -824,7 +553,6 @@ export DamageLevelsPackDescriptor_Infanterie_packSupp is TDamageLevelsPackDescri
             Value = 0.5
             LocalizationToken = "STRESSED"
             MoralModifier = 99
-            HitRollModifier = -45
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_Infanterie_Suppressed,
@@ -836,7 +564,6 @@ export DamageLevelsPackDescriptor_Infanterie_packSupp is TDamageLevelsPackDescri
             Value = 0.65
             LocalizationToken = "SHAKEN"
             MoralModifier = 99
-            HitRollModifier = -70
             AnimationType = ESoldierSuppressStatus/Pinned
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_Infanterie_Pinned,
@@ -848,278 +575,11 @@ export DamageLevelsPackDescriptor_Infanterie_packSupp is TDamageLevelsPackDescri
             Value = 0.8
             LocalizationToken = "PINNED"
             MoralModifier = 99
-            HitRollModifier = 0
             AnimationType = ESoldierSuppressStatus/Cowering
             FeedbackOnSelf = "OnUnitPanicking"
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_Infanterie_Cowering,
                 $/GFX/EffectCapacity/UnitEffect_Baisse_Dangerosite_et_Transport_0_Effet,
-            ]
-        ),
-    ]
-)
-export DamageLevelsPackDescriptor_Moral_packSupp is TDamageLevelsPackDescriptor
-(
-    DescriptorId = GUID:{b4247dc2-93e4-40b9-b4af-1dd4bed403d9}
-    DamageLevelsDescriptors = [
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{d6c686c3-cb60-42e1-a1be-446fd85ee8de}
-            Value = 0
-            LocalizationToken = "moral1"
-            MoralModifier = 99
-            EffectsPacks = [
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{4b282174-d6f3-42d5-adb2-07623760b8fb}
-            Value = 0.3
-            LocalizationToken = "STRESSED"
-            MoralModifier = 99
-            HitRollModifier = -25
-            EffectsPacks = [
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{41e01608-cb2e-4901-97b0-a3c7611e1aa9}
-            Value = 0.6
-            LocalizationToken = "moral3"
-            MoralModifier = 50
-            HitRollModifier = -50
-            FeedbackOnSelf = "OnUnitPanicking"
-            EffectsPacks = [
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{4367e8a6-8852-41f0-9039-5f1b94f3acd2}
-            Value = 0.8
-            LocalizationToken = "moral3"
-            MoralModifier = 0
-            FeedbackOnSelf = "OnUnitPanicking"
-            EffectsPacks = [
-            ]
-        ),
-    ]
-)
-export DamageLevelsPackDescriptor_Multiroles_bombardier_packSupp is TDamageLevelsPackDescriptor
-(
-    DescriptorId = GUID:{5a700165-6ed1-4a55-9da0-e5178fcfb44c}
-    DamageLevelsDescriptors = [
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{7cacf0bb-0225-4cdd-a0ca-1baa6255b4f5}
-            Value = 0
-            LocalizationToken = "CALM"
-            MoralModifier = 20
-            HitRollModifier = 0
-            AnimationType = ESoldierSuppressStatus/Operational
-            EffectsPacks = [
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{ab3b7e69-1a1d-4b0d-851c-fcbf1b0e85ae}
-            Value = 0.1
-            LocalizationToken = "ENGAGED"
-            MoralModifier = 20
-            HitRollModifier = -5
-            AnimationType = ESoldierSuppressStatus/Suppressed
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Dispersion_Bombes_plus150,
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{349257c2-6543-46fd-9645-6b46f606473b}
-            Value = 0.2
-            LocalizationToken = "WORRIED"
-            MoralModifier = 20
-            HitRollModifier = -15
-            AnimationType = ESoldierSuppressStatus/Suppressed
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Dispersion_Bombes_plus200,
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{423ad617-ac9f-4001-aab3-2215ec1eb9ff}
-            Value = 0.3
-            LocalizationToken = "STRESSED"
-            MoralModifier = 20
-            HitRollModifier = -30
-            AnimationType = ESoldierSuppressStatus/Suppressed
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Dispersion_Bombes_plus300,
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{e7b48524-65c1-4138-8bb8-473d682da132}
-            Value = 0.4
-            LocalizationToken = "SHAKEN"
-            MoralModifier = -20
-            HitRollModifier = -50
-            AnimationType = ESoldierSuppressStatus/Pinned
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Baisse_Dangerosite_et_Transport_0_Effet,
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{75f52c03-b8e7-49cc-a0ad-cc19cbc82943}
-            Value = 0.8
-            LocalizationToken = "PANICKED"
-            MoralModifier = -60
-            HitRollModifier = 25
-            AnimationType = ESoldierSuppressStatus/Cowering
-            FeedbackOnSelf = "OnUnitPanicking"
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Baisse_Dangerosite_et_Transport_0_Effet,
-            ]
-        ),
-    ]
-)
-export DamageLevelsPackDescriptor_Multiroles_packSupp is TDamageLevelsPackDescriptor
-(
-    DescriptorId = GUID:{e3a4a647-3424-4336-a5bf-7ba0744a0cfe}
-    DamageLevelsDescriptors = [
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{89e45fdc-2c16-4561-8008-3230548566b5}
-            Value = 0
-            LocalizationToken = "CALM"
-            MoralModifier = 20
-            HitRollModifier = 0
-            AnimationType = ESoldierSuppressStatus/Operational
-            EffectsPacks = [
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{f3ab7a8c-097d-4449-9a9f-e3d8349a80d3}
-            Value = 0.1
-            LocalizationToken = "ENGAGED"
-            MoralModifier = 20
-            HitRollModifier = -5
-            AnimationType = ESoldierSuppressStatus/Suppressed
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Dispersion_Bombes_plus25,
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{810f5fd6-9cf1-4454-b43f-130e1286f0d2}
-            Value = 0.2
-            LocalizationToken = "WORRIED"
-            MoralModifier = 20
-            HitRollModifier = -15
-            AnimationType = ESoldierSuppressStatus/Suppressed
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Dispersion_Bombes_plus50,
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{02f102f5-2499-4cc5-bae5-7087c712d8c4}
-            Value = 0.3
-            LocalizationToken = "STRESSED"
-            MoralModifier = 20
-            HitRollModifier = -30
-            AnimationType = ESoldierSuppressStatus/Suppressed
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Dispersion_Bombes_plus100,
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{e669b7db-1480-4338-815a-949a4dc00607}
-            Value = 0.4
-            LocalizationToken = "SHAKEN"
-            MoralModifier = -20
-            HitRollModifier = -50
-            AnimationType = ESoldierSuppressStatus/Pinned
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Baisse_Dangerosite_et_Transport_0_Effet,
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{36d2ee1b-e08c-4606-b5c4-81310651767f}
-            Value = 0.8
-            LocalizationToken = "PANICKED"
-            MoralModifier = -60
-            HitRollModifier = 25
-            AnimationType = ESoldierSuppressStatus/Cowering
-            FeedbackOnSelf = "OnUnitPanicking"
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Baisse_Dangerosite_et_Transport_0_Effet,
-            ]
-        ),
-    ]
-)
-export DamageLevelsPackDescriptor_New_Default_packSuppression is TDamageLevelsPackDescriptor
-(
-    DescriptorId = GUID:{e4c1ee59-c732-4b07-9194-df8183113e89}
-    DamageLevelsDescriptors = [
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{cb8bccf1-363c-4dc1-94b5-eefb4e094d80}
-            Value = 0
-            LocalizationToken = "CALM"
-            MoralModifier = 99
-            AnimationType = ESoldierSuppressStatus/Operational
-            EffectsPacks = [
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{df1ef87b-1430-4a1e-9f8e-7d77a1869382}
-            Value = 0.25
-            LocalizationToken = "WORRIED"
-            MoralModifier = 99
-            HitRollModifier = -25
-            AnimationType = ESoldierSuppressStatus/Suppressed
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Default_Worried,
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{85f206c0-2fc7-40e0-ae0e-0d087b69f97c}
-            Value = 0.5
-            LocalizationToken = "STRESSED"
-            MoralModifier = 99
-            HitRollModifier = -50
-            AnimationType = ESoldierSuppressStatus/Suppressed
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Default_Stressed,
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{3f100fa4-52d2-4baf-acc8-a73e08997c21}
-            Value = 0.75
-            LocalizationToken = "PANICKED"
-            MoralModifier = 99
-            HitRollModifier = -75
-            AnimationType = ESoldierSuppressStatus/Suppressed
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Default_Panicked,
-            ]
-        ),
-        TDamageLevelDescriptor
-        (
-            DescriptorId = GUID:{533b7545-7a5f-43b0-bb1c-d765e0b8c897}
-            Value = 0.9
-            LocalizationToken = "PINNED"
-            MoralModifier = 0
-            HitRollModifier = 0
-            AnimationType = ESoldierSuppressStatus/Cowering
-            EffectsPacks = [
-                $/GFX/EffectCapacity/UnitEffect_Infanterie_Cowering,
             ]
         ),
     ]
@@ -1134,7 +594,6 @@ export DamageLevelsPackDescriptor_helo_packSupp is TDamageLevelsPackDescriptor
             Value = 0
             LocalizationToken = "mrl_4"
             MoralModifier = 99
-            HitRollModifier = 0
             AnimationType = ESoldierSuppressStatus/Operational
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_GroundUnit_Cohesion_High,
@@ -1146,7 +605,6 @@ export DamageLevelsPackDescriptor_helo_packSupp is TDamageLevelsPackDescriptor
             Value = 0.1
             LocalizationToken = "mrl_4"
             MoralModifier = 99
-            HitRollModifier = 0
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_GroundUnit_Cohesion_High,
@@ -1158,7 +616,6 @@ export DamageLevelsPackDescriptor_helo_packSupp is TDamageLevelsPackDescriptor
             Value = 0.25
             LocalizationToken = "mrl_3"
             MoralModifier = 99
-            HitRollModifier = -25
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_GroundUnit_Cohesion_Normal,
@@ -1170,7 +627,6 @@ export DamageLevelsPackDescriptor_helo_packSupp is TDamageLevelsPackDescriptor
             Value = 0.5
             LocalizationToken = "mrl_2"
             MoralModifier = 99
-            HitRollModifier = -45
             AnimationType = ESoldierSuppressStatus/Suppressed
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_GroundUnit_Cohesion_Mediocre,
@@ -1182,7 +638,6 @@ export DamageLevelsPackDescriptor_helo_packSupp is TDamageLevelsPackDescriptor
             Value = 0.75
             LocalizationToken = "mrl_1"
             MoralModifier = 99
-            HitRollModifier = -70
             AnimationType = ESoldierSuppressStatus/Pinned
             EffectsPacks = [
                 $/GFX/EffectCapacity/UnitEffect_GroundUnit_Cohesion_Low,
@@ -1193,7 +648,6 @@ export DamageLevelsPackDescriptor_helo_packSupp is TDamageLevelsPackDescriptor
             DescriptorId = GUID:{ebd9a6fc-b4c7-42c3-b893-1265309d92fb}
             Value = 0.8
             LocalizationToken = "mrl_1"
-            HitRollModifier = -70
             AnimationType = ESoldierSuppressStatus/Cowering
             FeedbackOnSelf = "OnUnitPanicking"
             EffectsPacks = [

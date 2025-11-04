@@ -15,3 +15,12 @@ export Modele_UH1H_Huey_US_LOW is TResourceMesh
 (
     Mesh=ModelFile_UH1H_Huey_US_LOW
 )
+
+export Modele_UH1H_Huey_US_Tourelle_01 is TResourceMesh
+(
+    Mesh=ModelFile_M60_t1
+)
+export Modele_UH1H_Huey_US_Tourelle_02 is TResourceMesh
+(
+    Mesh=ModelFile_M60_t2
+)

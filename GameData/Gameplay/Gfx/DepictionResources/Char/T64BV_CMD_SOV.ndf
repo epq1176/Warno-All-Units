@@ -12,3 +12,4 @@ export Modele_T64BV_CMD_SOV_LOW is TResourceMesh
 (
     Mesh="GameData:/Assets/3D/Units/URSS/Char/T64BV_CMD_LOW/T64BV_CMD_LOW.fbx"
 )
+
