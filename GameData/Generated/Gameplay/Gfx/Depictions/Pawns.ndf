@@ -1,4 +1,4 @@
-// Ne pas éditer, ce fichier est généré par DepictionPawnsFileWriter
+// Ne pas éditer, ce fichier est généré par DepictionPawnsWriter
 
 
 Depiction_pion_BEL_14Linie is StrategicGroundVehiclePawnDepictionDesc
@@ -8354,11 +8354,6 @@ Depiction_pion_SOV_9TkD_96Art_3 is StrategicGroundVehiclePawnDepictionDesc
     MeshDescriptorPawn = $/GFX/DepictionResources/Modele_BM21_Grad_SOV
     MeshSocle = $/GFX/DepictionResources/MeshModele_Socle_SOV
 )
-Depiction_pion_SOV_CGV is StrategicGroundVehiclePawnDepictionDesc
-(
-    MeshDescriptorPawn = $/GFX/DepictionResources/Modele_UAZ_469_CMD_SOV
-    MeshSocle = $/GFX/DepictionResources/MeshModele_Socle_SOV
-)
 Depiction_pion_SOV_CGV_1096SAM is StrategicGroundVehiclePawnDepictionDesc
 (
     MeshDescriptorPawn = $/GFX/DepictionResources/Modele_Buk_9K37M_SOV
@@ -8429,16 +8424,6 @@ Depiction_pion_SOV_CGV_901DShB is StrategicGroundVehiclePawnDepictionDesc
 Depiction_pion_SOV_CGV_91Eng is StrategicGroundVehiclePawnDepictionDesc
 (
     MeshDescriptorPawn = $/GFX/DepictionResources/Modele_MTLB_transp_SOV
-    MeshSocle = $/GFX/DepictionResources/MeshModele_Socle_SOV
-)
-Depiction_pion_SOV_NGF is StrategicGroundVehiclePawnDepictionDesc
-(
-    MeshDescriptorPawn = $/GFX/DepictionResources/Modele_OT_62_TOPAS_R3M_CMD_POL
-    MeshSocle = $/GFX/DepictionResources/MeshModele_Socle_POL
-)
-Depiction_pion_SOV_WGF is StrategicGroundVehiclePawnDepictionDesc
-(
-    MeshDescriptorPawn = $/GFX/DepictionResources/Modele_BTR_60_CMD_SOV
     MeshSocle = $/GFX/DepictionResources/MeshModele_Socle_SOV
 )
 Depiction_pion_SOV_WGF_34ArtDiv_286ArtBrigade is StrategicGroundVehiclePawnDepictionDesc
@@ -8900,11 +8885,6 @@ Depiction_pion_TCH_19MRD_67MSP_2 is StrategicGroundVehiclePawnDepictionDesc
 Depiction_pion_TCH_19MRD_67MSP_3 is StrategicGroundVehiclePawnDepictionDesc
 (
     MeshDescriptorPawn = $/GFX/DepictionResources/Modele_BMP_2_TCH
-    MeshSocle = $/GFX/DepictionResources/MeshModele_Socle_TCH
-)
-Depiction_pion_TCH_1Armee is StrategicGroundVehiclePawnDepictionDesc
-(
-    MeshDescriptorPawn = $/GFX/DepictionResources/Modele_OT_62_TOPAS_R4M_CMD_TCH
     MeshSocle = $/GFX/DepictionResources/MeshModele_Socle_TCH
 )
 Depiction_pion_TCH_1TkD is StrategicGroundVehiclePawnDepictionDesc
@@ -9710,11 +9690,6 @@ Depiction_pion_TCH_9TkD_9SAM is StrategicGroundVehiclePawnDepictionDesc
     [
         SubGenerators_Showroom_2K12_KUB_TCH,
     ]
-)
-Depiction_pion_TCH_CSLA is StrategicGroundVehiclePawnDepictionDesc
-(
-    MeshDescriptorPawn = $/GFX/DepictionResources/Modele_OT_62_TOPAS_R4M_CMD_TCH
-    MeshSocle = $/GFX/DepictionResources/MeshModele_Socle_TCH
 )
 Depiction_pion_TCH_Territorial_A is StrategicGroundVehiclePawnDepictionDesc
 (
@@ -12832,7 +12807,6 @@ export Gfx_pion_SOV_9TkD_70GTk_3 is TTimelyDepictionReceiverFactory( DepictionDe
 export Gfx_pion_SOV_9TkD_96Art_1 is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_SOV_9TkD_96Art_1)
 export Gfx_pion_SOV_9TkD_96Art_2 is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_SOV_9TkD_96Art_2)
 export Gfx_pion_SOV_9TkD_96Art_3 is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_SOV_9TkD_96Art_3)
-export Gfx_pion_SOV_CGV is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_SOV_CGV)
 export Gfx_pion_SOV_CGV_1096SAM is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_SOV_CGV_1096SAM)
 export Gfx_pion_SOV_CGV_1097SAM is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_SOV_CGV_1097SAM)
 export Gfx_pion_SOV_CGV_1098SAM is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_SOV_CGV_1098SAM)
@@ -12845,8 +12819,6 @@ export Gfx_pion_SOV_CGV_238AtckHelo is TTimelyDepictionReceiverFactory( Depictio
 export Gfx_pion_SOV_CGV_490AtckHelo is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_SOV_CGV_490AtckHelo)
 export Gfx_pion_SOV_CGV_901DShB is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_SOV_CGV_901DShB)
 export Gfx_pion_SOV_CGV_91Eng is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_SOV_CGV_91Eng)
-export Gfx_pion_SOV_NGF is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_SOV_NGF)
-export Gfx_pion_SOV_WGF is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_SOV_WGF)
 export Gfx_pion_SOV_WGF_34ArtDiv_286ArtBrigade is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_SOV_WGF_34ArtDiv_286ArtBrigade)
 export Gfx_pion_SOV_WGF_34ArtDiv_288ArtBrigade is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_SOV_WGF_34ArtDiv_288ArtBrigade)
 export Gfx_pion_SOV_WGF_34ArtDiv_303ArtBrigade is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_SOV_WGF_34ArtDiv_303ArtBrigade)
@@ -12924,7 +12896,6 @@ export Gfx_pion_TCH_19MRD_57MSP_3 is TTimelyDepictionReceiverFactory( DepictionD
 export Gfx_pion_TCH_19MRD_67MSP_1 is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_TCH_19MRD_67MSP_1)
 export Gfx_pion_TCH_19MRD_67MSP_2 is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_TCH_19MRD_67MSP_2)
 export Gfx_pion_TCH_19MRD_67MSP_3 is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_TCH_19MRD_67MSP_3)
-export Gfx_pion_TCH_1Armee is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_TCH_1Armee)
 export Gfx_pion_TCH_1TkD is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_TCH_1TkD)
 export Gfx_pion_TCH_1TkD_1GArt_1 is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_TCH_1TkD_1GArt_1)
 export Gfx_pion_TCH_1TkD_1GArt_2 is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_TCH_1TkD_1GArt_2)
@@ -13065,7 +13036,6 @@ export Gfx_pion_TCH_9TkD_79MSP_2 is TTimelyDepictionReceiverFactory( DepictionDe
 export Gfx_pion_TCH_9TkD_79MSP_3 is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_TCH_9TkD_79MSP_3)
 export Gfx_pion_TCH_9TkD_9Reco is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_TCH_9TkD_9Reco)
 export Gfx_pion_TCH_9TkD_9SAM is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_TCH_9TkD_9SAM)
-export Gfx_pion_TCH_CSLA is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_TCH_CSLA)
 export Gfx_pion_TCH_Territorial_A is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_TCH_Territorial_A)
 export Gfx_pion_TCH_Territorial_B is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_TCH_Territorial_B)
 export Gfx_pion_TCH_Territorial_C is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_TCH_Territorial_C)
@@ -13370,10 +13340,10 @@ export Gfx_pion_US_CENT_52ADA_6 is TTimelyDepictionReceiverFactory( DepictionDes
 export Gfx_pion_US_CENT_60ADA_3 is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_US_CENT_60ADA_3)
 export Gfx_pion_US_NG_AviaBrigade is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_US_NG_AviaBrigade)
 
-unnamed TMimeticGhostRegistration
+unnamed TGhostMimeticRegistration
 (
     GfxProperties = $/DepictionCore/GfxProperties
-    MimeticGhost = MAP
+    GhostMimetics = MAP
     [
         ( 'pion_BEL_14Linie', Depiction_pion_BEL_14Linie ),
         ( 'pion_BEL_16PtserDiv', Depiction_pion_BEL_16PtserDiv ),
@@ -14940,7 +14910,6 @@ unnamed TMimeticGhostRegistration
         ( 'pion_SOV_9TkD_96Art_1', Depiction_pion_SOV_9TkD_96Art_1 ),
         ( 'pion_SOV_9TkD_96Art_2', Depiction_pion_SOV_9TkD_96Art_2 ),
         ( 'pion_SOV_9TkD_96Art_3', Depiction_pion_SOV_9TkD_96Art_3 ),
-        ( 'pion_SOV_CGV', Depiction_pion_SOV_CGV ),
         ( 'pion_SOV_CGV_1096SAM', Depiction_pion_SOV_CGV_1096SAM ),
         ( 'pion_SOV_CGV_1097SAM', Depiction_pion_SOV_CGV_1097SAM ),
         ( 'pion_SOV_CGV_1098SAM', Depiction_pion_SOV_CGV_1098SAM ),
@@ -14953,8 +14922,6 @@ unnamed TMimeticGhostRegistration
         ( 'pion_SOV_CGV_490AtckHelo', Depiction_pion_SOV_CGV_490AtckHelo ),
         ( 'pion_SOV_CGV_901DShB', Depiction_pion_SOV_CGV_901DShB ),
         ( 'pion_SOV_CGV_91Eng', Depiction_pion_SOV_CGV_91Eng ),
-        ( 'pion_SOV_NGF', Depiction_pion_SOV_NGF ),
-        ( 'pion_SOV_WGF', Depiction_pion_SOV_WGF ),
         ( 'pion_SOV_WGF_34ArtDiv_286ArtBrigade', Depiction_pion_SOV_WGF_34ArtDiv_286ArtBrigade ),
         ( 'pion_SOV_WGF_34ArtDiv_288ArtBrigade', Depiction_pion_SOV_WGF_34ArtDiv_288ArtBrigade ),
         ( 'pion_SOV_WGF_34ArtDiv_303ArtBrigade', Depiction_pion_SOV_WGF_34ArtDiv_303ArtBrigade ),
@@ -15032,7 +14999,6 @@ unnamed TMimeticGhostRegistration
         ( 'pion_TCH_19MRD_67MSP_1', Depiction_pion_TCH_19MRD_67MSP_1 ),
         ( 'pion_TCH_19MRD_67MSP_2', Depiction_pion_TCH_19MRD_67MSP_2 ),
         ( 'pion_TCH_19MRD_67MSP_3', Depiction_pion_TCH_19MRD_67MSP_3 ),
-        ( 'pion_TCH_1Armee', Depiction_pion_TCH_1Armee ),
         ( 'pion_TCH_1TkD', Depiction_pion_TCH_1TkD ),
         ( 'pion_TCH_1TkD_1GArt_1', Depiction_pion_TCH_1TkD_1GArt_1 ),
         ( 'pion_TCH_1TkD_1GArt_2', Depiction_pion_TCH_1TkD_1GArt_2 ),
@@ -15173,7 +15139,6 @@ unnamed TMimeticGhostRegistration
         ( 'pion_TCH_9TkD_79MSP_3', Depiction_pion_TCH_9TkD_79MSP_3 ),
         ( 'pion_TCH_9TkD_9Reco', Depiction_pion_TCH_9TkD_9Reco ),
         ( 'pion_TCH_9TkD_9SAM', Depiction_pion_TCH_9TkD_9SAM ),
-        ( 'pion_TCH_CSLA', Depiction_pion_TCH_CSLA ),
         ( 'pion_TCH_Territorial_A', Depiction_pion_TCH_Territorial_A ),
         ( 'pion_TCH_Territorial_B', Depiction_pion_TCH_Territorial_B ),
         ( 'pion_TCH_Territorial_C', Depiction_pion_TCH_Territorial_C ),

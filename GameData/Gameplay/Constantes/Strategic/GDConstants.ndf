@@ -197,18 +197,6 @@ StrategicConstantes is TStrategicTunableConstante
         IADifficulty/Difficile,
     ]
 
-     //Bonus en pourcentage donnée à l'IA à l'income, selon la difficulté
-    RelativeIABonusFluxByIADifficulty = MAP
-    [
-        (IADifficulty/TresFacile,            0.0),
-        (IADifficulty/Facile,                0.0),
-        (IADifficulty/Normal,                0.0),
-        (IADifficulty/Difficile,             0.8),
-        (IADifficulty/TresDifficile,         0.8),
-        (IADifficulty/PlusDifficile,         0.8),
-    ]
-
-
     // Niveau des IA en partie tactique selon le niveau de la mission steelman
     // le 1er élément du tableau est la difficulté globale choisie par le joueur
     // le 2nd élement du tableau est le niveau d'IA pour les IA adverses
@@ -258,6 +246,8 @@ StrategicConstantes is TStrategicTunableConstante
     ActionPointConsumptionGridConstantsDescriptor = ~/ActionPointConsumptionGridConstants
 
     HideManual = true
+
+    GlobalVisionRangeGRU = 1413
 
     //-------------------------------------------------------------------------------------
     // REGLES DU TACTIQUE

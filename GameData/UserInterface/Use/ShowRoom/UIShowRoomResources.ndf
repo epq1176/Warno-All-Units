@@ -6,6 +6,8 @@ private DummyComponentForBlur is BUCKContainerDescriptor
     )
 )
 
+//-------------------------------------------------------------------------------------
+
 ShowRoomResource is TUISpecificShowRoomResources
 (
     Handler = $/UI/ResourcesHandler/ShowRoomResourcesHandler
@@ -41,6 +43,7 @@ ShowRoomResource is TUISpecificShowRoomResources
     LabelResource                   = ~/CommonLabelResource
     MainContainerResource           = ~/ShowRoomMainContainerResource
     MousePolicyManagerResources     = nil
+    UnitNameResources               = ~/UICommonUnitNameResources
 
     WarningPanelResources           = ~/WarningPanelInGameResources
 
@@ -48,11 +51,6 @@ ShowRoomResource is TUISpecificShowRoomResources
     MagnifierMultiplier = 0.9
 
     DummyComponentForBlur = ~/DummyComponentForBlur
-
-    AllianceToCountriesToShow = MAP [
-        (ECoalition/PACT, ["SOV","POL","DDR","TCH"]),
-        (ECoalition/NATO, ["US","UK","FR","CAN","RFA","NL","BEL","LUX","ESP"])
-    ]
 
     SpecificHidingViewDescriptor = ~/UISpecificHidingViewDescriptor
     DeckCreatorViewHelperDescriptor = ~/DeckCreatorScreenViewHelperDescriptor
@@ -62,6 +60,8 @@ ShowRoomResource is TUISpecificShowRoomResources
     ShortcutUserInputLayer = $/M3D/Input/UserInputLayerHandler/InputLayer_InGameShortcuts
     LDScriptUserInputLayer =  $/M3D/Input/UserInputLayerHandler/InputLayer_LDScriptInterceptor
 )
+
+//-------------------------------------------------------------------------------------
 
 ShowRoomMainContainerResource is TUICommonMainContainerResource
 (

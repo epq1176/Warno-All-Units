@@ -45,6 +45,7 @@ LoadingPanelResource is TUISpecificOutGameLoadingPanelResource
         "HintEd_02",
         "HintEd_03",
         "HintEd_04",
+        "HintEd_05",
     ]
 
     DevHints = [
@@ -217,6 +218,16 @@ LoadingPanelResource is TUISpecificOutGameLoadingPanelResource
                     TResourceVideo ( VideoFile =  "GameData:/Assets/Videos/loading_screen_animated/Video_Loading_Screen_70_.webm" ),
                     TResourceVideo ( VideoFile =  "GameData:/Assets/Videos/loading_screen_animated/Video_Loading_Screen_71_.webm" ),
                     TResourceVideo ( VideoFile =  "GameData:/Assets/Videos/loading_screen_animated/Video_Loading_Screen_72_.webm" ),
+                    TResourceVideo ( VideoFile =  "GameData:/Assets/Videos/loading_screen_animated/Video_Loading_Screen_73_.webm" ),
+                    TResourceVideo ( VideoFile =  "GameData:/Assets/Videos/loading_screen_animated/Video_Loading_Screen_74_.webm" ),
+                    TResourceVideo ( VideoFile =  "GameData:/Assets/Videos/loading_screen_animated/Video_Loading_Screen_75_.webm" ),
+                    TResourceVideo ( VideoFile =  "GameData:/Assets/Videos/loading_screen_animated/Video_Loading_Screen_76_.webm" ),
+                    TResourceVideo ( VideoFile =  "GameData:/Assets/Videos/loading_screen_animated/Video_Loading_Screen_77_.webm" ),
+                    TResourceVideo ( VideoFile =  "GameData:/Assets/Videos/loading_screen_animated/Video_Loading_Screen_78_.webm" ),
+                    TResourceVideo ( VideoFile =  "GameData:/Assets/Videos/loading_screen_animated/Video_Loading_Screen_79_.webm" ),
+                    TResourceVideo ( VideoFile =  "GameData:/Assets/Videos/loading_screen_animated/Video_Loading_Screen_80_.webm" ),
+                    TResourceVideo ( VideoFile =  "GameData:/Assets/Videos/loading_screen_animated/Video_Loading_Screen_81_.webm" ),
+
                 ]
             ),
 

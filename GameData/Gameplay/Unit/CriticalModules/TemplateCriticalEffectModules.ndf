@@ -882,7 +882,7 @@ PackEffetCritique_VehiculeSansTourelle is
     CriticalEffect_AmmoExplosion(Roll = (4,4)),
     CriticalEffect_FuelExplosion(Roll = (5,5)),
     CriticalEffect_CompReset(Roll = (6,6)),
-    CriticalEffect_BailedOut(Roll = (7,7)),
+    // CriticalEffect_BailedOut(Roll = (7,7)),
     CriticalEffect_ArmourCracked (Roll = (8,8)),
     CriticalEffect_Spalling (Roll = (9,9)),
     CriticalEffect_TracksBroken(Roll = (10,10)),
@@ -896,7 +896,7 @@ PackEffetCritique_VehiculeStandard is
     CriticalEffect_AmmoExplosion(Roll = (4,4)),
     CriticalEffect_FuelExplosion(Roll = (5,5)),
     CriticalEffect_CompReset(Roll = (6,6)),
-    CriticalEffect_BailedOut(Roll = (7,7)),
+    // CriticalEffect_BailedOut(Roll = (7,7)),
     CriticalEffect_ArmourCracked (Roll = (8,8)),
     CriticalEffect_Spalling (Roll = (9,9)),
     CriticalEffect_TracksBroken(Roll = (10,10)),
@@ -909,7 +909,7 @@ PackEffetCritique_VehiculeNonArme is
     CriticalEffect_EngineDamaged(Roll = (2,2)),
     CriticalEffect_EngineDestroyed(Roll = (3,3)),
     CriticalEffect_FuelExplosion(Roll = (4,4)),
-    CriticalEffect_BailedOut(Roll = (5,5)),
+    // CriticalEffect_BailedOut(Roll = (5,5)),
     CriticalEffect_Spalling (Roll = (6,6)),
 ]
 

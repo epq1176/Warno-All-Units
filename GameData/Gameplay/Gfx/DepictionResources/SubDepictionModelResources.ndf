@@ -16,6 +16,14 @@ export MeshDescriptor_Driver_US_LOW is TResourceMesh
 (
     Mesh=US_GI_1_LOW
 )
+export MeshDescriptor_Driver_USMC is TResourceMesh
+(
+    Mesh=US_USMC_Crew
+)
+export MeshDescriptor_Driver_USMC_LOW is TResourceMesh
+(
+    Mesh=US_GI_1_LOW
+)
 //--------------------------------------------------------------------------------------------------------------------
 export MeshDescriptor_Driver_UK is TResourceMesh
 (
@@ -315,6 +323,28 @@ export MeshDescriptor_Servant_D_VDV is TResourceMesh
 export MeshDescriptor_Servant_G_VDV_LOW is TResourceMesh (Mesh=MotoStrelki_1_LOW)
 export MeshDescriptor_Servant_D_VDV_LOW is TResourceMesh (Mesh=MotoStrelki_1_LOW)
 //--------------------------------------------------------------------------------------------------------------------
+export MeshDescriptor_Servant_G_Morskaya is TResourceMesh
+(
+    Mesh=SOV_Morskaya_1
+)
+export MeshDescriptor_Servant_D_Morskaya is TResourceMesh
+(
+    Mesh=SOV_Morskaya_3
+)
+export MeshDescriptor_Servant_G_Morskaya_LOW is TResourceMesh (Mesh=SOV_Morskaya_LOW)
+export MeshDescriptor_Servant_D_Morskaya_LOW is TResourceMesh (Mesh=SOV_Morskaya_LOW)
+//--------------------------------------------------------------------------------------------------------------------
+export MeshDescriptor_Servant_G_Guards_UK is TResourceMesh
+(
+    Mesh=UK_Guard_spe
+)
+export MeshDescriptor_Servant_D_Guards_UK is TResourceMesh
+(
+    Mesh=UK_Guard_NCO
+)
+export MeshDescriptor_Servant_G_Guards_UK_LOW is TResourceMesh (Mesh=UK_Rifleman_1_LOW)
+export MeshDescriptor_Servant_D_Guards_UK_LOW is TResourceMesh (Mesh=UK_Rifleman_1_LOW)
+//--------------------------------------------------------------------------------------------------------------------
 export MeshDescriptor_Servant_NCO_G_VDV is TResourceMesh
 (
     Mesh="GameData:/Assets/3D/Units/URSS/Infanterie/VDV/VDV_NCO.fbx"
@@ -408,6 +438,23 @@ export MeshDescriptor_Servant_G_US_LOW is TResourceMesh
 export MeshDescriptor_Servant_D_US_LOW is TResourceMesh
 (
     Mesh="GameData:/Assets/3D/Units/US/Infanterie/GI/GI_2.fbx"
+)
+//--------------------------------------------------------------------------------------------------------------------
+export MeshDescriptor_Servant_G_USMC is TResourceMesh
+(
+    Mesh=US_USMC_Crew
+)
+export MeshDescriptor_Servant_D_USMC is TResourceMesh
+(
+    Mesh=US_USMC_1
+)
+export MeshDescriptor_Servant_G_USMC_LOW is TResourceMesh
+(
+    Mesh=US_GI_1_LOW
+)
+export MeshDescriptor_Servant_D_USMC_LOW is TResourceMesh
+(
+    Mesh=US_GI_1_LOW
 )
 //--------------------------------------------------------------------------------------------------------------------
 export MeshDescriptor_Servant_GI_NCO_G_US is TResourceMesh
@@ -862,6 +909,32 @@ export MeshDescriptor_Servant_D_ESP_LOW is TResourceMesh
 export MeshDescriptor_Servant_G_ESP_LOW is TResourceMesh
 (
     Mesh=US_GI_1_LOW
+)
+//--------------------------------------------------------------------------------------------------------------------
+export MeshDescriptor_Servant_D_DK is TResourceMesh
+(
+    Mesh=DK_Dane_1
+)
+export MeshDescriptor_Servant_G_DK is TResourceMesh
+(
+    Mesh=DK_Dane_NCO
+)
+export MeshDescriptor_Servant_D_DK_LOW is TResourceMesh
+(
+    Mesh=RFA_Jager_LOW
+)
+export MeshDescriptor_Servant_G_DK_LOW is TResourceMesh
+(
+    Mesh=RFA_Jager_LOW
+)
+//--------------------------------------------------------------------------------------------------------------------
+export MeshDescriptor_Driver_DK is TResourceMesh
+(
+    Mesh=DK_Dane_1
+)
+export MeshDescriptor_Driver_DK_LOW is TResourceMesh
+(
+    Mesh=RFA_Jager_LOW
 )
 //--------------------------------------------------------------------------------------------------------------------
 export FuldaSoldier is TResourceMesh

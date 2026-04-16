@@ -28,7 +28,6 @@ template AirplaneMovementDescriptor
     RollAngleDegree,
     RollSpeedDegreePerSecond,
     EvacAngleDegree,
-    EvacToStartingPoint,
     AttackStrategiesDescriptorsSortedByPriority,
 ] is TAirplaneMovementModuleDescriptor
 (
@@ -42,18 +41,17 @@ template AirplaneMovementDescriptor
     RollAngleDegree = <RollAngleDegree>
     RollSpeedDegreePerSecond = <RollSpeedDegreePerSecond>
     EvacAngleDegree = <EvacAngleDegree>
-    EvacToStartingPoint = <EvacToStartingPoint>
     AttackStrategiesDescriptorsSortedByPriority = <AttackStrategiesDescriptorsSortedByPriority>
 )
 
 template BuildingApparenceModuleDescriptor
 [
-    BlackHoleIdentifier,
+    BlackHoleKey,
     SymbolName,
 ] is TApparenceModuleDescriptor
 (
     PickableObject                        = True
-    BlackHoleIdentifier = <BlackHoleIdentifier>
+    BlackHoleKey = <BlackHoleKey>
     Depiction = TTimelyModifyLevelBuildReceiverFactory
     (
         SymbolName = <SymbolName>
@@ -72,22 +70,22 @@ template InfantryApparenceModuleDescriptor [
 (
     UseFollowCam = True
     PickableObject = False
-    Depiction = TTimelyDepictionReceiverFactory( MimeticName = <MimeticName> )
+    Depiction = TTimelyDepictionReceiverFactory( BlackHoleKey = <MimeticName> )
     ReferenceMesh = $/GFX/DepictionResources/Rien
 )
 
 template VehicleApparenceModuleDescriptor [
     MimeticName,
-    BlackHoleIdentifier,
+    BlackHoleKey,
     GameplayBBoxBoneName = "",
     ReferenceMesh,
 ] is TApparenceModuleDescriptor
 (
     UseFollowCam = True
     PickableObject = True
-    Depiction = TTimelyDepictionReceiverFactory( MimeticName = <MimeticName> )
+    Depiction = TTimelyDepictionReceiverFactory( BlackHoleKey = <MimeticName> )
     ReferenceMesh = <ReferenceMesh>
-    BlackHoleIdentifier = <BlackHoleIdentifier>
+    BlackHoleKey = <BlackHoleKey>
     GameplayBBoxBoneName = <GameplayBBoxBoneName>
 )
 
@@ -95,15 +93,12 @@ FacingInfosModuleDescriptor is TFacingInfosModuleDescriptor()
 
 HeliApparenceModuleDescriptor is THeliApparenceModuleDescriptor()
 
-UnitStateEngineCompanyModuleDescriptor is TStateEngineCompanyModuleDescriptor
-(
-)
-UnitStateEngineModuleDescriptor is TStateEngineUnitModuleDescriptor
-(
-)
+UnitStateEngineUnitModuleDescriptor is TStateEngineUnitModuleDescriptor()
+UnitStateEngineSubUnitModuleDescriptor is TStateEngineSubUnitModuleDescriptor()
 
 AirplanePositionModuleDescriptor is TPositionModuleDescriptor
 (
+    InitialCollisionPlane      = ECollisionPlane/HighAltitude
     InGeoDb                    = True
     ClampInWorld               = False
     ClampOutMap                = True
@@ -111,26 +106,23 @@ AirplanePositionModuleDescriptor is TPositionModuleDescriptor
 
 AirplaneCadavrePositionModuleDescriptor is TPositionModuleDescriptor
 (
+    InitialCollisionPlane      = ECollisionPlane/Ground
     InGeoDb                    = False
     ClampInWorld               = False
     ClampOutMap                = True
 )
 
-
-template HelicopterCadavrePositionModuleDescriptor [
-    LowAltitudeFlyingAltitudeGRU,
-    NearGroundFlyingAltitudeGRU
-] is TPositionModuleDescriptor
-(
-    InGeoDb                    = False
-    ClampInWorld               = True
-    ClampOutMap                = False
-    LowAltitudeFlyingAltitudeGRU  = <LowAltitudeFlyingAltitudeGRU>
-    NearGroundFlyingAltitudeGRU   = <NearGroundFlyingAltitudeGRU>
-)
-
 UnitPositionModuleDescriptor is TPositionModuleDescriptor
 (
+    InitialCollisionPlane      = ECollisionPlane/Ground
+    InGeoDb                    = True
+    ClampInWorld               = True
+    ClampOutMap                = False
+)
+
+HelicopterPositionModuleDescriptor is TPositionModuleDescriptor
+(
+    InitialCollisionPlane      = ECollisionPlane/NearGround
     InGeoDb                    = True
     ClampInWorld               = True
     ClampOutMap                = False
@@ -138,6 +130,7 @@ UnitPositionModuleDescriptor is TPositionModuleDescriptor
 
 UnitCadavrePositionModuleDescriptor is TPositionModuleDescriptor
 (
+    InitialCollisionPlane      = ECollisionPlane/Ground
     InGeoDb                    = False
     ClampInWorld               = True
     ClampOutMap                = False
@@ -145,6 +138,7 @@ UnitCadavrePositionModuleDescriptor is TPositionModuleDescriptor
 
 DistrictPositionModuleDescriptor is TPositionModuleDescriptor
 (
+    InitialCollisionPlane      = ECollisionPlane/Ground
     InGeoDb                    = True
     ClampInWorld               = False
     ClampOutMap                = False
@@ -152,6 +146,7 @@ DistrictPositionModuleDescriptor is TPositionModuleDescriptor
 
 DistrictCadavrePositionModuleDescriptor is TPositionModuleDescriptor
 (
+    InitialCollisionPlane      = ECollisionPlane/Ground
     InGeoDb                    = False
     ClampInWorld               = False
     ClampOutMap                = False
@@ -159,6 +154,7 @@ DistrictCadavrePositionModuleDescriptor is TPositionModuleDescriptor
 
 BunkerCadavrePositionModuleDescriptor is TPositionModuleDescriptor
 (
+    InitialCollisionPlane      = ECollisionPlane/Ground
     InGeoDb                    = False
     ClampInWorld               = False
     ClampOutMap                = False
@@ -166,6 +162,7 @@ BunkerCadavrePositionModuleDescriptor is TPositionModuleDescriptor
 
 BuildingCadavrePositionModuleDescriptor is TPositionModuleDescriptor
 (
+    InitialCollisionPlane      = ECollisionPlane/Ground
     InGeoDb                    = False
     ClampInWorld               = True
     ClampOutMap                = False
@@ -232,7 +229,7 @@ template UnitCadavreGeneratorModuleDescriptor
     CadavreModuleDescriptors =
     [
         ~/EmptyTagsModuleDescriptor,
-        ~/CadavreFlagsModuleDescriptor,
+        ~/DefaultFlagsModuleDescriptor,
         ~/UnitCadavrePositionModuleDescriptor,
         UnitCadavreModuleDescriptor
         (
@@ -247,7 +244,7 @@ template BuildingCadavreGeneratorModuleDescriptor[] is TCadavreGeneratorModuleDe
 (
     CadavreModuleDescriptors =
     [
-        ~/CadavreFlagsModuleDescriptor,
+        ~/DefaultFlagsModuleDescriptor,
         ~/BuildingCadavrePositionModuleDescriptor,
         ~/BuildingCadavreModuleDescriptor,
     ]
@@ -308,7 +305,7 @@ BuildingScannerConfigurationDescriptor is TScannerConfigurationDescriptor
         ( EVisionRange/HighAltitude, 3533.56890459 ),
     ]
     OpticalStrengths = MAP [
-        ( EOpticalStrength/LowAltitude, 40.0 ),
-        ( EOpticalStrength/HighAltitude, 40.0 ),
+        ( EOpticalStrength/LowAltitude, 1413.427562 ),
+        ( EOpticalStrength/HighAltitude, 1413.427562 ),
     ]
 )

@@ -19,18 +19,15 @@ StrategicSelectionModuleDescriptor is TSelectionModuleDescriptor
 
 PawnPositionModuleDescriptor is TPositionModuleDescriptor
 (
+    InitialCollisionPlane      = ECollisionPlane/Ground
     InGeoDb                    = True
     ClampInWorld               = False
     ClampOutMap                = False
 )
 
-StrategicStateEngineModuleDescriptor is TStateEngineUnitModuleDescriptor
-(
-)
+StrategicStateEngineModuleDescriptor is TStateEngineUnitModuleDescriptor()
 
-StrategicIdleStatusModuleDescriptor is TStrategicIdleStatusModuleDescriptor
-(
-)
+StrategicIdleStatusModuleDescriptor is TStrategicIdleStatusModuleDescriptor()
 
 StrategicBuildingModuleDescriptor is TWargameBuildingModuleDescriptor
 (
@@ -46,15 +43,17 @@ template StrategicUIModuleDescriptor [ NameToken, ProdMenuTexture ] is TPawnUIMo
 
 PawnAirplaneOrderConfigModuleDescriptor is TOrderConfigModuleDescriptor()
 
-PawnAirportScannerConfigurationDescriptor is TScannerConfigurationDescriptor
+PawnBuildingScannerConfigurationDescriptor is TScannerConfigurationDescriptor
 (
     VisionRangesGRU = MAP [
         ( EVisionRange/Standard, 353.356890459 ),
         ( EVisionRange/HighAltitude, 706.713780919 ),
     ]
     OpticalStrengths = MAP [
-        ( EOpticalStrength/Standard, 120.0 ),
-        ( EOpticalStrength/LowAltitude, 120.0 ),
-        ( EOpticalStrength/HighAltitude, 60.0 ),
+        ( EOpticalStrength/Standard, 4240.282686 ),
+        ( EOpticalStrength/LowAltitude, 4240.282686 ),
+        ( EOpticalStrength/HighAltitude, 2120.141343 ),
     ]
 )
+
+StrategicPositionModuleDescriptor is TStrategicPositionModuleDescriptor()

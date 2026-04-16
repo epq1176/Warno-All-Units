@@ -27,6 +27,7 @@ export OutGameResourceSpecific is TUISpecificOutGameResources
 
     HUBContainerResource        = $/UI/HUBContainer/OutGameHUBContainerResource
     HUBContainerHandler         = $/UI/HUBContainer/OutGameHUBContainerHandler
+    UnitNameResources           = ~/UICommonUnitNameResources
     ActionScreensContainerResource = ~/outGameActionScreensContainerResource
 
     UserInputBinder             = $/GameOptionsInterface/UserInputBinder
@@ -43,6 +44,7 @@ export OutGameResourceSpecific is TUISpecificOutGameResources
     UISpecificDivisionSelectionViewDescriptor = ~/UISpecificDivisionSelectionViewDescriptor
     CreditsResource             = ~/SpecificCreditsResource
     PlayerPropertyResource      = ~/specificPlayerPropertyResource
+    DivisionTypeDescriptions    = ~/DivisionTypeDescriptions
 
     NicknameChangeResource      = ~/NicknameChangeResource
     ModaleResource              = ~/ModaleResource
@@ -79,7 +81,6 @@ export OutGameResourceSpecific is TUISpecificOutGameResources
     ViewDescriptors = MAP
     [
         ("UIOutGameChatViewDescriptor", ~/UISpecificOutGameChatViewDescriptor),
-        ("UIOutGameShowRoomChatViewDescriptor", ~/UISpecificOutGameShowRoomChatViewDescriptor),
         ("UIOutGameChatOneChannelViewDescriptor", ~/UISpecificOutGameChatOneChannelViewDescriptor),
         ("UIOutGameChatChannelListViewDescriptor", ~/UISpecificOutGameChatChannelListViewDescriptor),
         ("UIOutGameChatMessageListViewDescriptor", ~/UISpecificOutGameChatMessageListViewDescriptor),

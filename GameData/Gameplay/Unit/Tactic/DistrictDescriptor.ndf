@@ -49,14 +49,12 @@ template DistrictDescriptor
             )
             KillWhenDamagesReachMax = <KillWhenDamagesReachMax>
             HitRollECM = 0.0
-            AutoOrientation = False
             UseTopArmorAgainstFire = True
         ),
         ~/DistrictSelectionModuleDescriptor,
         TShootingPointsModuleDescriptor(),
         ~/DistrictApparenceModuleDescriptor,
         ~/LinkTeamModuleDescriptor,
-        ~/DebugModuleDescriptor,
         TIAStratModuleDescriptor
         (
             DatabaseId = 1

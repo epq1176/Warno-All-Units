@@ -6,15 +6,6 @@ export Strategic_TeamUnitDescriptor is TEntityDescriptor
 
     ModulesDescriptors =
     [
-        TTeamCurrencyManagerModuleDescriptor
-        (
-            PiggyBanks = [
-                TPiggyBankDescriptor
-                (
-                    CurrencyType = $/GFX/Resources/Resource_StrategicPoints
-                ),
-            ]
-        ),
         TStrategicTeamProductionModuleDescriptor
         (
         ),
@@ -55,7 +46,7 @@ export Strategic_TeamUnitDescriptor is TEntityDescriptor
         TTeamInitialCurrencyModuleDescriptor
         (
         ),
-        TFumigeneModuleDescriptor
+        TBeaconModuleDescriptor
         (
         ),
         TIATeamStrategyModuleDescriptor

@@ -3,8 +3,7 @@
 
 export Resource_DefaultMunitions is 0
 export Resource_CommandPoints is 1
-export Resource_StrategicPoints is 2
-export Resource_Tickets is 3
+export Resource_Tickets is 2
 
 
 
@@ -13,7 +12,6 @@ export Generated_ResourceList_Enum is TEnumResourceList
     Values = [
         "Resource_DefaultMunitions",
         "Resource_CommandPoints",
-        "Resource_StrategicPoints",
         "Resource_Tickets",
     ]
 )

@@ -14,7 +14,7 @@ UIInGameResource is TUISpecificInGameResources
     ViewDescriptors = MAP
     [
         ("UISpecificIngameChatViewDescriptor", UISpecificIngameChatViewDescriptor(PanelColorStyle = "TacticPanel" ButtonColorStyle = "TacticButton_highlightable")),
-        ("UISpecificInGameFlarePanelViewDescriptor", ~/UIInGameFlarePanelViewDescriptor),
+        ("UISpecificInGameBeaconPanelViewDescriptor", ~/UIInGameBeaconPanelViewDescriptor),
         ("UISpecificIngameHUDTransportAndUnitsInfoViewDescriptor", ~/UISpecificInGameHUDTransportAndUnitsInfoViewDescriptor),
         ("UISpecificUnitInfoPanelViewDescriptor", UISpecificUnitInfoPanelViewDescriptor()),
         ("SkirmishProductionMenu", UISpecificSkirmishProductionMenuViewDescriptor()),
@@ -49,13 +49,14 @@ UIInGameResource is TUISpecificInGameResources
     ]
 
     MainContainerResource       = ~/InGameMainContainerResource
+    UnitNameResources           = ~/UICommonUnitNameResources
     ShortcutUserInputLayer      = $/M3D/Input/UserInputLayerHandler/InputLayer_InGameShortcuts
     LDScriptUserInputLayer      =  $/M3D/Input/UserInputLayerHandler/InputLayer_LDScriptInterceptor
 
     CommonHUDResources          = ~/InGameHUDResource
     HUDResource                 = ~/InGameHUDResource
     LabelResource               = ~/CommonLabelResource
-    FlareLabelResources         = ~/CommonFlareLabelResources
+    BeaconLabelResources        = ~/CommonBeaconLabelResources
     PlayerMissionLabelResources = ~/SpecificInGamePlayerMissionLabelResources
     GabaritResources            = ~/InGameGabaritResources
     UnitLabelResource           = ~/SpecificInGameUnitLabelResources
@@ -76,6 +77,7 @@ UIInGameResource is TUISpecificInGameResources
     OptionManager               = $/GameOptionsInterface/GameOptionsInterfaceWrapper
 
     CommanderResources          = ~/CommanderResources
+    CubeActionResources         = ~/TacticCubeActionResources
 
     HelperVisibility            = ~/InGameVisibilityHelper
 
@@ -188,7 +190,7 @@ InGameMainContainerResource is TUICommonMainContainerResource
                     (
                         ComponentDescriptor = BUCKContainerDescriptor
                         (
-                            UniqueName = "UICommonFlarePanelViewMainContainer"
+                            UniqueName = "UICommonBeaconPanelViewMainContainer"
                             ComponentFrame = TUIFramePropertyRTTI
                             (
                                 RelativeWidthHeight = [1.0, 0.0]

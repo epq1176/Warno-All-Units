@@ -551,16 +551,6 @@ Depiction_pion_US_92TFS is StrategicAirplanePawnDepictionDesc
     MeshDescriptorPawn = $/GFX/DepictionResources/Modele_A10_Thunderbolt_II_ATGM_US
     MeshSocle = $/GFX/DepictionResources/MeshModele_Socle_US
 )
-Depiction_test_avion_alex is StrategicAirplanePawnDepictionDesc
-(
-    MeshDescriptorPawn = $/GFX/DepictionResources/Modele_F16E_HE_US
-    MeshSocle = $/GFX/DepictionResources/MeshModele_Socle_US
-)
-Depiction_test_avion_cas is StrategicAirplanePawnDepictionDesc
-(
-    MeshDescriptorPawn = $/GFX/DepictionResources/Modele_F16E_HE_US
-    MeshSocle = $/GFX/DepictionResources/MeshModele_Socle_US
-)
 export Gfx_pion_BEL_11Sq is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_BEL_11Sq)
 export Gfx_pion_BEL_1Sq is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_BEL_1Sq)
 export Gfx_pion_BEL_23Sq is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_BEL_23Sq)
@@ -671,13 +661,11 @@ export Gfx_pion_US_81TFS is TTimelyDepictionReceiverFactory( DepictionDescriptor
 export Gfx_pion_US_81TFW is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_US_81TFW)
 export Gfx_pion_US_91TFS is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_US_91TFS)
 export Gfx_pion_US_92TFS is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_pion_US_92TFS)
-export Gfx_test_avion_alex is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_test_avion_alex)
-export Gfx_test_avion_cas is TTimelyDepictionReceiverFactory( DepictionDescriptor = Depiction_test_avion_cas)
 
-unnamed TMimeticGhostRegistration
+unnamed TGhostMimeticRegistration
 (
     GfxProperties = $/DepictionCore/GfxProperties
-    MimeticGhost = MAP
+    GhostMimetics = MAP
     [
         ( 'pion_BEL_11Sq', Depiction_pion_BEL_11Sq ),
         ( 'pion_BEL_1Sq', Depiction_pion_BEL_1Sq ),
@@ -789,8 +777,6 @@ unnamed TMimeticGhostRegistration
         ( 'pion_US_81TFW', Depiction_pion_US_81TFW ),
         ( 'pion_US_91TFS', Depiction_pion_US_91TFS ),
         ( 'pion_US_92TFS', Depiction_pion_US_92TFS ),
-        ( 'test_avion_alex', Depiction_test_avion_alex ),
-        ( 'test_avion_cas', Depiction_test_avion_cas ),
     ]
 )
 

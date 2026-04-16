@@ -12,6 +12,18 @@ ConditionTagNotRaisedInUnit_IFV_ok is TConditionNot
     DescriptorId = GUID:{dc33e94e-f4ad-45f5-93fe-7684050b128c}
 )
 
+ConditionTagRaisedInUnit_Instructor_immune is TConditionTagRaisedInUnit
+(
+    DescriptorId = GUID:{9f7e313e-d63d-4697-ad66-a13414412f5a}
+    Tag = "Instructor_immune"
+)
+
+ConditionTagNotRaisedInUnit_Instructor_immune is TConditionNot
+(
+    ConditionToInverse = ConditionTagRaisedInUnit_Instructor_immune
+    DescriptorId = GUID:{94e145bd-e99e-485a-8c22-c4170772e77b}
+)
+
 ConditionTagRaisedInUnit_Panique is TConditionTagRaisedInUnit
 (
     DescriptorId = GUID:{fd5e2236-edcd-472e-8eeb-edb371cdefde}
@@ -120,12 +132,6 @@ ConditionTagNotRaisedInUnit_snipe_ok is TConditionNot
     DescriptorId = GUID:{38566e49-7df6-44ff-a7a7-956e516dde12}
 )
 
-ConditionTagRaisedInUnit_GSR_ok is TConditionTagRaisedInUnit
-(
-    DescriptorId = GUID:{3af63777-3d2a-4830-9917-a4e0374080c6}
-    Tag = "GSR_ok"
-)
-
 ConditionTagRaisedInUnit_GroundUnit_Engaged is TConditionTagRaisedInUnit
 (
     DescriptorId = GUID:{1f8d4697-c6c5-460d-b52c-b15b1e293a12}
@@ -179,9 +185,9 @@ ConditionNotInMovement is TConditionNot
     DescriptorId = GUID:{959966e6-de27-4d31-b6de-4bd51244d355}
 )
 
-ConditionTimeAfterShot_30000 is TConditionTimeAfterShot
+ConditionTimeAfterShot_15000 is TConditionTimeAfterShot
 (
-    DescriptorId = GUID:{2ad1563b-3eb6-41cb-b14f-b7161490ba5c}
-    Duration = 30
+    DescriptorId = GUID:{d9bd5d8f-487e-4bc1-a986-3c2beeedbbfe}
+    Duration = 15
 )
 

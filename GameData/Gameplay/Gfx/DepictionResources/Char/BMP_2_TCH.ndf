@@ -7,7 +7,7 @@ export Modele_BMP_2_TCH is TResourceMesh
 export Modele_BMP_2_TCH_MID is TResourceMesh
 (
     Mesh="GameData:/Assets/3D/Units/URSS/APC/BMP2_MID/BMP2_MID.fbx"
-    Textures="GameData:/Assets/3D/Units/TCH/CMD/BMP2_MID"
+    Textures="GameData:/Assets/3D/Units/TCH/APC/BMP2_MID"
 )
 
 export Modele_BMP_2_TCH_LOW is TResourceMesh

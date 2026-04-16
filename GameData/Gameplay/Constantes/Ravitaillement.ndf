@@ -1,6 +1,6 @@
 export StandardSupply is TSupplyDescriptor
 (
-    DefaultSupplyRangeGRU = 1000
+    DefaultSupplyRangeGRU = 442
 
     // Tous les ravitaillement sont découpé en deux variables
     // 1 -> SupplyBySecond => Nombre de point de la ressource concerné ravitaillé par seconde

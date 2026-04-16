@@ -51,7 +51,6 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
             )
             KillWhenDamagesReachMax = True
             HitRollECM = 0.0
-            AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
         ~/TargetCoordinatorModuleDescriptor,
@@ -62,16 +61,13 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
         (
-            VisibilityRollRule = TModernWarfareVisibilityRollRule
-            (
-                IdentifyBaseProbability     = 1.0
-                TimeBetweenEachIdentifyRoll = 1.0
-                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-            )
+            IdentifyBaseProbability     = 1.0
+            TimeBetweenEachIdentifyRoll = 1.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
         ),
         BuildingApparenceModuleDescriptor
         (
-            BlackHoleIdentifier = "FOB_BEL"
+            BlackHoleKey = "FOB_BEL"
             SymbolName = 'FOB_Nato_03'
         ),
         BuildingCadavreGeneratorModuleDescriptor(),
@@ -81,10 +77,9 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
             GameplayBehavior = EGameplayBehavior/Nothing
         ),
         ~/IAStratZoneIndexModuleDescriptor,
-        ~/DebugModuleDescriptor,
         ~/SelectionModuleDescriptor,
-        ~/UnitStateEngineCompanyModuleDescriptor,
-        ~/UnitStateEngineModuleDescriptor,
+        ~/UnitStateEngineUnitModuleDescriptor,
+        ~/UnitStateEngineSubUnitModuleDescriptor,
         TProductionModuleDescriptor
         (
             FactoryType        = EFactory/Logistic
@@ -128,7 +123,6 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
             PriceCategory = 'tank_A'
             NameToken = 'BFCFNEMWNZ'
             InfoPanelConfigurationToken = 'FOB'
-            GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_BEL'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
@@ -185,7 +179,6 @@ export Descriptor_Unit_FOB_CAN is TEntityDescriptor
             )
             KillWhenDamagesReachMax = True
             HitRollECM = 0.0
-            AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
         ~/TargetCoordinatorModuleDescriptor,
@@ -196,16 +189,13 @@ export Descriptor_Unit_FOB_CAN is TEntityDescriptor
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
         (
-            VisibilityRollRule = TModernWarfareVisibilityRollRule
-            (
-                IdentifyBaseProbability     = 1.0
-                TimeBetweenEachIdentifyRoll = 1.0
-                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-            )
+            IdentifyBaseProbability     = 1.0
+            TimeBetweenEachIdentifyRoll = 1.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
         ),
         BuildingApparenceModuleDescriptor
         (
-            BlackHoleIdentifier = "FOB_CAN"
+            BlackHoleKey = "FOB_CAN"
             SymbolName = 'FOB_Nato_03'
         ),
         BuildingCadavreGeneratorModuleDescriptor(),
@@ -215,10 +205,9 @@ export Descriptor_Unit_FOB_CAN is TEntityDescriptor
             GameplayBehavior = EGameplayBehavior/Nothing
         ),
         ~/IAStratZoneIndexModuleDescriptor,
-        ~/DebugModuleDescriptor,
         ~/SelectionModuleDescriptor,
-        ~/UnitStateEngineCompanyModuleDescriptor,
-        ~/UnitStateEngineModuleDescriptor,
+        ~/UnitStateEngineUnitModuleDescriptor,
+        ~/UnitStateEngineSubUnitModuleDescriptor,
         TProductionModuleDescriptor
         (
             FactoryType        = EFactory/Logistic
@@ -262,7 +251,6 @@ export Descriptor_Unit_FOB_CAN is TEntityDescriptor
             PriceCategory = 'tank_A'
             NameToken = 'FOBUSUK'
             InfoPanelConfigurationToken = 'FOB'
-            GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_CAN'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
@@ -319,7 +307,6 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             )
             KillWhenDamagesReachMax = True
             HitRollECM = 0.0
-            AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
         ~/TargetCoordinatorModuleDescriptor,
@@ -330,16 +317,13 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
         (
-            VisibilityRollRule = TModernWarfareVisibilityRollRule
-            (
-                IdentifyBaseProbability     = 1.0
-                TimeBetweenEachIdentifyRoll = 1.0
-                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-            )
+            IdentifyBaseProbability     = 1.0
+            TimeBetweenEachIdentifyRoll = 1.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
         ),
         BuildingApparenceModuleDescriptor
         (
-            BlackHoleIdentifier = "FOB_DDR"
+            BlackHoleKey = "FOB_DDR"
             SymbolName = 'FOB_Pact_03'
         ),
         BuildingCadavreGeneratorModuleDescriptor(),
@@ -349,10 +333,9 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             GameplayBehavior = EGameplayBehavior/Nothing
         ),
         ~/IAStratZoneIndexModuleDescriptor,
-        ~/DebugModuleDescriptor,
         ~/SelectionModuleDescriptor,
-        ~/UnitStateEngineCompanyModuleDescriptor,
-        ~/UnitStateEngineModuleDescriptor,
+        ~/UnitStateEngineUnitModuleDescriptor,
+        ~/UnitStateEngineSubUnitModuleDescriptor,
         TProductionModuleDescriptor
         (
             FactoryType        = EFactory/Logistic
@@ -396,9 +379,136 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
             PriceCategory = 'tank_A'
             NameToken = 'FOBGER'
             InfoPanelConfigurationToken = 'FOB'
-            GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_DDR'
+            TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
+        ),
+    ]
+)
+export Descriptor_Unit_FOB_DK is TEntityDescriptor
+(
+    DescriptorId       = GUID:{e28b88aa-130b-4e9c-b75b-7912424106d5}
+    ClassNameForDebug  = 'Building_FOB_DK'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = ECoalition/NATO
+            MotherCountry                    = 'DK'
+        ),
+        ~/BuildingDescriptorTagsModuleDescriptor,
+        ~/BuildingFlagsModuleDescriptor,
+        ~/BuildingPositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        ~/FOBBuildingModuleDescriptor,
+        TSupplyModuleDescriptor
+        (
+            SupplyDescriptor   = $/GFX/Weapon/StandardSupply
+            SupplyCapacity     = 16000.0
+            SupplyPriority     = 0
+        ),
+        ~/CapturableModuleDescriptor,
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 10
+            MaxSuppressionDamages = ~/Building_MaxSuppressionDamages
+            MaxStunDamages = ~/Building_MaxStunDamages
+            PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+            SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_suppression
+            StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_stun
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Building_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Building_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            UseTopArmorAgainstFire = False
+        ),
+        ~/TargetCoordinatorModuleDescriptor,
+        TVisibilityModuleDescriptor
+        (
+            UnitConcealmentBonus = 1.0
+        ),
+        ~/BuildingScannerConfigurationDescriptor,
+        TReverseScannerWithIdentificationDescriptor
+        (
+            IdentifyBaseProbability     = 1.0
+            TimeBetweenEachIdentifyRoll = 1.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
+        ),
+        BuildingApparenceModuleDescriptor
+        (
+            BlackHoleKey = "FOB_DK"
+            SymbolName = 'FOB_Nato_03'
+        ),
+        BuildingCadavreGeneratorModuleDescriptor(),
+        TIAStratModuleDescriptor
+        (
+            DatabaseId = 0
+            GameplayBehavior = EGameplayBehavior/Nothing
+        ),
+        ~/IAStratZoneIndexModuleDescriptor,
+        ~/SelectionModuleDescriptor,
+        ~/UnitStateEngineUnitModuleDescriptor,
+        ~/UnitStateEngineSubUnitModuleDescriptor,
+        TProductionModuleDescriptor
+        (
+            FactoryType        = EFactory/Logistic
+            ProductionTime     = -1
+            ProductionRessourcesNeeded = MAP [
+                ($/GFX/Resources/Resource_CommandPoints, 175),
+            ]
+        ),
+        ~/EffectApplierModuleDescriptor,
+        TTacticalLabelModuleDescriptor
+        (
+            IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                Alterator = $/GUIOption/IconType
+                Values =
+                [
+                    "Texture_RTS_H_fob",
+                    "Texture_fob"
+                ]
+            )
+            UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                Alterator = $/GUIOption/IconType
+                Values =
+                [
+                    "Texture_RTS_H_NATO_Unidentified",
+                    "Texture_NATO_Unidentified"
+                ]
+            )
+            PositionHeightOffset = 1000.0
+        ),
+        ~/BuildingOrderConfigModuleDescriptor,
+        ~/OrderDisplayModuleDescriptor,
+        ~/GroupableUnitModuleDescriptor,
+        TUnitUpkeepModuleDescriptor( UpkeepPercentage = 0.0 ),
+        TUnitUIModuleDescriptor
+        (
+            UnitRole = 'supply'
+            PriceCategory = 'tank_A'
+            NameToken = 'VWOCMNWZOM'
+            InfoPanelConfigurationToken = 'FOB'
+            MenuIconTexture = 'Texture_RTS_H_fob'
+            ButtonTexture = 'Texture_Button_Unit_FOB_DK'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
         ),
     ]
@@ -453,7 +563,6 @@ export Descriptor_Unit_FOB_ESP is TEntityDescriptor
             )
             KillWhenDamagesReachMax = True
             HitRollECM = 0.0
-            AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
         ~/TargetCoordinatorModuleDescriptor,
@@ -464,16 +573,13 @@ export Descriptor_Unit_FOB_ESP is TEntityDescriptor
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
         (
-            VisibilityRollRule = TModernWarfareVisibilityRollRule
-            (
-                IdentifyBaseProbability     = 1.0
-                TimeBetweenEachIdentifyRoll = 1.0
-                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-            )
+            IdentifyBaseProbability     = 1.0
+            TimeBetweenEachIdentifyRoll = 1.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
         ),
         BuildingApparenceModuleDescriptor
         (
-            BlackHoleIdentifier = "FOB_ESP"
+            BlackHoleKey = "FOB_ESP"
             SymbolName = 'FOB_Nato_03'
         ),
         BuildingCadavreGeneratorModuleDescriptor(),
@@ -483,10 +589,9 @@ export Descriptor_Unit_FOB_ESP is TEntityDescriptor
             GameplayBehavior = EGameplayBehavior/Nothing
         ),
         ~/IAStratZoneIndexModuleDescriptor,
-        ~/DebugModuleDescriptor,
         ~/SelectionModuleDescriptor,
-        ~/UnitStateEngineCompanyModuleDescriptor,
-        ~/UnitStateEngineModuleDescriptor,
+        ~/UnitStateEngineUnitModuleDescriptor,
+        ~/UnitStateEngineSubUnitModuleDescriptor,
         TProductionModuleDescriptor
         (
             FactoryType        = EFactory/Logistic
@@ -530,7 +635,6 @@ export Descriptor_Unit_FOB_ESP is TEntityDescriptor
             PriceCategory = 'tank_A'
             NameToken = 'FOBQZRPWXQ'
             InfoPanelConfigurationToken = 'FOB'
-            GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_ESP'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
@@ -587,7 +691,6 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             )
             KillWhenDamagesReachMax = True
             HitRollECM = 0.0
-            AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
         ~/TargetCoordinatorModuleDescriptor,
@@ -598,16 +701,13 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
         (
-            VisibilityRollRule = TModernWarfareVisibilityRollRule
-            (
-                IdentifyBaseProbability     = 1.0
-                TimeBetweenEachIdentifyRoll = 1.0
-                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-            )
+            IdentifyBaseProbability     = 1.0
+            TimeBetweenEachIdentifyRoll = 1.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
         ),
         BuildingApparenceModuleDescriptor
         (
-            BlackHoleIdentifier = "FOB_FR"
+            BlackHoleKey = "FOB_FR"
             SymbolName = 'FOB_Nato_03'
         ),
         BuildingCadavreGeneratorModuleDescriptor(),
@@ -617,10 +717,9 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             GameplayBehavior = EGameplayBehavior/Nothing
         ),
         ~/IAStratZoneIndexModuleDescriptor,
-        ~/DebugModuleDescriptor,
         ~/SelectionModuleDescriptor,
-        ~/UnitStateEngineCompanyModuleDescriptor,
-        ~/UnitStateEngineModuleDescriptor,
+        ~/UnitStateEngineUnitModuleDescriptor,
+        ~/UnitStateEngineSubUnitModuleDescriptor,
         TProductionModuleDescriptor
         (
             FactoryType        = EFactory/Logistic
@@ -664,7 +763,6 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
             PriceCategory = 'tank_A'
             NameToken = 'FOBFRA'
             InfoPanelConfigurationToken = 'FOB'
-            GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_FR'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
@@ -721,7 +819,6 @@ export Descriptor_Unit_FOB_NL is TEntityDescriptor
             )
             KillWhenDamagesReachMax = True
             HitRollECM = 0.0
-            AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
         ~/TargetCoordinatorModuleDescriptor,
@@ -732,16 +829,13 @@ export Descriptor_Unit_FOB_NL is TEntityDescriptor
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
         (
-            VisibilityRollRule = TModernWarfareVisibilityRollRule
-            (
-                IdentifyBaseProbability     = 1.0
-                TimeBetweenEachIdentifyRoll = 1.0
-                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-            )
+            IdentifyBaseProbability     = 1.0
+            TimeBetweenEachIdentifyRoll = 1.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
         ),
         BuildingApparenceModuleDescriptor
         (
-            BlackHoleIdentifier = "FOB_NL"
+            BlackHoleKey = "FOB_NL"
             SymbolName = 'FOB_Nato_03'
         ),
         BuildingCadavreGeneratorModuleDescriptor(),
@@ -751,10 +845,9 @@ export Descriptor_Unit_FOB_NL is TEntityDescriptor
             GameplayBehavior = EGameplayBehavior/Nothing
         ),
         ~/IAStratZoneIndexModuleDescriptor,
-        ~/DebugModuleDescriptor,
         ~/SelectionModuleDescriptor,
-        ~/UnitStateEngineCompanyModuleDescriptor,
-        ~/UnitStateEngineModuleDescriptor,
+        ~/UnitStateEngineUnitModuleDescriptor,
+        ~/UnitStateEngineSubUnitModuleDescriptor,
         TProductionModuleDescriptor
         (
             FactoryType        = EFactory/Logistic
@@ -798,7 +891,6 @@ export Descriptor_Unit_FOB_NL is TEntityDescriptor
             PriceCategory = 'tank_A'
             NameToken = 'FOBNL'
             InfoPanelConfigurationToken = 'FOB'
-            GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_NL'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
@@ -855,7 +947,6 @@ export Descriptor_Unit_FOB_POL is TEntityDescriptor
             )
             KillWhenDamagesReachMax = True
             HitRollECM = 0.0
-            AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
         ~/TargetCoordinatorModuleDescriptor,
@@ -866,16 +957,13 @@ export Descriptor_Unit_FOB_POL is TEntityDescriptor
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
         (
-            VisibilityRollRule = TModernWarfareVisibilityRollRule
-            (
-                IdentifyBaseProbability     = 1.0
-                TimeBetweenEachIdentifyRoll = 1.0
-                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-            )
+            IdentifyBaseProbability     = 1.0
+            TimeBetweenEachIdentifyRoll = 1.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
         ),
         BuildingApparenceModuleDescriptor
         (
-            BlackHoleIdentifier = "FOB_POL"
+            BlackHoleKey = "FOB_POL"
             SymbolName = 'FOB_Pact_03'
         ),
         BuildingCadavreGeneratorModuleDescriptor(),
@@ -885,10 +973,9 @@ export Descriptor_Unit_FOB_POL is TEntityDescriptor
             GameplayBehavior = EGameplayBehavior/Nothing
         ),
         ~/IAStratZoneIndexModuleDescriptor,
-        ~/DebugModuleDescriptor,
         ~/SelectionModuleDescriptor,
-        ~/UnitStateEngineCompanyModuleDescriptor,
-        ~/UnitStateEngineModuleDescriptor,
+        ~/UnitStateEngineUnitModuleDescriptor,
+        ~/UnitStateEngineSubUnitModuleDescriptor,
         TProductionModuleDescriptor
         (
             FactoryType        = EFactory/Logistic
@@ -932,7 +1019,6 @@ export Descriptor_Unit_FOB_POL is TEntityDescriptor
             PriceCategory = 'tank_A'
             NameToken = 'WJEPUEYMNL'
             InfoPanelConfigurationToken = 'FOB'
-            GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_POL'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
@@ -989,7 +1075,6 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             )
             KillWhenDamagesReachMax = True
             HitRollECM = 0.0
-            AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
         ~/TargetCoordinatorModuleDescriptor,
@@ -1000,16 +1085,13 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
         (
-            VisibilityRollRule = TModernWarfareVisibilityRollRule
-            (
-                IdentifyBaseProbability     = 1.0
-                TimeBetweenEachIdentifyRoll = 1.0
-                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-            )
+            IdentifyBaseProbability     = 1.0
+            TimeBetweenEachIdentifyRoll = 1.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
         ),
         BuildingApparenceModuleDescriptor
         (
-            BlackHoleIdentifier = "FOB_RFA"
+            BlackHoleKey = "FOB_RFA"
             SymbolName = 'FOB_Nato_03'
         ),
         BuildingCadavreGeneratorModuleDescriptor(),
@@ -1019,10 +1101,9 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             GameplayBehavior = EGameplayBehavior/Nothing
         ),
         ~/IAStratZoneIndexModuleDescriptor,
-        ~/DebugModuleDescriptor,
         ~/SelectionModuleDescriptor,
-        ~/UnitStateEngineCompanyModuleDescriptor,
-        ~/UnitStateEngineModuleDescriptor,
+        ~/UnitStateEngineUnitModuleDescriptor,
+        ~/UnitStateEngineSubUnitModuleDescriptor,
         TProductionModuleDescriptor
         (
             FactoryType        = EFactory/Logistic
@@ -1066,7 +1147,6 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
             PriceCategory = 'tank_A'
             NameToken = 'FOBGER'
             InfoPanelConfigurationToken = 'FOB'
-            GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_RFA'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
@@ -1123,7 +1203,6 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             )
             KillWhenDamagesReachMax = True
             HitRollECM = 0.0
-            AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
         ~/TargetCoordinatorModuleDescriptor,
@@ -1134,16 +1213,13 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
         (
-            VisibilityRollRule = TModernWarfareVisibilityRollRule
-            (
-                IdentifyBaseProbability     = 1.0
-                TimeBetweenEachIdentifyRoll = 1.0
-                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-            )
+            IdentifyBaseProbability     = 1.0
+            TimeBetweenEachIdentifyRoll = 1.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
         ),
         BuildingApparenceModuleDescriptor
         (
-            BlackHoleIdentifier = "FOB_SOV"
+            BlackHoleKey = "FOB_SOV"
             SymbolName = 'FOB_Pact_03'
         ),
         BuildingCadavreGeneratorModuleDescriptor(),
@@ -1153,10 +1229,9 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             GameplayBehavior = EGameplayBehavior/Nothing
         ),
         ~/IAStratZoneIndexModuleDescriptor,
-        ~/DebugModuleDescriptor,
         ~/SelectionModuleDescriptor,
-        ~/UnitStateEngineCompanyModuleDescriptor,
-        ~/UnitStateEngineModuleDescriptor,
+        ~/UnitStateEngineUnitModuleDescriptor,
+        ~/UnitStateEngineSubUnitModuleDescriptor,
         TProductionModuleDescriptor
         (
             FactoryType        = EFactory/Logistic
@@ -1200,7 +1275,6 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
             PriceCategory = 'tank_A'
             NameToken = 'FOBSOV'
             InfoPanelConfigurationToken = 'FOB'
-            GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_SOV'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
@@ -1257,7 +1331,6 @@ export Descriptor_Unit_FOB_TCH is TEntityDescriptor
             )
             KillWhenDamagesReachMax = True
             HitRollECM = 0.0
-            AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
         ~/TargetCoordinatorModuleDescriptor,
@@ -1268,16 +1341,13 @@ export Descriptor_Unit_FOB_TCH is TEntityDescriptor
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
         (
-            VisibilityRollRule = TModernWarfareVisibilityRollRule
-            (
-                IdentifyBaseProbability     = 1.0
-                TimeBetweenEachIdentifyRoll = 1.0
-                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-            )
+            IdentifyBaseProbability     = 1.0
+            TimeBetweenEachIdentifyRoll = 1.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
         ),
         BuildingApparenceModuleDescriptor
         (
-            BlackHoleIdentifier = "FOB_TCH"
+            BlackHoleKey = "FOB_TCH"
             SymbolName = 'FOB_Pact_03'
         ),
         BuildingCadavreGeneratorModuleDescriptor(),
@@ -1287,10 +1357,9 @@ export Descriptor_Unit_FOB_TCH is TEntityDescriptor
             GameplayBehavior = EGameplayBehavior/Nothing
         ),
         ~/IAStratZoneIndexModuleDescriptor,
-        ~/DebugModuleDescriptor,
         ~/SelectionModuleDescriptor,
-        ~/UnitStateEngineCompanyModuleDescriptor,
-        ~/UnitStateEngineModuleDescriptor,
+        ~/UnitStateEngineUnitModuleDescriptor,
+        ~/UnitStateEngineSubUnitModuleDescriptor,
         TProductionModuleDescriptor
         (
             FactoryType        = EFactory/Logistic
@@ -1334,7 +1403,6 @@ export Descriptor_Unit_FOB_TCH is TEntityDescriptor
             PriceCategory = 'tank_A'
             NameToken = 'BGANMGCHQZ'
             InfoPanelConfigurationToken = 'FOB'
-            GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_TCH'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
@@ -1391,7 +1459,6 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             )
             KillWhenDamagesReachMax = True
             HitRollECM = 0.0
-            AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
         ~/TargetCoordinatorModuleDescriptor,
@@ -1402,16 +1469,13 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
         (
-            VisibilityRollRule = TModernWarfareVisibilityRollRule
-            (
-                IdentifyBaseProbability     = 1.0
-                TimeBetweenEachIdentifyRoll = 1.0
-                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-            )
+            IdentifyBaseProbability     = 1.0
+            TimeBetweenEachIdentifyRoll = 1.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
         ),
         BuildingApparenceModuleDescriptor
         (
-            BlackHoleIdentifier = "FOB_UK"
+            BlackHoleKey = "FOB_UK"
             SymbolName = 'FOB_Nato_03'
         ),
         BuildingCadavreGeneratorModuleDescriptor(),
@@ -1421,10 +1485,9 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             GameplayBehavior = EGameplayBehavior/Nothing
         ),
         ~/IAStratZoneIndexModuleDescriptor,
-        ~/DebugModuleDescriptor,
         ~/SelectionModuleDescriptor,
-        ~/UnitStateEngineCompanyModuleDescriptor,
-        ~/UnitStateEngineModuleDescriptor,
+        ~/UnitStateEngineUnitModuleDescriptor,
+        ~/UnitStateEngineSubUnitModuleDescriptor,
         TProductionModuleDescriptor
         (
             FactoryType        = EFactory/Logistic
@@ -1468,7 +1531,6 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
             PriceCategory = 'tank_A'
             NameToken = 'FOBUSUK'
             InfoPanelConfigurationToken = 'FOB'
-            GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_UK'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted
@@ -1525,7 +1587,6 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             )
             KillWhenDamagesReachMax = True
             HitRollECM = 0.0
-            AutoOrientation = False
             UseTopArmorAgainstFire = False
         ),
         ~/TargetCoordinatorModuleDescriptor,
@@ -1536,16 +1597,13 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
         ~/BuildingScannerConfigurationDescriptor,
         TReverseScannerWithIdentificationDescriptor
         (
-            VisibilityRollRule = TModernWarfareVisibilityRollRule
-            (
-                IdentifyBaseProbability     = 1.0
-                TimeBetweenEachIdentifyRoll = 1.0
-                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-            )
+            IdentifyBaseProbability     = 1.0
+            TimeBetweenEachIdentifyRoll = 1.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
         ),
         BuildingApparenceModuleDescriptor
         (
-            BlackHoleIdentifier = "FOB_US"
+            BlackHoleKey = "FOB_US"
             SymbolName = 'FOB_Nato_03'
         ),
         BuildingCadavreGeneratorModuleDescriptor(),
@@ -1555,10 +1613,9 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             GameplayBehavior = EGameplayBehavior/Nothing
         ),
         ~/IAStratZoneIndexModuleDescriptor,
-        ~/DebugModuleDescriptor,
         ~/SelectionModuleDescriptor,
-        ~/UnitStateEngineCompanyModuleDescriptor,
-        ~/UnitStateEngineModuleDescriptor,
+        ~/UnitStateEngineUnitModuleDescriptor,
+        ~/UnitStateEngineSubUnitModuleDescriptor,
         TProductionModuleDescriptor
         (
             FactoryType        = EFactory/Logistic
@@ -1602,7 +1659,6 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
             PriceCategory = 'tank_A'
             NameToken = 'FOBUSUK'
             InfoPanelConfigurationToken = 'FOB'
-            GenerateName = true
             MenuIconTexture = 'Texture_RTS_H_fob'
             ButtonTexture = 'Texture_Button_Unit_FOB_US'
             TypeStrategicCount = ETypeStrategicDetailedCount/NotCounted

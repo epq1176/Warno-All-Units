@@ -883,23 +883,6 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
-    RegistrationName      = 'test_avion_alex'
-    ClassName             = '$/GFX/Pawn/Descriptor_Unit_test_avion_alex'
-    AutoNameBase          = 'test_avion_alex'
-    ModelResource         = $/GFX/DepictionResources/Modele_F16E_HE_US
-    ThumbstackScale       = 7
-)
-unnamed Template_SceneryDescriptorSpawn
-(
-    RegistrationName      = 'test_avion_cas'
-    ClassName             = '$/GFX/Pawn/Descriptor_Unit_test_avion_cas'
-    AutoNameBase          = 'test_avion_cas'
-    ModelResource         = $/GFX/DepictionResources/Modele_F16E_HE_US
-    ThumbstackScale       = 7
-)
-
-unnamed Template_SceneryDescriptorSpawn
-(
     RegistrationName      = 'pion_BEL_14Linie'
     ClassName             = '$/GFX/Pawn/Descriptor_Unit_pion_BEL_14Linie'
     AutoNameBase          = 'pion_BEL_14Linie'
@@ -13420,14 +13403,6 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
-    RegistrationName      = 'pion_SOV_CGV'
-    ClassName             = '$/GFX/Pawn/Descriptor_Unit_pion_SOV_CGV'
-    AutoNameBase          = 'pion_SOV_CGV'
-    ModelResource         = $/GFX/DepictionResources/Modele_UAZ_469_CMD_SOV
-    ThumbstackScale       = 7
-)
-unnamed Template_SceneryDescriptorSpawn
-(
     RegistrationName      = 'pion_SOV_CGV_1096SAM'
     ClassName             = '$/GFX/Pawn/Descriptor_Unit_pion_SOV_CGV_1096SAM'
     AutoNameBase          = 'pion_SOV_CGV_1096SAM'
@@ -13520,22 +13495,6 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Pawn/Descriptor_Unit_pion_SOV_CGV_91Eng'
     AutoNameBase          = 'pion_SOV_CGV_91Eng'
     ModelResource         = $/GFX/DepictionResources/Modele_MTLB_transp_SOV
-    ThumbstackScale       = 7
-)
-unnamed Template_SceneryDescriptorSpawn
-(
-    RegistrationName      = 'pion_SOV_NGF'
-    ClassName             = '$/GFX/Pawn/Descriptor_Unit_pion_SOV_NGF'
-    AutoNameBase          = 'pion_SOV_NGF'
-    ModelResource         = $/GFX/DepictionResources/Modele_OT_62_TOPAS_R3M_CMD_POL
-    ThumbstackScale       = 7
-)
-unnamed Template_SceneryDescriptorSpawn
-(
-    RegistrationName      = 'pion_SOV_WGF'
-    ClassName             = '$/GFX/Pawn/Descriptor_Unit_pion_SOV_WGF'
-    AutoNameBase          = 'pion_SOV_WGF'
-    ModelResource         = $/GFX/DepictionResources/Modele_BTR_60_CMD_SOV
     ThumbstackScale       = 7
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -14152,14 +14111,6 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Pawn/Descriptor_Unit_pion_TCH_19MRD_67MSP_3'
     AutoNameBase          = 'pion_TCH_19MRD_67MSP_3'
     ModelResource         = $/GFX/DepictionResources/Modele_BMP_2_TCH
-    ThumbstackScale       = 7
-)
-unnamed Template_SceneryDescriptorSpawn
-(
-    RegistrationName      = 'pion_TCH_1Armee'
-    ClassName             = '$/GFX/Pawn/Descriptor_Unit_pion_TCH_1Armee'
-    AutoNameBase          = 'pion_TCH_1Armee'
-    ModelResource         = $/GFX/DepictionResources/Modele_OT_62_TOPAS_R4M_CMD_TCH
     ThumbstackScale       = 7
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -15280,14 +15231,6 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Pawn/Descriptor_Unit_pion_TCH_9TkD_9SAM'
     AutoNameBase          = 'pion_TCH_9TkD_9SAM'
     ModelResource         = $/GFX/DepictionResources/Modele_2K12_KUB_TCH
-    ThumbstackScale       = 7
-)
-unnamed Template_SceneryDescriptorSpawn
-(
-    RegistrationName      = 'pion_TCH_CSLA'
-    ClassName             = '$/GFX/Pawn/Descriptor_Unit_pion_TCH_CSLA'
-    AutoNameBase          = 'pion_TCH_CSLA'
-    ModelResource         = $/GFX/DepictionResources/Modele_OT_62_TOPAS_R4M_CMD_TCH
     ThumbstackScale       = 7
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -17712,22 +17655,5 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Pawn/Descriptor_Unit_pion_US_NG_AviaBrigade'
     AutoNameBase          = 'pion_US_NG_AviaBrigade'
     ModelResource         = $/GFX/DepictionResources/Modele_AH1F_Cobra_US
-    ThumbstackScale       = 7
-)
-
-unnamed Template_SceneryDescriptorSpawn
-(
-    RegistrationName      = 'TestAirport'
-    ClassName             = '$/GFX/Pawn/Descriptor_Unit_TestAirport'
-    AutoNameBase          = 'TestAirport'
-    ModelResource         = nil
-    ThumbstackScale       = 7
-)
-unnamed Template_SceneryDescriptorSpawn
-(
-    RegistrationName      = 'TestDepotRavitaillement'
-    ClassName             = '$/GFX/Pawn/Descriptor_Unit_TestDepotRavitaillement'
-    AutoNameBase          = 'TestDepotRavitaillement'
-    ModelResource         = nil
     ThumbstackScale       = 7
 )

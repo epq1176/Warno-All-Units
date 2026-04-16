@@ -15,9 +15,6 @@ Constantes is TTunableConstante
 //--------------------------- Constantes Affichage ---------------------------------------//
 
     EliminationWarningsDuration = 5.0
-    FumigeneAlphaGhost = 0.3
-    FumigeneMaxCount = 4
-    FumigeneTimeout = 60.0
 
 //------------------------ Constantes AutomaticBehavior ----------------------------------//
 
@@ -39,7 +36,12 @@ Constantes is TTunableConstante
 
 //--------------------------- Constantes Bâtiments ---------------------------------------//
 
-    UnitPositionVerticalOffsetFromRoofGRU = 21
+    UnitPositionVerticalOffsetFromRoofGRU = -21
+
+//--------------------------- Constantes Beacon ---------------------------------------//
+    BeaconAlphaGhost = 0.3
+    BeaconMaxCount = 4
+    BeaconTimeout = 60.0
 
 //----------------------------- Constantes Combat -----------------------------------------//
 
@@ -156,7 +158,6 @@ Constantes is TTunableConstante
 
 //---------------------------- Constantes Visibilite --------------------------------------//
 
-    MultiplicateurBonusDissimulationParDistanceGRU = 0.0283 // = (Distance en GRU^-1)
     RelativeScanningHeightGRU = 7.0
 )
 
@@ -366,12 +367,13 @@ WargameConstantes is TWargameTunableConstante
     DefaultIncomeMultiplierIndex    = 3 // normal
     //                   none   very_low   low      normal    high     very_high
     IncomeMultiplier = [   0,    0.5,    0.75,       1,      1.25,       1.5 ]
-    TimeBeforeEarningCommandPoints = MAP
+    TimeBeforeEarningCommandPointsSkirmish = MAP
     [
         (ECombatRule/NotSpecified,   60.0),
         (ECombatRule/Conquest,       60.0),
         (ECombatRule/Destruction,     4.0),
     ]
+    TimeBeforeEarningCommandPointsStrategicBattleground = 60.0
 
     TimeBeforeEarningCommandPointsFactorToAddByNbPlayers = //Facteur de TimeBeforeEarningCommandPoints à ajouter selon des paliers de joueurs
                 [
@@ -462,23 +464,23 @@ WargameConstantes is TWargameTunableConstante
         (4.0, 'Value_6'),
     ]
 
-    PaliersDOptiqueDAltitude = MAP
+    PaliersDOptiqueDAltitudeGRU = MAP
     [
-        (150, 'Value_3'),
-        (300, 'Value_4'),
-        (375, 'Value_5'),
-        (450, 'Value_6'),
+        (0, 'Value_3'),
+        (5301, 'Value_4'),
+        (10601, 'Value_5'),
+        (13250, 'Value_6'),
 
     ]
 
-    PaliersDOptique = MAP
+    PaliersDOptiqueGRU = MAP
     [
-        (50, 'Value_1'),
-        (75, 'Value_2'),
-        (100, 'Value_3'),
-        (150, 'Value_4'),
-        (200, 'Value_5'),
-        (250, 'Value_6'),
+        (0, 'Value_1'),
+        (1768, 'Value_2'),
+        (2651, 'Value_3'),
+        (3535, 'Value_4'),
+        (5301, 'Value_5'),
+        (7068, 'Value_6'),
     ]
 
     PaliersDeResilience = MAP
