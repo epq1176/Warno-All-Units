@@ -229,12 +229,6 @@ Alternatives_A222_Bereg_SOV is
     DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_A222_Bereg_SOV_MID ),
     DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_A222_Bereg_SOV_LOW ),
 ]
-Alternatives_AAVC_7A1_CMD_USMC_US is 
-[
-    DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_AAVC_7A1_CMD_USMC_US ),
-    DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_AAVC_7A1_CMD_USMC_US_MID ),
-    DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_AAVC_7A1_CMD_USMC_US_LOW ),
-]
 Alternatives_AAVP_7A1_USMC_US is 
 [
     DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_AAVP_7A1_USMC_US ),
@@ -3144,6 +3138,12 @@ Alternatives_FV433_Abbot_UK is
     DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_FV433_Abbot_UK ),
     DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_FV433_Abbot_UK_MID ),
     DepictionVisual_LOD_Low( MeshDescriptor=$/GFX/DepictionResources/Modele_FV433_Abbot_UK_LOW ),
+]
+Alternatives_FV436_Cymbelline_UK is 
+[
+    DepictionVisual_LOD_High( MeshDescriptor=$/GFX/DepictionResources/Modele_FV436_Cymbelline_UK ),
+    DepictionVisual_LOD_Mid( MeshDescriptor=$/GFX/DepictionResources/Modele_FV436_Cymbelline_UK_MID ),
+    DepictionVisual_LOD_Low( DisabledOperators=[ "tourelle1" ] MeshDescriptor=$/GFX/DepictionResources/Modele_FV436_Cymbelline_UK_LOW ),
 ]
 Alternatives_FV438_Swingfire_UK is 
 [

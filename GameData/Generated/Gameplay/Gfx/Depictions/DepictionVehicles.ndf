@@ -1907,51 +1907,6 @@ unnamed TacticVehicleDepictionRegistration
             + DepictionAction_MovementFX_Wheeled
             + DepictionAction_CriticalFX_Tank
 )
-// Dépiction de l'unité AAVC_7A1_CMD_USMC_US
-DepictionOperator_AAVC_7A1_CMD_USMC_US_Weapon1 is DepictionOperator_WeaponContinuousFire
-(
-    FireEffectTag = "weapon_effet_tag1"
-    Anchors = ["fx_tourelle1_tir_01"]
-    WeaponShootDataPropertyName = "WeaponShootData_0_1"
-    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
-    NbFX = 1
-)
-unnamed TacticVehicleDepictionRegistration
-(
-    BlackHoleKey = 'AAVC_7A1_CMD_USMC_US'
-    Selector = SpecificMechanicalDepictionSelector
-    Alternatives = Alternatives_AAVC_7A1_CMD_USMC_US
-
-    Operators = 
-    [
-        DepictionOperator_CropFlattening,
-        $/GFX/Sound/DepictionOperator_MovementSound_SM_LVTP7,
-        DepictionOperator_SoundProbe,
-        DepictionOperator_CriticalEffects,
-        DepictionOperator_Chassis_SmallTank,
-        DepictionOperator_Propulsion_ContinuousTrack,
-        DepictionOperator_Turret_1_Aim,
-        DepictionOperator_AAVC_7A1_CMD_USMC_US_Weapon1,
-        DepictionOperator_MovementFX_Amphibious,
-        DepictionOperator_EjectableProps_Vehicle,
-    ]
-
-    Actions = MAP[
-                ( "weapon_effet_tag1", Weapon_MMG_M60_7_62mm_coax ),
-            ]
-            + DepictionAction_Stress_And_Wrecked
-            + DepictionAction_MovementFX_Tracked
-            + DepictionAction_CriticalFX_Tank
-            + DepictionAction_FX_Amphibious_NoPropulsion
-
-    SubDepictions = [
-        ObjectSubDepiction
-        (
-            Anchor = "base_m60"
-            MeshDescriptor = $/GFX/DepictionResources/Modele_AAVC_7A1_CMD_USMC_US_Tourelle_01
-        ),
-    ]
-)
 // Dépiction de l'unité AAVP_7A1_USMC_US
 DepictionOperator_AAVP_7A1_USMC_US_Weapon1 is DepictionOperator_WeaponInstantFire
 (
@@ -26310,7 +26265,7 @@ unnamed TacticVehicleDepictionRegistration
                 ( "weapon_effet_tag2", Weapon_Canon_HE_120_mm_L11A5_Mk1_4 ),
                 ( "weapon_effet_tag3", Weapon_MMG_L37A2_7_62mm ),
                 ( "weapon_effet_tag4", Weapon_MMG_L8A2_7_62mm ),
-                ( "weapon_effet_tag5", Weapon_HMG_12_7_mm_M2HB_CTRL ),
+                ( "weapon_effet_tag5", Weapon_HMG_12_7_mm_M2HB ),
                 ( "weapon_effet_tag6", Weapon_SMOKE_Vehicle_Grenadex8 ),
             ]
             + DepictionAction_Stress_And_Wrecked
@@ -27078,6 +27033,75 @@ unnamed TacticVehicleDepictionRegistration
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Tracked
             + DepictionAction_CriticalFX_Tank
+)
+// Dépiction de l'unité FV436_Cymbelline_UK
+DepictionOperator_FV436_Cymbelline_UK_Weapon1 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
+    NbFX = 1
+)
+DepictionOperator_FV436_Cymbelline_UK_Weapon5 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle5_tir_01"]
+    WeaponShootDataPropertyName = ['WeaponShootData_0_5', 'WeaponShootData_1_5', 'WeaponShootData_2_5', 'WeaponShootData_3_5']
+    NbProj = 4
+)
+unnamed TacticVehicleDepictionRegistration
+(
+    BlackHoleKey = 'FV436_Cymbelline_UK'
+    Selector = SpecificMechanicalDepictionSelector
+    Alternatives = Alternatives_FV436_Cymbelline_UK
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_M113,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_MediumTank_NoCanonRecoil,
+        DepictionOperator_Propulsion_ContinuousTrack,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_FV436_Cymbelline_UK_Weapon5,
+        DepictionOperator_Heat,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( "weapon_effet_tag5", Weapon_SMOKE_Vehicle_Grenadex8 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Tracked
+            + DepictionAction_CriticalFX_Tank
+
+    SubDepictions = [
+        TSubDepiction
+        (
+            Anchors = ["base_tourelle_01"]
+            Depiction = TDepictionDescriptor
+            (
+                CoatingName = "FV436_Cymbelline_UK_turret1"
+                ResidentMaterialTags = [ MaterialTagMech ]
+                AdditionalTextures = $/M3D/Shader/VehicleDestTextures
+                Selector = ~/OnlyHighDepictionSelector
+                DepictionAlternatives = [
+                    DepictionVisual_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_FV436_Cymbelline_UK_Tourelle_01 )
+                ]
+                Operators = [
+                    DepictionOperator_Reset_Generic,
+                    DepictionOperator_Turret_1_Aim,
+                    DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
+                    DepictionOperator_FV436_Cymbelline_UK_Weapon1,
+                ]
+                Actions = MAP[
+                    ( "weapon_effet_tag1", Weapon_MMG_L37A2_7_62mm ),
+                ]
+            )
+        ),
+    ]
 )
 // Dépiction de l'unité FV438_Swingfire_UK
 DepictionOperator_FV438_Swingfire_UK_Weapon1 is DepictionOperator_WeaponMissileCarriageFire
@@ -28202,7 +28226,7 @@ unnamed TacticVehicleDepictionRegistration
     Operators = 
     [
         DepictionOperator_CropFlattening,
-        $/GFX/Sound/DepictionOperator_MovementSound_SM_Mutt_M151,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_GAZ_66,
         DepictionOperator_SoundProbe,
         DepictionOperator_CriticalEffects,
         DepictionOperator_Chassis_Vehicle,
@@ -28236,7 +28260,7 @@ unnamed TacticVehicleDepictionRegistration
     Operators = 
     [
         DepictionOperator_CropFlattening,
-        $/GFX/Sound/DepictionOperator_MovementSound_SM_Mutt_M151,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_GAZ_66,
         DepictionOperator_SoundProbe,
         DepictionOperator_CriticalEffects,
         DepictionOperator_Chassis_Vehicle,
@@ -30507,6 +30531,42 @@ unnamed TacticVehicleDepictionRegistration
         DepictionOperator_Turret_1_Aim,
         DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
         DepictionOperator_HMGteam_MAG_UK_Weapon1,
+        DepictionOperator_Carriable_ATGM,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( "weapon_effet_tag1", Weapon_MMG_team_7_62mm_FN_MAG ),
+            ]
+            + DepictionAction_CriticalFX_ATGM
+
+    SubDepictions = [
+    ] + HumanSubDepictions_HMGteam_MAG_UK
+)
+// Dépiction de l'unité HMGteam_MAG_USMCR_US
+DepictionOperator_HMGteam_MAG_USMCR_US_Weapon1 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
+    NbFX = 1
+)
+unnamed TacticVehicleDepictionRegistration
+(
+    BlackHoleKey = 'HMGteam_MAG_USMCR_US'
+    Selector = SpecificMechanicalDepictionSelector
+    Alternatives = Alternatives_HMGteam_MAG_UK
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_UK,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_HMGteam_MAG_USMCR_US_Weapon1,
         DepictionOperator_Carriable_ATGM,
         DepictionOperator_EjectableProps_Vehicle,
     ]
@@ -57197,8 +57257,8 @@ unnamed TacticVehicleDepictionRegistration
     ]
 
     Actions = MAP[
-                ( "weapon_effet_tag1", Weapon_Mortier_PRAM_120mm ),
-                ( "weapon_effet_tag2", Weapon_Mortier_PRAM_120mm_SMOKE ),
+                ( "weapon_effet_tag1", Weapon_Mortier_PRAM_120mm_TOWED ),
+                ( "weapon_effet_tag2", Weapon_Mortier_PRAM_120mm_SMOKE_TOWED ),
             ]
             + DepictionAction_CriticalFX_Mortar
 
@@ -76704,9 +76764,9 @@ unnamed TacticVehicleDepictionRegistration
         DepictionOperator_MovementFX_Amphibious,
         DepictionOperator_CarouselWithSpecificAngle_Radar
         (
-            CoveragePercentage = 60
-            RevolutionsPerMinute = 15
-            WaitTimeInSeconds = 0
+            CoveragePercentage = 40
+            RevolutionsPerMinute = 8
+            WaitTimeInSeconds = 5
             WeaponIgnoredProperties = []
         ),
         DepictionOperator_EjectableProps_Vehicle,

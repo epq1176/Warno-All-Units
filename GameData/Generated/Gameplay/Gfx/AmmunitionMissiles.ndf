@@ -971,7 +971,7 @@ Ammo_AA_Matra_Super_530F is TAmmunitionDescriptor
     MinimumRangeHelicopterGRU         = 0
     MaximumRangeHelicopterGRU         = 0
     MinimumRangeAirplaneGRU           = 0
-    MaximumRangeAirplaneGRU           = 6900
+    MaximumRangeAirplaneGRU           = 7075
     MinimumRangeProjectileGRU         = 0
     MaximumRangeProjectileGRU         = 0
     AngleDispersion                   = 0.0020001473227855013
@@ -2737,6 +2737,8 @@ Ammo_AGM_9K121_Vikhr_x12 is TAmmunitionDescriptor
     SuppressDamages                   = 400.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = False
+    ComputeArmorFromImpactLocation    = False
     TirIndirect                       = False
     TirReflexe                        = True
     ReflexShotDisabledIfPriorityTarget = True
@@ -2812,6 +2814,8 @@ Ammo_AGM_9K121_Vikhr_x16_avion is TAmmunitionDescriptor
     SuppressDamages                   = 400.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = False
+    ComputeArmorFromImpactLocation    = False
     TirIndirect                       = False
     TirReflexe                        = True
     ReflexShotDisabledIfPriorityTarget = True
@@ -3495,6 +3499,8 @@ Ammo_AGM_AGM114A_x16 is TAmmunitionDescriptor
     SuppressDamages                   = 360.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = False
+    ComputeArmorFromImpactLocation    = False
     TirIndirect                       = False
     TirReflexe                        = True
     ReflexShotDisabledIfPriorityTarget = True
@@ -3646,6 +3652,8 @@ Ammo_AGM_AGM114A_x4 is TAmmunitionDescriptor
     SuppressDamages                   = 360.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = False
+    ComputeArmorFromImpactLocation    = False
     TirIndirect                       = False
     TirReflexe                        = True
     ReflexShotDisabledIfPriorityTarget = True
@@ -3721,6 +3729,8 @@ Ammo_AGM_AGM114A_x8 is TAmmunitionDescriptor
     SuppressDamages                   = 360.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = False
+    ComputeArmorFromImpactLocation    = False
     TirIndirect                       = False
     TirReflexe                        = True
     ReflexShotDisabledIfPriorityTarget = True
@@ -3948,6 +3958,8 @@ Ammo_AGM_AGM65B_Maverick is TAmmunitionDescriptor
     SuppressDamages                   = 500.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = False
+    ComputeArmorFromImpactLocation    = False
     TirIndirect                       = False
     TirReflexe                        = True
     ReflexShotDisabledIfPriorityTarget = True
@@ -4024,6 +4036,8 @@ Ammo_AGM_AGM65D_Maverick is TAmmunitionDescriptor
     SuppressDamages                   = 500.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = False
+    ComputeArmorFromImpactLocation    = False
     TirIndirect                       = False
     TirReflexe                        = True
     ReflexShotDisabledIfPriorityTarget = True
@@ -4100,6 +4114,8 @@ Ammo_AGM_AGM65E_Maverick is TAmmunitionDescriptor
     SuppressDamages                   = 500.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = False
+    ComputeArmorFromImpactLocation    = False
     TirIndirect                       = False
     TirReflexe                        = True
     ReflexShotDisabledIfPriorityTarget = True
@@ -4175,6 +4191,8 @@ Ammo_AGM_AGM65G_Maverick is TAmmunitionDescriptor
     SuppressDamages                   = 500.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = False
+    ComputeArmorFromImpactLocation    = False
     TirIndirect                       = False
     TirReflexe                        = True
     ReflexShotDisabledIfPriorityTarget = True
@@ -4327,6 +4345,8 @@ Ammo_AGM_AJ_168_x2 is TAmmunitionDescriptor
     SuppressDamages                   = 435.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = False
+    ComputeArmorFromImpactLocation    = False
     TirIndirect                       = False
     TirReflexe                        = True
     ReflexShotDisabledIfPriorityTarget = True
@@ -4554,6 +4574,8 @@ Ammo_AGM_AS11_x2_air is TAmmunitionDescriptor
     SuppressDamages                   = 225.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = False
+    ComputeArmorFromImpactLocation    = False
     TirIndirect                       = False
     TirReflexe                        = True
     ReflexShotDisabledIfPriorityTarget = True
@@ -4629,6 +4651,8 @@ Ammo_AGM_AS30 is TAmmunitionDescriptor
     SuppressDamages                   = 475.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = False
+    ComputeArmorFromImpactLocation    = False
     TirIndirect                       = False
     TirReflexe                        = True
     ReflexShotDisabledIfPriorityTarget = True
@@ -4704,6 +4728,8 @@ Ammo_AGM_AS30L is TAmmunitionDescriptor
     SuppressDamages                   = 475.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = False
+    ComputeArmorFromImpactLocation    = False
     TirIndirect                       = False
     TirReflexe                        = True
     ReflexShotDisabledIfPriorityTarget = True
@@ -5616,6 +5642,8 @@ Ammo_AGM_Kh23M is TAmmunitionDescriptor
     SuppressDamages                   = 410.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = False
+    ComputeArmorFromImpactLocation    = False
     TirIndirect                       = False
     TirReflexe                        = True
     ReflexShotDisabledIfPriorityTarget = True
@@ -5691,6 +5719,8 @@ Ammo_AGM_Kh23M_helo is TAmmunitionDescriptor
     SuppressDamages                   = 410.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = False
+    ComputeArmorFromImpactLocation    = False
     TirIndirect                       = False
     TirReflexe                        = True
     ReflexShotDisabledIfPriorityTarget = True
@@ -5766,6 +5796,8 @@ Ammo_AGM_Kh25ML is TAmmunitionDescriptor
     SuppressDamages                   = 390.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = False
+    ComputeArmorFromImpactLocation    = False
     TirIndirect                       = False
     TirReflexe                        = True
     ReflexShotDisabledIfPriorityTarget = True
@@ -5993,6 +6025,8 @@ Ammo_AGM_Kh29L is TAmmunitionDescriptor
     SuppressDamages                   = 500.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = False
+    ComputeArmorFromImpactLocation    = False
     TirIndirect                       = False
     TirReflexe                        = True
     ReflexShotDisabledIfPriorityTarget = True
@@ -6068,6 +6102,8 @@ Ammo_AGM_Kh29T is TAmmunitionDescriptor
     SuppressDamages                   = 500.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = False
+    ComputeArmorFromImpactLocation    = False
     TirIndirect                       = False
     TirReflexe                        = True
     ReflexShotDisabledIfPriorityTarget = True
@@ -6220,6 +6256,8 @@ Ammo_AGM_Kh66 is TAmmunitionDescriptor
     SuppressDamages                   = 410.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = False
+    ComputeArmorFromImpactLocation    = False
     TirIndirect                       = False
     TirReflexe                        = True
     ReflexShotDisabledIfPriorityTarget = True
@@ -6295,6 +6333,8 @@ Ammo_AGM_S25LD is TAmmunitionDescriptor
     SuppressDamages                   = 500.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = False
+    ComputeArmorFromImpactLocation    = False
     TirIndirect                       = False
     TirReflexe                        = True
     ReflexShotDisabledIfPriorityTarget = True
@@ -9866,6 +9906,8 @@ Ammo_Bomb_BGL_400_x1 is TAmmunitionDescriptor
     SuppressDamages                   = 297.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ReflexShotDisabledIfPriorityTarget = False
@@ -9942,6 +9984,8 @@ Ammo_Bomb_BGL_400_x2 is TAmmunitionDescriptor
     SuppressDamages                   = 297.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ReflexShotDisabledIfPriorityTarget = False
@@ -10018,6 +10062,8 @@ Ammo_Bomb_CPU_123_x1 is TAmmunitionDescriptor
     SuppressDamages                   = 339.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ReflexShotDisabledIfPriorityTarget = False
@@ -10094,6 +10140,8 @@ Ammo_Bomb_GBU_10_x2 is TAmmunitionDescriptor
     SuppressDamages                   = 297.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ReflexShotDisabledIfPriorityTarget = False
@@ -10170,6 +10218,8 @@ Ammo_Bomb_GBU_12_x1 is TAmmunitionDescriptor
     SuppressDamages                   = 300.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ReflexShotDisabledIfPriorityTarget = False
@@ -10246,6 +10296,8 @@ Ammo_Bomb_GBU_12_x2 is TAmmunitionDescriptor
     SuppressDamages                   = 300.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ReflexShotDisabledIfPriorityTarget = False
@@ -10322,6 +10374,8 @@ Ammo_Bomb_GBU_27_x1 is TAmmunitionDescriptor
     SuppressDamages                   = 610.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ReflexShotDisabledIfPriorityTarget = False
@@ -10398,6 +10452,8 @@ Ammo_Bomb_KAB_1500Kr_x1 is TAmmunitionDescriptor
     SuppressDamages                   = 990.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ReflexShotDisabledIfPriorityTarget = False
@@ -10474,6 +10530,8 @@ Ammo_Bomb_KAB_1500L_x1 is TAmmunitionDescriptor
     SuppressDamages                   = 990.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ReflexShotDisabledIfPriorityTarget = False
@@ -10550,6 +10608,8 @@ Ammo_Bomb_KAB_500Kr_x1 is TAmmunitionDescriptor
     SuppressDamages                   = 339.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ReflexShotDisabledIfPriorityTarget = False

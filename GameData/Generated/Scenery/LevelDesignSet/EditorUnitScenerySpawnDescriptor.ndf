@@ -307,14 +307,6 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
-    RegistrationName      = 'AAVC_7A1_CMD_USMC_US'
-    ClassName             = '$/GFX/Unit/Descriptor_Unit_AAVC_7A1_CMD_USMC_US'
-    AutoNameBase          = 'AAVC_7A1_CMD_USMC_US'
-    ModelResource         = $/GFX/DepictionResources/Modele_AAVC_7A1_CMD_USMC_US
-    ThumbstackScale       = 20
-)
-unnamed Template_SceneryDescriptorSpawn
-(
     RegistrationName      = 'AAVP_7A1_USMC_US'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_AAVP_7A1_USMC_US'
     AutoNameBase          = 'AAVP_7A1_USMC_US'
@@ -5331,6 +5323,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'FV436_Cymbelline_UK'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_FV436_Cymbelline_UK'
+    AutoNameBase          = 'FV436_Cymbelline_UK'
+    ModelResource         = $/GFX/DepictionResources/Modele_FV436_Cymbelline_UK
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'FV438_Swingfire_UK'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_FV438_Swingfire_UK'
     AutoNameBase          = 'FV438_Swingfire_UK'
@@ -6574,6 +6574,14 @@ unnamed Template_SceneryDescriptorSpawn
     RegistrationName      = 'HMGteam_MAG_UK'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_HMGteam_MAG_UK'
     AutoNameBase          = 'HMGteam_MAG_UK'
+    ModelResource         = $/GFX/DepictionResources/Modele_HMGteam_MAG_UK
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'HMGteam_MAG_USMCR_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_HMGteam_MAG_USMCR_US'
+    AutoNameBase          = 'HMGteam_MAG_USMCR_US'
     ModelResource         = $/GFX/DepictionResources/Modele_HMGteam_MAG_UK
     ThumbstackScale       = 20
 )

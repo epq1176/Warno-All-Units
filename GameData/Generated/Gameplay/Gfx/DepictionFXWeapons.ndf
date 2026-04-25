@@ -13004,6 +13004,38 @@ FXWeapon_Mortier_PRAM_120mm_SMOKE is FiringAndProjectile
     ]
 )
 
+FXWeapon_Mortier_PRAM_120mm_SMOKE_TOWED is FiringAndProjectile
+(
+    Happenings = [
+        FXFiring_4( Action = $/GFX/GameFx/fx_tir_mortier_107mm ),
+        TRandomHappening
+        (
+            Alternatives =
+            [
+                FXProjectile_27( Action = $/GFX/GameFx/fx_traine_obus_mortier_107mm_1 ),
+                FXProjectile_27( Action = $/GFX/GameFx/fx_traine_obus_mortier_107mm_2 ),
+                FXProjectile_27( Action = $/GFX/GameFx/fx_traine_obus_mortier_107mm_3 ),
+            ]
+        )
+    ]
+)
+
+FXWeapon_Mortier_PRAM_120mm_TOWED is FiringAndProjectile
+(
+    Happenings = [
+        FXFiring_4( Action = $/GFX/GameFx/fx_tir_mortier_107mm ),
+        TRandomHappening
+        (
+            Alternatives =
+            [
+                FXProjectile_27( Action = $/GFX/GameFx/fx_traine_obus_mortier_107mm_1 ),
+                FXProjectile_27( Action = $/GFX/GameFx/fx_traine_obus_mortier_107mm_2 ),
+                FXProjectile_27( Action = $/GFX/GameFx/fx_traine_obus_mortier_107mm_3 ),
+            ]
+        )
+    ]
+)
+
 FXWeapon_Mortier_RT61_120mm is FiringAndProjectile
 (
     Happenings = [

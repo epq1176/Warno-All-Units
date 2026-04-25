@@ -960,7 +960,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                )
                AimTime = TMinMaxValue (
                        Min = 10.0
-                       Max = 25.0
+                       Max = 30.0
                )
                ReloadTime = TMinMaxValue (
                        Min = 40.0

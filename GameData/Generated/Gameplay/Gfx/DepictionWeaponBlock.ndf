@@ -313,14 +313,6 @@ Weapon_Howz_Canon_A222_Howitzer_130mm is TCompositeHappening
         $/GFX/Sound/SoundHappening_FULDA_Bereg_130mm,
     ]
 )
-Weapon_MMG_M60_7_62mm_coax is TCompositeHappening
-(
-    SubHappenings = 
-    [
-        FXWeapon_MMG_M60_7_62mm_coax,
-        $/GFX/Sound/SoundHappening_FULDA_M24_Firing,
-    ]
-)
 Weapon_Lance_grenade_Mk19_40mm is TCompositeHappening
 (
     SubHappenings = 
@@ -1527,6 +1519,14 @@ Weapon_MMG_M60D_7_62mm is TCompositeHappening
     [
         FXWeapon_MMG_M60D_7_62mm,
         $/GFX/Sound/SoundHappening_FULDA_M60,
+    ]
+)
+Weapon_MMG_M60_7_62mm_coax is TCompositeHappening
+(
+    SubHappenings = 
+    [
+        FXWeapon_MMG_M60_7_62mm_coax,
+        $/GFX/Sound/SoundHappening_FULDA_M24_Firing,
     ]
 )
 Weapon_MANPAD_Blowpipe is TCompositeHappening
@@ -4233,19 +4233,19 @@ Weapon_Mortier_M40_towed_107mm_SMOKE is TCompositeHappening
         $/GFX/Sound/SoundHappening_FULDA_107mm_Mortar,
     ]
 )
-Weapon_Mortier_PRAM_120mm is TCompositeHappening
+Weapon_Mortier_PRAM_120mm_TOWED is TCompositeHappening
 (
     SubHappenings = 
     [
-        FXWeapon_Mortier_PRAM_120mm,
+        FXWeapon_Mortier_PRAM_120mm_TOWED,
         $/GFX/Sound/SoundHappening_FULDA_107mm_Mortar,
     ]
 )
-Weapon_Mortier_PRAM_120mm_SMOKE is TCompositeHappening
+Weapon_Mortier_PRAM_120mm_SMOKE_TOWED is TCompositeHappening
 (
     SubHappenings = 
     [
-        FXWeapon_Mortier_PRAM_120mm_SMOKE,
+        FXWeapon_Mortier_PRAM_120mm_SMOKE_TOWED,
         $/GFX/Sound/SoundHappening_FULDA_107mm_Mortar,
     ]
 )
@@ -4575,6 +4575,22 @@ Weapon_SAM_9M33M2_x6 is TCompositeHappening
     [
         FXWeapon_SAM_9M33M2_x6,
         $/GFX/Sound/SoundHappening_FULDA_9M33_OSA_Firing,
+    ]
+)
+Weapon_Mortier_PRAM_120mm is TCompositeHappening
+(
+    SubHappenings = 
+    [
+        FXWeapon_Mortier_PRAM_120mm,
+        $/GFX/Sound/SoundHappening_FULDA_107mm_Mortar,
+    ]
+)
+Weapon_Mortier_PRAM_120mm_SMOKE is TCompositeHappening
+(
+    SubHappenings = 
+    [
+        FXWeapon_Mortier_PRAM_120mm_SMOKE,
+        $/GFX/Sound/SoundHappening_FULDA_107mm_Mortar,
     ]
 )
 Weapon_Canon_AP_76mm_D56T is TCompositeHappening

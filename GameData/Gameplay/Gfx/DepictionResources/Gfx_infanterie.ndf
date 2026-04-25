@@ -82,6 +82,7 @@ export Modele_Dragunov   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/
 export Modele_Mosin_Nagant_Scope   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Armes/SOV/Mosin_Nagant_Scope/Mosin_Nagant_Scope.fbx" )
 export Modele_DP28   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Armes/SOV/DP28/DP28.fbx" )
 export Modele_PPS43   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Armes/SOV/PPS43/PPS43.fbx" )
+export Modele_KS_23   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Armes/SOV/KS_23/KS_23.fbx" )
 
 //------------------------------------------------------------------------------
 //------------------------------------ARMES DDR---------------------------------
@@ -153,6 +154,8 @@ export Modele_FR_F1   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Arm
 export Modele_ATGM_Eryx   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Armes/FR/Eryx/Eryx.fbx" )
 export Modele_ATGM_SuperDragon_II_SWI   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Armes/FR/Eryx/Eryx.fbx" )
 export Modele_Wasp_58   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Armes/FR/Wasp_58/Wasp_58.fbx" )
+export Modele_Famas_AC58   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Armes/FR/FAMAS_AC58/FAMAS_AC58.fbx" )
+export Modele_MAS36_STRIM65   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Armes/FR/MAS36_STRIM65/MAS36_STRIM65.fbx" )
 
 //------------------------------------------------------------------------------
 //------------------------------------ARMES BEL----------------------------------
@@ -168,6 +171,8 @@ export Modele_FAL_sniper   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Amm
 export Modele_FAL_sniper_ZF4   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Armes/BEL/FAL_sniper/Sniper_FAL_ZF4.fbx" )
 export Modele_M1_Carbine   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Armes/BEL/M1_Carbine/M1_Carbine.fbx" )
 export Modele_MP40   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Armes/BEL/MP40/MP40.fbx" )
+export Modele_FAL_Energa   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Armes/BEL/FAL_Energa/FAL_Energa.fbx" )
+export Modele_FAL_SuperEnerga   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Armes/BEL/FAL_SuperEnerga/FAL_SuperEnerga.fbx" )
 
 //------------------------------------------------------------------------------
 //------------------------------------ARMES TCH----------------------------------
@@ -199,6 +204,11 @@ export Modele_Hovea   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Arm
 export Modele_Husqvarna_M37   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Armes/DK/Husqvarna_M37/Husqvarna_M37.fbx" )
 export Modele_M1_Garand   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Armes/DK/M1_Garand/M1_Garand.fbx" )
 export Modele_M1C   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Armes/DK/M1C/M1C.fbx" )
+export Modele_G3_Energa   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Armes/DK/G3_Energa/G3_Energa.fbx" )
+//------------------------------------------------------------------------------
+//------------------------------------ARMES ITA---------------------------------
+//------------------------------------------------------------------------------
+export Modele_BM59_SuperEnerga   is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Armes/ITA/BM59_SuperEnerga/BM59_SuperEnerga.fbx" )
 //------------------------------------------------------------------------------
 //-----------------------------------SOLDATS SOV--------------------------------
 //------------------------------------------------------------------------------

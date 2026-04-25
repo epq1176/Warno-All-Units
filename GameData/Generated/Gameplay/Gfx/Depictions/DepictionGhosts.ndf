@@ -231,12 +231,6 @@ unnamed GhostVehicleDepictionRegistration
 )
 unnamed GhostVehicleDepictionRegistration
 (
-    Alternatives = Alternatives_AAVC_7A1_CMD_USMC_US
-    BlackHoleKey = "AAVC_7A1_CMD_USMC_US"
-    Selector = SpecificMechanicalDepictionSelector
-)
-unnamed GhostVehicleDepictionRegistration
-(
     Alternatives = Alternatives_AAVP_7A1_USMC_US
     BlackHoleKey = "AAVP_7A1_USMC_US"
     Selector = SpecificMechanicalDepictionSelector
@@ -3159,6 +3153,12 @@ unnamed GhostVehicleDepictionRegistration
 )
 unnamed GhostVehicleDepictionRegistration
 (
+    Alternatives = Alternatives_FV436_Cymbelline_UK
+    BlackHoleKey = "FV436_Cymbelline_UK"
+    Selector = SpecificMechanicalDepictionSelector
+)
+unnamed GhostVehicleDepictionRegistration
+(
     Alternatives = Alternatives_FV438_Swingfire_UK
     BlackHoleKey = "FV438_Swingfire_UK"
     Selector = SpecificMechanicalDepictionSelector
@@ -3689,6 +3689,12 @@ unnamed GhostVehicleDepictionRegistration
 (
     Alternatives = Alternatives_HMGteam_MAG_UK
     BlackHoleKey = "HMGteam_MAG_UK"
+    Selector = SpecificMechanicalDepictionSelector
+)
+unnamed GhostVehicleDepictionRegistration
+(
+    Alternatives = Alternatives_HMGteam_MAG_UK
+    BlackHoleKey = "HMGteam_MAG_USMCR_US"
     Selector = SpecificMechanicalDepictionSelector
 )
 unnamed GhostVehicleDepictionRegistration

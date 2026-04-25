@@ -838,8 +838,6 @@ AffichageNomDuDeck is BUCKListDescriptor
                 TextColorToken = "White"
                 SelectionColorToken = "DeckOverview/CaseGrisee/EditableText/Selected"
 
-                MaxChars = 36
-
                 SelectTextOnFocus = true
             )
         ),
@@ -1069,7 +1067,27 @@ private DeckPanelContentList is BUCKListDescriptor
                             )
                         ]
                     ),
-                    ~/ListeDesUnitesDuDeck,
+                    BUCKSpecificScrollingContainerDescriptor
+                    (
+                        ComponentFrame = TUIFramePropertyRTTI
+                        (
+                            RelativeWidthHeight = [1.0, 1.0]
+                        )
+
+                        HasHorizontalScrollbar = true 
+
+                        HorizontalScrollbarComponentFrame = TUIFramePropertyRTTI
+                        (
+                            MagnifiableWidthHeight = [0.0, 7.0]
+                            AlignementToFather = [0.5, 1.0]
+                            AlignementToAnchor = [0.5, 1.0]
+                        )
+
+                        Components =
+                        [
+                            ~/ListeDesUnitesDuDeck
+                        ]
+                    ),
                     PanelRoundedCorner
                     (
                         HasBackground = true

@@ -516,19 +516,6 @@ unnamed ShowroomVehicleDepictionRegistration
 )
 unnamed ShowroomVehicleDepictionRegistration
 (
-    BlackHoleKey = "showroom_AAVC_7A1_CMD_USMC_US"
-    Alternatives = Alternatives_AAVC_7A1_CMD_USMC_US
-    SubDepictions = 
-    [
-        ObjectSubDepiction
-        (
-            Anchor = "base_m60"
-            MeshDescriptor = $/GFX/DepictionResources/Modele_AAVC_7A1_CMD_USMC_US_Tourelle_01
-        ),
-    ]
-)
-unnamed ShowroomVehicleDepictionRegistration
-(
     BlackHoleKey = "showroom_AAVP_7A1_USMC_US"
     Alternatives = Alternatives_AAVP_7A1_USMC_US
 )
@@ -4749,6 +4736,25 @@ unnamed ShowroomVehicleDepictionRegistration
             BoneName = "axe_canon_01"
             RotationAxis = float3[0, 1, 0]
             RotationInDegree = -10
+        ),
+    ]
+)
+unnamed ShowroomVehicleDepictionRegistration
+(
+    BlackHoleKey = "showroom_FV436_Cymbelline_UK"
+    Alternatives = Alternatives_FV436_Cymbelline_UK
+    SubDepictions = 
+    [
+        TSubDepiction
+        (
+            Anchors = 
+            [
+                "base_tourelle_01",
+            ]
+            Depiction = ShowroomDepictionDescInternal
+            (
+                MeshDescriptor = $/GFX/DepictionResources/Modele_FV436_Cymbelline_UK_Tourelle_01
+            )
         ),
     ]
 )

@@ -2993,53 +2993,6 @@ export WeaponDescriptor_A222_Bereg_SOV is TWeaponManagerModuleDescriptor
         ),
     ]
 )
-export WeaponDescriptor_AAVC_7A1_CMD_USMC_US is TWeaponManagerModuleDescriptor
-(
-    AlwaysOrientArmorTowardsThreat = True
-    Salves = 
-    [
-        100,
-    ]
-    TurretDescriptorList = 
-    [
-        TTurretTwoAxisDescriptor
-        (
-            AngleRotationBase = 0
-            AngleRotationBasePitch = 0
-            AngleRotationMax = 6.283185307179586
-            AngleRotationMaxPitch = 1.3089969389957472
-            AngleRotationMinPitch = -0.2617993877991494
-            MountedWeaponDescriptorList = 
-            [
-                TMountedWeaponDescriptor
-                (
-                    AmmoBoxIndex = 0
-                    Ammunition = $/GFX/Weapon/Ammo_MMG_M60_7_62mm_coax
-                    AnimateOnlyOneSoldier = False
-                    DispersionRadiusOffColor = RGBA[0,0,0,0]
-                    DispersionRadiusOffThickness = -0.1
-                    DispersionRadiusOnColor = RGBA[0,0,0,0]
-                    DispersionRadiusOnThickness = -0.1
-                    EffectTag = "FireEffect_MMG_M60_7_62mm_coax"
-                    HandheldEquipmentKey = "WeaponAlternative_1"
-                    NbWeapons = 1
-                    ShowDispersion = False
-                    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
-                    WeaponIgnoredPropertyName = "WeaponIgnored_1"
-                    WeaponShootDataPropertyName = 
-                    [
-                        "WeaponShootData_0_1",
-                    ]
-                ),
-            ]
-            OutOfRangeTrackingDuration = 3.5
-            Tag = "tourelle1"
-            TurretIdleBehaviourDescriptor = ~/TurretIdle_WatchForwardMG
-            VitesseRotation = 2.0943951023931953
-            YulBoneOrdinal = 1
-        ),
-    ]
-)
 export WeaponDescriptor_AAVP_7A1_USMC_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
@@ -53531,13 +53484,13 @@ export WeaponDescriptor_FV4201_Chieftain_Mk1_4_UK is TWeaponManagerModuleDescrip
                 TMountedWeaponDescriptor
                 (
                     AmmoBoxIndex = 3
-                    Ammunition = $/GFX/Weapon/Ammo_HMG_12_7_mm_M2HB_CTRL
+                    Ammunition = $/GFX/Weapon/Ammo_HMG_12_7_mm_M2HB
                     AnimateOnlyOneSoldier = True
                     DispersionRadiusOffColor = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness = -0.1
                     DispersionRadiusOnColor = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness = -0.1
-                    EffectTag = "FireEffect_HMG_12_7_mm_M2HB_CTRL"
+                    EffectTag = "FireEffect_HMG_12_7_mm_M2HB"
                     HandheldEquipmentKey = "WeaponAlternative_5"
                     NbWeapons = 1
                     ShowDispersion = False
@@ -54994,6 +54947,89 @@ export WeaponDescriptor_FV433_Abbot_UK is TWeaponManagerModuleDescriptor
                     HideInInterface = True
                     NbWeapons = 1
                     ShowDispersion = True
+                    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_5"
+                    WeaponIgnoredPropertyName = "WeaponIgnored_5"
+                    WeaponShootDataPropertyName = 
+                    [
+                        "WeaponShootData_0_5",
+                        "WeaponShootData_1_5",
+                        "WeaponShootData_2_5",
+                        "WeaponShootData_3_5",
+                    ]
+                ),
+            ]
+            Tag = "tourelle5"
+            YulBoneOrdinal = 5
+        ),
+    ]
+)
+export WeaponDescriptor_FV436_Cymbelline_UK is TWeaponManagerModuleDescriptor
+(
+    AlwaysOrientArmorTowardsThreat = True
+    Salves = 
+    [
+        45,
+        1,
+    ]
+    TurretDescriptorList = 
+    [
+        TTurretTwoAxisDescriptor
+        (
+            AngleRotationBase = 0
+            AngleRotationBasePitch = 0
+            AngleRotationMax = 6.283185307179586
+            AngleRotationMaxPitch = 1.3089969389957472
+            AngleRotationMinPitch = -0.2617993877991494
+            MountedWeaponDescriptorList = 
+            [
+                TMountedWeaponDescriptor
+                (
+                    AmmoBoxIndex = 0
+                    Ammunition = $/GFX/Weapon/Ammo_MMG_L37A2_7_62mm
+                    AnimateOnlyOneSoldier = False
+                    DispersionRadiusOffColor = RGBA[0,0,0,0]
+                    DispersionRadiusOffThickness = -0.1
+                    DispersionRadiusOnColor = RGBA[0,0,0,0]
+                    DispersionRadiusOnThickness = -0.1
+                    EffectTag = "FireEffect_MMG_L37A2_7_62mm"
+                    HandheldEquipmentKey = "WeaponAlternative_1"
+                    NbWeapons = 1
+                    ShowDispersion = False
+                    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
+                    WeaponIgnoredPropertyName = "WeaponIgnored_1"
+                    WeaponShootDataPropertyName = 
+                    [
+                        "WeaponShootData_0_1",
+                    ]
+                ),
+            ]
+            OutOfRangeTrackingDuration = 3.5
+            Tag = "tourelle1"
+            TurretIdleBehaviourDescriptor = ~/TurretIdle_WatchForwardMG
+            VitesseRotation = 2.0943951023931953
+            YulBoneOrdinal = 1
+        ),
+        TTurretUnitDescriptor
+        (
+            AngleRotationMax = 2.0943951023931953
+            AngleRotationMaxPitch = 1.5707963267948966
+            AngleRotationMinPitch = -1.5707963267948966
+            MountedWeaponDescriptorList = 
+            [
+                TMountedWeaponDescriptor
+                (
+                    AmmoBoxIndex = 1
+                    Ammunition = $/GFX/Weapon/Ammo_SMOKE_Vehicle_Grenadex8
+                    AnimateOnlyOneSoldier = True
+                    DispersionRadiusOffColor = RGBA[0,0,0,0]
+                    DispersionRadiusOffThickness = -0.1
+                    DispersionRadiusOnColor = RGBA[0,0,0,0]
+                    DispersionRadiusOnThickness = -0.1
+                    EffectTag = "FireEffect_SMOKE_Vehicle_Grenadex8"
+                    HandheldEquipmentKey = "WeaponAlternative_5"
+                    HideInInterface = True
+                    NbWeapons = 1
+                    ShowDispersion = False
                     WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_5"
                     WeaponIgnoredPropertyName = "WeaponIgnored_5"
                     WeaponShootDataPropertyName = 
@@ -65118,6 +65154,52 @@ export WeaponDescriptor_HMGteam_MAG_NL is TWeaponManagerModuleDescriptor
     ]
 )
 export WeaponDescriptor_HMGteam_MAG_UK is TWeaponManagerModuleDescriptor
+(
+    AlwaysOrientArmorTowardsThreat = False
+    Salves = 
+    [
+        80,
+    ]
+    TurretDescriptorList = 
+    [
+        TTurretTwoAxisDescriptor
+        (
+            AngleRotationBase = 0
+            AngleRotationBasePitch = 0
+            AngleRotationMax = 1.5707963267948966
+            AngleRotationMaxPitch = 0.6981317007977318
+            AngleRotationMinPitch = -0.6981317007977318
+            MountedWeaponDescriptorList = 
+            [
+                TMountedWeaponDescriptor
+                (
+                    AmmoBoxIndex = 0
+                    Ammunition = $/GFX/Weapon/Ammo_MMG_team_7_62mm_FN_MAG
+                    AnimateOnlyOneSoldier = False
+                    DispersionRadiusOffColor = RGBA[0,0,0,0]
+                    DispersionRadiusOffThickness = -0.1
+                    DispersionRadiusOnColor = RGBA[0,0,0,0]
+                    DispersionRadiusOnThickness = -0.1
+                    EffectTag = "FireEffect_MMG_team_7_62mm_FN_MAG"
+                    HandheldEquipmentKey = "WeaponAlternative_1"
+                    NbWeapons = 1
+                    ShowDispersion = False
+                    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
+                    WeaponIgnoredPropertyName = "WeaponIgnored_1"
+                    WeaponShootDataPropertyName = 
+                    [
+                        "WeaponShootData_0_1",
+                    ]
+                ),
+            ]
+            OutOfRangeTrackingDuration = 3.5
+            Tag = "tourelle1"
+            VitesseRotation = 1.0471975511965976
+            YulBoneOrdinal = 1
+        ),
+    ]
+)
+export WeaponDescriptor_HMGteam_MAG_USMCR_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = False
     Salves = 
@@ -114514,13 +114596,13 @@ export WeaponDescriptor_Mortier_120mm_vz82_TCH is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoBoxIndex = 0
-                    Ammunition = $/GFX/Weapon/Ammo_Mortier_PRAM_120mm
+                    Ammunition = $/GFX/Weapon/Ammo_Mortier_PRAM_120mm_TOWED
                     AnimateOnlyOneSoldier = False
                     DispersionRadiusOffColor = RGBA[255,0,0,0]
                     DispersionRadiusOffThickness = 0
                     DispersionRadiusOnColor = RGBA[90,180,180,255]
                     DispersionRadiusOnThickness = 0.8
-                    EffectTag = "FireEffect_Mortier_PRAM_120mm"
+                    EffectTag = "FireEffect_Mortier_PRAM_120mm_TOWED"
                     HandheldEquipmentKey = "WeaponAlternative_1"
                     NbWeapons = 1
                     ShowDispersion = True
@@ -114534,13 +114616,13 @@ export WeaponDescriptor_Mortier_120mm_vz82_TCH is TWeaponManagerModuleDescriptor
                 TMountedWeaponDescriptor
                 (
                     AmmoBoxIndex = 0
-                    Ammunition = $/GFX/Weapon/Ammo_Mortier_PRAM_120mm_SMOKE
+                    Ammunition = $/GFX/Weapon/Ammo_Mortier_PRAM_120mm_SMOKE_TOWED
                     AnimateOnlyOneSoldier = False
                     DispersionRadiusOffColor = RGBA[0,0,0,0]
                     DispersionRadiusOffThickness = -0.1
                     DispersionRadiusOnColor = RGBA[0,0,0,0]
                     DispersionRadiusOnThickness = -0.1
-                    EffectTag = "FireEffect_Mortier_PRAM_120mm_SMOKE"
+                    EffectTag = "FireEffect_Mortier_PRAM_120mm_SMOKE_TOWED"
                     HandheldEquipmentKey = "WeaponAlternative_2"
                     NbWeapons = 1
                     ShowDispersion = False
@@ -189799,6 +189881,7 @@ export WeaponDescriptor_A10_Thunderbolt_II_Rkt_US is TWeaponManagerModuleDescrip
 export WeaponDescriptor_A10_Thunderbolt_II_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         16,
@@ -189931,6 +190014,7 @@ export WeaponDescriptor_A10_Thunderbolt_II_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_A37B_Dragonfly_HE_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         10,
@@ -190040,6 +190124,7 @@ export WeaponDescriptor_A37B_Dragonfly_HE_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_A37B_Dragonfly_NPLM_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         10,
@@ -190328,6 +190413,7 @@ export WeaponDescriptor_A6E_Intruder_SWIP_AT_US is TWeaponManagerModuleDescripto
 export WeaponDescriptor_A6E_Intruder_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -190486,6 +190572,7 @@ export WeaponDescriptor_A7D_Corsair_II_AT_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_A7D_Corsair_II_CLU_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         25,
@@ -190714,6 +190801,7 @@ export WeaponDescriptor_A7D_Corsair_II_RKT_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_A7D_Corsair_II_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         25,
@@ -190941,6 +191029,7 @@ export WeaponDescriptor_Alpha_Jet_A_KWS_RFA is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Alpha_Jet_A_clu_RFA is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -191020,6 +191109,7 @@ export WeaponDescriptor_Alpha_Jet_A_clu_RFA is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Alpha_Jet_A_he_RFA is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -191099,6 +191189,7 @@ export WeaponDescriptor_Alpha_Jet_A_he_RFA is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Alpha_Jet_A_nplm_RFA is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -191325,6 +191416,7 @@ export WeaponDescriptor_Alpha_Jet_A_rkt_RFA is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Alpha_Jet_BEL is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -191368,6 +191460,7 @@ export WeaponDescriptor_Alpha_Jet_BEL is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Alpha_Jet_E_CLU_FR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -191411,6 +191504,7 @@ export WeaponDescriptor_Alpha_Jet_E_CLU_FR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Alpha_Jet_E_FR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -191454,6 +191548,7 @@ export WeaponDescriptor_Alpha_Jet_E_FR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Alpha_Jet_E_NPLM_FR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -191497,6 +191592,7 @@ export WeaponDescriptor_Alpha_Jet_E_NPLM_FR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Alpha_Jet_HE2_BEL is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -191632,6 +191728,7 @@ export WeaponDescriptor_Buccaneer_S2B_GBU_UK is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Buccaneer_S2B_HE_UK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -192035,6 +192132,7 @@ export WeaponDescriptor_CM170_Magister_SS11_FR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Canberra_B2_UK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -192236,6 +192334,7 @@ export WeaponDescriptor_F104G_Starfighter_AT_RFA is TWeaponManagerModuleDescript
 export WeaponDescriptor_F104G_Starfighter_HE_RFA is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -192315,6 +192414,7 @@ export WeaponDescriptor_F104G_Starfighter_HE_RFA is TWeaponManagerModuleDescript
 export WeaponDescriptor_F104G_Starfighter_Marine_RFA is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -192476,6 +192576,7 @@ export WeaponDescriptor_F104G_Starfighter_RFA is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F111E_Aardvark_CBU_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -192519,6 +192620,7 @@ export WeaponDescriptor_F111E_Aardvark_CBU_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F111E_Aardvark_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -192562,6 +192664,7 @@ export WeaponDescriptor_F111E_Aardvark_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F111E_Aardvark_napalm_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -192605,6 +192708,7 @@ export WeaponDescriptor_F111E_Aardvark_napalm_US is TWeaponManagerModuleDescript
 export WeaponDescriptor_F111F_Aardvark_CBU_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -192742,6 +192846,7 @@ export WeaponDescriptor_F111F_Aardvark_LGB_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F111F_Aardvark_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -192785,6 +192890,7 @@ export WeaponDescriptor_F111F_Aardvark_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F111F_Aardvark_napalm_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -194288,6 +194394,7 @@ export WeaponDescriptor_F16A_AGM_DK is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F16A_CBU_BEL is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -194397,6 +194504,7 @@ export WeaponDescriptor_F16A_CBU_BEL is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F16A_CLU_DK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -194509,6 +194617,7 @@ export WeaponDescriptor_F16A_CLU_DK is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F16A_CLU_NL is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -194621,6 +194730,7 @@ export WeaponDescriptor_F16A_CLU_NL is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F16A_HE_CLU_DK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -194763,6 +194873,7 @@ export WeaponDescriptor_F16A_HE_CLU_DK is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F16A_HE_DK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -194875,6 +194986,7 @@ export WeaponDescriptor_F16A_HE_DK is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F16A_HE_NL is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -195447,6 +195559,7 @@ export WeaponDescriptor_F16E_AGM_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F16E_CBU_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -195559,6 +195672,7 @@ export WeaponDescriptor_F16E_CBU_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F16E_HE_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -195786,6 +195900,7 @@ export WeaponDescriptor_F16E_SEAD_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F16E_TER_CLU_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -195898,6 +196013,7 @@ export WeaponDescriptor_F16E_TER_CLU_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F16E_TER_HE_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -196010,6 +196126,7 @@ export WeaponDescriptor_F16E_TER_HE_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F16E_napalm_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -196697,6 +196814,7 @@ export WeaponDescriptor_F18_Hornet_AT_ESP is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F18_Hornet_CLUS_CAN is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         14,
@@ -196925,6 +197043,7 @@ export WeaponDescriptor_F18_Hornet_CRV7_CAN is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F18_Hornet_HE_CAN is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         14,
@@ -197185,6 +197304,7 @@ export WeaponDescriptor_F18_Hornet_SEAD_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F4C_Phantom_II_CLU_ESP is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -197340,6 +197460,7 @@ export WeaponDescriptor_F4C_Phantom_II_ESP is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F4C_Phantom_II_HE_ESP is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -197416,6 +197537,7 @@ export WeaponDescriptor_F4C_Phantom_II_HE_ESP is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F4C_Phantom_II_NPLM_ESP is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -197768,6 +197890,7 @@ export WeaponDescriptor_F4E_Phantom_II_AT_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F4E_Phantom_II_CBU_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         16,
@@ -197880,6 +198003,7 @@ export WeaponDescriptor_F4E_Phantom_II_CBU_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F4E_Phantom_II_HE_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         16,
@@ -197992,6 +198116,7 @@ export WeaponDescriptor_F4E_Phantom_II_HE_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F4E_Phantom_II_napalm_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         16,
@@ -198416,6 +198541,7 @@ export WeaponDescriptor_F4F_Phantom_II_AT_RFA is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F4F_Phantom_II_HE1_RFA is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         16,
@@ -198528,6 +198654,7 @@ export WeaponDescriptor_F4F_Phantom_II_HE1_RFA is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F4F_Phantom_II_HE2_RFA is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         16,
@@ -199114,6 +199241,7 @@ export WeaponDescriptor_F4_Phantom_AA_GR2_UK is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F4_Phantom_GR2_HE_UK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         16,
@@ -199226,6 +199354,7 @@ export WeaponDescriptor_F4_Phantom_GR2_HE_UK is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F4_Phantom_GR2_NPLM_UK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         16,
@@ -199338,6 +199467,7 @@ export WeaponDescriptor_F4_Phantom_GR2_NPLM_UK is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F4_Phantom_GR2_UK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         16,
@@ -199641,6 +199771,7 @@ export WeaponDescriptor_F5A_FreedomFighter_AA_NL is TWeaponManagerModuleDescript
 export WeaponDescriptor_F5A_FreedomFighter_CAN is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         31,
@@ -199753,6 +199884,7 @@ export WeaponDescriptor_F5A_FreedomFighter_CAN is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F5A_FreedomFighter_CLU_CAN is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         31,
@@ -199865,6 +199997,7 @@ export WeaponDescriptor_F5A_FreedomFighter_CLU_CAN is TWeaponManagerModuleDescri
 export WeaponDescriptor_F5A_FreedomFighter_CLU_NL is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         31,
@@ -199977,6 +200110,7 @@ export WeaponDescriptor_F5A_FreedomFighter_CLU_NL is TWeaponManagerModuleDescrip
 export WeaponDescriptor_F5A_FreedomFighter_NL is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         31,
@@ -200089,6 +200223,7 @@ export WeaponDescriptor_F5A_FreedomFighter_NL is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_F5A_FreedomFighter_NPLM_NL is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         31,
@@ -200650,6 +200785,7 @@ export WeaponDescriptor_FA16_CAS_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_G91_R3_Gina_HE_RFA is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -200729,6 +200865,7 @@ export WeaponDescriptor_G91_R3_Gina_HE_RFA is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_G91_R3_Gina_NPL_RFA is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -201073,6 +201210,7 @@ export WeaponDescriptor_Harrier_AV8B_RKT_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Harrier_AV8B_TER_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -201185,6 +201323,7 @@ export WeaponDescriptor_Harrier_AV8B_TER_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Harrier_AV8B_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -201297,6 +201436,7 @@ export WeaponDescriptor_Harrier_AV8B_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Harrier_AV8B_thermo_US is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -201409,6 +201549,7 @@ export WeaponDescriptor_Harrier_AV8B_thermo_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Harrier_CLU_UK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -201521,6 +201662,7 @@ export WeaponDescriptor_Harrier_CLU_UK is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Harrier_GR5_CLU_UK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -201597,6 +201739,7 @@ export WeaponDescriptor_Harrier_GR5_CLU_UK is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Harrier_GR5_UK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -201673,6 +201816,7 @@ export WeaponDescriptor_Harrier_GR5_UK is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Harrier_HE1_UK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -201785,6 +201929,7 @@ export WeaponDescriptor_Harrier_HE1_UK is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Harrier_HE2_UK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -202426,6 +202571,7 @@ export WeaponDescriptor_Jaguar_ATGM_FR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Jaguar_CLU_UK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -202538,6 +202684,7 @@ export WeaponDescriptor_Jaguar_CLU_UK is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Jaguar_HE1_UK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -202650,6 +202797,7 @@ export WeaponDescriptor_Jaguar_HE1_UK is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Jaguar_HE2_UK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -202762,6 +202910,7 @@ export WeaponDescriptor_Jaguar_HE2_UK is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Jaguar_HE_FR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -203504,6 +203653,7 @@ export WeaponDescriptor_Jaguar_SEAD_FR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Jaguar_clu_FR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -203616,6 +203766,7 @@ export WeaponDescriptor_Jaguar_clu_FR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Jaguar_nplm_FR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -203728,6 +203879,7 @@ export WeaponDescriptor_Jaguar_nplm_FR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Jaguar_overwing_UK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -203956,6 +204108,7 @@ export WeaponDescriptor_L39ZA_TCH is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_L39ZO_CLU_DDR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -204110,6 +204263,7 @@ export WeaponDescriptor_L39ZO_DDR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_L39ZO_HE1_DDR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -204153,6 +204307,7 @@ export WeaponDescriptor_L39ZO_HE1_DDR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_L39ZO_HE1_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -204196,6 +204351,7 @@ export WeaponDescriptor_L39ZO_HE1_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_L39ZO_HE_TCH is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -204239,6 +204395,7 @@ export WeaponDescriptor_L39ZO_HE_TCH is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_L39ZO_NPLM_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -205680,6 +205837,7 @@ export WeaponDescriptor_MiG_21bis_AT_POL is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_21bis_CLU_DDR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -205759,6 +205917,7 @@ export WeaponDescriptor_MiG_21bis_CLU_DDR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_21bis_CLU_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -205868,6 +206027,7 @@ export WeaponDescriptor_MiG_21bis_CLU_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_21bis_CLU_TCH is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -205977,6 +206137,7 @@ export WeaponDescriptor_MiG_21bis_CLU_TCH is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_21bis_HE2_TCH is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -206086,6 +206247,7 @@ export WeaponDescriptor_MiG_21bis_HE2_TCH is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_21bis_HE_DDR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -206165,6 +206327,7 @@ export WeaponDescriptor_MiG_21bis_HE_DDR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_21bis_HE_POL is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -206244,6 +206407,7 @@ export WeaponDescriptor_MiG_21bis_HE_POL is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_21bis_HE_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -206323,6 +206487,7 @@ export WeaponDescriptor_MiG_21bis_HE_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_21bis_HE_TCH is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -206435,6 +206600,7 @@ export WeaponDescriptor_MiG_21bis_HE_TCH is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_21bis_NPLM_DDR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -206544,6 +206710,7 @@ export WeaponDescriptor_MiG_21bis_NPLM_DDR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_21bis_NPLM_TCH is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -207212,6 +207379,7 @@ export WeaponDescriptor_MiG_23BN_AT_DDR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_23BN_CLU_DDR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -207291,6 +207459,7 @@ export WeaponDescriptor_MiG_23BN_CLU_DDR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_23BN_CLU_TCH is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -207370,6 +207539,7 @@ export WeaponDescriptor_MiG_23BN_CLU_TCH is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_23BN_DDR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -207449,6 +207619,7 @@ export WeaponDescriptor_MiG_23BN_DDR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_23BN_HE_TCH is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -207528,6 +207699,7 @@ export WeaponDescriptor_MiG_23BN_HE_TCH is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_23BN_KMGU_DDR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -207952,6 +208124,7 @@ export WeaponDescriptor_MiG_23BN_TCH is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_23BN_nplm_DDR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -208031,6 +208204,7 @@ export WeaponDescriptor_MiG_23BN_nplm_DDR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_23BN_nplm_TCH is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -208455,6 +208629,7 @@ export WeaponDescriptor_MiG_23MF_AA_POL is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_23MF_DDR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -209464,6 +209639,7 @@ export WeaponDescriptor_MiG_25PD_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_25RBF_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -210015,6 +210191,7 @@ export WeaponDescriptor_MiG_27K_SEAD_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_27M_CLU_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -210216,6 +210393,7 @@ export WeaponDescriptor_MiG_27M_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_27M_bombe_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -210315,6 +210493,7 @@ export WeaponDescriptor_MiG_27M_bombe_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_MiG_27M_napalm_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -212230,6 +212409,7 @@ export WeaponDescriptor_Mirage_2000_C_RDM_AA2_FR is TWeaponManagerModuleDescript
 export WeaponDescriptor_Mirage_5_BA_BEL is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -212342,6 +212522,7 @@ export WeaponDescriptor_Mirage_5_BA_BEL is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Mirage_5_BA_CLU_BEL is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -212454,6 +212635,7 @@ export WeaponDescriptor_Mirage_5_BA_CLU_BEL is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Mirage_5_BA_MIRSIP_BEL is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -212566,6 +212748,7 @@ export WeaponDescriptor_Mirage_5_BA_MIRSIP_BEL is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Mirage_5_BA_NPLM_BEL is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -212795,6 +212978,7 @@ export WeaponDescriptor_Mirage_5_BA_RKT_BEL is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Mirage_5_F_FR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -212907,6 +213091,7 @@ export WeaponDescriptor_Mirage_5_F_FR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Mirage_5_F_clu_FR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -212986,6 +213171,7 @@ export WeaponDescriptor_Mirage_5_F_clu_FR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Mirage_5_F_nplm_FR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -213213,6 +213399,7 @@ export WeaponDescriptor_Mirage_F1_CT_FR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Mirage_F1_C_ESP is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -213440,6 +213627,7 @@ export WeaponDescriptor_Mirage_F1_C_FR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Mirage_F1_C_HE_CLU_ESP is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -213582,6 +213770,7 @@ export WeaponDescriptor_Mirage_F1_C_HE_CLU_ESP is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Mirage_F1_C_HE_ESP is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -214352,6 +214541,7 @@ export WeaponDescriptor_Mirage_III_E_SEAD_FR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Mirage_IV_FR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -214395,6 +214585,7 @@ export WeaponDescriptor_Mirage_IV_FR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Mirage_IV_SEAD_FR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         2,
@@ -214723,6 +214914,7 @@ export WeaponDescriptor_OV10_Bronco_US is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_RF4E_Phantom_HE_RFA is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,
@@ -214848,6 +215040,7 @@ export WeaponDescriptor_Saab_35F_Draken_AA_DK is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Saab_35F_Draken_CLU_DK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -214960,6 +215153,7 @@ export WeaponDescriptor_Saab_35F_Draken_CLU_DK is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Saab_35F_Draken_HE_CLU_DK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -215069,6 +215263,7 @@ export WeaponDescriptor_Saab_35F_Draken_HE_CLU_DK is TWeaponManagerModuleDescrip
 export WeaponDescriptor_Saab_35F_Draken_HE_DK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -215780,6 +215975,7 @@ export WeaponDescriptor_Su_17M4_AT2_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_17M4_CLU_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -215892,6 +216088,7 @@ export WeaponDescriptor_Su_17M4_CLU_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_17M4_HE1_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -216004,6 +216201,7 @@ export WeaponDescriptor_Su_17M4_HE1_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_17M4_HE2_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -216493,6 +216691,7 @@ export WeaponDescriptor_Su_17M4_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_17M4_thermo_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -216605,6 +216804,7 @@ export WeaponDescriptor_Su_17M4_thermo_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_17_cluster_POL is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -217259,6 +217459,7 @@ export WeaponDescriptor_Su_22_AT_TCH is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_22_DDR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -217371,6 +217572,7 @@ export WeaponDescriptor_Su_22_DDR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_22_HE2_DDR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -217483,6 +217685,7 @@ export WeaponDescriptor_Su_22_HE2_DDR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_22_HE2_TCH is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -217595,6 +217798,7 @@ export WeaponDescriptor_Su_22_HE2_TCH is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_22_HE_TCH is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -217707,6 +217911,7 @@ export WeaponDescriptor_Su_22_HE_TCH is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_22_KMGU_TCH is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -217851,6 +218056,7 @@ export WeaponDescriptor_Su_22_KMGU_TCH is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_22_POL is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -219156,6 +219362,7 @@ export WeaponDescriptor_Su_22_UPK_DDR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_22_clu_DDR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -219268,6 +219475,7 @@ export WeaponDescriptor_Su_22_clu_DDR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_22_clu_POL is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -219380,6 +219588,7 @@ export WeaponDescriptor_Su_22_clu_POL is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_22_clu_TCH is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -219492,6 +219701,7 @@ export WeaponDescriptor_Su_22_clu_TCH is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_22_nplm2_TCH is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -219604,6 +219814,7 @@ export WeaponDescriptor_Su_22_nplm2_TCH is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_22_nplm_DDR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -219716,6 +219927,7 @@ export WeaponDescriptor_Su_22_nplm_DDR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_22_nplm_POL is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -219828,6 +220040,7 @@ export WeaponDescriptor_Su_22_nplm_POL is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_22_nplm_TCH is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -220432,6 +220645,7 @@ export WeaponDescriptor_Su_24M_LGB_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_24M_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -220511,6 +220725,7 @@ export WeaponDescriptor_Su_24M_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_24M_clu2_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -220590,6 +220805,7 @@ export WeaponDescriptor_Su_24M_clu2_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_24M_clu_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -220669,6 +220885,7 @@ export WeaponDescriptor_Su_24M_clu_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_24M_nplm_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -220748,6 +220965,7 @@ export WeaponDescriptor_Su_24M_nplm_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_24M_thermo_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -220963,6 +221181,7 @@ export WeaponDescriptor_Su_25T_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_25_CLU_TCH is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -221095,6 +221314,7 @@ export WeaponDescriptor_Su_25_CLU_TCH is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_25_HE_TCH is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -221227,6 +221447,7 @@ export WeaponDescriptor_Su_25_HE_TCH is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_25_NPLM_TCH is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -221868,6 +222089,7 @@ export WeaponDescriptor_Su_25_TCH is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_25_clu_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -222000,6 +222222,7 @@ export WeaponDescriptor_Su_25_clu_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_25_he_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -222132,6 +222355,7 @@ export WeaponDescriptor_Su_25_he_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_25_nplm_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         6,
@@ -222950,6 +223174,7 @@ export WeaponDescriptor_Su_27S_jammers_SOV is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_7BKL_HE_POL is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -223029,6 +223254,7 @@ export WeaponDescriptor_Su_7BKL_HE_POL is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_7BKL_HE_TCH is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -223108,6 +223334,7 @@ export WeaponDescriptor_Su_7BKL_HE_TCH is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Su_7BKL_NPLM_POL is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         4,
@@ -223466,6 +223693,7 @@ export WeaponDescriptor_Super_Etendard_AT_FR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Super_Etendard_CLU_FR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -223694,6 +223922,7 @@ export WeaponDescriptor_Super_Etendard_FR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Super_Etendard_HE_FR is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         5,
@@ -223773,6 +224002,7 @@ export WeaponDescriptor_Super_Etendard_HE_FR is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Tornado_ADV_HE_UK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         8,
@@ -224115,6 +224345,7 @@ export WeaponDescriptor_Tornado_ADV_UK is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Tornado_ADV_clu_UK is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         8,
@@ -224342,6 +224573,7 @@ export WeaponDescriptor_Tornado_IDS_AT1_RFA is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Tornado_IDS_CLUS_RFA is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         8,
@@ -224454,6 +224686,7 @@ export WeaponDescriptor_Tornado_IDS_CLUS_RFA is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Tornado_IDS_HE1_RFA is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         8,
@@ -224566,6 +224799,7 @@ export WeaponDescriptor_Tornado_IDS_HE1_RFA is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Tornado_IDS_MW1_RFA is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         8,
@@ -224679,6 +224913,7 @@ export WeaponDescriptor_Tornado_IDS_MW1_RFA is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Tornado_IDS_RFA is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         8,
@@ -224906,6 +225141,7 @@ export WeaponDescriptor_Tornado_IDS_SEAD_RFA is TWeaponManagerModuleDescriptor
 export WeaponDescriptor_Tornado_Marine_CLU_RFA is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         8,
@@ -225133,6 +225369,7 @@ export WeaponDescriptor_Tornado_Marine_SEAD_RFA is TWeaponManagerModuleDescripto
 export WeaponDescriptor_Tu_22_HE_SOV is TWeaponManagerModuleDescriptor
 (
     AlwaysOrientArmorTowardsThreat = True
+    BombTrajectoryConfig = $/GFX/Weapon/DefaultBombTrajectory
     Salves = 
     [
         1,

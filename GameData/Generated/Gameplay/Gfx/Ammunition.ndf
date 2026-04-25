@@ -2433,6 +2433,8 @@ Ammo_Bomb_BIN_375kg_Napalm_x6 is TAmmunitionDescriptor
     SuppressDamages                   = 550.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -2899,6 +2901,8 @@ Ammo_Bomb_BLU95_500lb_230kg_Thermobaric_x8 is TAmmunitionDescriptor
     SuppressDamages                   = 230.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -3130,6 +3134,8 @@ Ammo_Bomb_BRF_1000kg_x2 is TAmmunitionDescriptor
     SuppressDamages                   = 1320.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -3205,6 +3211,8 @@ Ammo_Bomb_BRP_250kg_x4 is TAmmunitionDescriptor
     SuppressDamages                   = 330.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -3280,6 +3288,8 @@ Ammo_Bomb_BRP_250kg_x6 is TAmmunitionDescriptor
     SuppressDamages                   = 330.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -3355,6 +3365,8 @@ Ammo_Bomb_Bidons_Speciaux_Napalm_x4 is TAmmunitionDescriptor
     SuppressDamages                   = 350.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -4601,6 +4613,8 @@ Ammo_Bomb_FAB_250kg_x2 is TAmmunitionDescriptor
     SuppressDamages                   = 330.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -4676,6 +4690,8 @@ Ammo_Bomb_FAB_250kg_x4 is TAmmunitionDescriptor
     SuppressDamages                   = 330.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -4751,6 +4767,8 @@ Ammo_Bomb_FAB_250kg_x8 is TAmmunitionDescriptor
     SuppressDamages                   = 330.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -4826,6 +4844,8 @@ Ammo_Bomb_FAB_500kg_x2 is TAmmunitionDescriptor
     SuppressDamages                   = 650.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -4901,6 +4921,8 @@ Ammo_Bomb_FAB_500kg_x4 is TAmmunitionDescriptor
     SuppressDamages                   = 650.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -4976,6 +4998,8 @@ Ammo_Bomb_FAB_500kg_x6 is TAmmunitionDescriptor
     SuppressDamages                   = 650.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -5051,6 +5075,8 @@ Ammo_Bomb_FAB_500kg_x8 is TAmmunitionDescriptor
     SuppressDamages                   = 650.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -5126,6 +5152,8 @@ Ammo_Bomb_FAB_500kg_x9 is TAmmunitionDescriptor
     SuppressDamages                   = 650.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -5202,6 +5230,8 @@ Ammo_Bomb_FZAB_500_Napalm_x4 is TAmmunitionDescriptor
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
     IsSubAmmunition                   = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -5278,6 +5308,8 @@ Ammo_Bomb_GBU_24_x2 is TAmmunitionDescriptor
     SuppressDamages                   = 1221.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -5352,6 +5384,8 @@ Ammo_Bomb_Matra_250kg_x10 is TAmmunitionDescriptor
     SuppressDamages                   = 330.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -5427,6 +5461,8 @@ Ammo_Bomb_Matra_400kg_x16 is TAmmunitionDescriptor
     SuppressDamages                   = 528.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -5502,6 +5538,8 @@ Ammo_Bomb_Matra_400kg_x4 is TAmmunitionDescriptor
     SuppressDamages                   = 528.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -5577,6 +5615,8 @@ Ammo_Bomb_Matra_400kg_x6 is TAmmunitionDescriptor
     SuppressDamages                   = 528.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -5652,6 +5692,8 @@ Ammo_Bomb_Mk18_RET_513kg_x4 is TAmmunitionDescriptor
     SuppressDamages                   = 677.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -5727,6 +5769,8 @@ Ammo_Bomb_Mk18_RET_513kg_x6 is TAmmunitionDescriptor
     SuppressDamages                   = 677.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -5802,6 +5846,8 @@ Ammo_Bomb_Mk77_340kg_Napalm_x2 is TAmmunitionDescriptor
     SuppressDamages                   = 550.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -5878,6 +5924,8 @@ Ammo_Bomb_Mk77_340kg_Napalm_x4 is TAmmunitionDescriptor
     SuppressDamages                   = 550.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -5954,6 +6002,8 @@ Ammo_Bomb_Mk77_340kg_Napalm_x8 is TAmmunitionDescriptor
     SuppressDamages                   = 550.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -6030,6 +6080,8 @@ Ammo_Bomb_Mk81_119kg_x2 is TAmmunitionDescriptor
     SuppressDamages                   = 158.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -6105,6 +6157,8 @@ Ammo_Bomb_Mk81_119kg_x4 is TAmmunitionDescriptor
     SuppressDamages                   = 158.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -6180,6 +6234,8 @@ Ammo_Bomb_Mk82_250kg_x12 is TAmmunitionDescriptor
     SuppressDamages                   = 300.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -6255,6 +6311,8 @@ Ammo_Bomb_Mk82_250kg_x4 is TAmmunitionDescriptor
     SuppressDamages                   = 300.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -6330,6 +6388,8 @@ Ammo_Bomb_Mk82_250kg_x6 is TAmmunitionDescriptor
     SuppressDamages                   = 300.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -6405,6 +6465,8 @@ Ammo_Bomb_Mk82_250kg_x8 is TAmmunitionDescriptor
     SuppressDamages                   = 300.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -6480,6 +6542,8 @@ Ammo_Bomb_Mk83_450kg_x2 is TAmmunitionDescriptor
     SuppressDamages                   = 594.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -6555,6 +6619,8 @@ Ammo_Bomb_Mk83_450kg_x3 is TAmmunitionDescriptor
     SuppressDamages                   = 594.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -6630,6 +6696,8 @@ Ammo_Bomb_Mk83_450kg_x4 is TAmmunitionDescriptor
     SuppressDamages                   = 594.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -6705,6 +6773,8 @@ Ammo_Bomb_Mk83_450kg_x5 is TAmmunitionDescriptor
     SuppressDamages                   = 594.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -6780,6 +6850,8 @@ Ammo_Bomb_Mk84_920kg_x4 is TAmmunitionDescriptor
     SuppressDamages                   = 1320.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -6855,6 +6927,8 @@ Ammo_Bomb_ODAB_500PM_500kg_Thermobaric_x6 is TAmmunitionDescriptor
     SuppressDamages                   = 500.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -6930,6 +7004,8 @@ Ammo_Bomb_ZB500_500kg_Napalm_x2 is TAmmunitionDescriptor
     SuppressDamages                   = 800.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -7006,6 +7082,8 @@ Ammo_Bomb_ZB500_500kg_Napalm_x4 is TAmmunitionDescriptor
     SuppressDamages                   = 800.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -7082,6 +7160,8 @@ Ammo_Bomb_ZB500_500kg_Napalm_x6 is TAmmunitionDescriptor
     SuppressDamages                   = 800.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 0.0
@@ -25755,7 +25835,7 @@ Ammo_FM_AKM is TAmmunitionDescriptor
     HasDeploymentTime                 = False
     SimultaneousShotsCount            = 1
     AffichageMunitionParSalve         = 3
-    InterfaceWeaponTexture            = "Texture_Interface_Weapon_AK74"
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_FM_kbk_AKM"
     SmokeDescriptor                   = nil
     FireDescriptor                    = nil
     IsHarmlessForAllies               = True
@@ -28105,7 +28185,7 @@ Ammo_FM_kbk_AKM is TAmmunitionDescriptor
         [
             (EBaseHitValueModifier/Base, 0),
             (EBaseHitValueModifier/Idling, 35),
-            (EBaseHitValueModifier/Moving, 15),
+            (EBaseHitValueModifier/Moving, 10),
             (EBaseHitValueModifier/Targeted, 0),
         ]
         DistanceToTarget = True
@@ -28581,7 +28661,7 @@ Ammo_GatlingAir_Colt_Mk12_20mm is TAmmunitionDescriptor
 Ammo_GatlingAir_DEFA_30mm_x1 is TAmmunitionDescriptor
 (
     DescriptorId                      = GUID:{70f66673-2dfa-44b5-aff8-a76dca92d54d}
-    Name                              = 'LVHDNFYIJK'
+    Name                              = 'RMAHKTAADO'
     TypeCategoryName                  = 'ZJQCIJREVP'
     Caliber                           = 'DYDXERZARY'
     WeaponDescriptionToken            = 'BRUJGAAJMP'
@@ -30795,8 +30875,6 @@ Ammo_Grenade_SMOKE is TAmmunitionDescriptor
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
     ForceHitTopArmor                  = True
-    ForceHitTopArmorOnSuccess         = True
-    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 615
@@ -32301,6 +32379,8 @@ Ammo_Howz_Canon_2A18_Howitzer_122mm is TAmmunitionDescriptor
     SuppressDamages                   = 183.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -32377,6 +32457,8 @@ Ammo_Howz_Canon_2A18_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -32453,6 +32535,8 @@ Ammo_Howz_Canon_2A36_SP_152mm is TAmmunitionDescriptor
     SuppressDamages                   = 228.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1500
@@ -32529,6 +32613,8 @@ Ammo_Howz_Canon_2A36_SP_152mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1500
@@ -32605,6 +32691,8 @@ Ammo_Howz_Canon_2A36_towed_152mm is TAmmunitionDescriptor
     SuppressDamages                   = 228.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1500
@@ -32681,6 +32769,8 @@ Ammo_Howz_Canon_2A36_towed_152mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1500
@@ -32757,6 +32847,8 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm is TAmmunitionDescriptor
     SuppressDamages                   = 304.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1500
@@ -32833,6 +32925,8 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1500
@@ -32909,6 +33003,8 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm_late is TAmmunitionDescriptor
     SuppressDamages                   = 304.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1500
@@ -32985,6 +33081,8 @@ Ammo_Howz_Canon_2A44_Howitzer_203mm_late_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1500
@@ -33061,6 +33159,8 @@ Ammo_Howz_Canon_2A51_Howitzer_120mm is TAmmunitionDescriptor
     SuppressDamages                   = 183.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -33137,6 +33237,8 @@ Ammo_Howz_Canon_2A51_Howitzer_120mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -33213,6 +33315,8 @@ Ammo_Howz_Canon_2A60_Howitzer_120mm is TAmmunitionDescriptor
     SuppressDamages                   = 183.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -33289,6 +33393,8 @@ Ammo_Howz_Canon_2A60_Howitzer_120mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -33365,6 +33471,8 @@ Ammo_Howz_Canon_2A64_152mm is TAmmunitionDescriptor
     SuppressDamages                   = 228.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -33587,6 +33695,8 @@ Ammo_Howz_Canon_2A65_towed_152mm is TAmmunitionDescriptor
     SuppressDamages                   = 228.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -33663,6 +33773,8 @@ Ammo_Howz_Canon_2A65_towed_152mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -33739,6 +33851,8 @@ Ammo_Howz_Canon_2B16_NONA_K_120mm is TAmmunitionDescriptor
     SuppressDamages                   = 183.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -33815,6 +33929,8 @@ Ammo_Howz_Canon_2B16_NONA_K_120mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -33891,6 +34007,8 @@ Ammo_Howz_Canon_A19_Howitzer_122mm is TAmmunitionDescriptor
     SuppressDamages                   = 183.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -34040,6 +34158,8 @@ Ammo_Howz_Canon_A19_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -34116,6 +34236,8 @@ Ammo_Howz_Canon_A222_Howitzer_130mm is TAmmunitionDescriptor
     SuppressDamages                   = 195.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -34192,6 +34314,8 @@ Ammo_Howz_Canon_B4M_203mm is TAmmunitionDescriptor
     SuppressDamages                   = 304.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -34343,6 +34467,8 @@ Ammo_Howz_Canon_B4M_203mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -34419,6 +34545,8 @@ Ammo_Howz_Canon_BAE_L39_155mm is TAmmunitionDescriptor
     SuppressDamages                   = 232.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -34495,6 +34623,8 @@ Ammo_Howz_Canon_BAE_L39_155mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -34571,6 +34701,8 @@ Ammo_Howz_Canon_BL_5_inch is TAmmunitionDescriptor
     SuppressDamages                   = 210.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -34647,6 +34779,8 @@ Ammo_Howz_Canon_BS3_towed_100mm is TAmmunitionDescriptor
     SuppressDamages                   = 150.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -34796,6 +34930,8 @@ Ammo_Howz_Canon_Br5M_towed_280mm is TAmmunitionDescriptor
     SuppressDamages                   = 420.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -34947,6 +35083,8 @@ Ammo_Howz_Canon_D1_towed_152mm is TAmmunitionDescriptor
     SuppressDamages                   = 228.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -35096,6 +35234,8 @@ Ammo_Howz_Canon_D1_towed_152mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -35172,6 +35312,8 @@ Ammo_Howz_Canon_D20_Howitzer_152mm is TAmmunitionDescriptor
     SuppressDamages                   = 228.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -35248,6 +35390,8 @@ Ammo_Howz_Canon_D20_Howitzer_152mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -35324,6 +35468,8 @@ Ammo_Howz_Canon_D20_towed_152mm is TAmmunitionDescriptor
     SuppressDamages                   = 228.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -35546,6 +35692,8 @@ Ammo_Howz_Canon_D20_towed_152mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -35622,6 +35770,8 @@ Ammo_Howz_Canon_D22_Howitzer_152mm_late is TAmmunitionDescriptor
     SuppressDamages                   = 228.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -35698,6 +35848,8 @@ Ammo_Howz_Canon_D22_Howitzer_152mm_late_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -35774,6 +35926,8 @@ Ammo_Howz_Canon_D22_Howitzer_152mm_late_guided is TAmmunitionDescriptor
     SuppressDamages                   = 228.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -35850,6 +36004,8 @@ Ammo_Howz_Canon_D22_Howitzer_152mm_late_guided_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -35926,6 +36082,8 @@ Ammo_Howz_Canon_D30_Howitzer_122mm is TAmmunitionDescriptor
     SuppressDamages                   = 183.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -36002,6 +36160,8 @@ Ammo_Howz_Canon_D30_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -36078,6 +36238,8 @@ Ammo_Howz_Canon_DANA_SP_152mm is TAmmunitionDescriptor
     SuppressDamages                   = 228.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -36226,6 +36388,8 @@ Ammo_Howz_Canon_DANA_SP_152mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -36302,6 +36466,8 @@ Ammo_Howz_Canon_FH70_Howitzer_155mm is TAmmunitionDescriptor
     SuppressDamages                   = 232.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -36378,6 +36544,8 @@ Ammo_Howz_Canon_FH70_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -36454,6 +36622,8 @@ Ammo_Howz_Canon_FH70_SP_Howitzer_155mm is TAmmunitionDescriptor
     SuppressDamages                   = 232.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -36530,6 +36700,8 @@ Ammo_Howz_Canon_FH70_SP_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -36606,6 +36778,8 @@ Ammo_Howz_Canon_GCT_Howitzer_155mm is TAmmunitionDescriptor
     SuppressDamages                   = 232.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -36755,6 +36929,8 @@ Ammo_Howz_Canon_GCT_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -36831,6 +37007,8 @@ Ammo_Howz_Canon_L13A1_Howitzer_105mm is TAmmunitionDescriptor
     SuppressDamages                   = 160.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -36980,6 +37158,8 @@ Ammo_Howz_Canon_L13A1__Howitzer_105mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -37037,7 +37217,7 @@ Ammo_Howz_Canon_L33_155mm is TAmmunitionDescriptor
     TimeBetweenTwoShots               = 5.0
     TimeBetweenTwoFx                  = 6.0
     MinimumRangeGRU                   = 4000
-    MaximumRangeGRU                   = 20000
+    MaximumRangeGRU                   = 17500
     MinimumRangeHelicopterGRU         = 0
     MaximumRangeHelicopterGRU         = 0
     MinimumRangeAirplaneGRU           = 0
@@ -37056,6 +37236,8 @@ Ammo_Howz_Canon_L33_155mm is TAmmunitionDescriptor
     SuppressDamages                   = 232.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -37113,7 +37295,7 @@ Ammo_Howz_Canon_L33_155mm_SMOKE is TAmmunitionDescriptor
     TimeBetweenTwoShots               = 5.0
     TimeBetweenTwoFx                  = 6.0
     MinimumRangeGRU                   = 4000
-    MaximumRangeGRU                   = 20000
+    MaximumRangeGRU                   = 17500
     MinimumRangeHelicopterGRU         = 0
     MaximumRangeHelicopterGRU         = 0
     MinimumRangeAirplaneGRU           = 0
@@ -37132,6 +37314,8 @@ Ammo_Howz_Canon_L33_155mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -37208,6 +37392,8 @@ Ammo_Howz_Canon_LongTom_155mm is TAmmunitionDescriptor
     SuppressDamages                   = 232.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -37284,6 +37470,8 @@ Ammo_Howz_Canon_LongTom_155mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -37433,6 +37621,8 @@ Ammo_Howz_Canon_M101_Howitzer_105mm is TAmmunitionDescriptor
     SuppressDamages                   = 160.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -37509,6 +37699,8 @@ Ammo_Howz_Canon_M101_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -37585,6 +37777,8 @@ Ammo_Howz_Canon_M102_Howitzer_105mm is TAmmunitionDescriptor
     SuppressDamages                   = 160.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -37661,6 +37855,8 @@ Ammo_Howz_Canon_M102_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -37737,6 +37933,8 @@ Ammo_Howz_Canon_M103_SP_105mm is TAmmunitionDescriptor
     SuppressDamages                   = 160.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -37886,6 +38084,8 @@ Ammo_Howz_Canon_M103_SP_105mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -37962,6 +38162,8 @@ Ammo_Howz_Canon_M113A1_Howitzer_175mm_late is TAmmunitionDescriptor
     SuppressDamages                   = 248.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1500
@@ -38038,6 +38240,8 @@ Ammo_Howz_Canon_M113A1_Howitzer_175mm_late_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1500
@@ -38114,6 +38318,8 @@ Ammo_Howz_Canon_M114_39_Howitzer_155mm is TAmmunitionDescriptor
     SuppressDamages                   = 232.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -38190,6 +38396,8 @@ Ammo_Howz_Canon_M114_39_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -38266,6 +38474,8 @@ Ammo_Howz_Canon_M114_Howitzer_155mm is TAmmunitionDescriptor
     SuppressDamages                   = 232.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -38342,6 +38552,8 @@ Ammo_Howz_Canon_M114_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -38418,6 +38630,8 @@ Ammo_Howz_Canon_M115_towed_203mm is TAmmunitionDescriptor
     SuppressDamages                   = 304.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -38494,6 +38708,8 @@ Ammo_Howz_Canon_M115_towed_203mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -38643,6 +38859,8 @@ Ammo_Howz_Canon_M118_Howitzer_105mm is TAmmunitionDescriptor
     SuppressDamages                   = 160.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -38719,6 +38937,8 @@ Ammo_Howz_Canon_M118_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -38795,6 +39015,8 @@ Ammo_Howz_Canon_M119_Howitzer_105mm is TAmmunitionDescriptor
     SuppressDamages                   = 160.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -38871,6 +39093,8 @@ Ammo_Howz_Canon_M119_Howitzer_105mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -38947,6 +39171,8 @@ Ammo_Howz_Canon_M126_SP_Howitzer_155mm is TAmmunitionDescriptor
     SuppressDamages                   = 232.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -39023,6 +39249,8 @@ Ammo_Howz_Canon_M126_SP_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -39099,6 +39327,8 @@ Ammo_Howz_Canon_M185_L39_Howitzer_155mm is TAmmunitionDescriptor
     SuppressDamages                   = 232.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -39175,6 +39405,8 @@ Ammo_Howz_Canon_M185_L39_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -39251,6 +39483,8 @@ Ammo_Howz_Canon_M185_L39_Howitzer_155mm_guided is TAmmunitionDescriptor
     SuppressDamages                   = 232.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -39327,6 +39561,8 @@ Ammo_Howz_Canon_M185_L39_Howitzer_155mm_guided_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -39403,6 +39639,8 @@ Ammo_Howz_Canon_M198_Howitzer_155mm is TAmmunitionDescriptor
     SuppressDamages                   = 232.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -39479,6 +39717,8 @@ Ammo_Howz_Canon_M198_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -39555,6 +39795,8 @@ Ammo_Howz_Canon_M198_Howitzer_155mm_guided is TAmmunitionDescriptor
     SuppressDamages                   = 232.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -39631,6 +39873,8 @@ Ammo_Howz_Canon_M198_Howitzer_155mm_guided_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -39707,6 +39951,8 @@ Ammo_Howz_Canon_M201A1_Howitzer_203mm_late is TAmmunitionDescriptor
     SuppressDamages                   = 304.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -39783,6 +40029,8 @@ Ammo_Howz_Canon_M201A1_Howitzer_203mm_late_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -39858,6 +40106,8 @@ Ammo_Howz_Canon_M240_SP_240mm is TAmmunitionDescriptor
     SuppressDamages                   = 360.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 400
@@ -39933,6 +40183,8 @@ Ammo_Howz_Canon_M240_SP_240mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 400
@@ -40009,6 +40261,8 @@ Ammo_Howz_Canon_M30_Howitzer_122mm is TAmmunitionDescriptor
     SuppressDamages                   = 183.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -40158,6 +40412,8 @@ Ammo_Howz_Canon_M30_Howitzer_122mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -40234,6 +40490,8 @@ Ammo_Howz_Canon_M45_Howitzer_155mm is TAmmunitionDescriptor
     SuppressDamages                   = 232.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -40310,6 +40568,8 @@ Ammo_Howz_Canon_M45_Howitzer_155mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -40386,6 +40646,8 @@ Ammo_Howz_Canon_M46_Howitzer_130mm is TAmmunitionDescriptor
     SuppressDamages                   = 195.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1500
@@ -40462,6 +40724,8 @@ Ammo_Howz_Canon_M46_Howitzer_130mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1500
@@ -40538,6 +40802,8 @@ Ammo_Howz_Canon_M47_203mm is TAmmunitionDescriptor
     SuppressDamages                   = 304.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -40614,6 +40880,8 @@ Ammo_Howz_Canon_M47_203mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -40670,8 +40938,8 @@ Ammo_Howz_Canon_M50_155mm is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TimeBetweenTwoShots               = 5.0
     TimeBetweenTwoFx                  = 6.0
-    MinimumRangeGRU                   = 3000
-    MaximumRangeGRU                   = 15000
+    MinimumRangeGRU                   = 4000
+    MaximumRangeGRU                   = 17500
     MinimumRangeHelicopterGRU         = 0
     MaximumRangeHelicopterGRU         = 0
     MinimumRangeAirplaneGRU           = 0
@@ -40690,6 +40958,8 @@ Ammo_Howz_Canon_M50_155mm is TAmmunitionDescriptor
     SuppressDamages                   = 232.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -40746,8 +41016,8 @@ Ammo_Howz_Canon_M50_155mm_SMOKE is TAmmunitionDescriptor
     FxPower                           = EFXPower/Moyen
     TimeBetweenTwoShots               = 5.0
     TimeBetweenTwoFx                  = 6.0
-    MinimumRangeGRU                   = 3000
-    MaximumRangeGRU                   = 15000
+    MinimumRangeGRU                   = 4000
+    MaximumRangeGRU                   = 17500
     MinimumRangeHelicopterGRU         = 0
     MaximumRangeHelicopterGRU         = 0
     MinimumRangeAirplaneGRU           = 0
@@ -40766,6 +41036,8 @@ Ammo_Howz_Canon_M50_155mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -40842,6 +41114,8 @@ Ammo_Howz_Canon_M53_towed_100mm is TAmmunitionDescriptor
     SuppressDamages                   = 150.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -41065,6 +41339,8 @@ Ammo_Howz_Canon_M56_105mm is TAmmunitionDescriptor
     SuppressDamages                   = 160.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -41214,6 +41490,8 @@ Ammo_Howz_Canon_M56_105mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -41290,6 +41568,8 @@ Ammo_Howz_Canon_ML20S_towed_152mm is TAmmunitionDescriptor
     SuppressDamages                   = 228.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -41512,6 +41792,8 @@ Ammo_Howz_Canon_ML20S_towed_152mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -41588,6 +41870,8 @@ Ammo_Howz_Canon_OB_M50_TF_105mm is TAmmunitionDescriptor
     SuppressDamages                   = 160.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -41737,6 +42021,8 @@ Ammo_Howz_Canon_OB_M50_TF_105mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -41813,6 +42099,8 @@ Ammo_Howz_Canon_QF_25pdr_87mm is TAmmunitionDescriptor
     SuppressDamages                   = 130.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -41962,6 +42250,8 @@ Ammo_Howz_Canon_QF_25pdr_87mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -42038,6 +42328,8 @@ Ammo_Howz_Canon_R58_Reinosa_105mm is TAmmunitionDescriptor
     SuppressDamages                   = 160.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -42187,6 +42479,8 @@ Ammo_Howz_Canon_R58_Reinosa_105mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -42263,6 +42557,8 @@ Ammo_Howz_Canon_TRF1_155mm is TAmmunitionDescriptor
     SuppressDamages                   = 232.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -42339,6 +42635,8 @@ Ammo_Howz_Canon_TRF1_155mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1250
@@ -42415,6 +42713,8 @@ Ammo_Howz_Canon_Vz18_towed_152mm is TAmmunitionDescriptor
     SuppressDamages                   = 228.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -42491,6 +42791,8 @@ Ammo_Howz_Canon_Vz18_towed_152mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -42567,6 +42869,8 @@ Ammo_Howz_Canon_ZiS3_Howitzer_76mm is TAmmunitionDescriptor
     SuppressDamages                   = 114.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -42643,6 +42947,8 @@ Ammo_Howz_Canon_ZiS3_Howitzer_76mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1200
@@ -43092,6 +43398,8 @@ Ammo_MLRS_140mm_towed is TAmmunitionDescriptor
     SuppressDamages                   = 196.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 800
@@ -43167,6 +43475,8 @@ Ammo_MLRS_140mm_towed_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 800
@@ -43242,6 +43552,8 @@ Ammo_MLRS_Hydra_70mm_x114 is TAmmunitionDescriptor
     SuppressDamages                   = 70.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 800
@@ -47874,8 +48186,6 @@ export Ammo_Mort_Helico_Leger is TAmmunitionDescriptor
     DisplaySalveAccuracy              = True
     IsSubAmmunition                   = True
     ForceHitTopArmor                  = True
-    ForceHitTopArmorOnSuccess         = True
-    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = False
     TirReflexe                        = True
     ProjectileSpeedGRU                = 0.0
@@ -47943,8 +48253,6 @@ export Ammo_Mort_Helico_Moyen is TAmmunitionDescriptor
     DisplaySalveAccuracy              = True
     IsSubAmmunition                   = True
     ForceHitTopArmor                  = True
-    ForceHitTopArmorOnSuccess         = True
-    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = False
     TirReflexe                        = True
     ProjectileSpeedGRU                = 0.0
@@ -48012,8 +48320,6 @@ export Ammo_Mort_Helico_Ultra_Leger is TAmmunitionDescriptor
     DisplaySalveAccuracy              = True
     IsSubAmmunition                   = True
     ForceHitTopArmor                  = True
-    ForceHitTopArmorOnSuccess         = True
-    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = False
     TirReflexe                        = True
     ProjectileSpeedGRU                = 0.0
@@ -48408,6 +48714,8 @@ Ammo_Mortier_2B14_82mm_SMOKE_TOWED is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -48483,6 +48791,8 @@ Ammo_Mortier_2B14_82mm_TOWED is TAmmunitionDescriptor
     SuppressDamages                   = 122.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -48558,6 +48868,8 @@ Ammo_Mortier_2S12_120mm is TAmmunitionDescriptor
     SuppressDamages                   = 183.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -48633,6 +48945,8 @@ Ammo_Mortier_2S12_120mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -48708,6 +49022,8 @@ Ammo_Mortier_81mm is TAmmunitionDescriptor
     SuppressDamages                   = 122.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -48783,6 +49099,8 @@ Ammo_Mortier_81mm_61C is TAmmunitionDescriptor
     SuppressDamages                   = 122.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -48858,6 +49176,8 @@ Ammo_Mortier_81mm_ECIA_L65 is TAmmunitionDescriptor
     SuppressDamages                   = 122.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -48933,6 +49253,8 @@ Ammo_Mortier_81mm_ECIA_L65_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -49008,6 +49330,8 @@ Ammo_Mortier_81mm_MO81_61C_towed is TAmmunitionDescriptor
     SuppressDamages                   = 122.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -49083,6 +49407,8 @@ Ammo_Mortier_81mm_MO81_61C_towed_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -49158,6 +49484,8 @@ Ammo_Mortier_81mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -49233,6 +49561,8 @@ Ammo_Mortier_81mm_SMOKE_TOWED is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -49308,6 +49638,8 @@ Ammo_Mortier_81mm_TOWED is TAmmunitionDescriptor
     SuppressDamages                   = 122.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -49464,6 +49796,8 @@ Ammo_Mortier_81mm_towed_61C_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -49539,6 +49873,8 @@ Ammo_Mortier_BM43_82mm_SMOKE_TOWED is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -49614,6 +49950,8 @@ Ammo_Mortier_BM43_82mm_TOWED is TAmmunitionDescriptor
     SuppressDamages                   = 122.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -49689,6 +50027,8 @@ Ammo_Mortier_ECIA_L65_120mm is TAmmunitionDescriptor
     SuppressDamages                   = 183.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -49764,6 +50104,8 @@ Ammo_Mortier_ECIA_L65_120mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -49839,6 +50181,8 @@ Ammo_Mortier_L16_82mm is TAmmunitionDescriptor
     SuppressDamages                   = 122.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -49914,6 +50258,8 @@ Ammo_Mortier_L16_82mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -49989,6 +50335,8 @@ Ammo_Mortier_M1_81mm is TAmmunitionDescriptor
     SuppressDamages                   = 122.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 250
@@ -50064,6 +50412,8 @@ Ammo_Mortier_M1_81mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 250
@@ -50139,6 +50489,8 @@ Ammo_Mortier_M1_81mm_towed is TAmmunitionDescriptor
     SuppressDamages                   = 122.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 250
@@ -50214,6 +50566,8 @@ Ammo_Mortier_M1_81mm_towed_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 250
@@ -50289,6 +50643,8 @@ Ammo_Mortier_M240_240mm is TAmmunitionDescriptor
     SuppressDamages                   = 360.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 600
@@ -50443,6 +50799,8 @@ Ammo_Mortier_M240_240mm_EXT is TAmmunitionDescriptor
     SuppressDamages                   = 360.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 600
@@ -50597,6 +50955,8 @@ Ammo_Mortier_M252_81mm is TAmmunitionDescriptor
     SuppressDamages                   = 122.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -50672,6 +51032,8 @@ Ammo_Mortier_M252_81mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -50747,6 +51109,8 @@ Ammo_Mortier_M29_81mm is TAmmunitionDescriptor
     SuppressDamages                   = 122.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -50822,6 +51186,8 @@ Ammo_Mortier_M29_81mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -50897,6 +51263,8 @@ Ammo_Mortier_M40_107mm is TAmmunitionDescriptor
     SuppressDamages                   = 160.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -50972,6 +51340,8 @@ Ammo_Mortier_M40_107mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -51046,6 +51416,8 @@ Ammo_Mortier_M40_towed_107mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -51120,6 +51492,8 @@ Ammo_Mortier_M40_tower_107mm is TAmmunitionDescriptor
     SuppressDamages                   = 160.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -51195,6 +51569,8 @@ Ammo_Mortier_M43_160mm is TAmmunitionDescriptor
     SuppressDamages                   = 240.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -51270,6 +51646,8 @@ Ammo_Mortier_M43_160mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -51345,6 +51723,8 @@ Ammo_Mortier_M43_82mm_SMOKE_TOWED is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -51420,6 +51800,8 @@ Ammo_Mortier_M43_82mm_TOWED is TAmmunitionDescriptor
     SuppressDamages                   = 122.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -51495,6 +51877,8 @@ Ammo_Mortier_MO120_AM50_120mm is TAmmunitionDescriptor
     SuppressDamages                   = 183.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -51570,6 +51954,8 @@ Ammo_Mortier_MO120_AM50_120mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -51645,6 +52031,8 @@ Ammo_Mortier_PM43_120mm is TAmmunitionDescriptor
     SuppressDamages                   = 183.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -51720,6 +52108,8 @@ Ammo_Mortier_PM43_120mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -51795,6 +52185,8 @@ Ammo_Mortier_PRAM_120mm is TAmmunitionDescriptor
     SuppressDamages                   = 183.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 400
@@ -51870,6 +52262,8 @@ Ammo_Mortier_PRAM_120mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 400
@@ -51904,6 +52298,160 @@ Ammo_Mortier_PRAM_120mm_SMOKE is TAmmunitionDescriptor
     SmokeDescriptor                   = $/GFX/Weapon/Descriptor_Smoke_Fumi120mm_mortier
     FireDescriptor                    = $/GFX/Weapon/Descriptor_Fire_Incendie
     FireTriggeringProbability         = 0.05
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    TandemCharge                      = False
+    PitchForParabolic                 = 0.9773843811168246
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_Mortier_PRAM_120mm_SMOKE_TOWED is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{f913072d-6756-4079-ba91-3650517a2302}
+    Name                              = 'EAMTGHLITL'
+    TypeCategoryName                  = 'HYUWZSIKYW'
+    Caliber                           = 'DYWXTLDKWR'
+    WeaponDescriptionToken            = 'YWFMBNSXOW'
+    TraitsToken                       = [ 'STAT', 'HE', 'IND', ]
+    WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
+    MinMaxCategory                    = MinMax_Mortier
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_he Index=1)
+    ProjectileType                    = EProjectileType/Artillerie
+    ImpactHappening                   = 'MortierM30107Mm'
+    FxPower                           = EFXPower/Moyen
+    TimeBetweenTwoShots               = 3.0
+    TimeBetweenTwoFx                  = 3.0
+    MinimumRangeGRU                   = 2500
+    MaximumRangeGRU                   = 8000
+    MinimumRangeHelicopterGRU         = 0
+    MaximumRangeHelicopterGRU         = 0
+    MinimumRangeAirplaneGRU           = 0
+    MaximumRangeAirplaneGRU           = 0
+    MinimumRangeProjectileGRU         = 0
+    MaximumRangeProjectileGRU         = 0
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRangeGRU           = 353
+    DispersionAtMinRangeGRU           = 71
+    SalvoShotsSorted                  = False
+    RadiusSplashPhysicalDamagesGRU    = 2
+    PhysicalDamages                   = 0.12
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamagesGRU    = 0
+    SuppressDamages                   = 7.0
+    AllowSuppressDamageWhenNoImpact   = True
+    DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
+    TirIndirect                       = True
+    TirReflexe                        = False
+    ProjectileSpeedGRU                = 400
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+        BaseCriticModifier = 25
+        BaseHitValueModifiers =
+        [
+            (EBaseHitValueModifier/Base, 0),
+            (EBaseHitValueModifier/Idling, 0),
+            (EBaseHitValueModifier/Moving, 0),
+            (EBaseHitValueModifier/Targeted, 0),
+        ]
+        DistanceToTarget = True
+    )
+    AimingTime                        = 4.0
+    TimeBetweenTwoSalvos              = 5.0
+    TimeBetweenTwoSalvos_Min          = -1.0
+    TimeBetweenTwoSalvos_Max          = -1.0
+    ShotsCountPerSalvo                = 5
+    SupplyCost                        = 5.0
+    NbSalvosShootOnPosition           = 1
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = False
+    HasDeploymentTime                 = True
+    SimultaneousShotsCount            = 1
+    AffichageMunitionParSalve         = 5
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_tampella_120"
+    SmokeDescriptor                   = $/GFX/Weapon/Descriptor_Smoke_Fumi120mm_mortier
+    FireDescriptor                    = $/GFX/Weapon/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.05
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+    TandemCharge                      = False
+    PitchForParabolic                 = 0.9773843811168246
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_Mortier_PRAM_120mm_TOWED is TAmmunitionDescriptor
+(
+    DescriptorId                      = GUID:{0277edf2-b54a-47f3-a73d-0785f17fdaa8}
+    Name                              = 'EAMTGHLITL'
+    TypeCategoryName                  = 'HYUWZSIKYW'
+    Caliber                           = 'DYWXTLDKWR'
+    WeaponDescriptionToken            = 'YWFMBNSXOW'
+    TraitsToken                       = [ 'STAT', 'HE', 'IND', ]
+    WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
+    MinMaxCategory                    = MinMax_Mortier
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz Index=1)
+    ProjectileType                    = EProjectileType/Artillerie
+    ImpactHappening                   = 'MortierM30107Mm'
+    FxPower                           = EFXPower/Moyen
+    TimeBetweenTwoShots               = 5.0
+    TimeBetweenTwoFx                  = 3.0
+    MinimumRangeGRU                   = 2500
+    MaximumRangeGRU                   = 8000
+    MinimumRangeHelicopterGRU         = 0
+    MaximumRangeHelicopterGRU         = 0
+    MinimumRangeAirplaneGRU           = 0
+    MaximumRangeAirplaneGRU           = 0
+    MinimumRangeProjectileGRU         = 0
+    MaximumRangeProjectileGRU         = 0
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRangeGRU           = 353
+    DispersionAtMinRangeGRU           = 71
+    SalvoShotsSorted                  = False
+    RadiusSplashPhysicalDamagesGRU    = 81
+    PhysicalDamages                   = 1.525
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamagesGRU    = 183
+    SuppressDamages                   = 183.0
+    AllowSuppressDamageWhenNoImpact   = True
+    DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
+    TirIndirect                       = True
+    TirReflexe                        = False
+    ProjectileSpeedGRU                = 400
+    NoiseDissimulationMalus           = 2.0
+    ShotsBeforeMaxNoise               = 2
+    TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+        BaseCriticModifier = 25
+        BaseHitValueModifiers =
+        [
+            (EBaseHitValueModifier/Base, 0),
+            (EBaseHitValueModifier/Idling, 0),
+            (EBaseHitValueModifier/Moving, 0),
+            (EBaseHitValueModifier/Targeted, 0),
+        ]
+        DistanceToTarget = True
+    )
+    AimingTime                        = 12.0
+    TimeBetweenTwoSalvos              = 12.0
+    TimeBetweenTwoSalvos_Min          = -1.0
+    TimeBetweenTwoSalvos_Max          = -1.0
+    ShotsCountPerSalvo                = 5
+    SupplyCost                        = 60.0
+    NbSalvosShootOnPosition           = 1
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = False
+    HasDeploymentTime                 = True
+    SimultaneousShotsCount            = 1
+    AffichageMunitionParSalve         = 5
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_tampella_120"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = $/GFX/Weapon/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.2
     IsHarmlessForAllies               = False
     PiercingWeapon                    = False
     TandemCharge                      = False
@@ -51945,6 +52493,8 @@ Ammo_Mortier_RT61_120mm is TAmmunitionDescriptor
     SuppressDamages                   = 183.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -52020,6 +52570,8 @@ Ammo_Mortier_RT61_120mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -52095,6 +52647,8 @@ Ammo_Mortier_Tampella_120mm is TAmmunitionDescriptor
     SuppressDamages                   = 183.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -52170,6 +52724,8 @@ Ammo_Mortier_Tampella_120mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -52245,6 +52801,8 @@ Ammo_Mortier_Tampella_towed_120mm is TAmmunitionDescriptor
     SuppressDamages                   = 183.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -52320,6 +52878,8 @@ Ammo_Mortier_Tampella_towed_120mm_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -52541,6 +53101,8 @@ Ammo_Mortier_Vasilek_indirect_82mm is TAmmunitionDescriptor
     SuppressDamages                   = 123.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -52616,6 +53178,8 @@ Ammo_Mortier_Vasilek_indirect_82mm_towed is TAmmunitionDescriptor
     SuppressDamages                   = 123.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -52691,6 +53255,8 @@ Ammo_Mortier_vz_52_82mm_SMOKE_TOWED is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -52766,6 +53332,8 @@ Ammo_Mortier_vz_52_82mm_TOWED is TAmmunitionDescriptor
     SuppressDamages                   = 122.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 300
@@ -58313,6 +58881,8 @@ Ammo_RocketArt_9F53_122mm_SMOKE_x50 is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -58332,7 +58902,7 @@ Ammo_RocketArt_9F53_122mm_SMOKE_x50 is TAmmunitionDescriptor
         DistanceToTarget = True
     )
     MaxSuccessiveHitCount             = 1
-    AimingTime                        = 20.0
+    AimingTime                        = 25.0
     TimeBetweenTwoSalvos              = 165.0
     TimeBetweenTwoSalvos_Min          = -1.0
     TimeBetweenTwoSalvos_Max          = -1.0
@@ -58412,7 +58982,7 @@ Ammo_RocketArt_9F53_122mm_cluster_x50 is TAmmunitionDescriptor
         DistanceToTarget = True
     )
     MaxSuccessiveHitCount             = 1
-    AimingTime                        = 20.0
+    AimingTime                        = 25.0
     TimeBetweenTwoSalvos              = 165.0
     TimeBetweenTwoSalvos_Min          = -1.0
     TimeBetweenTwoSalvos_Max          = -1.0
@@ -58469,6 +59039,8 @@ Ammo_RocketArt_9M27F_HE_220mm is TAmmunitionDescriptor
     SuppressDamages                   = 297.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1500
@@ -58568,7 +59140,7 @@ Ammo_RocketArt_9M55K5_300mm is TAmmunitionDescriptor
         DistanceToTarget = True
     )
     MaxSuccessiveHitCount             = 1
-    AimingTime                        = 25.0
+    AimingTime                        = 30.0
     TimeBetweenTwoSalvos              = 180.0
     TimeBetweenTwoSalvos_Min          = -1.0
     TimeBetweenTwoSalvos_Max          = -1.0
@@ -58700,6 +59272,8 @@ Ammo_RocketArt_D3_300mm_x10 is TAmmunitionDescriptor
     SuppressDamages                   = 405.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -58719,7 +59293,7 @@ Ammo_RocketArt_D3_300mm_x10 is TAmmunitionDescriptor
         DistanceToTarget = True
     )
     MaxSuccessiveHitCount             = 1
-    AimingTime                        = 25.0
+    AimingTime                        = 30.0
     TimeBetweenTwoSalvos              = 180.0
     TimeBetweenTwoSalvos_Min          = -1.0
     TimeBetweenTwoSalvos_Max          = -1.0
@@ -58776,6 +59350,8 @@ Ammo_RocketArt_LARS_110mm is TAmmunitionDescriptor
     SuppressDamages                   = 154.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -58852,6 +59428,8 @@ Ammo_RocketArt_M13_130mm_x32 is TAmmunitionDescriptor
     SuppressDamages                   = 182.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 800
@@ -58928,6 +59506,8 @@ Ammo_RocketArt_M14OF_140mm_x16 is TAmmunitionDescriptor
     SuppressDamages                   = 196.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 800
@@ -59004,6 +59584,8 @@ Ammo_RocketArt_M14OF_140mm_x16_SMOKE is TAmmunitionDescriptor
     SuppressDamages                   = 7.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 800
@@ -59080,6 +59662,8 @@ Ammo_RocketArt_M21OF_122mm is TAmmunitionDescriptor
     SuppressDamages                   = 171.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -59317,6 +59901,8 @@ Ammo_RocketArt_M21OF_122mm_x12 is TAmmunitionDescriptor
     SuppressDamages                   = 171.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -59393,6 +59979,8 @@ Ammo_RocketArt_M21OF_122mm_x36 is TAmmunitionDescriptor
     SuppressDamages                   = 171.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -59469,6 +60057,8 @@ Ammo_RocketArt_M24F_240mm_x12 is TAmmunitionDescriptor
     SuppressDamages                   = 324.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -59488,7 +60078,7 @@ Ammo_RocketArt_M24F_240mm_x12 is TAmmunitionDescriptor
         DistanceToTarget = True
     )
     MaxSuccessiveHitCount             = 1
-    AimingTime                        = 25.0
+    AimingTime                        = 30.0
     TimeBetweenTwoSalvos              = 180.0
     TimeBetweenTwoSalvos_Min          = -1.0
     TimeBetweenTwoSalvos_Max          = -1.0
@@ -59545,6 +60135,8 @@ Ammo_RocketArt_M26_227mm is TAmmunitionDescriptor
     SuppressDamages                   = 306.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1500
@@ -59564,7 +60156,7 @@ Ammo_RocketArt_M26_227mm is TAmmunitionDescriptor
         DistanceToTarget = True
     )
     MaxSuccessiveHitCount             = 1
-    AimingTime                        = 25.0
+    AimingTime                        = 30.0
     TimeBetweenTwoSalvos              = 180.0
     TimeBetweenTwoSalvos_Min          = -1.0
     TimeBetweenTwoSalvos_Max          = -1.0
@@ -59644,7 +60236,7 @@ Ammo_RocketArt_M26_227mm_Cluster is TAmmunitionDescriptor
         DistanceToTarget = True
     )
     MaxSuccessiveHitCount             = 1
-    AimingTime                        = 25.0
+    AimingTime                        = 30.0
     TimeBetweenTwoSalvos              = 180.0
     TimeBetweenTwoSalvos_Min          = -1.0
     TimeBetweenTwoSalvos_Max          = -1.0
@@ -59701,6 +60293,8 @@ Ammo_RocketArt_MD24F_240mm_x12 is TAmmunitionDescriptor
     SuppressDamages                   = 324.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -59720,7 +60314,7 @@ Ammo_RocketArt_MD24F_240mm_x12 is TAmmunitionDescriptor
         DistanceToTarget = True
     )
     MaxSuccessiveHitCount             = 1
-    AimingTime                        = 25.0
+    AimingTime                        = 30.0
     TimeBetweenTwoSalvos              = 180.0
     TimeBetweenTwoSalvos_Min          = -1.0
     TimeBetweenTwoSalvos_Max          = -1.0
@@ -59777,6 +60371,8 @@ Ammo_RocketArt_PW_LWD is TAmmunitionDescriptor
     SuppressDamages                   = 250.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 450
@@ -59853,6 +60449,8 @@ Ammo_RocketArt_PW_MICLICS is TAmmunitionDescriptor
     SuppressDamages                   = 250.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 450
@@ -59929,6 +60527,8 @@ Ammo_RocketArt_Teruel_140mm_x40 is TAmmunitionDescriptor
     SuppressDamages                   = 196.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 1000
@@ -60005,6 +60605,8 @@ Ammo_RocketArt_UZP72 is TAmmunitionDescriptor
     SuppressDamages                   = 250.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 450
@@ -60081,6 +60683,8 @@ Ammo_RocketArt_thermobaric_127mm_x21 is TAmmunitionDescriptor
     SuppressDamages                   = 494.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 450
@@ -60157,6 +60761,8 @@ Ammo_RocketArt_thermobaric_220mm_x30 is TAmmunitionDescriptor
     SuppressDamages                   = 440.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 450
@@ -60233,6 +60839,8 @@ Ammo_RocketArt_thermobaric_247mm_x24 is TAmmunitionDescriptor
     SuppressDamages                   = 494.0
     AllowSuppressDamageWhenNoImpact   = False
     DisplaySalveAccuracy              = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
     TirIndirect                       = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 450

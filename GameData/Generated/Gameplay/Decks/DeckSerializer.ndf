@@ -2851,7 +2851,6 @@ unnamed TDeckSerializerEntries
         ($/GFX/Unit/Descriptor_Unit_M1025_Humvee_CMD_USMC_US, 3018),
         ($/GFX/Unit/Descriptor_Unit_M1025_Humvee_TOW_USMC_US, 3019),
         ($/GFX/Unit/Descriptor_Unit_M1025_Humvee_scout_USMC_US, 3020),
-        ($/GFX/Unit/Descriptor_Unit_AAVC_7A1_CMD_USMC_US, 3021),
         ($/GFX/Unit/Descriptor_Unit_AAVP_7A1_USMC_US, 3022),
         ($/GFX/Unit/Descriptor_Unit_DCA_I_Hawk_USMC_US, 3023),
         ($/GFX/Unit/Descriptor_Unit_Howz_M114_155mm_USMC_US, 3024),
@@ -3178,5 +3177,7 @@ unnamed TDeckSerializerEntries
         ($/GFX/Unit/Descriptor_Unit_Su_22_RKT3_POL, 4465),
         ($/GFX/Unit/Descriptor_Unit_MTLB_CMD_POL, 4469),
         ($/GFX/Unit/Descriptor_Unit_Engineers_CarlG_CAN, 4477),
+        ($/GFX/Unit/Descriptor_Unit_FV436_Cymbelline_UK, 4488),
+        ($/GFX/Unit/Descriptor_Unit_HMGteam_MAG_USMCR_US, 4558),
     ]
 )
